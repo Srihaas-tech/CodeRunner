@@ -1,8 +1,8 @@
 {
-  "name": "FRC CodeRunner Full Stack",
-  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "name": "FRC CodeRunner",
+  "image": "mcr.microsoft.com/devcontainers/java:17-ubuntu",
   "features": {
-    "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+    "ghcr.io/devcontainers/features/docker-outside-of-docker:1": {}
   },
   "forwardPorts": [4000, 5800, 1181],
   "portsAttributes": {
