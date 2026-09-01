@@ -1,15 +1,19 @@
 {
-  "name": "FRC CodeRunner Sandbox",
+  "name": "FRC CodeRunner Full Stack",
   "image": "mcr.microsoft.com/devcontainers/universal:2",
   "features": {
     "ghcr.io/devcontainers/features/docker-in-docker:2": {}
   },
-  "forwardPorts": [4000],
+  "forwardPorts": [4000, 5800, 1181],
   "portsAttributes": {
     "4000": {
       "label": "CodeRunner IDE",
       "onAutoForward": "openBrowser"
+    },
+    "5800": {
+      "label": "AdvantageScope / Dashboard",
+      "onAutoForward": "openPreview"
     }
   },
-  "postStartCommand": "CODERUNNER_DEMO_MODE=1 docker compose up -d"
+  "postStartCommand": "CODERUNNER_DEMO_MODE=1 docker compose --profile full up -d"
 }
