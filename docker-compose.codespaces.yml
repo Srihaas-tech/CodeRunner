@@ -1,0 +1,5 @@
+services:
+  control:
+    user: "0:0"
+    environment:
+      FRC_CONTAINER_USER: "1000:1000"
