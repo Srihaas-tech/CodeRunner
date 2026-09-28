@@ -8,3 +8,12 @@ docs/translations/ # generated content you don't want in the graph
 vendor/            # third-party AdvantageScope submodule
 dist/              # build output
 node_modules/
+data/
+playwright-report/      # generated Playwright HTML report
+test-results/           # Playwright run output
+THIRD_PARTY_NOTICES.md  # generated license aggregation — a list of vendor licenses, not project knowledge
+apps/web/src/assets/    # brand/logo images only — vision extraction costs an agent each and yields nothing
+apps/web/public/
+website/static/img/coderunner-icon.png
+website/static/img/coderunner-header.png
+website/static/img/screenshots/*.mp4  # silent UI screen-recordings, no speech to transcribe

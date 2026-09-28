@@ -16,6 +16,8 @@ export type {
 	LessonCatalogResponse,
 	LessonModule,
 	LessonModuleKind,
+	PreviewDocument,
+	PreviewDocumentsResponse,
 	RunServerMessage,
 	SessionResponse,
 	SimRunStatus,
@@ -32,6 +34,7 @@ export {
 	isWorkspaceSlug,
 	lessonCatalogResponseSchema,
 	lessonModuleSchema,
+	previewDocumentsResponseSchema,
 	runServerMessageSchema,
 	simStatusResponseSchema,
 } from "@frc-coderunner/contracts";

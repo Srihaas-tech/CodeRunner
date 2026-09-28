@@ -157,6 +157,21 @@ host ports for workspace containers, so exhaustion here means
 
 ---
 
+## PathPlanner does not load or misses external edits
+
+**PathPlanner shows a 503.** Its web artifact is missing. In a source checkout,
+run `bun run fetch:pathplanner`, which downloads it and reports why if it
+cannot. Published control images always carry it — the release build fails
+rather than shipping without it — so in a Compose deployment pull and recreate
+the control container. A locally built image can legitimately be missing it:
+`bun run docker:build:control` downloads the artifact best-effort, so rebuild
+once the external PathPlanner release is reachable again.
+
+**An edit made in VSCodium does not appear.** Reload the page. 
+External file changes are not synchronized into an open PathPlanner session.
+
+---
+
 ## OAuth login fails
 
 **Symptom.** Students see an OAuth error page, a "not authorized" flash, or

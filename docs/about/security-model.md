@@ -55,9 +55,9 @@ one-off operator commands, not for day-to-day use.
 ## Single entry point
 
 The control plane is the only process that listens on a public port (default
-`4000`, set by `PORT`). Every request (web shell assets, editor traffic, run
-commands, telemetry, gamepad input) enters through that one port and is
-authenticated before any proxying takes place.
+`4000`, set by `PORT`). Web shell, AdvantageScope, and PathPlanner static assets
+are public. Workspace-specific editor traffic, commands, telemetry, gamepad
+input, and file requests require a session and enter through that same port.
 
 How workspace container ports are exposed depends on deployment mode. In
 **port mode** (the host dev loop, `bun run dev:control`) each container's
@@ -106,6 +106,28 @@ A student whose session is valid but whose slug does not match the URL receives
 a `403`. An unauthenticated request is redirected to the login page for browser
 requests or returns `401` for API requests. There is no mechanism for a student
 to reach another student's editor, simulator, or files through normal routes.
+
+PathPlanner's app files under `/pathplanner/` contain no student data and are
+served publicly, like AdvantageScope's `/scope/` assets. Its deploy-files API
+is under `/u/<slug>/api/deploy-files/`, so the ownership check above applies.
+The API exposes only `src/main/deploy/pathplanner/**` and
+`src/main/deploy/choreo/**`; writes and deletes are limited to the PathPlanner
+subtree.
+
+## Preview isolation
+
+Project HTML is untrusted. Preview runs it in an opaque-origin sandbox, so it
+cannot access the CodeRunner page, browser storage, cookies, or authenticated
+APIs. The same sandbox is sent as a response header for direct links. Its CSP
+also blocks network connections and adds a best-effort navigation restriction.
+Markdown runs with scripts disabled.
+
+Sandboxed frames do not receive the session cookie, so local report assets use
+a signed, workspace-specific path token that expires after fifteen minutes.
+Preview routes are read-only, capability URLs are not logged, and responses are
+not cached. Path validation, file type allowlists, symlink checks, and read
+limits keep the endpoint inside the student's project. The full rationale is in
+[decision 041](https://github.com/mathewdunne/CodeRunner/blob/main/docs/decisions/041-project-preview.md).
 
 ## Container isolation
 

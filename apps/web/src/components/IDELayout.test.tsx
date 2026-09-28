@@ -35,10 +35,11 @@ describe("IDELayout", () => {
 		expect(screen.queryByText(/Run this lesson from the editor/)).toBeNull();
 	});
 
-	test("hides simulator panels in console lesson mode", () => {
+	test("console lesson mode: editor only, with the Run hint", () => {
 		render(
 			<IDELayout
-				showSimPanels={false}
+				showDriverStation={false}
+				showRightPane={false}
 				editor={<div>Editor</div>}
 				scope={<div>Scope</div>}
 				driverStation={<div>Driver Station</div>}
@@ -46,7 +47,27 @@ describe("IDELayout", () => {
 		);
 
 		expect(screen.getByText("Editor")).toBeInTheDocument();
-		expect(screen.queryByText("Scope")).toBeNull();
+		expect(screen.getByText("Scope")).not.toBeVisible();
+		expect(screen.queryByText("Driver Station")).toBeNull();
+		expect(
+			screen.getByText(/Run this lesson from the editor/),
+		).toBeInTheDocument();
+	});
+
+	test("console lesson mode reveals the right pane without the Driver Station", () => {
+		render(
+			<IDELayout
+				showDriverStation={false}
+				showRightPane
+				editor={<div>Editor</div>}
+				scope={<div>Preview</div>}
+				driverStation={<div>Driver Station</div>}
+			/>,
+		);
+
+		expect(screen.getByText("Editor")).toBeInTheDocument();
+		expect(screen.getByText("Preview")).toBeInTheDocument();
+		// No simulation chrome comes back with it.
 		expect(screen.queryByText("Driver Station")).toBeNull();
 		expect(
 			screen.getByText(/Run this lesson from the editor/),

@@ -5,7 +5,7 @@ title: Terms of Service
 
 # Terms of Service
 
-**Last updated: August 12, 2026**
+**Last updated: September 2, 2026**
 
 These terms cover the CodeRunner software and any instance of it you use. By signing in to a
 CodeRunner instance, you agree to them.
@@ -13,7 +13,7 @@ CodeRunner instance, you agree to them.
 ## 1. What CodeRunner is
 
 CodeRunner is open-source software for teaching FRC robot programming: a browser-based Java
-editor, a per-student container workspace, a robot simulator, and a telemetry view. It is
+editor, a per-student workspace, a simulator, telemetry, and a path-planning tool. It is
 self-hosted — schools and robotics teams install it and run it on their own hardware.
 
 The organization running your instance sets its own rules for use, decides who may sign in,
@@ -103,8 +103,8 @@ it or for the data on it.
 
 ## 10. Third-party software
 
-CodeRunner bundles third-party software, including AdvantageScope, VSCodium, WPILib,
-and the Java toolchain, each under its own license. Your use of those components is subject to
+CodeRunner bundles third-party software, including AdvantageScope, PathPlanner, VSCodium,
+WPILib, and the Java toolchain, each under its own license. Your use of those components is subject to
 their terms. See [Licenses](./licenses.md). None of those projects endorse or are affiliated
 with CodeRunner.
 

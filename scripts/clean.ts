@@ -3,7 +3,7 @@ import { rm } from "node:fs/promises";
 import { resolve } from "node:path";
 
 const repoRoot = resolve(import.meta.dirname, "..");
-const targets = ["apps/web/dist", "dist/advantagescope"];
+const targets = ["apps/web/dist", "dist/advantagescope", "dist/pathplanner"];
 
 for (const target of targets) {
 	const path = resolve(repoRoot, target);

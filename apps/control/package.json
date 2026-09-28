@@ -14,6 +14,10 @@
 		"@frc-coderunner/contracts": "workspace:*",
 		"@logtape/logtape": "^2.0.7",
 		"better-auth": "^1.6.10",
+		"markdown-it": "^15.0.2",
 		"prom-client": "^15.1.3"
+	},
+	"devDependencies": {
+		"@types/markdown-it": "^14.2.0"
 	}
 }

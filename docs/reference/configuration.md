@@ -30,6 +30,15 @@ These rarely need changing in a standard deployment. Override them only if you n
 | `FRC_MIGRATIONS_DIR` | auto-detected from source | Path to DB migration files. Leave unset unless you are running a non-standard layout. |
 | `FRC_WEB_DIST_DIR` | `apps/web/dist` | Built React web shell assets. Must exist before starting; run `bun run build:web` first. |
 | `FRC_ASCOPE_DIST_DIR` | `dist/advantagescope` | Built AdvantageScope Lite assets. Populated by `bun run build:ascope`. |
+| `FRC_PATHPLANNER_DIST_DIR` | `dist/pathplanner` | Prebuilt PathPlanner web assets. Populated by `bun run fetch:pathplanner` (part of `bun run build`) or `bun run fetch:dist`. |
+
+`fetch:dist` gets the web shell and AdvantageScope from the CodeRunner release.
+It gets `pathplanner-dist.tar.gz` separately from `PATHPLANNER_RELEASE_REPO`
+(default `mathewdunne/pathplanner-web`) and `PATHPLANNER_RELEASE_TAG` (default:
+latest release). PathPlanner is optional there — a missing artifact only warns,
+and `/pathplanner/` serves a 503. `fetch:pathplanner` reads the same two
+variables but treats a missing artifact as an error, which is why `bun run
+build` uses it.
 
 ## Lessons Catalog
 

@@ -423,3 +423,168 @@ export type LessonModule = z.infer<typeof lessonModuleSchema>;
 export type LessonCatalog = z.infer<typeof lessonCatalogSchema>;
 export type LessonCatalogResponse = z.infer<typeof lessonCatalogResponseSchema>;
 export type LessonLoadRequest = z.infer<typeof lessonLoadRequestSchema>;
+
+// --- Deploy files (PathPlanner) schemas ---
+
+/** Only files under this project-relative root may be written or deleted. */
+export const DEPLOY_FILES_WRITE_ROOT = "src/main/deploy/pathplanner";
+
+/** Roots included in the snapshot; choreo is read-only in the GUI. */
+export const DEPLOY_FILES_READ_ROOTS = [
+	DEPLOY_FILES_WRITE_ROOT,
+	"src/main/deploy/choreo",
+] as const;
+
+// Deny-list rather than allow-list: PathPlanner lets students name paths and
+// autos freely (apostrophes, "#", "+", non-ASCII letters, ...), so the
+// character class only needs to block what's actually unsafe. Split on "/":
+// every segment must be non-empty (blocks "//" and a leading "/") and must
+// not start with "." (blocks "..", ".", and dotfiles — this is the
+// traversal guard, keep it). Within a segment, only reserved filesystem
+// characters and control characters are forbidden.
+// biome-ignore lint/suspicious/noControlCharactersInRegex: intentional — rejects control chars in deploy file paths
+const DEPLOY_FILE_FORBIDDEN_CHARS = /[\\/:*?"<>|\u0000-\u001f\u007f]/;
+
+export const deployFilePathSchema = z
+	.string()
+	.min(1)
+	.max(512)
+	.superRefine((value, ctx) => {
+		const segments = value.split("/");
+		for (const segment of segments) {
+			if (segment.length === 0) {
+				ctx.addIssue({
+					code: z.ZodIssueCode.custom,
+					message: "Path must not contain empty segments.",
+				});
+				return;
+			}
+			if (segment.startsWith(".")) {
+				ctx.addIssue({
+					code: z.ZodIssueCode.custom,
+					message: 'Path segments must not start with ".".',
+				});
+				return;
+			}
+			// The forbidden-character class includes "/" and "\\", which is
+			// redundant with the split above for "/" but keeps the class
+			// self-contained if this is ever reused on an unsplit string.
+			if (DEPLOY_FILE_FORBIDDEN_CHARS.test(segment)) {
+				ctx.addIssue({
+					code: z.ZodIssueCode.custom,
+					message: "Path segments must not contain reserved characters.",
+				});
+				return;
+			}
+		}
+	});
+
+export const deployFileSchema = z.object({
+	path: deployFilePathSchema,
+	content: z.string(),
+});
+
+export const deployFilesSnapshotResponseSchema = z.object({
+	ok: z.literal(true),
+	files: z.array(deployFileSchema),
+});
+
+export const deployFilesWriteResponseSchema = z.object({
+	ok: z.literal(true),
+});
+
+export type DeployFile = z.infer<typeof deployFileSchema>;
+export type DeployFilesSnapshotResponse = z.infer<
+	typeof deployFilesSnapshotResponseSchema
+>;
+export type DeployFilesWriteResponse = z.infer<
+	typeof deployFilesWriteResponseSchema
+>;
+
+// --- Preview (project Markdown / HTML reader) ---
+
+/**
+ * Directory names Preview never walks or serves. `.git` and `.gradle` hold
+ * large machine-generated trees (and, for `.git`, object data that has no
+ * business coming back out through an HTML reader); `node_modules` is the same
+ * problem by sheer volume. Every other directory — including other
+ * dot-directories, which often hold hand-written docs — stays eligible.
+ */
+export const PREVIEW_EXCLUDED_DIRS = [".git", ".gradle", "node_modules"];
+
+export const previewDocumentKindSchema = z.enum(["markdown", "html"]);
+
+// Deliberately not `deployFilePathSchema`: that one rejects any segment
+// starting with ".", which would hide project-authored docs in dot-directories.
+// Preview excludes specific directory names instead (PREVIEW_EXCLUDED_DIRS).
+// biome-ignore lint/suspicious/noControlCharactersInRegex: intentional — rejects control chars in preview paths
+const PREVIEW_FORBIDDEN_CHARS = /[\\/:*?"<>| -]/;
+
+/** Maximum path segments, mirroring the walker's depth budget. */
+export const PREVIEW_MAX_DEPTH = 32;
+
+export const previewPathSchema = z
+	.string()
+	.min(1)
+	.max(1024)
+	.superRefine((value, ctx) => {
+		const fail = (message: string) => {
+			ctx.addIssue({ code: z.ZodIssueCode.custom, message });
+		};
+		if (/^[a-zA-Z]:/.test(value)) {
+			fail("Path must not be absolute.");
+			return;
+		}
+		const segments = value.split("/");
+		if (segments.length > PREVIEW_MAX_DEPTH) {
+			fail("Path is too deeply nested.");
+			return;
+		}
+		for (const segment of segments) {
+			if (segment.length === 0) {
+				fail("Path must not contain empty segments.");
+				return;
+			}
+			if (segment === "." || segment === "..") {
+				fail("Path must not contain traversal segments.");
+				return;
+			}
+			if (PREVIEW_FORBIDDEN_CHARS.test(segment)) {
+				fail("Path segments must not contain reserved characters.");
+				return;
+			}
+			if (PREVIEW_EXCLUDED_DIRS.includes(segment)) {
+				fail("Path is inside an excluded directory.");
+				return;
+			}
+		}
+	});
+
+export const previewDocumentSchema = z.object({
+	path: previewPathSchema,
+	kind: previewDocumentKindSchema,
+});
+
+export const previewDocumentsResponseSchema = z.object({
+	ok: z.literal(true),
+	documents: z.array(previewDocumentSchema),
+	/** True when a discovery budget stopped the walk before it finished. */
+	truncated: z.boolean(),
+	/**
+	 * Short-lived capability for `/api/preview/files/<token>/<path>`. Preview
+	 * iframes are sandboxed without `allow-same-origin`, which gives them an
+	 * opaque origin; browsers then drop the SameSite=Lax session cookie from
+	 * every subresource request and in-frame navigation the report makes.
+	 * Carrying the grant in the URL path instead means a report's own relative
+	 * links inherit it without the report knowing anything about it.
+	 */
+	token: z.string(),
+	/** Seconds until `token` stops being accepted. */
+	tokenExpiresIn: z.number().int().positive(),
+});
+
+export type PreviewDocumentKind = z.infer<typeof previewDocumentKindSchema>;
+export type PreviewDocument = z.infer<typeof previewDocumentSchema>;
+export type PreviewDocumentsResponse = z.infer<
+	typeof previewDocumentsResponseSchema
+>;

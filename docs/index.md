@@ -8,8 +8,9 @@ title: Overview
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-CodeRunner is a self-hosted, browser-based IDE for teaching FRC robot programming. Students open a web page, log in, write Java in a real VS Code editor, and simulate their robot from the built-in Driver Station. There is nothing to install on a student's machine and no per-laptop setup to maintain. Everything runs on a machine you control and is delivered through the browser.
+CodeRunner is a self-hosted, browser-based IDE for teaching FRC robot programming. Students can open a web page, log in, write Java in a real VS Code editor, simulate their robot, inspect telemetry in AdvantageScope, and edit PathPlanner files. There is nothing to install on a student's machine and no per-device setup to maintain. Everything runs on a machine you control and is delivered through the browser.
 
+{/* TODO(pathplanner-docs): Record a new overview showing both tool tabs. */}
 <video
   autoPlay
   loop
@@ -34,8 +35,9 @@ CodeRunner is a self-hosted, browser-based IDE for teaching FRC robot programmin
 2. Follow the lesson instructions or open the files you want to edit.
 3. Click **Start** in the Driver Station at the bottom of the page.
 4. When robot code and communications are ready, choose a mode and click **Enable**.
+5. Use the **AdvantageScope** and **PathPlanner** tabs to inspect telemetry or edit paths.
 
-Use CodeRunner's **Start** button for robot projects, not the WPILib extension's simulation command. Console lessons are the exception: run those with the editor's ▷ button.
+Use CodeRunner's **Start** button for robot projects, not the WPILib extension's simulation command (although standalone Builds can be run from the extension). Console lessons are the exception: run those with the editor's ▷ button.
 
 [Read the short student guide →](./using-coderunner.md)
 
@@ -44,7 +46,7 @@ Use CodeRunner's **Start** button for robot projects, not the WPILib extension's
 - **A real VS Code editor in the browser.** Each student works in VSCodium with the Java and WPILib extensions already installed, so they get auto-import, code completion, Ctrl-click into library classes, and inline diagnostics, the same tooling a mentor would use locally.
 - **An isolated workspace per student.** Every student gets their own Docker container, so one person's broken build or runaway process never affects anyone else.
 - **One-click simulation with a built-in Driver Station.** Clicking **Start** builds the project and starts a WPILib simulation. The Driver Station UI lets students enable the robot, switch modes, and drive with a gamepad.
-- **Live telemetry.** Robot data streams into an embedded AdvantageScope view, so students can see what their code is actually doing as it runs.
+- **Integrated robot tools.** Robot data streams into AdvantageScope, while PathPlanner edits files in the current project. Both are available beside the editor without a separate install.
 
 ## Lessons and team projects
 

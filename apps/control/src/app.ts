@@ -2,6 +2,7 @@ import type { AuthProvidersResponse } from "@frc-coderunner/contracts";
 import { handleAdminRoute } from "./app/admin-routes";
 import {
 	handleUploadAsset,
+	pathplannerResponse,
 	scopeResponse,
 	userAssetsPath,
 	webAssetResponse,
@@ -195,6 +196,10 @@ export async function createApp(
 		const url = new URL(request.url);
 		const start = performance.now();
 		const route = templateRoute(url.pathname);
+		// Preview file URLs contain a bearer capability and a private project path.
+		// Keep both out of logs; the templated route is enough to identify traffic.
+		const loggedPath =
+			route === "/u/:slug/api/preview/files/*" ? route : url.pathname;
 		httpRequestsInFlight.inc();
 		let response: Response;
 		let observedStatus: number;
@@ -209,7 +214,7 @@ export async function createApp(
 			);
 			httpLog.error("unhandled error in request dispatcher", {
 				method: request.method,
-				path: url.pathname,
+				path: loggedPath,
 				err: err instanceof Error ? err : new Error(String(err)),
 			});
 			throw err;
@@ -228,13 +233,14 @@ export async function createApp(
 		const isNoisy =
 			url.pathname === "/healthz" ||
 			url.pathname.startsWith("/scope/") ||
+			url.pathname.startsWith("/pathplanner/") ||
 			url.pathname.startsWith("/assets/") ||
 			url.pathname === "/coderunner-icon.png" ||
 			url.pathname === "/favicon.ico" ||
 			NOISY_WORKSPACE_PATH.test(url.pathname);
 		const fields = {
 			method: request.method,
-			path: url.pathname,
+			path: loggedPath,
 			status: response.status,
 			durationMs,
 		};
@@ -297,6 +303,14 @@ export async function createApp(
 			return scopeResponse(storage, url.pathname, scopeUserAssetsDir);
 		}
 
+		if (
+			(url.pathname === "/pathplanner" ||
+				url.pathname.startsWith("/pathplanner/")) &&
+			request.method === "GET"
+		) {
+			return pathplannerResponse(storage, url.pathname);
+		}
+
 		if (url.pathname === "/api/auth/providers" && request.method === "GET") {
 			return jsonResponse({
 				providers: getEnabledAuthProviders(storage.config),
@@ -342,7 +356,7 @@ export async function createApp(
 		}
 
 		// --- Default-deny: everything below requires a session (or admin token). ---
-		// Public routes (healthz, scope, /api/auth/providers, other api/auth routes, /, /login,
+		// Public routes (healthz, scope, /pathplanner, /api/auth/providers, other api/auth routes, /, /login,
 		// /coderunner-icon.png, /assets/*) are handled above.
 		// If we reach here without matching a gated route, we return 404.
 

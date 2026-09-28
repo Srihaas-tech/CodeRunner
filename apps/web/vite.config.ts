@@ -22,6 +22,7 @@ export default defineConfig({
 			"/healthz": controlPlane,
 			"/metrics": controlPlane,
 			"/scope": controlPlane,
+			"/pathplanner": controlPlane,
 			"/coderunner-icon.png": controlPlane,
 			"/favicon.ico": controlPlane,
 			"^/admin/(assets|allowlist|audit-log|users|containers|workspaces|config|status)(/.*)?$":

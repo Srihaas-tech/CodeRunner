@@ -67,6 +67,20 @@ describe("templateRoute", () => {
 		expect(unique.size).toBe(1);
 		expect([...unique][0]).toBe("/u/:slug/api/sim/status");
 	});
+
+	test("templates PathPlanner routes with bounded cardinality", () => {
+		expect(templateRoute("/pathplanner")).toBe("/pathplanner");
+		expect(templateRoute("/pathplanner/")).toBe("/pathplanner/*");
+		expect(templateRoute("/pathplanner/main.dart.js")).toBe("/pathplanner/*");
+		expect(templateRoute("/u/alice/api/deploy-files/snapshot")).toBe(
+			"/u/:slug/api/deploy-files/snapshot",
+		);
+		expect(
+			templateRoute(
+				"/u/alice/api/deploy-files/src/main/deploy/pathplanner/paths/A.path",
+			),
+		).toBe("/u/:slug/api/deploy-files/*");
+	});
 });
 
 describe("statusClass", () => {

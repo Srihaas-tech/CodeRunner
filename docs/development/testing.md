@@ -32,12 +32,14 @@ Runs Bun's built-in test runner across the control plane
 (`apps/control/`), shared contracts (`packages/contracts/`), scripts
 (`scripts/`), and the two frontend files that live in Bun test style
 (`apps/web/src/lib/keyboard-mapping.test.ts` and
-`keyboard-mapping.property.test.ts`). Approximately 350 tests covering:
+`keyboard-mapping.property.test.ts`). Coverage includes:
 
 - Authentication: session creation, cookie HMAC signing, allowlist enforcement, role gating
 - Proxy layer: hop-by-hop header stripping, WebSocket upgrade, base-path routing
 - Run manager: build lifecycle, timeout handling, state recovery, concurrent-run gating
 - Lessons catalog: bundled catalog load, module discovery, catalog integrity
+- PathPlanner: deploy-file access controls and static asset routing
+- Preview: document discovery, file serving, path safety, and signed tokens
 - Security: SSRF/path-traversal/command-injection validators, admin-route enumeration
 - Property-based tests via `fast-check`: URL validation, slug generation, contract schema round-trips, audit-filter SQL parameterization
 - Metrics: route-templating cardinality
@@ -48,12 +50,14 @@ Runs Bun's built-in test runner across the control plane
 bun run test:web
 ```
 
-Runs Vitest inside `apps/web/`. Approximately 80 tests covering:
+Runs Vitest inside `apps/web/`. Coverage includes:
 
 - React hooks: `useSession`, `useLessons`, `useSimulationState`, `useContainerStatus`, `useAutoChoosers`, `useGamepad`, `useRunChannel`
 - DriverStation components: Enable/Disable button state machine, mode switching
 - Zustand store: input-mode transitions, gamepad selection persistence
 - Keyboard and gamepad mappings
+- PathPlanner iframe URL, pane switching, keyboard navigation, and saved tab choice
+- Preview document loading, selection, refresh, and failure states
 
 ### `bun run e2e`: Playwright mocked tier
 
@@ -63,9 +67,8 @@ bun run e2e
 
 Runs the Playwright test suite against the `mocked` project. No Docker
 daemon required. Each test gets a fully isolated control-plane instance;
-see [Fixture architecture](#fixture-architecture) below. Approximately
-55 tests covering the full login→editor→run→telemetry→driver-station
-flow, including:
+see [Fixture architecture](#fixture-architecture) below. Covers the full
+login→editor→run→telemetry→driver-station flow, including:
 
 - Auth: session isolation, cross-workspace 403 gating, allowlist enforcement, role gating
 - Editor proxy: iframe load, WebSocket upgrade, hop-by-hop header stripping, asset base path
@@ -73,6 +76,8 @@ flow, including:
 - Driver Station: enable/disable payload shape, mode switching, multi-tab sync
 - Gamepad: controller selection persistence across run cycles, unplug-while-enabled safety, pre-run no-lease behavior, keyboard tile focus gating, auto-chooser refresh on restart
 - Telemetry: AdvantageScope iframe load, NT4 per-workspace isolation
+- Sim pane tools: AdvantageScope selected first, the PathPlanner iframe mounted while hidden, tab switching without unloading it, the tab choice surviving a reload, and a project swap reloading PathPlanner
+- Preview: Markdown and HTML delivery, refresh, project switching, console lessons, and browser isolation
 - Admin: capacity cap enforcement, audit log entries, user management
 - Public routes: health check, OpenAPI endpoint
 
@@ -114,6 +119,9 @@ Runs the `security` Playwright project (specs under `e2e/specs/security/`).
 Covers CSRF gating on state-changing endpoints, XSS output encoding in the
 run console and admin pages, and response-header policy (`Content-Security-Policy`,
 `X-Frame-Options`, `X-Content-Type-Options`, `SameSite` cookie attributes).
+
+Preview security tests cover sandboxing, response headers, API isolation, and
+cross-workspace access.
 
 ### `bun run verify`: full CI gate
 
@@ -175,7 +183,18 @@ drive gamepad state from test code via `page.evaluate()`.
 
 `e2e/fixtures/runtime.ts`: helpers (`seedRuntimeRunning`,
 `seedRuntimeMissing`) that configure the `MockWorkspaceRuntimeProvider` with
-fake endpoint URLs pointing at the in-process fake servers.
+fake endpoint URLs pointing at the in-process fake servers, plus
+`seedWorkspaceProject` for specs that need a non-empty project (an empty one
+auto-opens the Switch Project dialog).
+
+The two tool panes are served from throwaway dists built by
+`createAdvantageScopeDist` / `createPathPlannerDist` in
+`apps/control/src/__tests__/helpers.ts` — not the real builds, so the mocked
+tier needs neither emscripten nor a PathPlanner download. The fake PathPlanner
+page counts its own loads in `sessionStorage` and publishes the count as
+`data-fake-pathplanner-loads` on `<body>`: a project swap remounts that iframe
+without changing its `src`, so the counter is the only way to observe the
+reload.
 
 ## Debugging helpers
 

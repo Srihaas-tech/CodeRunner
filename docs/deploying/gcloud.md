@@ -274,10 +274,14 @@ The **Release** workflow (`.github/workflows/release.yml`) runs automatically:
    **multi-arch images** (`linux/amd64` + `linux/arm64`), built on native
    runners per architecture and merged into one manifest per tag. The control
    image builds the web shell and AdvantageScope Lite (emsdk runs inside a
-   build stage), so nothing is compiled on a plain runner.
+   build stage), then downloads the prebuilt PathPlanner web artifact at the
+   release tag pinned in `PATHPLANNER_DIST_TAG`. That download is required:
+   if it fails the release fails, rather than publishing a control image whose
+   `/pathplanner/` serves a 503. Nothing is compiled on a plain runner, and
+   nothing is built on the VM.
 4. Extracts `web-dist.tar.gz` + `ascope-dist.tar.gz` from the built control
-   image and uploads them to the GitHub Release (consumed by the Cloudflare job
-   and by `scripts/fetch-dist.ts`)
+   image and uploads them to the CodeRunner GitHub Release. PathPlanner remains
+   an external artifact from the `pathplanner-web` release.
 
 **2. Deploy** — dispatch the deploy workflow against the published tag:
 

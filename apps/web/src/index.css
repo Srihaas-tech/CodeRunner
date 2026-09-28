@@ -193,3 +193,31 @@ body.resizing iframe {
 .ds-pulse-amber {
 	animation: ds-pulse-amber 1.4s infinite;
 }
+
+/* Collapse buttons sit beside the resize grip without consuming pane space. */
+.pane-collapse {
+	opacity: 0;
+	transition: opacity 120ms ease;
+}
+.pane-collapse:hover,
+.pane-collapse:focus-within,
+[data-pane-group="columns"]:has(
+		> [data-slot="resizable-handle"]:is(:hover, :focus-visible)
+	)
+	[data-pane-controls="columns"],
+[data-pane-group="rows"]:has(
+		> [data-slot="resizable-handle"]:is(:hover, :focus-visible)
+	)
+	[data-pane-controls="rows"] {
+	opacity: 1;
+}
+@media (hover: none) {
+	.pane-collapse {
+		opacity: 1;
+	}
+}
+@media (prefers-reduced-motion: reduce) {
+	.pane-collapse {
+		transition: none;
+	}
+}

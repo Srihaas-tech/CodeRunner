@@ -18,6 +18,7 @@ Inside the V2 code container, Java/Gradle/WPILib, VSCodium, `redhat.java`, and `
 apps/control/                  Bun control plane: HTTP, WS, sessions, orchestration
 apps/control/src/app.ts          slim factory + top-level fetch dispatcher
 apps/control/src/app/            response/asset/proxy/status helpers + admin, workspace, websocket route groups
+apps/control/src/app/preview*.ts discovery/serving, Markdown rendering, and the signed path token for Preview
 apps/control/src/containers.ts   barrel re-exporting the public container surface
 apps/control/src/containers/     Docker client, metadata, ports, lifecycle, and the LocalDockerRuntimeProvider class
 apps/control/src/metrics.ts      Prometheus registry, metric handles, route-templating helpers
@@ -61,6 +62,20 @@ import. The catalog has two sources behind one interface: a **bundled** `catalog
 imports keep `.git` for push. The per-import backup/restore flow was removed
 (pure discard + git). See [`docs/lessons/overview.md`](./docs/lessons/overview.md)
 and `docs/decisions/029-lessons-and-modules.md`.
+
+**Project Preview (post-V2):** a third right-pane tab beside AdvantageScope
+and PathPlanner reads the project's own Markdown and generated HTML reports
+(`build/reports/**` included). Markdown is rendered in-process by
+`markdown-it`; HTML reports are served unchanged with their local assets.
+Project HTML is framed `sandbox="allow-scripts"` **without**
+`allow-same-origin`, which costs the frame its `SameSite=Lax` session cookie —
+so `/u/:slug/api/preview/files/` is authorised by a short-lived HMAC path
+token instead, and is the one workspace route dispatched ahead of the cookie
+ownership check (read-only, GET-only). `plain-java` lessons get a Preview
+show/hide button in the selector's slot; `IDELayout` splits `showRightPane`
+from `showDriverStation` to make that possible. See
+`docs/decisions/041-project-preview.md` and
+[`docs/using-coderunner.md`](./docs/using-coderunner.md).
 
 **Containerized control plane (post-V2):** the control plane ships as a Docker
 image (`containers/control/Dockerfile` → `ghcr.io/mathewdunne/coderunner-control`)
@@ -119,7 +134,7 @@ arch-independent). See `docs/decisions/035-multi-arch-images-and-workflow-split.
 ## Key References
 
 - `docs/` + `website/` — docs site content and Docusaurus config; published at `https://mathewdunne.github.io/CodeRunner/`; run `bun run docs:dev` to browse locally, `bun run docs:build` to build.
-- `docs/decisions/` — all architecture decision logs (011–037 active; 001–010 archived under `docs/decisions/archive/`).
+- `docs/decisions/` — all architecture decision logs (011–041 active; 001–010 archived under `docs/decisions/archive/`).
 - Pinned AdvantageScope submodule: `vendor/AdvantageScope` at tag `v26.0.2`.
 
 ## Commands
@@ -157,10 +172,10 @@ See `docs/deploying/` and `docs/operating/` for operator documentation.
 
 Three test tiers, all runnable without Docker:
 
-- **`bun run test`** — Bun unit/integration tests for the control plane (~350 tests). Covers auth, runs, proxy, containers, the lessons catalog + load pipeline, security, reconciliation, property-based tests, and metrics route-templating cardinality.
-- **`bun run test:web`** — Vitest frontend tests (~80 tests). Covers React hooks (`useSession`, `useLessons`, `useSimulationState`, `useContainerStatus`, `useAutoChoosers`, `useGamepad`, `useRunChannel`), DriverStation components, Zustand store, keyboard/gamepad mappings.
-- **`bun run e2e`** — Playwright E2E mocked tier (~55 tests). Full login→editor→run→telemetry→DS flows against in-process `ControlApp` with fake codium-server, HALSim, and NT4 backends. No Docker required.
-- **`bun run e2e:security`** — Playwright security specs (~8 tests): CSRF, XSS output encoding, response headers.
+- **`bun run test`** — Bun unit/integration tests for the control plane (~450 tests). Covers auth, runs, proxy, containers, the lessons catalog + load pipeline, preview discovery/serving/tokens, security, reconciliation, property-based tests, and metrics route-templating cardinality.
+- **`bun run test:web`** — Vitest frontend tests (~135 tests). Covers React hooks (`useSession`, `useLessons`, `useSimulationState`, `useContainerStatus`, `useAutoChoosers`, `useGamepad`, `useRunChannel`, `usePreviewDocuments`), DriverStation and PreviewPane components, Zustand store, keyboard/gamepad mappings.
+- **`bun run e2e`** — Playwright E2E mocked tier (~75 tests). Full login→editor→run→telemetry→DS flows against in-process `ControlApp` with fake codium-server, HALSim, and NT4 backends, plus the Preview delivery/workflow/console-lesson specs. No Docker required.
+- **`bun run e2e:security`** — Playwright security specs (~12 tests): CSRF, XSS output encoding, response headers, Preview isolation.
 
 E2E tests use a custom Playwright fixture (`e2e/fixtures/app.ts`) that creates an isolated `ControlApp` per test with its own random port, SQLite DB, and fake upstream servers. Auth is seeded via `loginAs()` which writes user/session rows and HMAC-signs cookies.
 
@@ -169,6 +184,7 @@ Key E2E fixtures:
 - `e2e/fixtures/fake-halsim.ts` — Fake HALSim bridge (WS, supports stop/restart)
 - `e2e/fixtures/fake-nt4.ts` — Fake NT4 server for topic announcement
 - `e2e/fixtures/gamepad-shim.ts` — Playwright addInitScript gamepad override
+- `e2e/fixtures/preview-project.ts` — Project tree with a Gradle-shaped HTML report
 - `e2e/fixtures/runtime.ts` — Runtime seeding helpers
 
 The broad Docker smoke tier remains intentionally unimplemented — see

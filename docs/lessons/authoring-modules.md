@@ -145,8 +145,12 @@ A full WPILib/Gradle robot project, the same structure WPILib's project
 generator produces (`build.gradle`, `gradlew`, `vendordeps/`, `.wpilib/`,
 `src/main/java/frc/robot/...`). The student clicks **Start** in the Driver
 Station, which builds the project and starts it in simulation. Once it is
-ready, they choose a mode and click **Enable**. Telemetry flows to AdvantageScope
-and the Driver Station panel. Use this for actual robot programming.
+ready, they choose a mode and click **Enable**. The full Driver Station and
+AdvantageScope/PathPlanner tool pane are available. Use this for robot programming.
+
+To seed PathPlanner content, include its normal deploy tree under
+`src/main/deploy/pathplanner/`. Those files are copied with the rest of the
+module and are editable from either PathPlanner or VSCodium.
 
 You do not need to do anything special to make a robot project run headless in
 the container. CodeRunner applies a non-destructive Gradle override at run time
@@ -167,7 +171,7 @@ make the document useful from its first heading. For example, the bundled
 `hello-world` README begins with the goal, lists numbered steps, and finishes
 with bonus challenges.
 
-![A lesson opened side by side with the README](/img/screenshots/lesson-readme-opened.png)
+![A lesson opened side by side with the README](../../website/static/img/screenshots/lesson-readme-opened.png)
 
 ## The `.vscode/` folder
 

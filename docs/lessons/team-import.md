@@ -34,7 +34,7 @@ work needs to be saved in version control.
 4. A progress panel streams the clone and validation steps. When it finishes,
    the editor reopens on the imported project.
 
-![Importing a team project: the clone-and-validate progress panel](/img/screenshots/team-import-progress.png)
+![Importing a team project: the clone-and-validate progress panel](../../website/static/img/screenshots/team-import-progress.png)
 
 ## What URL formats are accepted
 
@@ -70,9 +70,8 @@ When a valid URL is submitted, the control plane:
 5. Clears the editor's workspace cache so VS Code re-opens the new folder
    cleanly.
 
-The workspace is then treated as a plain robot project. The Driver Station and
-AdvantageScope telemetry panels are shown in full, matching the `robot` lesson
-kind.
+The workspace is then treated as a robot project. The Driver Station and the
+AdvantageScope/PathPlanner tabs are available, matching a `robot` lesson.
 
 ## Pushing and pulling after import
 
@@ -94,8 +93,8 @@ The server does not store, inject, or manage any Git credentials.
 
 Imported projects run through the same Driver Station flow as `robot` lessons:
 click **Start** to build and start the simulation. When robot code and
-communications are ready, choose a mode and click **Enable**. Telemetry then
-flows to AdvantageScope and the Driver Station panel.
+communications are ready, choose a mode and click **Enable**. Use AdvantageScope
+for telemetry or PathPlanner for the project's paths and autos.
 
 No changes to `build.gradle` are required, even if the project calls
 `wpi.sim.addGui()` or `wpi.sim.addDriverstation()`. At run time, a Gradle

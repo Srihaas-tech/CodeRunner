@@ -150,6 +150,33 @@ export async function createAdvantageScopeDist(root: string): Promise<string> {
 	return ascopeDistDir;
 }
 
+export async function createPathPlannerDist(root: string): Promise<string> {
+	const pathplannerDistDir = join(root, "pathplanner-dist");
+	await mkdir(pathplannerDistDir, { recursive: true });
+	await writeFile(
+		join(pathplannerDistDir, "index.html"),
+		'<!doctype html><html><head><base href="/pathplanner/"><script src="main.dart.js" defer></script></head><body data-fake-pathplanner-ready="true">PathPlanner test dist</body></html>',
+		"utf8",
+	);
+	// Loads are counted in sessionStorage (shared with the parent page — same
+	// origin) so E2E specs can prove the iframe actually reloaded after a
+	// project swap; its `src` is unchanged by the remount, so the counter is
+	// the only observable difference.
+	await writeFile(
+		join(pathplannerDistDir, "main.dart.js"),
+		`const key = "e2e:pathplanner-loads";
+let loads = 1;
+try {
+	loads = Number(sessionStorage.getItem(key) ?? "0") + 1;
+	sessionStorage.setItem(key, String(loads));
+} catch {}
+document.body.dataset.fakePathplannerLoads = String(loads);
+`,
+		"utf8",
+	);
+	return pathplannerDistDir;
+}
+
 export async function withApp<T>(
 	fn: (app: ControlApp, root: string) => Promise<T>,
 	options: Partial<ControlAppOptions> = {},
@@ -158,11 +185,13 @@ export async function withApp<T>(
 	const catalogDir = await createCatalogDir(root);
 	const webDistDir = await createWebDist(root);
 	const advantageScopeDistDir = await createAdvantageScopeDist(root);
+	const pathplannerDistDir = await createPathPlannerDist(root);
 	const app = await createApp({
 		dataDir: join(root, "data"),
 		catalogDir,
 		webDistDir,
 		advantageScopeDistDir,
+		pathplannerDistDir,
 		sessionSecret: "test-session-secret",
 		baseUrl: "http://localhost:4000",
 		idleStopMinutes: 30,
@@ -240,10 +269,20 @@ export function dockerInspect(container: FakeContainer): unknown {
 	};
 }
 
-/** Parse `--mount type=…,src=…,dst=…` flags out of a `docker run` argv. */
+/** Parse long mounts and short Linux volume flags out of a `docker run` argv. */
 function parseMountFlags(args: string[]): FakeContainerMount[] {
 	const mounts: FakeContainerMount[] = [];
 	for (let index = 0; index < args.length; index += 1) {
+		if (args[index] === "-v") {
+			const [source, destination] = (args[index + 1] ?? "").split(":");
+			if (source && destination) {
+				mounts.push({
+					Type: source.startsWith("/") ? "bind" : "volume",
+					Destination: destination,
+				});
+			}
+			continue;
+		}
 		if (args[index] !== "--mount") continue;
 		const fields = new Map(
 			(args[index + 1] ?? "")

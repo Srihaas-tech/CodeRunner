@@ -26,6 +26,7 @@ import { IconRail, type RailTab } from "./IconRail";
 import { WorkbenchPanel } from "./WorkbenchPanel";
 
 interface DriverStationProps {
+	visible?: boolean;
 	simulationStatus: SimStatusResponse | null;
 	runStatus: SimRunStatus;
 	runConnection: RunConnection;
@@ -56,6 +57,7 @@ interface DriverStationProps {
 }
 
 export function DriverStation({
+	visible = true,
 	simulationStatus,
 	runStatus,
 	runConnection,
@@ -74,13 +76,20 @@ export function DriverStation({
 	const sectionRef = useRef<HTMLElement>(null);
 
 	const keyboardCaptureActive =
-		gamepad.inputMode === "keyboard" && driverStationFocused;
+		visible && gamepad.inputMode === "keyboard" && driverStationFocused;
 
 	const releaseKeyboard = useCallback(() => {
 		if (gamepad.inputMode === "keyboard") {
 			gamepad.onKeyboardRelease();
 		}
 	}, [gamepad]);
+	useEffect(() => {
+		if (!visible) {
+			setDriverStationFocused(false);
+			// Hiding a focused section does not reliably dispatch blur in browsers.
+			if (driverStationFocused) releaseKeyboard();
+		}
+	}, [visible, driverStationFocused, releaseKeyboard]);
 
 	const handleFocusCapture = useCallback(() => {
 		setDriverStationFocused(true);

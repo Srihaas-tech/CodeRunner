@@ -29,6 +29,7 @@ copyright notice and permission notice are included. It comes with no warranty.
 | Component | License | Where it ships |
 | --- | --- | --- |
 | [AdvantageScope](https://github.com/Mechanical-Advantage/AdvantageScope) (**modified**) | BSD-3-Clause | Telemetry view, compiled into the control image |
+| [PathPlanner](https://github.com/mjansen4857/pathplanner) (**modified**) | MIT | Path and auto editor, bundled into the control image |
 | [VSCodium](https://github.com/VSCodium/vscodium) / Code – OSS (**modified**) | MIT | The editor (`reh-web` build), base of the workspace image |
 | [linuxserver/vscodium-web](https://github.com/linuxserver/docker-vscodium-web) image | GPL-3.0 | Workspace base image, unmodified |
 | [Eclipse Temurin JDK 17 and 21](https://adoptium.net/) | GPL-2.0 with Classpath Exception | Project/simulation and JDT LS runtimes in the workspace image |
@@ -45,6 +46,7 @@ Exact pinned versions are in
 [`containers/code/Dockerfile`](https://github.com/mathewdunne/CodeRunner/blob/main/containers/code/Dockerfile).
 AdvantageScope ships its own aggregated dependency license list as `ThirdPartyLicenses.txt`
 alongside the bundled telemetry view.
+PathPlanner ships Flutter's generated dependency notices as `assets/NOTICES`.
 
 ## Modifications
 
@@ -52,6 +54,10 @@ CodeRunner redistributes a **modified** build of AdvantageScope. The change is k
 source-level patch in
 [`patches/advantagescope/`](https://github.com/mathewdunne/CodeRunner/tree/main/patches/advantagescope)
 and injects an NT4 endpoint so the telemetry view can run embedded in the CodeRunner page.
+
+CodeRunner also redistributes a **modified** PathPlanner web build. The
+[`mathewdunne/pathplanner-web`](https://github.com/mathewdunne/pathplanner-web)
+fork adds CodeRunner's browser file-sync interface and embedded entry point.
 
 The workspace image also ships a **modified** VSCodium build: it rewrites one stale VS Code
 revision string in the editor's webview configuration so extension webviews can load their

@@ -1,278 +1,280 @@
-# Graph Report - .  (2026-09-01)
+# Graph Report - /home/matt/dev/CodeRunner  (2026-09-15)
 
 ## Corpus Check
-- Large corpus: 1122 files · ~710,705 words. Semantic extraction will be expensive (many Claude tokens). Consider running on a subfolder, or use --no-semantic to run AST-only.
+- 0 files · ~0 words
+- Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 25740 nodes · 48636 edges · 2580 communities (1856 shown, 724 thin omitted)
-- Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 466 edges (avg confidence: 0.8)
-- Token cost: 181,658 input · 0 output
+- 4349 nodes · 6295 edges · 371 communities (282 shown, 89 thin omitted)
+- Extraction: 97% EXTRACTED · 3% INFERRED · 0% AMBIGUOUS · INFERRED: 197 edges (avg confidence: 0.8)
+- Token cost: 0 input · 67,249 output
 
 ## Community Hubs (Navigation)
-- [[_COMMUNITY_Community 0|Community 0]]
-- [[_COMMUNITY_Community 1|Community 1]]
-- [[_COMMUNITY_Community 2|Community 2]]
-- [[_COMMUNITY_Community 3|Community 3]]
-- [[_COMMUNITY_Community 4|Community 4]]
-- [[_COMMUNITY_Community 5|Community 5]]
-- [[_COMMUNITY_Community 6|Community 6]]
-- [[_COMMUNITY_Community 7|Community 7]]
-- [[_COMMUNITY_Community 8|Community 8]]
-- [[_COMMUNITY_Community 9|Community 9]]
-- [[_COMMUNITY_Community 10|Community 10]]
-- [[_COMMUNITY_Community 11|Community 11]]
-- [[_COMMUNITY_Community 12|Community 12]]
-- [[_COMMUNITY_Community 13|Community 13]]
-- [[_COMMUNITY_Community 14|Community 14]]
-- [[_COMMUNITY_Community 15|Community 15]]
-- [[_COMMUNITY_Community 16|Community 16]]
-- [[_COMMUNITY_Community 17|Community 17]]
-- [[_COMMUNITY_Community 18|Community 18]]
-- [[_COMMUNITY_Community 19|Community 19]]
-- [[_COMMUNITY_Community 20|Community 20]]
-- [[_COMMUNITY_Community 21|Community 21]]
-- [[_COMMUNITY_Community 22|Community 22]]
-- [[_COMMUNITY_Community 23|Community 23]]
-- [[_COMMUNITY_Community 24|Community 24]]
-- [[_COMMUNITY_Community 25|Community 25]]
-- [[_COMMUNITY_Community 26|Community 26]]
-- [[_COMMUNITY_Community 27|Community 27]]
-- [[_COMMUNITY_Community 28|Community 28]]
-- [[_COMMUNITY_Community 29|Community 29]]
-- [[_COMMUNITY_Community 30|Community 30]]
-- [[_COMMUNITY_Community 31|Community 31]]
-- [[_COMMUNITY_Community 32|Community 32]]
-- [[_COMMUNITY_Community 33|Community 33]]
-- [[_COMMUNITY_Community 34|Community 34]]
-- [[_COMMUNITY_Community 35|Community 35]]
-- [[_COMMUNITY_Community 36|Community 36]]
-- [[_COMMUNITY_Community 37|Community 37]]
-- [[_COMMUNITY_Community 38|Community 38]]
-- [[_COMMUNITY_Community 39|Community 39]]
-- [[_COMMUNITY_Community 40|Community 40]]
-- [[_COMMUNITY_Community 41|Community 41]]
-- [[_COMMUNITY_Community 42|Community 42]]
-- [[_COMMUNITY_Community 43|Community 43]]
-- [[_COMMUNITY_Community 44|Community 44]]
-- [[_COMMUNITY_Community 45|Community 45]]
-- [[_COMMUNITY_Community 46|Community 46]]
-- [[_COMMUNITY_Community 47|Community 47]]
-- [[_COMMUNITY_Community 48|Community 48]]
-- [[_COMMUNITY_Community 49|Community 49]]
-- [[_COMMUNITY_Community 50|Community 50]]
-- [[_COMMUNITY_Community 51|Community 51]]
-- [[_COMMUNITY_Community 52|Community 52]]
-- [[_COMMUNITY_Community 53|Community 53]]
-- [[_COMMUNITY_Community 54|Community 54]]
-- [[_COMMUNITY_Community 55|Community 55]]
-- [[_COMMUNITY_Community 56|Community 56]]
-- [[_COMMUNITY_Community 57|Community 57]]
-- [[_COMMUNITY_Community 58|Community 58]]
-- [[_COMMUNITY_Community 59|Community 59]]
-- [[_COMMUNITY_Community 60|Community 60]]
-- [[_COMMUNITY_Community 61|Community 61]]
-- [[_COMMUNITY_Community 62|Community 62]]
-- [[_COMMUNITY_Community 63|Community 63]]
-- [[_COMMUNITY_Community 64|Community 64]]
-- [[_COMMUNITY_Community 65|Community 65]]
-- [[_COMMUNITY_Community 66|Community 66]]
-- [[_COMMUNITY_Community 67|Community 67]]
-- [[_COMMUNITY_Community 68|Community 68]]
-- [[_COMMUNITY_Community 69|Community 69]]
-- [[_COMMUNITY_Community 70|Community 70]]
-- [[_COMMUNITY_Community 71|Community 71]]
-- [[_COMMUNITY_Community 72|Community 72]]
-- [[_COMMUNITY_Community 73|Community 73]]
-- [[_COMMUNITY_Community 74|Community 74]]
-- [[_COMMUNITY_Community 75|Community 75]]
-- [[_COMMUNITY_Community 76|Community 76]]
-- [[_COMMUNITY_Community 77|Community 77]]
-- [[_COMMUNITY_Community 78|Community 78]]
-- [[_COMMUNITY_Community 79|Community 79]]
-- [[_COMMUNITY_Community 80|Community 80]]
-- [[_COMMUNITY_Community 81|Community 81]]
-- [[_COMMUNITY_Community 82|Community 82]]
-- [[_COMMUNITY_Community 83|Community 83]]
-- [[_COMMUNITY_Community 84|Community 84]]
-- [[_COMMUNITY_Community 85|Community 85]]
-- [[_COMMUNITY_Community 86|Community 86]]
-- [[_COMMUNITY_Community 87|Community 87]]
+- [[_COMMUNITY_Admin API Contracts|Admin API Contracts]]
+- [[_COMMUNITY_Admin Route Dispatch & Security Headers|Admin Route Dispatch & Security Headers]]
+- [[_COMMUNITY_App Storage (SQLite)|App Storage (SQLite)]]
+- [[_COMMUNITY_IDE Layout Resizable Panes|IDE Layout Resizable Panes]]
+- [[_COMMUNITY_WebSocket Handler Factory|WebSocket Handler Factory]]
+- [[_COMMUNITY_Control Plane App & Metrics|Control Plane App & Metrics]]
+- [[_COMMUNITY_GamepadKeyboard WPILib Mapping|Gamepad/Keyboard WPILib Mapping]]
+- [[_COMMUNITY_Admin Layout & Polling|Admin Layout & Polling]]
+- [[_COMMUNITY_Shared UI Primitives|Shared UI Primitives]]
+- [[_COMMUNITY_Docker Runtime Provider Core|Docker Runtime Provider Core]]
+- [[_COMMUNITY_Run Execution Metrics|Run Execution Metrics]]
+- [[_COMMUNITY_Driver Station EnableDisable UI|Driver Station Enable/Disable UI]]
+- [[_COMMUNITY_Docker Runtime Types & Ports|Docker Runtime Types & Ports]]
+- [[_COMMUNITY_Control Plane Route Test Suite|Control Plane Route Test Suite]]
+- [[_COMMUNITY_NT4 Auto Chooser Protocol|NT4 Auto Chooser Protocol]]
+- [[_COMMUNITY_E2E Runtime & Resilience Specs|E2E Runtime & Resilience Specs]]
+- [[_COMMUNITY_Container Runtime Status Helpers|Container Runtime Status Helpers]]
+- [[_COMMUNITY_Driver Station AutoConsole Panels|Driver Station Auto/Console Panels]]
+- [[_COMMUNITY_Auth & Allowlist Test Bodies|Auth & Allowlist Test Bodies]]
+- [[_COMMUNITY_WebSocket Upstream Proxy|WebSocket Upstream Proxy]]
+- [[_COMMUNITY_Scope Pane & Demo Banner|Scope Pane & Demo Banner]]
+- [[_COMMUNITY_Import URL Security Tests|Import URL Security Tests]]
+- [[_COMMUNITY_Sim Pane Switcher & Topbar|Sim Pane Switcher & Topbar]]
+- [[_COMMUNITY_Code Status Pill Component|Code Status Pill Component]]
+- [[_COMMUNITY_Container Lifecycle Test Suite|Container Lifecycle Test Suite]]
+- [[_COMMUNITY_Admin BackupRestore Test Suite|Admin Backup/Restore Test Suite]]
+- [[_COMMUNITY_Better Auth Providers & Storage|Better Auth Providers & Storage]]
+- [[_COMMUNITY_AdvantageScope Patch Application|AdvantageScope Patch Application]]
+- [[_COMMUNITY_Allowlist Management E2E|Allowlist Management E2E]]
+- [[_COMMUNITY_Admin Backup Archive Routes|Admin Backup Archive Routes]]
+- [[_COMMUNITY_Lesson Catalog Authoring & Gradle Cache|Lesson Catalog Authoring & Gradle Cache]]
+- [[_COMMUNITY_Sim API & Chooser Announcements|Sim API & Chooser Announcements]]
+- [[_COMMUNITY_Deploy Files & WS Origin Guards|Deploy Files & WS Origin Guards]]
+- [[_COMMUNITY_Grafana Alloy & Cloudflare Deploy Config|Grafana Alloy & Cloudflare Deploy Config]]
+- [[_COMMUNITY_Control Plane Config Loading|Control Plane Config Loading]]
+- [[_COMMUNITY_Public HealthOpenAPI E2E Specs|Public Health/OpenAPI E2E Specs]]
+- [[_COMMUNITY_Structured Logging|Structured Logging]]
+- [[_COMMUNITY_Admin App Allowlist Page|Admin App Allowlist Page]]
+- [[_COMMUNITY_Allowlist Core Module|Allowlist Core Module]]
+- [[_COMMUNITY_Self-Inspection (Container Auto-Detect)|Self-Inspection (Container Auto-Detect)]]
+- [[_COMMUNITY_CITest Command Reference|CI/Test Command Reference]]
+- [[_COMMUNITY_Audit Log & Runtime Config Schema|Audit Log & Runtime Config Schema]]
+- [[_COMMUNITY_E2E Workspace Fixtures|E2E Workspace Fixtures]]
+- [[_COMMUNITY_Gamepad Input Mapping|Gamepad Input Mapping]]
+- [[_COMMUNITY_PathPlanner Integration Deploy Pipeline|PathPlanner Integration Deploy Pipeline]]
+- [[_COMMUNITY_Gamepad Lease Management|Gamepad Lease Management]]
+- [[_COMMUNITY_E2E Workspace Fixtures|E2E Workspace Fixtures]]
+- [[_COMMUNITY_Run Lifecycle Test Fixtures|Run Lifecycle Test Fixtures]]
+- [[_COMMUNITY_Container Lease Cleanup CLI|Container Lease Cleanup CLI]]
+- [[_COMMUNITY_Backup Database CLI|Backup Database CLI]]
+- [[_COMMUNITY_PathPlanner Deploy File Schemas|PathPlanner Deploy File Schemas]]
+- [[_COMMUNITY_GamepadDriver Station Zod Schemas|Gamepad/Driver Station Zod Schemas]]
+- [[_COMMUNITY_ControlApp Test Harness Socket Types|ControlApp Test Harness Socket Types]]
+- [[_COMMUNITY_Docker Client & Lifecycle|Docker Client & Lifecycle]]
+- [[_COMMUNITY_Architecture & Access Control Docs|Architecture & Access Control Docs]]
+- [[_COMMUNITY_Auto Panel & Gamepad Channel|Auto Panel & Gamepad Channel]]
+- [[_COMMUNITY_HALSim Bridge State Application|HALSim Bridge State Application]]
+- [[_COMMUNITY_HALSimNT4 WebSocket Responses|HALSim/NT4 WebSocket Responses]]
+- [[_COMMUNITY_Asset Upload & Manifest|Asset Upload & Manifest]]
+- [[_COMMUNITY_Deploy Files Security Test Suite|Deploy Files Security Test Suite]]
+- [[_COMMUNITY_Run Manager Command Factory|Run Manager Command Factory]]
+- [[_COMMUNITY_Import Pipeline Test Fixtures|Import Pipeline Test Fixtures]]
+- [[_COMMUNITY_Path Planner Pane.test|Path Planner Pane.test]]
+- [[_COMMUNITY_Container Capacity & V2 Acceptance Decisions|Container Capacity & V2 Acceptance Decisions]]
+- [[_COMMUNITY_Contracts Property-Based Tests|Contracts Property-Based Tests]]
+- [[_COMMUNITY_Admin Allowlist Endpoints|Admin Allowlist Endpoints]]
+- [[_COMMUNITY_AdvantageScope Lite & Docusaurus|AdvantageScope Lite & Docusaurus]]
+- [[_COMMUNITY_Workspace Container Bind-Mount & Memory Bounds|Workspace Container Bind-Mount & Memory Bounds]]
+- [[_COMMUNITY_SlugLogin Property Tests|Slug/Login Property Tests]]
+- [[_COMMUNITY_Scripts|Scripts]]
+- [[_COMMUNITY_Mock Workspace Runtime Provider|Mock Workspace Runtime Provider]]
+- [[_COMMUNITY_WebSocket Router Test Suite|WebSocket Router Test Suite]]
+- [[_COMMUNITY_Deploy Files Path Safety|Deploy Files Path Safety]]
+- [[_COMMUNITY_Java Tooling & Test Tiers|Java Tooling & Test Tiers]]
+- [[_COMMUNITY_VSCodium Editor Container Defaults|VSCodium Editor Container Defaults]]
+- [[_COMMUNITY_Contracts Schema Unit Tests|Contracts Schema Unit Tests]]
+- [[_COMMUNITY_Import Manager (Git Clone Staging)|Import Manager (Git Clone Staging)]]
+- [[_COMMUNITY_Demo Mode Session Seeding|Demo Mode Session Seeding]]
+- [[_COMMUNITY_BackupRestore & Catalog Import Flows|Backup/Restore & Catalog Import Flows]]
+- [[_COMMUNITY_Auth Client & Docker Runner Helpers|Auth Client & Docker Runner Helpers]]
+- [[_COMMUNITY_HALSim Test Suite|HALSim Test Suite]]
+- [[_COMMUNITY_Bundled Lesson Catalog Modules|Bundled Lesson Catalog Modules]]
+- [[_COMMUNITY_Fake NT4 Test Server|Fake NT4 Test Server]]
+- [[_COMMUNITY_HALSim Bridge Message Handling|HALSim Bridge Message Handling]]
+- [[_COMMUNITY_Database Migrations Runner|Database Migrations Runner]]
+- [[_COMMUNITY_Asset Upload Test Suite|Asset Upload Test Suite]]
+- [[_COMMUNITY_Capacity Cap Test Suite|Capacity Cap Test Suite]]
+- [[_COMMUNITY_Disk Read Limit Config|Disk Read Limit Config]]
 - [[_COMMUNITY_Community 88|Community 88]]
-- [[_COMMUNITY_Community 89|Community 89]]
-- [[_COMMUNITY_Community 90|Community 90]]
-- [[_COMMUNITY_Community 91|Community 91]]
-- [[_COMMUNITY_Community 92|Community 92]]
-- [[_COMMUNITY_Community 93|Community 93]]
-- [[_COMMUNITY_Community 94|Community 94]]
-- [[_COMMUNITY_Community 95|Community 95]]
-- [[_COMMUNITY_Community 96|Community 96]]
-- [[_COMMUNITY_Community 97|Community 97]]
-- [[_COMMUNITY_Community 98|Community 98]]
-- [[_COMMUNITY_Community 99|Community 99]]
-- [[_COMMUNITY_Community 100|Community 100]]
-- [[_COMMUNITY_Community 101|Community 101]]
-- [[_COMMUNITY_Community 102|Community 102]]
-- [[_COMMUNITY_Community 103|Community 103]]
-- [[_COMMUNITY_Community 104|Community 104]]
-- [[_COMMUNITY_Community 105|Community 105]]
-- [[_COMMUNITY_Community 106|Community 106]]
-- [[_COMMUNITY_Community 107|Community 107]]
-- [[_COMMUNITY_Community 108|Community 108]]
-- [[_COMMUNITY_Community 109|Community 109]]
-- [[_COMMUNITY_Community 110|Community 110]]
-- [[_COMMUNITY_Community 111|Community 111]]
-- [[_COMMUNITY_Community 112|Community 112]]
-- [[_COMMUNITY_Community 113|Community 113]]
-- [[_COMMUNITY_Community 114|Community 114]]
-- [[_COMMUNITY_Community 115|Community 115]]
-- [[_COMMUNITY_Community 116|Community 116]]
-- [[_COMMUNITY_Community 117|Community 117]]
-- [[_COMMUNITY_Community 118|Community 118]]
-- [[_COMMUNITY_Community 119|Community 119]]
-- [[_COMMUNITY_Community 120|Community 120]]
-- [[_COMMUNITY_Community 121|Community 121]]
-- [[_COMMUNITY_Community 122|Community 122]]
-- [[_COMMUNITY_Community 123|Community 123]]
-- [[_COMMUNITY_Community 124|Community 124]]
-- [[_COMMUNITY_Community 125|Community 125]]
-- [[_COMMUNITY_Community 126|Community 126]]
-- [[_COMMUNITY_Community 127|Community 127]]
-- [[_COMMUNITY_Community 128|Community 128]]
-- [[_COMMUNITY_Community 129|Community 129]]
-- [[_COMMUNITY_Community 130|Community 130]]
-- [[_COMMUNITY_Community 131|Community 131]]
-- [[_COMMUNITY_Community 132|Community 132]]
-- [[_COMMUNITY_Community 133|Community 133]]
-- [[_COMMUNITY_Community 134|Community 134]]
-- [[_COMMUNITY_Community 135|Community 135]]
-- [[_COMMUNITY_Community 136|Community 136]]
-- [[_COMMUNITY_Community 137|Community 137]]
-- [[_COMMUNITY_Community 138|Community 138]]
-- [[_COMMUNITY_Community 139|Community 139]]
-- [[_COMMUNITY_Community 140|Community 140]]
-- [[_COMMUNITY_Community 141|Community 141]]
-- [[_COMMUNITY_Community 142|Community 142]]
-- [[_COMMUNITY_Community 143|Community 143]]
-- [[_COMMUNITY_Community 144|Community 144]]
-- [[_COMMUNITY_Community 145|Community 145]]
-- [[_COMMUNITY_Community 146|Community 146]]
-- [[_COMMUNITY_Community 147|Community 147]]
-- [[_COMMUNITY_Community 148|Community 148]]
-- [[_COMMUNITY_Community 149|Community 149]]
-- [[_COMMUNITY_Community 150|Community 150]]
-- [[_COMMUNITY_Community 151|Community 151]]
-- [[_COMMUNITY_Community 152|Community 152]]
-- [[_COMMUNITY_Community 153|Community 153]]
-- [[_COMMUNITY_Community 154|Community 154]]
-- [[_COMMUNITY_Community 155|Community 155]]
-- [[_COMMUNITY_Community 156|Community 156]]
-- [[_COMMUNITY_Community 157|Community 157]]
-- [[_COMMUNITY_Community 158|Community 158]]
-- [[_COMMUNITY_Community 159|Community 159]]
-- [[_COMMUNITY_Community 160|Community 160]]
-- [[_COMMUNITY_Community 161|Community 161]]
-- [[_COMMUNITY_Community 162|Community 162]]
-- [[_COMMUNITY_Community 163|Community 163]]
-- [[_COMMUNITY_Community 164|Community 164]]
-- [[_COMMUNITY_Community 165|Community 165]]
-- [[_COMMUNITY_Community 166|Community 166]]
-- [[_COMMUNITY_Community 167|Community 167]]
-- [[_COMMUNITY_Community 168|Community 168]]
-- [[_COMMUNITY_Community 169|Community 169]]
-- [[_COMMUNITY_Community 170|Community 170]]
-- [[_COMMUNITY_Community 171|Community 171]]
-- [[_COMMUNITY_Community 172|Community 172]]
-- [[_COMMUNITY_Community 173|Community 173]]
-- [[_COMMUNITY_Community 174|Community 174]]
-- [[_COMMUNITY_Community 175|Community 175]]
-- [[_COMMUNITY_Community 176|Community 176]]
-- [[_COMMUNITY_Community 177|Community 177]]
-- [[_COMMUNITY_Community 178|Community 178]]
-- [[_COMMUNITY_Community 179|Community 179]]
-- [[_COMMUNITY_Community 180|Community 180]]
-- [[_COMMUNITY_Community 181|Community 181]]
-- [[_COMMUNITY_Community 182|Community 182]]
-- [[_COMMUNITY_Community 183|Community 183]]
-- [[_COMMUNITY_Community 184|Community 184]]
-- [[_COMMUNITY_Community 185|Community 185]]
-- [[_COMMUNITY_Community 186|Community 186]]
-- [[_COMMUNITY_Community 187|Community 187]]
-- [[_COMMUNITY_Community 188|Community 188]]
-- [[_COMMUNITY_Community 189|Community 189]]
-- [[_COMMUNITY_Community 190|Community 190]]
-- [[_COMMUNITY_Community 191|Community 191]]
-- [[_COMMUNITY_Community 192|Community 192]]
-- [[_COMMUNITY_Community 193|Community 193]]
-- [[_COMMUNITY_Community 194|Community 194]]
-- [[_COMMUNITY_Community 195|Community 195]]
-- [[_COMMUNITY_Community 196|Community 196]]
-- [[_COMMUNITY_Community 197|Community 197]]
-- [[_COMMUNITY_Community 198|Community 198]]
-- [[_COMMUNITY_Community 199|Community 199]]
-- [[_COMMUNITY_Community 200|Community 200]]
-- [[_COMMUNITY_Community 201|Community 201]]
-- [[_COMMUNITY_Community 202|Community 202]]
-- [[_COMMUNITY_Community 203|Community 203]]
-- [[_COMMUNITY_Community 204|Community 204]]
-- [[_COMMUNITY_Community 205|Community 205]]
-- [[_COMMUNITY_Community 206|Community 206]]
-- [[_COMMUNITY_Community 207|Community 207]]
-- [[_COMMUNITY_Community 208|Community 208]]
-- [[_COMMUNITY_Community 209|Community 209]]
-- [[_COMMUNITY_Community 210|Community 210]]
-- [[_COMMUNITY_Community 211|Community 211]]
-- [[_COMMUNITY_Community 212|Community 212]]
-- [[_COMMUNITY_Community 213|Community 213]]
-- [[_COMMUNITY_Community 214|Community 214]]
-- [[_COMMUNITY_Community 215|Community 215]]
-- [[_COMMUNITY_Community 216|Community 216]]
-- [[_COMMUNITY_Community 217|Community 217]]
-- [[_COMMUNITY_Community 218|Community 218]]
-- [[_COMMUNITY_Community 219|Community 219]]
-- [[_COMMUNITY_Community 220|Community 220]]
-- [[_COMMUNITY_Community 221|Community 221]]
-- [[_COMMUNITY_Community 222|Community 222]]
-- [[_COMMUNITY_Community 223|Community 223]]
-- [[_COMMUNITY_Community 224|Community 224]]
-- [[_COMMUNITY_Community 225|Community 225]]
-- [[_COMMUNITY_Community 226|Community 226]]
-- [[_COMMUNITY_Community 227|Community 227]]
-- [[_COMMUNITY_Community 228|Community 228]]
-- [[_COMMUNITY_Community 229|Community 229]]
-- [[_COMMUNITY_Community 230|Community 230]]
-- [[_COMMUNITY_Community 231|Community 231]]
-- [[_COMMUNITY_Community 232|Community 232]]
-- [[_COMMUNITY_Community 233|Community 233]]
-- [[_COMMUNITY_Community 234|Community 234]]
-- [[_COMMUNITY_Community 235|Community 235]]
-- [[_COMMUNITY_Community 236|Community 236]]
-- [[_COMMUNITY_Community 237|Community 237]]
-- [[_COMMUNITY_Community 238|Community 238]]
-- [[_COMMUNITY_Community 239|Community 239]]
-- [[_COMMUNITY_Community 240|Community 240]]
-- [[_COMMUNITY_Community 241|Community 241]]
-- [[_COMMUNITY_Community 243|Community 243]]
-- [[_COMMUNITY_Community 244|Community 244]]
-- [[_COMMUNITY_Community 245|Community 245]]
-- [[_COMMUNITY_Community 246|Community 246]]
-- [[_COMMUNITY_Community 247|Community 247]]
-- [[_COMMUNITY_Community 248|Community 248]]
-- [[_COMMUNITY_Community 249|Community 249]]
-- [[_COMMUNITY_Community 250|Community 250]]
-- [[_COMMUNITY_Community 251|Community 251]]
-- [[_COMMUNITY_Community 252|Community 252]]
-- [[_COMMUNITY_Community 253|Community 253]]
-- [[_COMMUNITY_Community 254|Community 254]]
-- [[_COMMUNITY_Community 255|Community 255]]
-- [[_COMMUNITY_Community 256|Community 256]]
-- [[_COMMUNITY_Community 257|Community 257]]
-- [[_COMMUNITY_Community 258|Community 258]]
-- [[_COMMUNITY_Community 259|Community 259]]
-- [[_COMMUNITY_Community 260|Community 260]]
-- [[_COMMUNITY_Community 261|Community 261]]
-- [[_COMMUNITY_Community 262|Community 262]]
-- [[_COMMUNITY_Community 263|Community 263]]
-- [[_COMMUNITY_Community 264|Community 264]]
+- [[_COMMUNITY_AdvantageScope Lite Hosting (Archived)|AdvantageScope Lite Hosting (Archived)]]
+- [[_COMMUNITY_Driver Station Page Object & Runtime Seeding|Driver Station Page Object & Runtime Seeding]]
+- [[_COMMUNITY_Rebuild Workspaces|Rebuild Workspaces]]
+- [[_COMMUNITY_Canonical Image Naming Decisions|Canonical Image Naming Decisions]]
+- [[_COMMUNITY_Audit Log & Break-Glass Admin|Audit Log & Break-Glass Admin]]
+- [[_COMMUNITY_Container Runtime Status Helpers|Container Runtime Status Helpers]]
+- [[_COMMUNITY_Network Mode Config Test|Network Mode Config Test]]
+- [[_COMMUNITY_Simulation State Hook|Simulation State Hook]]
+- [[_COMMUNITY_Rebuild Workspaces CLI Args|Rebuild Workspaces CLI Args]]
+- [[_COMMUNITY_Users CLI Script|Users CLI Script]]
+- [[_COMMUNITY_Extension Reconciliation Test|Extension Reconciliation Test]]
+- [[_COMMUNITY_Sim Api.test|Sim Api.test]]
+- [[_COMMUNITY_AdvantageScope Verify Script|AdvantageScope Verify Script]]
+- [[_COMMUNITY_README|README]]
+- [[_COMMUNITY_Container Isolation & HALSim Decisions|Container Isolation & HALSim Decisions]]
+- [[_COMMUNITY_Cloudflare Pages Proxy Function|Cloudflare Pages Proxy Function]]
+- [[_COMMUNITY_Project Swap Fake Socket Test|Project Swap Fake Socket Test]]
+- [[_COMMUNITY_Proxy Header Test Suite|Proxy Header Test Suite]]
+- [[_COMMUNITY_Container Lease Schema (V1V2)|Container Lease Schema (V1/V2)]]
+- [[_COMMUNITY_Core Schema Tables & Better Auth Migration|Core Schema Tables & Better Auth Migration]]
+- [[_COMMUNITY_WebSocket Upstream Message Send|WebSocket Upstream Message Send]]
+- [[_COMMUNITY_Deployment Hardware & FAQ Docs|Deployment Hardware & FAQ Docs]]
+- [[_COMMUNITY_E2E ControlApp Test Fixture Setup|E2E ControlApp Test Fixture Setup]]
+- [[_COMMUNITY_AS Lite NT4 Endpoint Injection Patch|AS Lite NT4 Endpoint Injection Patch]]
+- [[_COMMUNITY_Editor Pane Reachability|Editor Pane Reachability]]
+- [[_COMMUNITY_Driver Station Switch Project Flow|Driver Station Switch Project Flow]]
+- [[_COMMUNITY_Driver Station Switch Project Flow|Driver Station Switch Project Flow]]
+- [[_COMMUNITY_Admin Workspace BackupRestore Actions|Admin Workspace Backup/Restore Actions]]
+- [[_COMMUNITY_Auto Choosers & Container Status Hooks|Auto Choosers & Container Status Hooks]]
+- [[_COMMUNITY_Java Tooling Compatibility Decisions|Java Tooling Compatibility Decisions]]
+- [[_COMMUNITY_Lessons & Testing Decision Docs|Lessons & Testing Decision Docs]]
+- [[_COMMUNITY_Editor Migration Decisions|Editor Migration Decisions]]
+- [[_COMMUNITY_CLI Reference & Control Container|CLI Reference & Control Container]]
+- [[_COMMUNITY_Gamepad Shim E2E Test|Gamepad Shim E2E Test]]
+- [[_COMMUNITY_Catalog Integrity Test|Catalog Integrity Test]]
+- [[_COMMUNITY_Driver Station Page Object|Driver Station Page Object]]
+- [[_COMMUNITY_Fake Socket Test Double|Fake Socket Test Double]]
+- [[_COMMUNITY_Session Hook & Heartbeat|Session Hook & Heartbeat]]
+- [[_COMMUNITY_Auto Choosers Hook Test|Auto Choosers Hook Test]]
+- [[_COMMUNITY_Command Injection Test Suite|Command Injection Test Suite]]
+- [[_COMMUNITY_Default-Deny Route Coverage|Default-Deny Route Coverage]]
+- [[_COMMUNITY_Driver Station Page Object & Runtime Seeding|Driver Station Page Object & Runtime Seeding]]
+- [[_COMMUNITY_Demo Mode DiskMemory Limits|Demo Mode Disk/Memory Limits]]
+- [[_COMMUNITY_Img Screenshots|Img Screenshots]]
+- [[_COMMUNITY_Build Failure.spec|Build Failure.spec]]
+- [[_COMMUNITY_Admin.po|Admin.po]]
+- [[_COMMUNITY_Java Tooling Smoke Test|Java Tooling Smoke Test]]
+- [[_COMMUNITY_Ws Bridge|Ws Bridge]]
+- [[_COMMUNITY_Main|Main]]
+- [[_COMMUNITY_Logging.test|Logging.test]]
+- [[_COMMUNITY_Metadata|Metadata]]
+- [[_COMMUNITY_Middleware|Middleware]]
+- [[_COMMUNITY_Image|Image]]
+- [[_COMMUNITY_023 Metrics And Observability|023 Metrics And Observability]]
+- [[_COMMUNITY_User Data|User Data]]
+- [[_COMMUNITY_Ws Proxy.spec|Ws Proxy.spec]]
+- [[_COMMUNITY_024 Container Memory Budget|024 Container Memory Budget]]
+- [[_COMMUNITY_Halsim.test|Halsim.test]]
+- [[_COMMUNITY_Gamepad.test|Gamepad.test]]
+- [[_COMMUNITY_Audit Prune|Audit Prune]]
+- [[_COMMUNITY_Users|Users]]
+- [[_COMMUNITY_Helpers|Helpers]]
+- [[_COMMUNITY_Card|Card]]
+- [[_COMMUNITY_Catalog.test|Catalog.test]]
+- [[_COMMUNITY_Block Devices|Block Devices]]
+- [[_COMMUNITY_Ws Bridge|Ws Bridge]]
+- [[_COMMUNITY_Dropdown Menu|Dropdown Menu]]
+- [[_COMMUNITY_020 Workspace Runtime Provider|020 Workspace Runtime Provider]]
+- [[_COMMUNITY_030 Control Plane Hardening Pass|030 Control Plane Hardening Pass]]
+- [[_COMMUNITY_Auth|Auth]]
+- [[_COMMUNITY_2026 08 30 Pathplanner Integration|2026 08 30 Pathplanner Integration]]
+- [[_COMMUNITY_Xss.spec|Xss.spec]]
+- [[_COMMUNITY_Build Ascope Lite|Build Ascope Lite]]
+- [[_COMMUNITY_Index|Index]]
+- [[_COMMUNITY_Allowlist Management E2E|Allowlist Management E2E]]
+- [[_COMMUNITY_Use Container Status.test|Use Container Status.test]]
+- [[_COMMUNITY_Frc Robot|Frc Robot]]
+- [[_COMMUNITY_Code Container Defaults.test|Code Container Defaults.test]]
+- [[_COMMUNITY_Java LSP Bridge (Archived)|Java LSP Bridge (Archived)]]
+- [[_COMMUNITY_2026 08 30 Pathplanner Integration|2026 08 30 Pathplanner Integration]]
+- [[_COMMUNITY_Restore|Restore]]
+- [[_COMMUNITY_Login.po|Login.po]]
+- [[_COMMUNITY_Default Deny.test|Default Deny.test]]
+- [[_COMMUNITY_Auth Demo.test|Auth Demo.test]]
+- [[_COMMUNITY_Robot|Robot]]
+- [[_COMMUNITY_Cleanup Containers|Cleanup Containers]]
+- [[_COMMUNITY_Config|Config]]
+- [[_COMMUNITY_Use Gamepad|Use Gamepad]]
+- [[_COMMUNITY_016 Project Import Strategy|016 Project Import Strategy]]
+- [[_COMMUNITY_path|[[path]]]]
+- [[_COMMUNITY_Clean|Clean]]
+- [[_COMMUNITY_Robot Container|Robot Container]]
+- [[_COMMUNITY_Dist Download Utility|Dist Download Utility]]
+- [[_COMMUNITY_Cloudflare Pages Function.test|Cloudflare Pages Function.test]]
+- [[_COMMUNITY_PathPlanner Integration|PathPlanner Integration]]
+- [[_COMMUNITY_Logging|Logging]]
+- [[_COMMUNITY_Metrics.test|Metrics.test]]
+- [[_COMMUNITY_004 Backend Wiring|004 Backend Wiring]]
+- [[_COMMUNITY_Store|Store]]
+- [[_COMMUNITY_Dist Download|Dist Download]]
+- [[_COMMUNITY_Img Screenshots|Img Screenshots]]
+- [[_COMMUNITY_AuditReconciliation Test Suite|Audit/Reconciliation Test Suite]]
+- [[_COMMUNITY_Dialog|Dialog]]
+- [[_COMMUNITY_Main|Main]]
+- [[_COMMUNITY_Main|Main]]
+- [[_COMMUNITY_Typecheck|Typecheck]]
+- [[_COMMUNITY_Project Preview & Right Pane|Project Preview & Right Pane]]
+- [[_COMMUNITY_Global Setup|Global Setup]]
+- [[_COMMUNITY_Docusaurus.config|Docusaurus.config]]
+- [[_COMMUNITY_Sidebars|Sidebars]]
+- [[_COMMUNITY_Web App Shell & Theming|Web App Shell & Theming]]
+- [[_COMMUNITY_Constants|Constants]]
+- [[_COMMUNITY_Vite.config|Vite.config]]
+- [[_COMMUNITY_AuditReconciliation Test Suite|Audit/Reconciliation Test Suite]]
+- [[_COMMUNITY_Icon Rail|Icon Rail]]
+- [[_COMMUNITY_Dropdown Menu|Dropdown Menu]]
+- [[_COMMUNITY_Scroll Area|Scroll Area]]
+- [[_COMMUNITY_Use Gamepad Channel|Use Gamepad Channel]]
+- [[_COMMUNITY_Cleanup Containers|Cleanup Containers]]
+- [[_COMMUNITY_Dist Download Utility|Dist Download Utility]]
+- [[_COMMUNITY_Gamepad Session Safety Disables|Gamepad Session Safety Disables]]
+- [[_COMMUNITY_E2E Fixture Architecture|E2E Fixture Architecture]]
+- [[_COMMUNITY_Allowlist Management E2E|Allowlist Management E2E]]
+- [[_COMMUNITY_Extension Reconciliation.test|Extension Reconciliation.test]]
+- [[_COMMUNITY_Users|Users]]
+- [[_COMMUNITY_Vitest.config|Vitest.config]]
+- [[_COMMUNITY_Setup|Setup]]
+- [[_COMMUNITY_Sim Headless.init|Sim Headless.init]]
+- [[_COMMUNITY_Build|Build]]
+- [[_COMMUNITY_Settings|Settings]]
+- [[_COMMUNITY_Helpers|Helpers]]
+- [[_COMMUNITY_Helpers|Helpers]]
+- [[_COMMUNITY_Admin Routes|Admin Routes]]
+- [[_COMMUNITY_Websocket|Websocket]]
+- [[_COMMUNITY_Converters|Converters]]
+- [[_COMMUNITY_Docker Client|Docker Client]]
+- [[_COMMUNITY_Storage|Storage]]
+- [[_COMMUNITY_Demo Banner|Demo Banner]]
+- [[_COMMUNITY_HALSimNT4 WebSocket Responses|HALSim/NT4 WebSocket Responses]]
+- [[_COMMUNITY_Button|Button]]
+- [[_COMMUNITY_Card|Card]]
+- [[_COMMUNITY_Card|Card]]
+- [[_COMMUNITY_Dialog|Dialog]]
+- [[_COMMUNITY_Dialog|Dialog]]
+- [[_COMMUNITY_Dialog|Dialog]]
+- [[_COMMUNITY_Dialog|Dialog]]
+- [[_COMMUNITY_Allowlist Management E2E|Allowlist Management E2E]]
+- [[_COMMUNITY_Dialog|Dialog]]
+- [[_COMMUNITY_Dialog|Dialog]]
+- [[_COMMUNITY_Dialog|Dialog]]
+- [[_COMMUNITY_Dropdown Menu|Dropdown Menu]]
+- [[_COMMUNITY_Dropdown Menu|Dropdown Menu]]
+- [[_COMMUNITY_Dropdown Menu|Dropdown Menu]]
+- [[_COMMUNITY_Dropdown Menu|Dropdown Menu]]
+- [[_COMMUNITY_Dropdown Menu|Dropdown Menu]]
+- [[_COMMUNITY_Dropdown Menu|Dropdown Menu]]
+- [[_COMMUNITY_Dropdown Menu|Dropdown Menu]]
+- [[_COMMUNITY_Dropdown Menu|Dropdown Menu]]
+- [[_COMMUNITY_Dropdown Menu|Dropdown Menu]]
+- [[_COMMUNITY_Dropdown Menu|Dropdown Menu]]
+- [[_COMMUNITY_Resizable|Resizable]]
+- [[_COMMUNITY_Resizable|Resizable]]
+- [[_COMMUNITY_Separator|Separator]]
+- [[_COMMUNITY_Sonner|Sonner]]
+- [[_COMMUNITY_Tabs|Tabs]]
+- [[_COMMUNITY_Tabs|Tabs]]
+- [[_COMMUNITY_Tabs|Tabs]]
+- [[_COMMUNITY_Tabs|Tabs]]
+- [[_COMMUNITY_Tabs|Tabs]]
+- [[_COMMUNITY_Tooltip|Tooltip]]
+- [[_COMMUNITY_Tooltip|Tooltip]]
+- [[_COMMUNITY_Tooltip|Tooltip]]
+- [[_COMMUNITY_Tooltip|Tooltip]]
+- [[_COMMUNITY_Use Run Channel|Use Run Channel]]
+- [[_COMMUNITY_Image|Image]]
+- [[_COMMUNITY_Verify Ascope|Verify Ascope]]
 - [[_COMMUNITY_Community 265|Community 265]]
 - [[_COMMUNITY_Community 266|Community 266]]
 - [[_COMMUNITY_Community 267|Community 267]]
@@ -282,7 +284,7 @@
 - [[_COMMUNITY_Community 271|Community 271]]
 - [[_COMMUNITY_Community 272|Community 272]]
 - [[_COMMUNITY_Community 273|Community 273]]
-- [[_COMMUNITY_Community 274|Community 274]]
+- [[_COMMUNITY_Rebuild Workspaces|Rebuild Workspaces]]
 - [[_COMMUNITY_Community 275|Community 275]]
 - [[_COMMUNITY_Community 276|Community 276]]
 - [[_COMMUNITY_Community 277|Community 277]]
@@ -292,9 +294,8 @@
 - [[_COMMUNITY_Community 281|Community 281]]
 - [[_COMMUNITY_Community 282|Community 282]]
 - [[_COMMUNITY_Community 283|Community 283]]
-- [[_COMMUNITY_Community 284|Community 284]]
+- [[_COMMUNITY_Workspace Container Bind-Mount & Memory Bounds|Workspace Container Bind-Mount & Memory Bounds]]
 - [[_COMMUNITY_Community 285|Community 285]]
-- [[_COMMUNITY_Community 286|Community 286]]
 - [[_COMMUNITY_Community 287|Community 287]]
 - [[_COMMUNITY_Community 288|Community 288]]
 - [[_COMMUNITY_Community 289|Community 289]]
@@ -306,19 +307,11 @@
 - [[_COMMUNITY_Community 295|Community 295]]
 - [[_COMMUNITY_Community 296|Community 296]]
 - [[_COMMUNITY_Community 297|Community 297]]
-- [[_COMMUNITY_Community 298|Community 298]]
 - [[_COMMUNITY_Community 299|Community 299]]
 - [[_COMMUNITY_Community 300|Community 300]]
 - [[_COMMUNITY_Community 301|Community 301]]
-- [[_COMMUNITY_Community 302|Community 302]]
-- [[_COMMUNITY_Community 303|Community 303]]
-- [[_COMMUNITY_Community 304|Community 304]]
-- [[_COMMUNITY_Community 305|Community 305]]
-- [[_COMMUNITY_Community 306|Community 306]]
-- [[_COMMUNITY_Community 307|Community 307]]
-- [[_COMMUNITY_Community 308|Community 308]]
-- [[_COMMUNITY_Community 309|Community 309]]
-- [[_COMMUNITY_Community 310|Community 310]]
+- [[_COMMUNITY_Image Naming & Archive|Image Naming & Archive]]
+- [[_COMMUNITY_Disk Limits & Demo Mode|Disk Limits & Demo Mode]]
 - [[_COMMUNITY_Community 311|Community 311]]
 - [[_COMMUNITY_Community 312|Community 312]]
 - [[_COMMUNITY_Community 313|Community 313]]
@@ -374,6211 +367,1162 @@
 - [[_COMMUNITY_Community 363|Community 363]]
 - [[_COMMUNITY_Community 364|Community 364]]
 - [[_COMMUNITY_Community 365|Community 365]]
-- [[_COMMUNITY_Community 366|Community 366]]
 - [[_COMMUNITY_Community 367|Community 367]]
-- [[_COMMUNITY_Community 368|Community 368]]
-- [[_COMMUNITY_Community 369|Community 369]]
-- [[_COMMUNITY_Community 370|Community 370]]
-- [[_COMMUNITY_Community 371|Community 371]]
-- [[_COMMUNITY_Community 372|Community 372]]
-- [[_COMMUNITY_Community 373|Community 373]]
-- [[_COMMUNITY_Community 374|Community 374]]
-- [[_COMMUNITY_Community 375|Community 375]]
-- [[_COMMUNITY_Community 376|Community 376]]
-- [[_COMMUNITY_Community 377|Community 377]]
-- [[_COMMUNITY_Community 378|Community 378]]
-- [[_COMMUNITY_Community 379|Community 379]]
-- [[_COMMUNITY_Community 380|Community 380]]
-- [[_COMMUNITY_Community 381|Community 381]]
-- [[_COMMUNITY_Community 382|Community 382]]
-- [[_COMMUNITY_Community 383|Community 383]]
-- [[_COMMUNITY_Community 384|Community 384]]
-- [[_COMMUNITY_Community 385|Community 385]]
-- [[_COMMUNITY_Community 386|Community 386]]
-- [[_COMMUNITY_Community 387|Community 387]]
-- [[_COMMUNITY_Community 388|Community 388]]
-- [[_COMMUNITY_Community 389|Community 389]]
-- [[_COMMUNITY_Community 390|Community 390]]
-- [[_COMMUNITY_Community 391|Community 391]]
-- [[_COMMUNITY_Community 392|Community 392]]
-- [[_COMMUNITY_Community 393|Community 393]]
-- [[_COMMUNITY_Community 394|Community 394]]
-- [[_COMMUNITY_Community 395|Community 395]]
-- [[_COMMUNITY_Community 396|Community 396]]
-- [[_COMMUNITY_Community 397|Community 397]]
-- [[_COMMUNITY_Community 398|Community 398]]
-- [[_COMMUNITY_Community 399|Community 399]]
-- [[_COMMUNITY_Community 400|Community 400]]
-- [[_COMMUNITY_Community 401|Community 401]]
-- [[_COMMUNITY_Community 402|Community 402]]
-- [[_COMMUNITY_Community 403|Community 403]]
-- [[_COMMUNITY_Community 404|Community 404]]
-- [[_COMMUNITY_Community 405|Community 405]]
-- [[_COMMUNITY_Community 406|Community 406]]
-- [[_COMMUNITY_Community 407|Community 407]]
-- [[_COMMUNITY_Community 408|Community 408]]
-- [[_COMMUNITY_Community 409|Community 409]]
-- [[_COMMUNITY_Community 410|Community 410]]
-- [[_COMMUNITY_Community 411|Community 411]]
-- [[_COMMUNITY_Community 412|Community 412]]
-- [[_COMMUNITY_Community 413|Community 413]]
-- [[_COMMUNITY_Community 414|Community 414]]
-- [[_COMMUNITY_Community 415|Community 415]]
-- [[_COMMUNITY_Community 416|Community 416]]
-- [[_COMMUNITY_Community 417|Community 417]]
-- [[_COMMUNITY_Community 418|Community 418]]
-- [[_COMMUNITY_Community 419|Community 419]]
-- [[_COMMUNITY_Community 420|Community 420]]
-- [[_COMMUNITY_Community 421|Community 421]]
-- [[_COMMUNITY_Community 422|Community 422]]
-- [[_COMMUNITY_Community 423|Community 423]]
-- [[_COMMUNITY_Community 424|Community 424]]
-- [[_COMMUNITY_Community 425|Community 425]]
-- [[_COMMUNITY_Community 426|Community 426]]
-- [[_COMMUNITY_Community 427|Community 427]]
-- [[_COMMUNITY_Community 428|Community 428]]
-- [[_COMMUNITY_Community 429|Community 429]]
-- [[_COMMUNITY_Community 430|Community 430]]
-- [[_COMMUNITY_Community 431|Community 431]]
-- [[_COMMUNITY_Community 432|Community 432]]
-- [[_COMMUNITY_Community 433|Community 433]]
-- [[_COMMUNITY_Community 434|Community 434]]
-- [[_COMMUNITY_Community 435|Community 435]]
-- [[_COMMUNITY_Community 436|Community 436]]
-- [[_COMMUNITY_Community 437|Community 437]]
-- [[_COMMUNITY_Community 438|Community 438]]
-- [[_COMMUNITY_Community 439|Community 439]]
-- [[_COMMUNITY_Community 440|Community 440]]
-- [[_COMMUNITY_Community 441|Community 441]]
-- [[_COMMUNITY_Community 442|Community 442]]
-- [[_COMMUNITY_Community 443|Community 443]]
-- [[_COMMUNITY_Community 444|Community 444]]
-- [[_COMMUNITY_Community 445|Community 445]]
-- [[_COMMUNITY_Community 446|Community 446]]
-- [[_COMMUNITY_Community 447|Community 447]]
-- [[_COMMUNITY_Community 448|Community 448]]
-- [[_COMMUNITY_Community 449|Community 449]]
-- [[_COMMUNITY_Community 450|Community 450]]
-- [[_COMMUNITY_Community 451|Community 451]]
-- [[_COMMUNITY_Community 452|Community 452]]
-- [[_COMMUNITY_Community 453|Community 453]]
-- [[_COMMUNITY_Community 454|Community 454]]
-- [[_COMMUNITY_Community 455|Community 455]]
-- [[_COMMUNITY_Community 456|Community 456]]
-- [[_COMMUNITY_Community 457|Community 457]]
-- [[_COMMUNITY_Community 458|Community 458]]
-- [[_COMMUNITY_Community 459|Community 459]]
-- [[_COMMUNITY_Community 460|Community 460]]
-- [[_COMMUNITY_Community 461|Community 461]]
-- [[_COMMUNITY_Community 462|Community 462]]
-- [[_COMMUNITY_Community 463|Community 463]]
-- [[_COMMUNITY_Community 464|Community 464]]
-- [[_COMMUNITY_Community 465|Community 465]]
-- [[_COMMUNITY_Community 466|Community 466]]
-- [[_COMMUNITY_Community 467|Community 467]]
-- [[_COMMUNITY_Community 468|Community 468]]
-- [[_COMMUNITY_Community 469|Community 469]]
-- [[_COMMUNITY_Community 470|Community 470]]
-- [[_COMMUNITY_Community 471|Community 471]]
-- [[_COMMUNITY_Community 472|Community 472]]
-- [[_COMMUNITY_Community 473|Community 473]]
-- [[_COMMUNITY_Community 474|Community 474]]
-- [[_COMMUNITY_Community 475|Community 475]]
-- [[_COMMUNITY_Community 476|Community 476]]
-- [[_COMMUNITY_Community 477|Community 477]]
-- [[_COMMUNITY_Community 478|Community 478]]
-- [[_COMMUNITY_Community 479|Community 479]]
-- [[_COMMUNITY_Community 480|Community 480]]
-- [[_COMMUNITY_Community 481|Community 481]]
-- [[_COMMUNITY_Community 482|Community 482]]
-- [[_COMMUNITY_Community 483|Community 483]]
-- [[_COMMUNITY_Community 484|Community 484]]
-- [[_COMMUNITY_Community 485|Community 485]]
-- [[_COMMUNITY_Community 486|Community 486]]
-- [[_COMMUNITY_Community 487|Community 487]]
-- [[_COMMUNITY_Community 488|Community 488]]
-- [[_COMMUNITY_Community 489|Community 489]]
-- [[_COMMUNITY_Community 490|Community 490]]
-- [[_COMMUNITY_Community 491|Community 491]]
-- [[_COMMUNITY_Community 492|Community 492]]
-- [[_COMMUNITY_Community 493|Community 493]]
-- [[_COMMUNITY_Community 494|Community 494]]
-- [[_COMMUNITY_Community 495|Community 495]]
-- [[_COMMUNITY_Community 496|Community 496]]
-- [[_COMMUNITY_Community 497|Community 497]]
-- [[_COMMUNITY_Community 498|Community 498]]
-- [[_COMMUNITY_Community 499|Community 499]]
-- [[_COMMUNITY_Community 500|Community 500]]
-- [[_COMMUNITY_Community 501|Community 501]]
-- [[_COMMUNITY_Community 502|Community 502]]
-- [[_COMMUNITY_Community 503|Community 503]]
-- [[_COMMUNITY_Community 504|Community 504]]
-- [[_COMMUNITY_Community 505|Community 505]]
-- [[_COMMUNITY_Community 506|Community 506]]
-- [[_COMMUNITY_Community 507|Community 507]]
-- [[_COMMUNITY_Community 508|Community 508]]
-- [[_COMMUNITY_Community 509|Community 509]]
-- [[_COMMUNITY_Community 510|Community 510]]
-- [[_COMMUNITY_Community 511|Community 511]]
-- [[_COMMUNITY_Community 512|Community 512]]
-- [[_COMMUNITY_Community 513|Community 513]]
-- [[_COMMUNITY_Community 514|Community 514]]
-- [[_COMMUNITY_Community 515|Community 515]]
-- [[_COMMUNITY_Community 516|Community 516]]
-- [[_COMMUNITY_Community 517|Community 517]]
-- [[_COMMUNITY_Community 518|Community 518]]
-- [[_COMMUNITY_Community 519|Community 519]]
-- [[_COMMUNITY_Community 520|Community 520]]
-- [[_COMMUNITY_Community 521|Community 521]]
-- [[_COMMUNITY_Community 522|Community 522]]
-- [[_COMMUNITY_Community 523|Community 523]]
-- [[_COMMUNITY_Community 524|Community 524]]
-- [[_COMMUNITY_Community 525|Community 525]]
-- [[_COMMUNITY_Community 526|Community 526]]
-- [[_COMMUNITY_Community 527|Community 527]]
-- [[_COMMUNITY_Community 528|Community 528]]
-- [[_COMMUNITY_Community 529|Community 529]]
-- [[_COMMUNITY_Community 530|Community 530]]
-- [[_COMMUNITY_Community 531|Community 531]]
-- [[_COMMUNITY_Community 532|Community 532]]
-- [[_COMMUNITY_Community 533|Community 533]]
-- [[_COMMUNITY_Community 534|Community 534]]
-- [[_COMMUNITY_Community 535|Community 535]]
-- [[_COMMUNITY_Community 536|Community 536]]
-- [[_COMMUNITY_Community 537|Community 537]]
-- [[_COMMUNITY_Community 538|Community 538]]
-- [[_COMMUNITY_Community 539|Community 539]]
-- [[_COMMUNITY_Community 540|Community 540]]
-- [[_COMMUNITY_Community 541|Community 541]]
-- [[_COMMUNITY_Community 542|Community 542]]
-- [[_COMMUNITY_Community 543|Community 543]]
-- [[_COMMUNITY_Community 544|Community 544]]
-- [[_COMMUNITY_Community 545|Community 545]]
-- [[_COMMUNITY_Community 546|Community 546]]
-- [[_COMMUNITY_Community 547|Community 547]]
-- [[_COMMUNITY_Community 548|Community 548]]
-- [[_COMMUNITY_Community 549|Community 549]]
-- [[_COMMUNITY_Community 550|Community 550]]
-- [[_COMMUNITY_Community 551|Community 551]]
-- [[_COMMUNITY_Community 552|Community 552]]
-- [[_COMMUNITY_Community 553|Community 553]]
-- [[_COMMUNITY_Community 554|Community 554]]
-- [[_COMMUNITY_Community 555|Community 555]]
-- [[_COMMUNITY_Community 556|Community 556]]
-- [[_COMMUNITY_Community 557|Community 557]]
-- [[_COMMUNITY_Community 558|Community 558]]
-- [[_COMMUNITY_Community 559|Community 559]]
-- [[_COMMUNITY_Community 560|Community 560]]
-- [[_COMMUNITY_Community 561|Community 561]]
-- [[_COMMUNITY_Community 562|Community 562]]
-- [[_COMMUNITY_Community 563|Community 563]]
-- [[_COMMUNITY_Community 564|Community 564]]
-- [[_COMMUNITY_Community 565|Community 565]]
-- [[_COMMUNITY_Community 566|Community 566]]
-- [[_COMMUNITY_Community 567|Community 567]]
-- [[_COMMUNITY_Community 568|Community 568]]
-- [[_COMMUNITY_Community 569|Community 569]]
-- [[_COMMUNITY_Community 570|Community 570]]
-- [[_COMMUNITY_Community 571|Community 571]]
-- [[_COMMUNITY_Community 572|Community 572]]
-- [[_COMMUNITY_Community 573|Community 573]]
-- [[_COMMUNITY_Community 574|Community 574]]
-- [[_COMMUNITY_Community 575|Community 575]]
-- [[_COMMUNITY_Community 576|Community 576]]
-- [[_COMMUNITY_Community 577|Community 577]]
-- [[_COMMUNITY_Community 578|Community 578]]
-- [[_COMMUNITY_Community 579|Community 579]]
-- [[_COMMUNITY_Community 580|Community 580]]
-- [[_COMMUNITY_Community 581|Community 581]]
-- [[_COMMUNITY_Community 582|Community 582]]
-- [[_COMMUNITY_Community 583|Community 583]]
-- [[_COMMUNITY_Community 584|Community 584]]
-- [[_COMMUNITY_Community 585|Community 585]]
-- [[_COMMUNITY_Community 586|Community 586]]
-- [[_COMMUNITY_Community 587|Community 587]]
-- [[_COMMUNITY_Community 588|Community 588]]
-- [[_COMMUNITY_Community 589|Community 589]]
-- [[_COMMUNITY_Community 590|Community 590]]
-- [[_COMMUNITY_Community 591|Community 591]]
-- [[_COMMUNITY_Community 592|Community 592]]
-- [[_COMMUNITY_Community 593|Community 593]]
-- [[_COMMUNITY_Community 594|Community 594]]
-- [[_COMMUNITY_Community 595|Community 595]]
-- [[_COMMUNITY_Community 596|Community 596]]
-- [[_COMMUNITY_Community 597|Community 597]]
-- [[_COMMUNITY_Community 598|Community 598]]
-- [[_COMMUNITY_Community 599|Community 599]]
-- [[_COMMUNITY_Community 600|Community 600]]
-- [[_COMMUNITY_Community 601|Community 601]]
-- [[_COMMUNITY_Community 602|Community 602]]
-- [[_COMMUNITY_Community 603|Community 603]]
-- [[_COMMUNITY_Community 604|Community 604]]
-- [[_COMMUNITY_Community 605|Community 605]]
-- [[_COMMUNITY_Community 606|Community 606]]
-- [[_COMMUNITY_Community 607|Community 607]]
-- [[_COMMUNITY_Community 608|Community 608]]
-- [[_COMMUNITY_Community 609|Community 609]]
-- [[_COMMUNITY_Community 610|Community 610]]
-- [[_COMMUNITY_Community 611|Community 611]]
-- [[_COMMUNITY_Community 612|Community 612]]
-- [[_COMMUNITY_Community 613|Community 613]]
-- [[_COMMUNITY_Community 614|Community 614]]
-- [[_COMMUNITY_Community 615|Community 615]]
-- [[_COMMUNITY_Community 616|Community 616]]
-- [[_COMMUNITY_Community 617|Community 617]]
-- [[_COMMUNITY_Community 618|Community 618]]
-- [[_COMMUNITY_Community 619|Community 619]]
-- [[_COMMUNITY_Community 620|Community 620]]
-- [[_COMMUNITY_Community 621|Community 621]]
-- [[_COMMUNITY_Community 622|Community 622]]
-- [[_COMMUNITY_Community 623|Community 623]]
-- [[_COMMUNITY_Community 624|Community 624]]
-- [[_COMMUNITY_Community 625|Community 625]]
-- [[_COMMUNITY_Community 626|Community 626]]
-- [[_COMMUNITY_Community 627|Community 627]]
-- [[_COMMUNITY_Community 628|Community 628]]
-- [[_COMMUNITY_Community 629|Community 629]]
-- [[_COMMUNITY_Community 630|Community 630]]
-- [[_COMMUNITY_Community 631|Community 631]]
-- [[_COMMUNITY_Community 632|Community 632]]
-- [[_COMMUNITY_Community 633|Community 633]]
-- [[_COMMUNITY_Community 634|Community 634]]
-- [[_COMMUNITY_Community 635|Community 635]]
-- [[_COMMUNITY_Community 636|Community 636]]
-- [[_COMMUNITY_Community 637|Community 637]]
-- [[_COMMUNITY_Community 638|Community 638]]
-- [[_COMMUNITY_Community 639|Community 639]]
-- [[_COMMUNITY_Community 640|Community 640]]
-- [[_COMMUNITY_Community 641|Community 641]]
-- [[_COMMUNITY_Community 642|Community 642]]
-- [[_COMMUNITY_Community 643|Community 643]]
-- [[_COMMUNITY_Community 645|Community 645]]
-- [[_COMMUNITY_Community 646|Community 646]]
-- [[_COMMUNITY_Community 647|Community 647]]
-- [[_COMMUNITY_Community 648|Community 648]]
-- [[_COMMUNITY_Community 649|Community 649]]
-- [[_COMMUNITY_Community 650|Community 650]]
-- [[_COMMUNITY_Community 651|Community 651]]
-- [[_COMMUNITY_Community 652|Community 652]]
-- [[_COMMUNITY_Community 653|Community 653]]
-- [[_COMMUNITY_Community 654|Community 654]]
-- [[_COMMUNITY_Community 655|Community 655]]
-- [[_COMMUNITY_Community 656|Community 656]]
-- [[_COMMUNITY_Community 657|Community 657]]
-- [[_COMMUNITY_Community 658|Community 658]]
-- [[_COMMUNITY_Community 659|Community 659]]
-- [[_COMMUNITY_Community 660|Community 660]]
-- [[_COMMUNITY_Community 661|Community 661]]
-- [[_COMMUNITY_Community 662|Community 662]]
-- [[_COMMUNITY_Community 663|Community 663]]
-- [[_COMMUNITY_Community 664|Community 664]]
-- [[_COMMUNITY_Community 665|Community 665]]
-- [[_COMMUNITY_Community 666|Community 666]]
-- [[_COMMUNITY_Community 667|Community 667]]
-- [[_COMMUNITY_Community 668|Community 668]]
-- [[_COMMUNITY_Community 669|Community 669]]
-- [[_COMMUNITY_Community 670|Community 670]]
-- [[_COMMUNITY_Community 671|Community 671]]
-- [[_COMMUNITY_Community 672|Community 672]]
-- [[_COMMUNITY_Community 673|Community 673]]
-- [[_COMMUNITY_Community 674|Community 674]]
-- [[_COMMUNITY_Community 675|Community 675]]
-- [[_COMMUNITY_Community 676|Community 676]]
-- [[_COMMUNITY_Community 677|Community 677]]
-- [[_COMMUNITY_Community 678|Community 678]]
-- [[_COMMUNITY_Community 679|Community 679]]
-- [[_COMMUNITY_Community 680|Community 680]]
-- [[_COMMUNITY_Community 681|Community 681]]
-- [[_COMMUNITY_Community 682|Community 682]]
-- [[_COMMUNITY_Community 683|Community 683]]
-- [[_COMMUNITY_Community 684|Community 684]]
-- [[_COMMUNITY_Community 685|Community 685]]
-- [[_COMMUNITY_Community 686|Community 686]]
-- [[_COMMUNITY_Community 687|Community 687]]
-- [[_COMMUNITY_Community 688|Community 688]]
-- [[_COMMUNITY_Community 689|Community 689]]
-- [[_COMMUNITY_Community 690|Community 690]]
-- [[_COMMUNITY_Community 691|Community 691]]
-- [[_COMMUNITY_Community 692|Community 692]]
-- [[_COMMUNITY_Community 693|Community 693]]
-- [[_COMMUNITY_Community 694|Community 694]]
-- [[_COMMUNITY_Community 695|Community 695]]
-- [[_COMMUNITY_Community 696|Community 696]]
-- [[_COMMUNITY_Community 697|Community 697]]
-- [[_COMMUNITY_Community 698|Community 698]]
-- [[_COMMUNITY_Community 699|Community 699]]
-- [[_COMMUNITY_Community 700|Community 700]]
-- [[_COMMUNITY_Community 701|Community 701]]
-- [[_COMMUNITY_Community 702|Community 702]]
-- [[_COMMUNITY_Community 703|Community 703]]
-- [[_COMMUNITY_Community 704|Community 704]]
-- [[_COMMUNITY_Community 705|Community 705]]
-- [[_COMMUNITY_Community 706|Community 706]]
-- [[_COMMUNITY_Community 707|Community 707]]
-- [[_COMMUNITY_Community 708|Community 708]]
-- [[_COMMUNITY_Community 709|Community 709]]
-- [[_COMMUNITY_Community 710|Community 710]]
-- [[_COMMUNITY_Community 711|Community 711]]
-- [[_COMMUNITY_Community 712|Community 712]]
-- [[_COMMUNITY_Community 713|Community 713]]
-- [[_COMMUNITY_Community 714|Community 714]]
-- [[_COMMUNITY_Community 715|Community 715]]
-- [[_COMMUNITY_Community 716|Community 716]]
-- [[_COMMUNITY_Community 717|Community 717]]
-- [[_COMMUNITY_Community 718|Community 718]]
-- [[_COMMUNITY_Community 719|Community 719]]
-- [[_COMMUNITY_Community 720|Community 720]]
-- [[_COMMUNITY_Community 721|Community 721]]
-- [[_COMMUNITY_Community 722|Community 722]]
-- [[_COMMUNITY_Community 723|Community 723]]
-- [[_COMMUNITY_Community 724|Community 724]]
-- [[_COMMUNITY_Community 725|Community 725]]
-- [[_COMMUNITY_Community 726|Community 726]]
-- [[_COMMUNITY_Community 727|Community 727]]
-- [[_COMMUNITY_Community 728|Community 728]]
-- [[_COMMUNITY_Community 729|Community 729]]
-- [[_COMMUNITY_Community 730|Community 730]]
-- [[_COMMUNITY_Community 731|Community 731]]
-- [[_COMMUNITY_Community 732|Community 732]]
-- [[_COMMUNITY_Community 733|Community 733]]
-- [[_COMMUNITY_Community 734|Community 734]]
-- [[_COMMUNITY_Community 735|Community 735]]
-- [[_COMMUNITY_Community 736|Community 736]]
-- [[_COMMUNITY_Community 737|Community 737]]
-- [[_COMMUNITY_Community 738|Community 738]]
-- [[_COMMUNITY_Community 739|Community 739]]
-- [[_COMMUNITY_Community 740|Community 740]]
-- [[_COMMUNITY_Community 741|Community 741]]
-- [[_COMMUNITY_Community 742|Community 742]]
-- [[_COMMUNITY_Community 743|Community 743]]
-- [[_COMMUNITY_Community 744|Community 744]]
-- [[_COMMUNITY_Community 745|Community 745]]
-- [[_COMMUNITY_Community 746|Community 746]]
-- [[_COMMUNITY_Community 747|Community 747]]
-- [[_COMMUNITY_Community 748|Community 748]]
-- [[_COMMUNITY_Community 749|Community 749]]
-- [[_COMMUNITY_Community 750|Community 750]]
-- [[_COMMUNITY_Community 751|Community 751]]
-- [[_COMMUNITY_Community 752|Community 752]]
-- [[_COMMUNITY_Community 753|Community 753]]
-- [[_COMMUNITY_Community 754|Community 754]]
-- [[_COMMUNITY_Community 755|Community 755]]
-- [[_COMMUNITY_Community 756|Community 756]]
-- [[_COMMUNITY_Community 757|Community 757]]
-- [[_COMMUNITY_Community 758|Community 758]]
-- [[_COMMUNITY_Community 759|Community 759]]
-- [[_COMMUNITY_Community 760|Community 760]]
-- [[_COMMUNITY_Community 761|Community 761]]
-- [[_COMMUNITY_Community 762|Community 762]]
-- [[_COMMUNITY_Community 763|Community 763]]
-- [[_COMMUNITY_Community 764|Community 764]]
-- [[_COMMUNITY_Community 765|Community 765]]
-- [[_COMMUNITY_Community 766|Community 766]]
-- [[_COMMUNITY_Community 767|Community 767]]
-- [[_COMMUNITY_Community 768|Community 768]]
-- [[_COMMUNITY_Community 769|Community 769]]
-- [[_COMMUNITY_Community 770|Community 770]]
-- [[_COMMUNITY_Community 771|Community 771]]
-- [[_COMMUNITY_Community 772|Community 772]]
-- [[_COMMUNITY_Community 773|Community 773]]
-- [[_COMMUNITY_Community 774|Community 774]]
-- [[_COMMUNITY_Community 775|Community 775]]
-- [[_COMMUNITY_Community 776|Community 776]]
-- [[_COMMUNITY_Community 777|Community 777]]
-- [[_COMMUNITY_Community 778|Community 778]]
-- [[_COMMUNITY_Community 779|Community 779]]
-- [[_COMMUNITY_Community 780|Community 780]]
-- [[_COMMUNITY_Community 781|Community 781]]
-- [[_COMMUNITY_Community 782|Community 782]]
-- [[_COMMUNITY_Community 783|Community 783]]
-- [[_COMMUNITY_Community 784|Community 784]]
-- [[_COMMUNITY_Community 785|Community 785]]
-- [[_COMMUNITY_Community 786|Community 786]]
-- [[_COMMUNITY_Community 787|Community 787]]
-- [[_COMMUNITY_Community 788|Community 788]]
-- [[_COMMUNITY_Community 789|Community 789]]
-- [[_COMMUNITY_Community 790|Community 790]]
-- [[_COMMUNITY_Community 791|Community 791]]
-- [[_COMMUNITY_Community 792|Community 792]]
-- [[_COMMUNITY_Community 793|Community 793]]
-- [[_COMMUNITY_Community 794|Community 794]]
-- [[_COMMUNITY_Community 795|Community 795]]
-- [[_COMMUNITY_Community 796|Community 796]]
-- [[_COMMUNITY_Community 797|Community 797]]
-- [[_COMMUNITY_Community 798|Community 798]]
-- [[_COMMUNITY_Community 799|Community 799]]
-- [[_COMMUNITY_Community 800|Community 800]]
-- [[_COMMUNITY_Community 801|Community 801]]
-- [[_COMMUNITY_Community 802|Community 802]]
-- [[_COMMUNITY_Community 803|Community 803]]
-- [[_COMMUNITY_Community 804|Community 804]]
-- [[_COMMUNITY_Community 805|Community 805]]
-- [[_COMMUNITY_Community 806|Community 806]]
-- [[_COMMUNITY_Community 807|Community 807]]
-- [[_COMMUNITY_Community 808|Community 808]]
-- [[_COMMUNITY_Community 809|Community 809]]
-- [[_COMMUNITY_Community 810|Community 810]]
-- [[_COMMUNITY_Community 811|Community 811]]
-- [[_COMMUNITY_Community 812|Community 812]]
-- [[_COMMUNITY_Community 813|Community 813]]
-- [[_COMMUNITY_Community 814|Community 814]]
-- [[_COMMUNITY_Community 815|Community 815]]
-- [[_COMMUNITY_Community 816|Community 816]]
-- [[_COMMUNITY_Community 817|Community 817]]
-- [[_COMMUNITY_Community 818|Community 818]]
-- [[_COMMUNITY_Community 819|Community 819]]
-- [[_COMMUNITY_Community 820|Community 820]]
-- [[_COMMUNITY_Community 821|Community 821]]
-- [[_COMMUNITY_Community 822|Community 822]]
-- [[_COMMUNITY_Community 823|Community 823]]
-- [[_COMMUNITY_Community 824|Community 824]]
-- [[_COMMUNITY_Community 825|Community 825]]
-- [[_COMMUNITY_Community 826|Community 826]]
-- [[_COMMUNITY_Community 827|Community 827]]
-- [[_COMMUNITY_Community 828|Community 828]]
-- [[_COMMUNITY_Community 829|Community 829]]
-- [[_COMMUNITY_Community 830|Community 830]]
-- [[_COMMUNITY_Community 831|Community 831]]
-- [[_COMMUNITY_Community 832|Community 832]]
-- [[_COMMUNITY_Community 833|Community 833]]
-- [[_COMMUNITY_Community 834|Community 834]]
-- [[_COMMUNITY_Community 835|Community 835]]
-- [[_COMMUNITY_Community 836|Community 836]]
-- [[_COMMUNITY_Community 837|Community 837]]
-- [[_COMMUNITY_Community 838|Community 838]]
-- [[_COMMUNITY_Community 839|Community 839]]
-- [[_COMMUNITY_Community 840|Community 840]]
-- [[_COMMUNITY_Community 841|Community 841]]
-- [[_COMMUNITY_Community 842|Community 842]]
-- [[_COMMUNITY_Community 843|Community 843]]
-- [[_COMMUNITY_Community 844|Community 844]]
-- [[_COMMUNITY_Community 845|Community 845]]
-- [[_COMMUNITY_Community 846|Community 846]]
-- [[_COMMUNITY_Community 847|Community 847]]
-- [[_COMMUNITY_Community 848|Community 848]]
-- [[_COMMUNITY_Community 849|Community 849]]
-- [[_COMMUNITY_Community 850|Community 850]]
-- [[_COMMUNITY_Community 851|Community 851]]
-- [[_COMMUNITY_Community 852|Community 852]]
-- [[_COMMUNITY_Community 853|Community 853]]
-- [[_COMMUNITY_Community 854|Community 854]]
-- [[_COMMUNITY_Community 855|Community 855]]
-- [[_COMMUNITY_Community 856|Community 856]]
-- [[_COMMUNITY_Community 857|Community 857]]
-- [[_COMMUNITY_Community 858|Community 858]]
-- [[_COMMUNITY_Community 859|Community 859]]
-- [[_COMMUNITY_Community 860|Community 860]]
-- [[_COMMUNITY_Community 861|Community 861]]
-- [[_COMMUNITY_Community 862|Community 862]]
-- [[_COMMUNITY_Community 863|Community 863]]
-- [[_COMMUNITY_Community 864|Community 864]]
-- [[_COMMUNITY_Community 865|Community 865]]
-- [[_COMMUNITY_Community 866|Community 866]]
-- [[_COMMUNITY_Community 867|Community 867]]
-- [[_COMMUNITY_Community 868|Community 868]]
-- [[_COMMUNITY_Community 869|Community 869]]
-- [[_COMMUNITY_Community 870|Community 870]]
-- [[_COMMUNITY_Community 871|Community 871]]
-- [[_COMMUNITY_Community 872|Community 872]]
-- [[_COMMUNITY_Community 873|Community 873]]
-- [[_COMMUNITY_Community 874|Community 874]]
-- [[_COMMUNITY_Community 875|Community 875]]
-- [[_COMMUNITY_Community 876|Community 876]]
-- [[_COMMUNITY_Community 877|Community 877]]
-- [[_COMMUNITY_Community 878|Community 878]]
-- [[_COMMUNITY_Community 879|Community 879]]
-- [[_COMMUNITY_Community 880|Community 880]]
-- [[_COMMUNITY_Community 881|Community 881]]
-- [[_COMMUNITY_Community 882|Community 882]]
-- [[_COMMUNITY_Community 883|Community 883]]
-- [[_COMMUNITY_Community 884|Community 884]]
-- [[_COMMUNITY_Community 885|Community 885]]
-- [[_COMMUNITY_Community 886|Community 886]]
-- [[_COMMUNITY_Community 887|Community 887]]
-- [[_COMMUNITY_Community 888|Community 888]]
-- [[_COMMUNITY_Community 889|Community 889]]
-- [[_COMMUNITY_Community 890|Community 890]]
-- [[_COMMUNITY_Community 891|Community 891]]
-- [[_COMMUNITY_Community 892|Community 892]]
-- [[_COMMUNITY_Community 893|Community 893]]
-- [[_COMMUNITY_Community 894|Community 894]]
-- [[_COMMUNITY_Community 895|Community 895]]
-- [[_COMMUNITY_Community 896|Community 896]]
-- [[_COMMUNITY_Community 897|Community 897]]
-- [[_COMMUNITY_Community 898|Community 898]]
-- [[_COMMUNITY_Community 899|Community 899]]
-- [[_COMMUNITY_Community 900|Community 900]]
-- [[_COMMUNITY_Community 901|Community 901]]
-- [[_COMMUNITY_Community 902|Community 902]]
-- [[_COMMUNITY_Community 903|Community 903]]
-- [[_COMMUNITY_Community 904|Community 904]]
-- [[_COMMUNITY_Community 905|Community 905]]
-- [[_COMMUNITY_Community 906|Community 906]]
-- [[_COMMUNITY_Community 907|Community 907]]
-- [[_COMMUNITY_Community 908|Community 908]]
-- [[_COMMUNITY_Community 909|Community 909]]
-- [[_COMMUNITY_Community 910|Community 910]]
-- [[_COMMUNITY_Community 911|Community 911]]
-- [[_COMMUNITY_Community 912|Community 912]]
-- [[_COMMUNITY_Community 913|Community 913]]
-- [[_COMMUNITY_Community 914|Community 914]]
-- [[_COMMUNITY_Community 915|Community 915]]
-- [[_COMMUNITY_Community 916|Community 916]]
-- [[_COMMUNITY_Community 917|Community 917]]
-- [[_COMMUNITY_Community 918|Community 918]]
-- [[_COMMUNITY_Community 919|Community 919]]
-- [[_COMMUNITY_Community 920|Community 920]]
-- [[_COMMUNITY_Community 921|Community 921]]
-- [[_COMMUNITY_Community 922|Community 922]]
-- [[_COMMUNITY_Community 923|Community 923]]
-- [[_COMMUNITY_Community 924|Community 924]]
-- [[_COMMUNITY_Community 925|Community 925]]
-- [[_COMMUNITY_Community 926|Community 926]]
-- [[_COMMUNITY_Community 927|Community 927]]
-- [[_COMMUNITY_Community 928|Community 928]]
-- [[_COMMUNITY_Community 929|Community 929]]
-- [[_COMMUNITY_Community 930|Community 930]]
-- [[_COMMUNITY_Community 931|Community 931]]
-- [[_COMMUNITY_Community 932|Community 932]]
-- [[_COMMUNITY_Community 933|Community 933]]
-- [[_COMMUNITY_Community 934|Community 934]]
-- [[_COMMUNITY_Community 935|Community 935]]
-- [[_COMMUNITY_Community 936|Community 936]]
-- [[_COMMUNITY_Community 937|Community 937]]
-- [[_COMMUNITY_Community 938|Community 938]]
-- [[_COMMUNITY_Community 939|Community 939]]
-- [[_COMMUNITY_Community 940|Community 940]]
-- [[_COMMUNITY_Community 941|Community 941]]
-- [[_COMMUNITY_Community 942|Community 942]]
-- [[_COMMUNITY_Community 943|Community 943]]
-- [[_COMMUNITY_Community 944|Community 944]]
-- [[_COMMUNITY_Community 945|Community 945]]
-- [[_COMMUNITY_Community 946|Community 946]]
-- [[_COMMUNITY_Community 947|Community 947]]
-- [[_COMMUNITY_Community 948|Community 948]]
-- [[_COMMUNITY_Community 949|Community 949]]
-- [[_COMMUNITY_Community 950|Community 950]]
-- [[_COMMUNITY_Community 951|Community 951]]
-- [[_COMMUNITY_Community 952|Community 952]]
-- [[_COMMUNITY_Community 953|Community 953]]
-- [[_COMMUNITY_Community 954|Community 954]]
-- [[_COMMUNITY_Community 955|Community 955]]
-- [[_COMMUNITY_Community 956|Community 956]]
-- [[_COMMUNITY_Community 957|Community 957]]
-- [[_COMMUNITY_Community 958|Community 958]]
-- [[_COMMUNITY_Community 959|Community 959]]
-- [[_COMMUNITY_Community 960|Community 960]]
-- [[_COMMUNITY_Community 961|Community 961]]
-- [[_COMMUNITY_Community 962|Community 962]]
-- [[_COMMUNITY_Community 963|Community 963]]
-- [[_COMMUNITY_Community 964|Community 964]]
-- [[_COMMUNITY_Community 965|Community 965]]
-- [[_COMMUNITY_Community 966|Community 966]]
-- [[_COMMUNITY_Community 967|Community 967]]
-- [[_COMMUNITY_Community 968|Community 968]]
-- [[_COMMUNITY_Community 969|Community 969]]
-- [[_COMMUNITY_Community 970|Community 970]]
-- [[_COMMUNITY_Community 971|Community 971]]
-- [[_COMMUNITY_Community 972|Community 972]]
-- [[_COMMUNITY_Community 973|Community 973]]
-- [[_COMMUNITY_Community 974|Community 974]]
-- [[_COMMUNITY_Community 975|Community 975]]
-- [[_COMMUNITY_Community 976|Community 976]]
-- [[_COMMUNITY_Community 977|Community 977]]
-- [[_COMMUNITY_Community 978|Community 978]]
-- [[_COMMUNITY_Community 979|Community 979]]
-- [[_COMMUNITY_Community 980|Community 980]]
-- [[_COMMUNITY_Community 981|Community 981]]
-- [[_COMMUNITY_Community 982|Community 982]]
-- [[_COMMUNITY_Community 983|Community 983]]
-- [[_COMMUNITY_Community 984|Community 984]]
-- [[_COMMUNITY_Community 985|Community 985]]
-- [[_COMMUNITY_Community 986|Community 986]]
-- [[_COMMUNITY_Community 987|Community 987]]
-- [[_COMMUNITY_Community 988|Community 988]]
-- [[_COMMUNITY_Community 989|Community 989]]
-- [[_COMMUNITY_Community 990|Community 990]]
-- [[_COMMUNITY_Community 991|Community 991]]
-- [[_COMMUNITY_Community 992|Community 992]]
-- [[_COMMUNITY_Community 993|Community 993]]
-- [[_COMMUNITY_Community 994|Community 994]]
-- [[_COMMUNITY_Community 995|Community 995]]
-- [[_COMMUNITY_Community 996|Community 996]]
-- [[_COMMUNITY_Community 997|Community 997]]
-- [[_COMMUNITY_Community 998|Community 998]]
-- [[_COMMUNITY_Community 999|Community 999]]
-- [[_COMMUNITY_Community 1000|Community 1000]]
-- [[_COMMUNITY_Community 1001|Community 1001]]
-- [[_COMMUNITY_Community 1002|Community 1002]]
-- [[_COMMUNITY_Community 1003|Community 1003]]
-- [[_COMMUNITY_Community 1004|Community 1004]]
-- [[_COMMUNITY_Community 1005|Community 1005]]
-- [[_COMMUNITY_Community 1006|Community 1006]]
-- [[_COMMUNITY_Community 1007|Community 1007]]
-- [[_COMMUNITY_Community 1008|Community 1008]]
-- [[_COMMUNITY_Community 1009|Community 1009]]
-- [[_COMMUNITY_Community 1010|Community 1010]]
-- [[_COMMUNITY_Community 1011|Community 1011]]
-- [[_COMMUNITY_Community 1012|Community 1012]]
-- [[_COMMUNITY_Community 1013|Community 1013]]
-- [[_COMMUNITY_Community 1014|Community 1014]]
-- [[_COMMUNITY_Community 1015|Community 1015]]
-- [[_COMMUNITY_Community 1016|Community 1016]]
-- [[_COMMUNITY_Community 1017|Community 1017]]
-- [[_COMMUNITY_Community 1018|Community 1018]]
-- [[_COMMUNITY_Community 1019|Community 1019]]
-- [[_COMMUNITY_Community 1020|Community 1020]]
-- [[_COMMUNITY_Community 1021|Community 1021]]
-- [[_COMMUNITY_Community 1022|Community 1022]]
-- [[_COMMUNITY_Community 1023|Community 1023]]
-- [[_COMMUNITY_Community 1024|Community 1024]]
-- [[_COMMUNITY_Community 1025|Community 1025]]
-- [[_COMMUNITY_Community 1026|Community 1026]]
-- [[_COMMUNITY_Community 1027|Community 1027]]
-- [[_COMMUNITY_Community 1028|Community 1028]]
-- [[_COMMUNITY_Community 1029|Community 1029]]
-- [[_COMMUNITY_Community 1030|Community 1030]]
-- [[_COMMUNITY_Community 1031|Community 1031]]
-- [[_COMMUNITY_Community 1032|Community 1032]]
-- [[_COMMUNITY_Community 1033|Community 1033]]
-- [[_COMMUNITY_Community 1034|Community 1034]]
-- [[_COMMUNITY_Community 1035|Community 1035]]
-- [[_COMMUNITY_Community 1036|Community 1036]]
-- [[_COMMUNITY_Community 1037|Community 1037]]
-- [[_COMMUNITY_Community 1038|Community 1038]]
-- [[_COMMUNITY_Community 1039|Community 1039]]
-- [[_COMMUNITY_Community 1040|Community 1040]]
-- [[_COMMUNITY_Community 1041|Community 1041]]
-- [[_COMMUNITY_Community 1042|Community 1042]]
-- [[_COMMUNITY_Community 1043|Community 1043]]
-- [[_COMMUNITY_Community 1044|Community 1044]]
-- [[_COMMUNITY_Community 1045|Community 1045]]
-- [[_COMMUNITY_Community 1046|Community 1046]]
-- [[_COMMUNITY_Community 1047|Community 1047]]
-- [[_COMMUNITY_Community 1048|Community 1048]]
-- [[_COMMUNITY_Community 1049|Community 1049]]
-- [[_COMMUNITY_Community 1050|Community 1050]]
-- [[_COMMUNITY_Community 1051|Community 1051]]
-- [[_COMMUNITY_Community 1052|Community 1052]]
-- [[_COMMUNITY_Community 1053|Community 1053]]
-- [[_COMMUNITY_Community 1054|Community 1054]]
-- [[_COMMUNITY_Community 1055|Community 1055]]
-- [[_COMMUNITY_Community 1056|Community 1056]]
-- [[_COMMUNITY_Community 1057|Community 1057]]
-- [[_COMMUNITY_Community 1058|Community 1058]]
-- [[_COMMUNITY_Community 1059|Community 1059]]
-- [[_COMMUNITY_Community 1060|Community 1060]]
-- [[_COMMUNITY_Community 1061|Community 1061]]
-- [[_COMMUNITY_Community 1062|Community 1062]]
-- [[_COMMUNITY_Community 1063|Community 1063]]
-- [[_COMMUNITY_Community 1064|Community 1064]]
-- [[_COMMUNITY_Community 1065|Community 1065]]
-- [[_COMMUNITY_Community 1066|Community 1066]]
-- [[_COMMUNITY_Community 1067|Community 1067]]
-- [[_COMMUNITY_Community 1068|Community 1068]]
-- [[_COMMUNITY_Community 1069|Community 1069]]
-- [[_COMMUNITY_Community 1070|Community 1070]]
-- [[_COMMUNITY_Community 1071|Community 1071]]
-- [[_COMMUNITY_Community 1072|Community 1072]]
-- [[_COMMUNITY_Community 1073|Community 1073]]
-- [[_COMMUNITY_Community 1074|Community 1074]]
-- [[_COMMUNITY_Community 1075|Community 1075]]
-- [[_COMMUNITY_Community 1076|Community 1076]]
-- [[_COMMUNITY_Community 1077|Community 1077]]
-- [[_COMMUNITY_Community 1078|Community 1078]]
-- [[_COMMUNITY_Community 1079|Community 1079]]
-- [[_COMMUNITY_Community 1080|Community 1080]]
-- [[_COMMUNITY_Community 1081|Community 1081]]
-- [[_COMMUNITY_Community 1082|Community 1082]]
-- [[_COMMUNITY_Community 1083|Community 1083]]
-- [[_COMMUNITY_Community 1084|Community 1084]]
-- [[_COMMUNITY_Community 1085|Community 1085]]
-- [[_COMMUNITY_Community 1086|Community 1086]]
-- [[_COMMUNITY_Community 1087|Community 1087]]
-- [[_COMMUNITY_Community 1088|Community 1088]]
-- [[_COMMUNITY_Community 1089|Community 1089]]
-- [[_COMMUNITY_Community 1090|Community 1090]]
-- [[_COMMUNITY_Community 1091|Community 1091]]
-- [[_COMMUNITY_Community 1092|Community 1092]]
-- [[_COMMUNITY_Community 1093|Community 1093]]
-- [[_COMMUNITY_Community 1094|Community 1094]]
-- [[_COMMUNITY_Community 1095|Community 1095]]
-- [[_COMMUNITY_Community 1096|Community 1096]]
-- [[_COMMUNITY_Community 1097|Community 1097]]
-- [[_COMMUNITY_Community 1098|Community 1098]]
-- [[_COMMUNITY_Community 1099|Community 1099]]
-- [[_COMMUNITY_Community 1100|Community 1100]]
-- [[_COMMUNITY_Community 1101|Community 1101]]
-- [[_COMMUNITY_Community 1102|Community 1102]]
-- [[_COMMUNITY_Community 1103|Community 1103]]
-- [[_COMMUNITY_Community 1104|Community 1104]]
-- [[_COMMUNITY_Community 1105|Community 1105]]
-- [[_COMMUNITY_Community 1106|Community 1106]]
-- [[_COMMUNITY_Community 1107|Community 1107]]
-- [[_COMMUNITY_Community 1108|Community 1108]]
-- [[_COMMUNITY_Community 1109|Community 1109]]
-- [[_COMMUNITY_Community 1110|Community 1110]]
-- [[_COMMUNITY_Community 1111|Community 1111]]
-- [[_COMMUNITY_Community 1112|Community 1112]]
-- [[_COMMUNITY_Community 1113|Community 1113]]
-- [[_COMMUNITY_Community 1114|Community 1114]]
-- [[_COMMUNITY_Community 1115|Community 1115]]
-- [[_COMMUNITY_Community 1116|Community 1116]]
-- [[_COMMUNITY_Community 1117|Community 1117]]
-- [[_COMMUNITY_Community 1118|Community 1118]]
-- [[_COMMUNITY_Community 1119|Community 1119]]
-- [[_COMMUNITY_Community 1120|Community 1120]]
-- [[_COMMUNITY_Community 1121|Community 1121]]
-- [[_COMMUNITY_Community 1122|Community 1122]]
-- [[_COMMUNITY_Community 1123|Community 1123]]
-- [[_COMMUNITY_Community 1124|Community 1124]]
-- [[_COMMUNITY_Community 1125|Community 1125]]
-- [[_COMMUNITY_Community 1126|Community 1126]]
-- [[_COMMUNITY_Community 1127|Community 1127]]
-- [[_COMMUNITY_Community 1128|Community 1128]]
-- [[_COMMUNITY_Community 1129|Community 1129]]
-- [[_COMMUNITY_Community 1130|Community 1130]]
-- [[_COMMUNITY_Community 1131|Community 1131]]
-- [[_COMMUNITY_Community 1132|Community 1132]]
-- [[_COMMUNITY_Community 1133|Community 1133]]
-- [[_COMMUNITY_Community 1134|Community 1134]]
-- [[_COMMUNITY_Community 1135|Community 1135]]
-- [[_COMMUNITY_Community 1136|Community 1136]]
-- [[_COMMUNITY_Community 1137|Community 1137]]
-- [[_COMMUNITY_Community 1138|Community 1138]]
-- [[_COMMUNITY_Community 1139|Community 1139]]
-- [[_COMMUNITY_Community 1140|Community 1140]]
-- [[_COMMUNITY_Community 1141|Community 1141]]
-- [[_COMMUNITY_Community 1142|Community 1142]]
-- [[_COMMUNITY_Community 1143|Community 1143]]
-- [[_COMMUNITY_Community 1144|Community 1144]]
-- [[_COMMUNITY_Community 1145|Community 1145]]
-- [[_COMMUNITY_Community 1146|Community 1146]]
-- [[_COMMUNITY_Community 1147|Community 1147]]
-- [[_COMMUNITY_Community 1148|Community 1148]]
-- [[_COMMUNITY_Community 1149|Community 1149]]
-- [[_COMMUNITY_Community 1150|Community 1150]]
-- [[_COMMUNITY_Community 1151|Community 1151]]
-- [[_COMMUNITY_Community 1152|Community 1152]]
-- [[_COMMUNITY_Community 1153|Community 1153]]
-- [[_COMMUNITY_Community 1154|Community 1154]]
-- [[_COMMUNITY_Community 1155|Community 1155]]
-- [[_COMMUNITY_Community 1156|Community 1156]]
-- [[_COMMUNITY_Community 1157|Community 1157]]
-- [[_COMMUNITY_Community 1158|Community 1158]]
-- [[_COMMUNITY_Community 1159|Community 1159]]
-- [[_COMMUNITY_Community 1160|Community 1160]]
-- [[_COMMUNITY_Community 1161|Community 1161]]
-- [[_COMMUNITY_Community 1162|Community 1162]]
-- [[_COMMUNITY_Community 1163|Community 1163]]
-- [[_COMMUNITY_Community 1164|Community 1164]]
-- [[_COMMUNITY_Community 1165|Community 1165]]
-- [[_COMMUNITY_Community 1166|Community 1166]]
-- [[_COMMUNITY_Community 1167|Community 1167]]
-- [[_COMMUNITY_Community 1168|Community 1168]]
-- [[_COMMUNITY_Community 1169|Community 1169]]
-- [[_COMMUNITY_Community 1170|Community 1170]]
-- [[_COMMUNITY_Community 1171|Community 1171]]
-- [[_COMMUNITY_Community 1172|Community 1172]]
-- [[_COMMUNITY_Community 1173|Community 1173]]
-- [[_COMMUNITY_Community 1174|Community 1174]]
-- [[_COMMUNITY_Community 1175|Community 1175]]
-- [[_COMMUNITY_Community 1176|Community 1176]]
-- [[_COMMUNITY_Community 1177|Community 1177]]
-- [[_COMMUNITY_Community 1178|Community 1178]]
-- [[_COMMUNITY_Community 1179|Community 1179]]
-- [[_COMMUNITY_Community 1180|Community 1180]]
-- [[_COMMUNITY_Community 1181|Community 1181]]
-- [[_COMMUNITY_Community 1182|Community 1182]]
-- [[_COMMUNITY_Community 1183|Community 1183]]
-- [[_COMMUNITY_Community 1184|Community 1184]]
-- [[_COMMUNITY_Community 1185|Community 1185]]
-- [[_COMMUNITY_Community 1186|Community 1186]]
-- [[_COMMUNITY_Community 1187|Community 1187]]
-- [[_COMMUNITY_Community 1188|Community 1188]]
-- [[_COMMUNITY_Community 1189|Community 1189]]
-- [[_COMMUNITY_Community 1190|Community 1190]]
-- [[_COMMUNITY_Community 1191|Community 1191]]
-- [[_COMMUNITY_Community 1192|Community 1192]]
-- [[_COMMUNITY_Community 1193|Community 1193]]
-- [[_COMMUNITY_Community 1194|Community 1194]]
-- [[_COMMUNITY_Community 1195|Community 1195]]
-- [[_COMMUNITY_Community 1196|Community 1196]]
-- [[_COMMUNITY_Community 1197|Community 1197]]
-- [[_COMMUNITY_Community 1198|Community 1198]]
-- [[_COMMUNITY_Community 1199|Community 1199]]
-- [[_COMMUNITY_Community 1200|Community 1200]]
-- [[_COMMUNITY_Community 1201|Community 1201]]
-- [[_COMMUNITY_Community 1202|Community 1202]]
-- [[_COMMUNITY_Community 1203|Community 1203]]
-- [[_COMMUNITY_Community 1204|Community 1204]]
-- [[_COMMUNITY_Community 1205|Community 1205]]
-- [[_COMMUNITY_Community 1206|Community 1206]]
-- [[_COMMUNITY_Community 1207|Community 1207]]
-- [[_COMMUNITY_Community 1208|Community 1208]]
-- [[_COMMUNITY_Community 1209|Community 1209]]
-- [[_COMMUNITY_Community 1210|Community 1210]]
-- [[_COMMUNITY_Community 1211|Community 1211]]
-- [[_COMMUNITY_Community 1212|Community 1212]]
-- [[_COMMUNITY_Community 1213|Community 1213]]
-- [[_COMMUNITY_Community 1214|Community 1214]]
-- [[_COMMUNITY_Community 1215|Community 1215]]
-- [[_COMMUNITY_Community 1216|Community 1216]]
-- [[_COMMUNITY_Community 1217|Community 1217]]
-- [[_COMMUNITY_Community 1218|Community 1218]]
-- [[_COMMUNITY_Community 1219|Community 1219]]
-- [[_COMMUNITY_Community 1220|Community 1220]]
-- [[_COMMUNITY_Community 1221|Community 1221]]
-- [[_COMMUNITY_Community 1222|Community 1222]]
-- [[_COMMUNITY_Community 1223|Community 1223]]
-- [[_COMMUNITY_Community 1224|Community 1224]]
-- [[_COMMUNITY_Community 1225|Community 1225]]
-- [[_COMMUNITY_Community 1226|Community 1226]]
-- [[_COMMUNITY_Community 1227|Community 1227]]
-- [[_COMMUNITY_Community 1228|Community 1228]]
-- [[_COMMUNITY_Community 1229|Community 1229]]
-- [[_COMMUNITY_Community 1230|Community 1230]]
-- [[_COMMUNITY_Community 1231|Community 1231]]
-- [[_COMMUNITY_Community 1232|Community 1232]]
-- [[_COMMUNITY_Community 1233|Community 1233]]
-- [[_COMMUNITY_Community 1234|Community 1234]]
-- [[_COMMUNITY_Community 1235|Community 1235]]
-- [[_COMMUNITY_Community 1236|Community 1236]]
-- [[_COMMUNITY_Community 1237|Community 1237]]
-- [[_COMMUNITY_Community 1238|Community 1238]]
-- [[_COMMUNITY_Community 1239|Community 1239]]
-- [[_COMMUNITY_Community 1240|Community 1240]]
-- [[_COMMUNITY_Community 1241|Community 1241]]
-- [[_COMMUNITY_Community 1242|Community 1242]]
-- [[_COMMUNITY_Community 1243|Community 1243]]
-- [[_COMMUNITY_Community 1244|Community 1244]]
-- [[_COMMUNITY_Community 1245|Community 1245]]
-- [[_COMMUNITY_Community 1246|Community 1246]]
-- [[_COMMUNITY_Community 1247|Community 1247]]
-- [[_COMMUNITY_Community 1248|Community 1248]]
-- [[_COMMUNITY_Community 1249|Community 1249]]
-- [[_COMMUNITY_Community 1250|Community 1250]]
-- [[_COMMUNITY_Community 1251|Community 1251]]
-- [[_COMMUNITY_Community 1252|Community 1252]]
-- [[_COMMUNITY_Community 1253|Community 1253]]
-- [[_COMMUNITY_Community 1254|Community 1254]]
-- [[_COMMUNITY_Community 1255|Community 1255]]
-- [[_COMMUNITY_Community 1256|Community 1256]]
-- [[_COMMUNITY_Community 1257|Community 1257]]
-- [[_COMMUNITY_Community 1258|Community 1258]]
-- [[_COMMUNITY_Community 1259|Community 1259]]
-- [[_COMMUNITY_Community 1260|Community 1260]]
-- [[_COMMUNITY_Community 1261|Community 1261]]
-- [[_COMMUNITY_Community 1262|Community 1262]]
-- [[_COMMUNITY_Community 1263|Community 1263]]
-- [[_COMMUNITY_Community 1264|Community 1264]]
-- [[_COMMUNITY_Community 1265|Community 1265]]
-- [[_COMMUNITY_Community 1266|Community 1266]]
-- [[_COMMUNITY_Community 1267|Community 1267]]
-- [[_COMMUNITY_Community 1268|Community 1268]]
-- [[_COMMUNITY_Community 1269|Community 1269]]
-- [[_COMMUNITY_Community 1270|Community 1270]]
-- [[_COMMUNITY_Community 1271|Community 1271]]
-- [[_COMMUNITY_Community 1272|Community 1272]]
-- [[_COMMUNITY_Community 1273|Community 1273]]
-- [[_COMMUNITY_Community 1274|Community 1274]]
-- [[_COMMUNITY_Community 1275|Community 1275]]
-- [[_COMMUNITY_Community 1276|Community 1276]]
-- [[_COMMUNITY_Community 1277|Community 1277]]
-- [[_COMMUNITY_Community 1278|Community 1278]]
-- [[_COMMUNITY_Community 1279|Community 1279]]
-- [[_COMMUNITY_Community 1280|Community 1280]]
-- [[_COMMUNITY_Community 1281|Community 1281]]
-- [[_COMMUNITY_Community 1282|Community 1282]]
-- [[_COMMUNITY_Community 1283|Community 1283]]
-- [[_COMMUNITY_Community 1284|Community 1284]]
-- [[_COMMUNITY_Community 1285|Community 1285]]
-- [[_COMMUNITY_Community 1286|Community 1286]]
-- [[_COMMUNITY_Community 1287|Community 1287]]
-- [[_COMMUNITY_Community 1288|Community 1288]]
-- [[_COMMUNITY_Community 1289|Community 1289]]
-- [[_COMMUNITY_Community 1290|Community 1290]]
-- [[_COMMUNITY_Community 1291|Community 1291]]
-- [[_COMMUNITY_Community 1292|Community 1292]]
-- [[_COMMUNITY_Community 1293|Community 1293]]
-- [[_COMMUNITY_Community 1294|Community 1294]]
-- [[_COMMUNITY_Community 1295|Community 1295]]
-- [[_COMMUNITY_Community 1296|Community 1296]]
-- [[_COMMUNITY_Community 1297|Community 1297]]
-- [[_COMMUNITY_Community 1298|Community 1298]]
-- [[_COMMUNITY_Community 1299|Community 1299]]
-- [[_COMMUNITY_Community 1300|Community 1300]]
-- [[_COMMUNITY_Community 1301|Community 1301]]
-- [[_COMMUNITY_Community 1302|Community 1302]]
-- [[_COMMUNITY_Community 1303|Community 1303]]
-- [[_COMMUNITY_Community 1304|Community 1304]]
-- [[_COMMUNITY_Community 1305|Community 1305]]
-- [[_COMMUNITY_Community 1306|Community 1306]]
-- [[_COMMUNITY_Community 1307|Community 1307]]
-- [[_COMMUNITY_Community 1308|Community 1308]]
-- [[_COMMUNITY_Community 1309|Community 1309]]
-- [[_COMMUNITY_Community 1310|Community 1310]]
-- [[_COMMUNITY_Community 1311|Community 1311]]
-- [[_COMMUNITY_Community 1312|Community 1312]]
-- [[_COMMUNITY_Community 1313|Community 1313]]
-- [[_COMMUNITY_Community 1314|Community 1314]]
-- [[_COMMUNITY_Community 1315|Community 1315]]
-- [[_COMMUNITY_Community 1316|Community 1316]]
-- [[_COMMUNITY_Community 1317|Community 1317]]
-- [[_COMMUNITY_Community 1318|Community 1318]]
-- [[_COMMUNITY_Community 1319|Community 1319]]
-- [[_COMMUNITY_Community 1320|Community 1320]]
-- [[_COMMUNITY_Community 1321|Community 1321]]
-- [[_COMMUNITY_Community 1322|Community 1322]]
-- [[_COMMUNITY_Community 1323|Community 1323]]
-- [[_COMMUNITY_Community 1324|Community 1324]]
-- [[_COMMUNITY_Community 1325|Community 1325]]
-- [[_COMMUNITY_Community 1326|Community 1326]]
-- [[_COMMUNITY_Community 1327|Community 1327]]
-- [[_COMMUNITY_Community 1328|Community 1328]]
-- [[_COMMUNITY_Community 1329|Community 1329]]
-- [[_COMMUNITY_Community 1330|Community 1330]]
-- [[_COMMUNITY_Community 1331|Community 1331]]
-- [[_COMMUNITY_Community 1332|Community 1332]]
-- [[_COMMUNITY_Community 1333|Community 1333]]
-- [[_COMMUNITY_Community 1334|Community 1334]]
-- [[_COMMUNITY_Community 1335|Community 1335]]
-- [[_COMMUNITY_Community 1336|Community 1336]]
-- [[_COMMUNITY_Community 1337|Community 1337]]
-- [[_COMMUNITY_Community 1338|Community 1338]]
-- [[_COMMUNITY_Community 1339|Community 1339]]
-- [[_COMMUNITY_Community 1340|Community 1340]]
-- [[_COMMUNITY_Community 1341|Community 1341]]
-- [[_COMMUNITY_Community 1342|Community 1342]]
-- [[_COMMUNITY_Community 1343|Community 1343]]
-- [[_COMMUNITY_Community 1344|Community 1344]]
-- [[_COMMUNITY_Community 1345|Community 1345]]
-- [[_COMMUNITY_Community 1346|Community 1346]]
-- [[_COMMUNITY_Community 1347|Community 1347]]
-- [[_COMMUNITY_Community 1348|Community 1348]]
-- [[_COMMUNITY_Community 1349|Community 1349]]
-- [[_COMMUNITY_Community 1350|Community 1350]]
-- [[_COMMUNITY_Community 1351|Community 1351]]
-- [[_COMMUNITY_Community 1352|Community 1352]]
-- [[_COMMUNITY_Community 1353|Community 1353]]
-- [[_COMMUNITY_Community 1354|Community 1354]]
-- [[_COMMUNITY_Community 1355|Community 1355]]
-- [[_COMMUNITY_Community 1356|Community 1356]]
-- [[_COMMUNITY_Community 1357|Community 1357]]
-- [[_COMMUNITY_Community 1358|Community 1358]]
-- [[_COMMUNITY_Community 1359|Community 1359]]
-- [[_COMMUNITY_Community 1360|Community 1360]]
-- [[_COMMUNITY_Community 1361|Community 1361]]
-- [[_COMMUNITY_Community 1362|Community 1362]]
-- [[_COMMUNITY_Community 1363|Community 1363]]
-- [[_COMMUNITY_Community 1364|Community 1364]]
-- [[_COMMUNITY_Community 1365|Community 1365]]
-- [[_COMMUNITY_Community 1366|Community 1366]]
-- [[_COMMUNITY_Community 1367|Community 1367]]
-- [[_COMMUNITY_Community 1368|Community 1368]]
-- [[_COMMUNITY_Community 1369|Community 1369]]
-- [[_COMMUNITY_Community 1370|Community 1370]]
-- [[_COMMUNITY_Community 1371|Community 1371]]
-- [[_COMMUNITY_Community 1372|Community 1372]]
-- [[_COMMUNITY_Community 1373|Community 1373]]
-- [[_COMMUNITY_Community 1374|Community 1374]]
-- [[_COMMUNITY_Community 1375|Community 1375]]
-- [[_COMMUNITY_Community 1376|Community 1376]]
-- [[_COMMUNITY_Community 1377|Community 1377]]
-- [[_COMMUNITY_Community 1378|Community 1378]]
-- [[_COMMUNITY_Community 1379|Community 1379]]
-- [[_COMMUNITY_Community 1380|Community 1380]]
-- [[_COMMUNITY_Community 1381|Community 1381]]
-- [[_COMMUNITY_Community 1382|Community 1382]]
-- [[_COMMUNITY_Community 1383|Community 1383]]
-- [[_COMMUNITY_Community 1384|Community 1384]]
-- [[_COMMUNITY_Community 1385|Community 1385]]
-- [[_COMMUNITY_Community 1386|Community 1386]]
-- [[_COMMUNITY_Community 1387|Community 1387]]
-- [[_COMMUNITY_Community 1388|Community 1388]]
-- [[_COMMUNITY_Community 1389|Community 1389]]
-- [[_COMMUNITY_Community 1390|Community 1390]]
-- [[_COMMUNITY_Community 1391|Community 1391]]
-- [[_COMMUNITY_Community 1392|Community 1392]]
-- [[_COMMUNITY_Community 1393|Community 1393]]
-- [[_COMMUNITY_Community 1394|Community 1394]]
-- [[_COMMUNITY_Community 1395|Community 1395]]
-- [[_COMMUNITY_Community 1396|Community 1396]]
-- [[_COMMUNITY_Community 1397|Community 1397]]
-- [[_COMMUNITY_Community 1398|Community 1398]]
-- [[_COMMUNITY_Community 1399|Community 1399]]
-- [[_COMMUNITY_Community 1400|Community 1400]]
-- [[_COMMUNITY_Community 1401|Community 1401]]
-- [[_COMMUNITY_Community 1402|Community 1402]]
-- [[_COMMUNITY_Community 1403|Community 1403]]
-- [[_COMMUNITY_Community 1404|Community 1404]]
-- [[_COMMUNITY_Community 1405|Community 1405]]
-- [[_COMMUNITY_Community 1406|Community 1406]]
-- [[_COMMUNITY_Community 1407|Community 1407]]
-- [[_COMMUNITY_Community 1408|Community 1408]]
-- [[_COMMUNITY_Community 1409|Community 1409]]
-- [[_COMMUNITY_Community 1410|Community 1410]]
-- [[_COMMUNITY_Community 1411|Community 1411]]
-- [[_COMMUNITY_Community 1412|Community 1412]]
-- [[_COMMUNITY_Community 1413|Community 1413]]
-- [[_COMMUNITY_Community 1414|Community 1414]]
-- [[_COMMUNITY_Community 1415|Community 1415]]
-- [[_COMMUNITY_Community 1416|Community 1416]]
-- [[_COMMUNITY_Community 1417|Community 1417]]
-- [[_COMMUNITY_Community 1418|Community 1418]]
-- [[_COMMUNITY_Community 1419|Community 1419]]
-- [[_COMMUNITY_Community 1420|Community 1420]]
-- [[_COMMUNITY_Community 1421|Community 1421]]
-- [[_COMMUNITY_Community 1422|Community 1422]]
-- [[_COMMUNITY_Community 1423|Community 1423]]
-- [[_COMMUNITY_Community 1424|Community 1424]]
-- [[_COMMUNITY_Community 1425|Community 1425]]
-- [[_COMMUNITY_Community 1426|Community 1426]]
-- [[_COMMUNITY_Community 1427|Community 1427]]
-- [[_COMMUNITY_Community 1428|Community 1428]]
-- [[_COMMUNITY_Community 1429|Community 1429]]
-- [[_COMMUNITY_Community 1430|Community 1430]]
-- [[_COMMUNITY_Community 1431|Community 1431]]
-- [[_COMMUNITY_Community 1432|Community 1432]]
-- [[_COMMUNITY_Community 1433|Community 1433]]
-- [[_COMMUNITY_Community 1434|Community 1434]]
-- [[_COMMUNITY_Community 1435|Community 1435]]
-- [[_COMMUNITY_Community 1436|Community 1436]]
-- [[_COMMUNITY_Community 1437|Community 1437]]
-- [[_COMMUNITY_Community 1438|Community 1438]]
-- [[_COMMUNITY_Community 1439|Community 1439]]
-- [[_COMMUNITY_Community 1440|Community 1440]]
-- [[_COMMUNITY_Community 1441|Community 1441]]
-- [[_COMMUNITY_Community 1442|Community 1442]]
-- [[_COMMUNITY_Community 1443|Community 1443]]
-- [[_COMMUNITY_Community 1444|Community 1444]]
-- [[_COMMUNITY_Community 1445|Community 1445]]
-- [[_COMMUNITY_Community 1446|Community 1446]]
-- [[_COMMUNITY_Community 1447|Community 1447]]
-- [[_COMMUNITY_Community 1448|Community 1448]]
-- [[_COMMUNITY_Community 1449|Community 1449]]
-- [[_COMMUNITY_Community 1450|Community 1450]]
-- [[_COMMUNITY_Community 1451|Community 1451]]
-- [[_COMMUNITY_Community 1452|Community 1452]]
-- [[_COMMUNITY_Community 1453|Community 1453]]
-- [[_COMMUNITY_Community 1454|Community 1454]]
-- [[_COMMUNITY_Community 1455|Community 1455]]
-- [[_COMMUNITY_Community 1456|Community 1456]]
-- [[_COMMUNITY_Community 1457|Community 1457]]
-- [[_COMMUNITY_Community 1458|Community 1458]]
-- [[_COMMUNITY_Community 1459|Community 1459]]
-- [[_COMMUNITY_Community 1460|Community 1460]]
-- [[_COMMUNITY_Community 1461|Community 1461]]
-- [[_COMMUNITY_Community 1462|Community 1462]]
-- [[_COMMUNITY_Community 1463|Community 1463]]
-- [[_COMMUNITY_Community 1464|Community 1464]]
-- [[_COMMUNITY_Community 1465|Community 1465]]
-- [[_COMMUNITY_Community 1466|Community 1466]]
-- [[_COMMUNITY_Community 1467|Community 1467]]
-- [[_COMMUNITY_Community 1468|Community 1468]]
-- [[_COMMUNITY_Community 1469|Community 1469]]
-- [[_COMMUNITY_Community 1470|Community 1470]]
-- [[_COMMUNITY_Community 1471|Community 1471]]
-- [[_COMMUNITY_Community 1472|Community 1472]]
-- [[_COMMUNITY_Community 1473|Community 1473]]
-- [[_COMMUNITY_Community 1474|Community 1474]]
-- [[_COMMUNITY_Community 1475|Community 1475]]
-- [[_COMMUNITY_Community 1476|Community 1476]]
-- [[_COMMUNITY_Community 1477|Community 1477]]
-- [[_COMMUNITY_Community 1478|Community 1478]]
-- [[_COMMUNITY_Community 1479|Community 1479]]
-- [[_COMMUNITY_Community 1480|Community 1480]]
-- [[_COMMUNITY_Community 1481|Community 1481]]
-- [[_COMMUNITY_Community 1482|Community 1482]]
-- [[_COMMUNITY_Community 1483|Community 1483]]
-- [[_COMMUNITY_Community 1484|Community 1484]]
-- [[_COMMUNITY_Community 1485|Community 1485]]
-- [[_COMMUNITY_Community 1486|Community 1486]]
-- [[_COMMUNITY_Community 1487|Community 1487]]
-- [[_COMMUNITY_Community 1488|Community 1488]]
-- [[_COMMUNITY_Community 1489|Community 1489]]
-- [[_COMMUNITY_Community 1490|Community 1490]]
-- [[_COMMUNITY_Community 1491|Community 1491]]
-- [[_COMMUNITY_Community 1492|Community 1492]]
-- [[_COMMUNITY_Community 1493|Community 1493]]
-- [[_COMMUNITY_Community 1494|Community 1494]]
-- [[_COMMUNITY_Community 1495|Community 1495]]
-- [[_COMMUNITY_Community 1497|Community 1497]]
-- [[_COMMUNITY_Community 1498|Community 1498]]
-- [[_COMMUNITY_Community 1499|Community 1499]]
-- [[_COMMUNITY_Community 1500|Community 1500]]
-- [[_COMMUNITY_Community 1501|Community 1501]]
-- [[_COMMUNITY_Community 1502|Community 1502]]
-- [[_COMMUNITY_Community 1503|Community 1503]]
-- [[_COMMUNITY_Community 1504|Community 1504]]
-- [[_COMMUNITY_Community 1505|Community 1505]]
-- [[_COMMUNITY_Community 1506|Community 1506]]
-- [[_COMMUNITY_Community 1507|Community 1507]]
-- [[_COMMUNITY_Community 1508|Community 1508]]
-- [[_COMMUNITY_Community 1509|Community 1509]]
-- [[_COMMUNITY_Community 1510|Community 1510]]
-- [[_COMMUNITY_Community 1511|Community 1511]]
-- [[_COMMUNITY_Community 1512|Community 1512]]
-- [[_COMMUNITY_Community 1513|Community 1513]]
-- [[_COMMUNITY_Community 1514|Community 1514]]
-- [[_COMMUNITY_Community 1515|Community 1515]]
-- [[_COMMUNITY_Community 1516|Community 1516]]
-- [[_COMMUNITY_Community 1517|Community 1517]]
-- [[_COMMUNITY_Community 1518|Community 1518]]
-- [[_COMMUNITY_Community 1519|Community 1519]]
-- [[_COMMUNITY_Community 1520|Community 1520]]
-- [[_COMMUNITY_Community 1521|Community 1521]]
-- [[_COMMUNITY_Community 1522|Community 1522]]
-- [[_COMMUNITY_Community 1523|Community 1523]]
-- [[_COMMUNITY_Community 1524|Community 1524]]
-- [[_COMMUNITY_Community 1525|Community 1525]]
-- [[_COMMUNITY_Community 1526|Community 1526]]
-- [[_COMMUNITY_Community 1527|Community 1527]]
-- [[_COMMUNITY_Community 1528|Community 1528]]
-- [[_COMMUNITY_Community 1529|Community 1529]]
-- [[_COMMUNITY_Community 1530|Community 1530]]
-- [[_COMMUNITY_Community 1531|Community 1531]]
-- [[_COMMUNITY_Community 1532|Community 1532]]
-- [[_COMMUNITY_Community 1533|Community 1533]]
-- [[_COMMUNITY_Community 1534|Community 1534]]
-- [[_COMMUNITY_Community 1535|Community 1535]]
-- [[_COMMUNITY_Community 1536|Community 1536]]
-- [[_COMMUNITY_Community 1537|Community 1537]]
-- [[_COMMUNITY_Community 1538|Community 1538]]
-- [[_COMMUNITY_Community 1539|Community 1539]]
-- [[_COMMUNITY_Community 1540|Community 1540]]
-- [[_COMMUNITY_Community 1541|Community 1541]]
-- [[_COMMUNITY_Community 1542|Community 1542]]
-- [[_COMMUNITY_Community 1543|Community 1543]]
-- [[_COMMUNITY_Community 1544|Community 1544]]
-- [[_COMMUNITY_Community 1545|Community 1545]]
-- [[_COMMUNITY_Community 1546|Community 1546]]
-- [[_COMMUNITY_Community 1547|Community 1547]]
-- [[_COMMUNITY_Community 1548|Community 1548]]
-- [[_COMMUNITY_Community 1549|Community 1549]]
-- [[_COMMUNITY_Community 1550|Community 1550]]
-- [[_COMMUNITY_Community 1551|Community 1551]]
-- [[_COMMUNITY_Community 1552|Community 1552]]
-- [[_COMMUNITY_Community 1553|Community 1553]]
-- [[_COMMUNITY_Community 1554|Community 1554]]
-- [[_COMMUNITY_Community 1555|Community 1555]]
-- [[_COMMUNITY_Community 1556|Community 1556]]
-- [[_COMMUNITY_Community 1557|Community 1557]]
-- [[_COMMUNITY_Community 1558|Community 1558]]
-- [[_COMMUNITY_Community 1559|Community 1559]]
-- [[_COMMUNITY_Community 1560|Community 1560]]
-- [[_COMMUNITY_Community 1561|Community 1561]]
-- [[_COMMUNITY_Community 1562|Community 1562]]
-- [[_COMMUNITY_Community 1563|Community 1563]]
-- [[_COMMUNITY_Community 1564|Community 1564]]
-- [[_COMMUNITY_Community 1565|Community 1565]]
-- [[_COMMUNITY_Community 1566|Community 1566]]
-- [[_COMMUNITY_Community 1567|Community 1567]]
-- [[_COMMUNITY_Community 1568|Community 1568]]
-- [[_COMMUNITY_Community 1569|Community 1569]]
-- [[_COMMUNITY_Community 1570|Community 1570]]
-- [[_COMMUNITY_Community 1571|Community 1571]]
-- [[_COMMUNITY_Community 1572|Community 1572]]
-- [[_COMMUNITY_Community 1573|Community 1573]]
-- [[_COMMUNITY_Community 1574|Community 1574]]
-- [[_COMMUNITY_Community 1575|Community 1575]]
-- [[_COMMUNITY_Community 1576|Community 1576]]
-- [[_COMMUNITY_Community 1577|Community 1577]]
-- [[_COMMUNITY_Community 1578|Community 1578]]
-- [[_COMMUNITY_Community 1579|Community 1579]]
-- [[_COMMUNITY_Community 1580|Community 1580]]
-- [[_COMMUNITY_Community 1581|Community 1581]]
-- [[_COMMUNITY_Community 1582|Community 1582]]
-- [[_COMMUNITY_Community 1583|Community 1583]]
-- [[_COMMUNITY_Community 1584|Community 1584]]
-- [[_COMMUNITY_Community 1585|Community 1585]]
-- [[_COMMUNITY_Community 1586|Community 1586]]
-- [[_COMMUNITY_Community 1587|Community 1587]]
-- [[_COMMUNITY_Community 1588|Community 1588]]
-- [[_COMMUNITY_Community 1589|Community 1589]]
-- [[_COMMUNITY_Community 1590|Community 1590]]
-- [[_COMMUNITY_Community 1591|Community 1591]]
-- [[_COMMUNITY_Community 1592|Community 1592]]
-- [[_COMMUNITY_Community 1593|Community 1593]]
-- [[_COMMUNITY_Community 1594|Community 1594]]
-- [[_COMMUNITY_Community 1595|Community 1595]]
-- [[_COMMUNITY_Community 1596|Community 1596]]
-- [[_COMMUNITY_Community 1597|Community 1597]]
-- [[_COMMUNITY_Community 1598|Community 1598]]
-- [[_COMMUNITY_Community 1599|Community 1599]]
-- [[_COMMUNITY_Community 1600|Community 1600]]
-- [[_COMMUNITY_Community 1601|Community 1601]]
-- [[_COMMUNITY_Community 1602|Community 1602]]
-- [[_COMMUNITY_Community 1603|Community 1603]]
-- [[_COMMUNITY_Community 1604|Community 1604]]
-- [[_COMMUNITY_Community 1605|Community 1605]]
-- [[_COMMUNITY_Community 1606|Community 1606]]
-- [[_COMMUNITY_Community 1607|Community 1607]]
-- [[_COMMUNITY_Community 1608|Community 1608]]
-- [[_COMMUNITY_Community 1609|Community 1609]]
-- [[_COMMUNITY_Community 1610|Community 1610]]
-- [[_COMMUNITY_Community 1611|Community 1611]]
-- [[_COMMUNITY_Community 1612|Community 1612]]
-- [[_COMMUNITY_Community 1613|Community 1613]]
-- [[_COMMUNITY_Community 1614|Community 1614]]
-- [[_COMMUNITY_Community 1615|Community 1615]]
-- [[_COMMUNITY_Community 1616|Community 1616]]
-- [[_COMMUNITY_Community 1617|Community 1617]]
-- [[_COMMUNITY_Community 1618|Community 1618]]
-- [[_COMMUNITY_Community 1619|Community 1619]]
-- [[_COMMUNITY_Community 1620|Community 1620]]
-- [[_COMMUNITY_Community 1621|Community 1621]]
-- [[_COMMUNITY_Community 1622|Community 1622]]
-- [[_COMMUNITY_Community 1623|Community 1623]]
-- [[_COMMUNITY_Community 1624|Community 1624]]
-- [[_COMMUNITY_Community 1625|Community 1625]]
-- [[_COMMUNITY_Community 1626|Community 1626]]
-- [[_COMMUNITY_Community 1627|Community 1627]]
-- [[_COMMUNITY_Community 1628|Community 1628]]
-- [[_COMMUNITY_Community 1629|Community 1629]]
-- [[_COMMUNITY_Community 1630|Community 1630]]
-- [[_COMMUNITY_Community 1631|Community 1631]]
-- [[_COMMUNITY_Community 1632|Community 1632]]
-- [[_COMMUNITY_Community 1633|Community 1633]]
-- [[_COMMUNITY_Community 1634|Community 1634]]
-- [[_COMMUNITY_Community 1635|Community 1635]]
-- [[_COMMUNITY_Community 1636|Community 1636]]
-- [[_COMMUNITY_Community 1637|Community 1637]]
-- [[_COMMUNITY_Community 1638|Community 1638]]
-- [[_COMMUNITY_Community 1639|Community 1639]]
-- [[_COMMUNITY_Community 1640|Community 1640]]
-- [[_COMMUNITY_Community 1641|Community 1641]]
-- [[_COMMUNITY_Community 1642|Community 1642]]
-- [[_COMMUNITY_Community 1643|Community 1643]]
-- [[_COMMUNITY_Community 1644|Community 1644]]
-- [[_COMMUNITY_Community 1645|Community 1645]]
-- [[_COMMUNITY_Community 1646|Community 1646]]
-- [[_COMMUNITY_Community 1647|Community 1647]]
-- [[_COMMUNITY_Community 1648|Community 1648]]
-- [[_COMMUNITY_Community 1649|Community 1649]]
-- [[_COMMUNITY_Community 1650|Community 1650]]
-- [[_COMMUNITY_Community 1651|Community 1651]]
-- [[_COMMUNITY_Community 1652|Community 1652]]
-- [[_COMMUNITY_Community 1653|Community 1653]]
-- [[_COMMUNITY_Community 1654|Community 1654]]
-- [[_COMMUNITY_Community 1655|Community 1655]]
-- [[_COMMUNITY_Community 1656|Community 1656]]
-- [[_COMMUNITY_Community 1657|Community 1657]]
-- [[_COMMUNITY_Community 1658|Community 1658]]
-- [[_COMMUNITY_Community 1659|Community 1659]]
-- [[_COMMUNITY_Community 1660|Community 1660]]
-- [[_COMMUNITY_Community 1661|Community 1661]]
-- [[_COMMUNITY_Community 1662|Community 1662]]
-- [[_COMMUNITY_Community 1663|Community 1663]]
-- [[_COMMUNITY_Community 1664|Community 1664]]
-- [[_COMMUNITY_Community 1665|Community 1665]]
-- [[_COMMUNITY_Community 1666|Community 1666]]
-- [[_COMMUNITY_Community 1667|Community 1667]]
-- [[_COMMUNITY_Community 1668|Community 1668]]
-- [[_COMMUNITY_Community 1669|Community 1669]]
-- [[_COMMUNITY_Community 1670|Community 1670]]
-- [[_COMMUNITY_Community 1671|Community 1671]]
-- [[_COMMUNITY_Community 1672|Community 1672]]
-- [[_COMMUNITY_Community 1673|Community 1673]]
-- [[_COMMUNITY_Community 1674|Community 1674]]
-- [[_COMMUNITY_Community 1675|Community 1675]]
-- [[_COMMUNITY_Community 1676|Community 1676]]
-- [[_COMMUNITY_Community 1677|Community 1677]]
-- [[_COMMUNITY_Community 1678|Community 1678]]
-- [[_COMMUNITY_Community 1679|Community 1679]]
-- [[_COMMUNITY_Community 1680|Community 1680]]
-- [[_COMMUNITY_Community 1681|Community 1681]]
-- [[_COMMUNITY_Community 1682|Community 1682]]
-- [[_COMMUNITY_Community 1683|Community 1683]]
-- [[_COMMUNITY_Community 1684|Community 1684]]
-- [[_COMMUNITY_Community 1685|Community 1685]]
-- [[_COMMUNITY_Community 1686|Community 1686]]
-- [[_COMMUNITY_Community 1687|Community 1687]]
-- [[_COMMUNITY_Community 1688|Community 1688]]
-- [[_COMMUNITY_Community 1689|Community 1689]]
-- [[_COMMUNITY_Community 1690|Community 1690]]
-- [[_COMMUNITY_Community 1691|Community 1691]]
-- [[_COMMUNITY_Community 1692|Community 1692]]
-- [[_COMMUNITY_Community 1693|Community 1693]]
-- [[_COMMUNITY_Community 1694|Community 1694]]
-- [[_COMMUNITY_Community 1695|Community 1695]]
-- [[_COMMUNITY_Community 1696|Community 1696]]
-- [[_COMMUNITY_Community 1697|Community 1697]]
-- [[_COMMUNITY_Community 1698|Community 1698]]
-- [[_COMMUNITY_Community 1699|Community 1699]]
-- [[_COMMUNITY_Community 1700|Community 1700]]
-- [[_COMMUNITY_Community 1701|Community 1701]]
-- [[_COMMUNITY_Community 1702|Community 1702]]
-- [[_COMMUNITY_Community 1703|Community 1703]]
-- [[_COMMUNITY_Community 1704|Community 1704]]
-- [[_COMMUNITY_Community 1705|Community 1705]]
-- [[_COMMUNITY_Community 1706|Community 1706]]
-- [[_COMMUNITY_Community 1707|Community 1707]]
-- [[_COMMUNITY_Community 1708|Community 1708]]
-- [[_COMMUNITY_Community 1709|Community 1709]]
-- [[_COMMUNITY_Community 1710|Community 1710]]
-- [[_COMMUNITY_Community 1711|Community 1711]]
-- [[_COMMUNITY_Community 1712|Community 1712]]
-- [[_COMMUNITY_Community 1713|Community 1713]]
-- [[_COMMUNITY_Community 1714|Community 1714]]
-- [[_COMMUNITY_Community 1715|Community 1715]]
-- [[_COMMUNITY_Community 1716|Community 1716]]
-- [[_COMMUNITY_Community 1717|Community 1717]]
-- [[_COMMUNITY_Community 1718|Community 1718]]
-- [[_COMMUNITY_Community 1719|Community 1719]]
-- [[_COMMUNITY_Community 1720|Community 1720]]
-- [[_COMMUNITY_Community 1721|Community 1721]]
-- [[_COMMUNITY_Community 1722|Community 1722]]
-- [[_COMMUNITY_Community 1723|Community 1723]]
-- [[_COMMUNITY_Community 1724|Community 1724]]
-- [[_COMMUNITY_Community 1725|Community 1725]]
-- [[_COMMUNITY_Community 1726|Community 1726]]
-- [[_COMMUNITY_Community 1727|Community 1727]]
-- [[_COMMUNITY_Community 1728|Community 1728]]
-- [[_COMMUNITY_Community 1729|Community 1729]]
-- [[_COMMUNITY_Community 1730|Community 1730]]
-- [[_COMMUNITY_Community 1731|Community 1731]]
-- [[_COMMUNITY_Community 1732|Community 1732]]
-- [[_COMMUNITY_Community 1733|Community 1733]]
-- [[_COMMUNITY_Community 1734|Community 1734]]
-- [[_COMMUNITY_Community 1735|Community 1735]]
-- [[_COMMUNITY_Community 1736|Community 1736]]
-- [[_COMMUNITY_Community 1737|Community 1737]]
-- [[_COMMUNITY_Community 1738|Community 1738]]
-- [[_COMMUNITY_Community 1739|Community 1739]]
-- [[_COMMUNITY_Community 1740|Community 1740]]
-- [[_COMMUNITY_Community 1741|Community 1741]]
-- [[_COMMUNITY_Community 1742|Community 1742]]
-- [[_COMMUNITY_Community 1743|Community 1743]]
-- [[_COMMUNITY_Community 1744|Community 1744]]
-- [[_COMMUNITY_Community 1745|Community 1745]]
-- [[_COMMUNITY_Community 1746|Community 1746]]
-- [[_COMMUNITY_Community 1747|Community 1747]]
-- [[_COMMUNITY_Community 1748|Community 1748]]
-- [[_COMMUNITY_Community 1749|Community 1749]]
-- [[_COMMUNITY_Community 1750|Community 1750]]
-- [[_COMMUNITY_Community 1751|Community 1751]]
-- [[_COMMUNITY_Community 1752|Community 1752]]
-- [[_COMMUNITY_Community 1753|Community 1753]]
-- [[_COMMUNITY_Community 1754|Community 1754]]
-- [[_COMMUNITY_Community 1755|Community 1755]]
-- [[_COMMUNITY_Community 1756|Community 1756]]
-- [[_COMMUNITY_Community 1757|Community 1757]]
-- [[_COMMUNITY_Community 1758|Community 1758]]
-- [[_COMMUNITY_Community 1759|Community 1759]]
-- [[_COMMUNITY_Community 1760|Community 1760]]
-- [[_COMMUNITY_Community 1761|Community 1761]]
-- [[_COMMUNITY_Community 1762|Community 1762]]
-- [[_COMMUNITY_Community 1763|Community 1763]]
-- [[_COMMUNITY_Community 1764|Community 1764]]
-- [[_COMMUNITY_Community 1765|Community 1765]]
-- [[_COMMUNITY_Community 1766|Community 1766]]
-- [[_COMMUNITY_Community 1767|Community 1767]]
-- [[_COMMUNITY_Community 1768|Community 1768]]
-- [[_COMMUNITY_Community 1769|Community 1769]]
-- [[_COMMUNITY_Community 1770|Community 1770]]
-- [[_COMMUNITY_Community 1771|Community 1771]]
-- [[_COMMUNITY_Community 1772|Community 1772]]
-- [[_COMMUNITY_Community 1773|Community 1773]]
-- [[_COMMUNITY_Community 1774|Community 1774]]
-- [[_COMMUNITY_Community 1775|Community 1775]]
-- [[_COMMUNITY_Community 1776|Community 1776]]
-- [[_COMMUNITY_Community 1777|Community 1777]]
-- [[_COMMUNITY_Community 1778|Community 1778]]
-- [[_COMMUNITY_Community 1779|Community 1779]]
-- [[_COMMUNITY_Community 1780|Community 1780]]
-- [[_COMMUNITY_Community 1781|Community 1781]]
-- [[_COMMUNITY_Community 1782|Community 1782]]
-- [[_COMMUNITY_Community 1783|Community 1783]]
-- [[_COMMUNITY_Community 1784|Community 1784]]
-- [[_COMMUNITY_Community 1785|Community 1785]]
-- [[_COMMUNITY_Community 1786|Community 1786]]
-- [[_COMMUNITY_Community 1787|Community 1787]]
-- [[_COMMUNITY_Community 1788|Community 1788]]
-- [[_COMMUNITY_Community 1789|Community 1789]]
-- [[_COMMUNITY_Community 1790|Community 1790]]
-- [[_COMMUNITY_Community 1791|Community 1791]]
-- [[_COMMUNITY_Community 1792|Community 1792]]
-- [[_COMMUNITY_Community 1793|Community 1793]]
-- [[_COMMUNITY_Community 1794|Community 1794]]
-- [[_COMMUNITY_Community 1795|Community 1795]]
-- [[_COMMUNITY_Community 1796|Community 1796]]
-- [[_COMMUNITY_Community 1797|Community 1797]]
-- [[_COMMUNITY_Community 1798|Community 1798]]
-- [[_COMMUNITY_Community 1799|Community 1799]]
-- [[_COMMUNITY_Community 1800|Community 1800]]
-- [[_COMMUNITY_Community 1801|Community 1801]]
-- [[_COMMUNITY_Community 1802|Community 1802]]
-- [[_COMMUNITY_Community 1803|Community 1803]]
-- [[_COMMUNITY_Community 1804|Community 1804]]
-- [[_COMMUNITY_Community 1805|Community 1805]]
-- [[_COMMUNITY_Community 1806|Community 1806]]
-- [[_COMMUNITY_Community 1807|Community 1807]]
-- [[_COMMUNITY_Community 1808|Community 1808]]
-- [[_COMMUNITY_Community 1809|Community 1809]]
-- [[_COMMUNITY_Community 1810|Community 1810]]
-- [[_COMMUNITY_Community 1811|Community 1811]]
-- [[_COMMUNITY_Community 1812|Community 1812]]
-- [[_COMMUNITY_Community 1813|Community 1813]]
-- [[_COMMUNITY_Community 1814|Community 1814]]
-- [[_COMMUNITY_Community 1815|Community 1815]]
-- [[_COMMUNITY_Community 1816|Community 1816]]
-- [[_COMMUNITY_Community 1817|Community 1817]]
-- [[_COMMUNITY_Community 1818|Community 1818]]
-- [[_COMMUNITY_Community 1819|Community 1819]]
-- [[_COMMUNITY_Community 1820|Community 1820]]
-- [[_COMMUNITY_Community 1821|Community 1821]]
-- [[_COMMUNITY_Community 1822|Community 1822]]
-- [[_COMMUNITY_Community 1823|Community 1823]]
-- [[_COMMUNITY_Community 1824|Community 1824]]
-- [[_COMMUNITY_Community 1825|Community 1825]]
-- [[_COMMUNITY_Community 1826|Community 1826]]
-- [[_COMMUNITY_Community 1827|Community 1827]]
-- [[_COMMUNITY_Community 1828|Community 1828]]
-- [[_COMMUNITY_Community 1829|Community 1829]]
-- [[_COMMUNITY_Community 1830|Community 1830]]
-- [[_COMMUNITY_Community 1831|Community 1831]]
-- [[_COMMUNITY_Community 1832|Community 1832]]
-- [[_COMMUNITY_Community 1833|Community 1833]]
-- [[_COMMUNITY_Community 1834|Community 1834]]
-- [[_COMMUNITY_Community 1835|Community 1835]]
-- [[_COMMUNITY_Community 1836|Community 1836]]
-- [[_COMMUNITY_Community 1837|Community 1837]]
-- [[_COMMUNITY_Community 1838|Community 1838]]
-- [[_COMMUNITY_Community 1839|Community 1839]]
-- [[_COMMUNITY_Community 1840|Community 1840]]
-- [[_COMMUNITY_Community 1841|Community 1841]]
-- [[_COMMUNITY_Community 1842|Community 1842]]
-- [[_COMMUNITY_Community 1843|Community 1843]]
-- [[_COMMUNITY_Community 1844|Community 1844]]
-- [[_COMMUNITY_Community 1845|Community 1845]]
-- [[_COMMUNITY_Community 1846|Community 1846]]
-- [[_COMMUNITY_Community 1847|Community 1847]]
-- [[_COMMUNITY_Community 1848|Community 1848]]
-- [[_COMMUNITY_Community 1849|Community 1849]]
-- [[_COMMUNITY_Community 1850|Community 1850]]
-- [[_COMMUNITY_Community 1851|Community 1851]]
-- [[_COMMUNITY_Community 1852|Community 1852]]
-- [[_COMMUNITY_Community 1853|Community 1853]]
-- [[_COMMUNITY_Community 1854|Community 1854]]
-- [[_COMMUNITY_Community 1855|Community 1855]]
-- [[_COMMUNITY_Community 1856|Community 1856]]
-- [[_COMMUNITY_Community 1857|Community 1857]]
-- [[_COMMUNITY_Community 1858|Community 1858]]
-- [[_COMMUNITY_Community 1859|Community 1859]]
-- [[_COMMUNITY_Community 1860|Community 1860]]
-- [[_COMMUNITY_Community 1861|Community 1861]]
-- [[_COMMUNITY_Community 1862|Community 1862]]
-- [[_COMMUNITY_Community 1863|Community 1863]]
-- [[_COMMUNITY_Community 1864|Community 1864]]
-- [[_COMMUNITY_Community 1865|Community 1865]]
-- [[_COMMUNITY_Community 1866|Community 1866]]
-- [[_COMMUNITY_Community 1867|Community 1867]]
-- [[_COMMUNITY_Community 1868|Community 1868]]
-- [[_COMMUNITY_Community 1869|Community 1869]]
-- [[_COMMUNITY_Community 1870|Community 1870]]
-- [[_COMMUNITY_Community 1871|Community 1871]]
-- [[_COMMUNITY_Community 1872|Community 1872]]
-- [[_COMMUNITY_Community 1873|Community 1873]]
-- [[_COMMUNITY_Community 1874|Community 1874]]
-- [[_COMMUNITY_Community 1875|Community 1875]]
-- [[_COMMUNITY_Community 1876|Community 1876]]
-- [[_COMMUNITY_Community 1877|Community 1877]]
-- [[_COMMUNITY_Community 1878|Community 1878]]
-- [[_COMMUNITY_Community 1879|Community 1879]]
-- [[_COMMUNITY_Community 1880|Community 1880]]
-- [[_COMMUNITY_Community 1881|Community 1881]]
-- [[_COMMUNITY_Community 2576|Community 2576]]
-- [[_COMMUNITY_Community 2577|Community 2577]]
-- [[_COMMUNITY_Community 2578|Community 2578]]
-- [[_COMMUNITY_Community 2579|Community 2579]]
+- [[_COMMUNITY_Multi-Arch Image Builds|Multi-Arch Image Builds]]
+- [[_COMMUNITY_SELinux Container Mounts|SELinux Container Mounts]]
 
 ## God Nodes (most connected - your core abstractions)
-1. `main()` - 924 edges
-2. `Robot()` - 828 edges
-3. `TeleopPeriodic()` - 322 edges
-4. `RobotPeriodic()` - 308 edges
-5. `DisabledInit()` - 266 edges
-6. `TeleopInit()` - 266 edges
-7. `AutonomousInit()` - 238 edges
-8. `AutonomousPeriodic()` - 238 edges
-9. `TestPeriodic()` - 238 edges
-10. `DisabledPeriodic()` - 224 edges
+1. `cn()` - 77 edges
+2. `AppStorage` - 44 edges
+3. `LocalDockerRuntimeProvider` - 40 edges
+4. `test` - 36 edges
+5. `loginAs()` - 35 edges
+6. `LocalDockerRuntimeProvider` - 33 edges
+7. `withApp()` - 30 edges
+8. `RunManager` - 28 edges
+9. `HalSimBridge` - 26 edges
+10. `getLogger()` - 24 edges
 
 ## Surprising Connections (you probably didn't know these)
-- `saveAllowlist()` --calls--> `Rename`  [INFERRED]
-  apps/control/src/auth/allowlist.ts → data/users/ws_f6d1f8e4abd2fc37025e4d17cac5648c/home/extensions/redhat.java-1.55.0/document/_java.learnMoreAboutRefactorings.md
-- `restoreProjectArchive()` --calls--> `Rename`  [INFERRED]
-  apps/control/src/app/archive-utils.ts → data/users/ws_f6d1f8e4abd2fc37025e4d17cac5648c/home/extensions/redhat.java-1.55.0/document/_java.learnMoreAboutRefactorings.md
-- `restoreArchive()` --calls--> `Rename`  [INFERRED]
-  scripts/restore.ts → data/users/ws_f6d1f8e4abd2fc37025e4d17cac5648c/home/extensions/redhat.java-1.55.0/document/_java.learnMoreAboutRefactorings.md
-- `Rename` --calls--> `restoreProjectArchive()`  [INFERRED]
-  data/users/ws_f6d1f8e4abd2fc37025e4d17cac5648c/home/extensions/redhat.java-1.55.0/document/_java.learnMoreAboutRefactorings.md → apps/control/src/app.ts
-- `Headless Gradle Init Script (Team Import)` --semantically_similar_to--> `HALSIM_EXTENSIONS Empty on Later Run (log)`  [INFERRED] [semantically similar]
-  docs/lessons/team-import.md → data/users/ws_f6d1f8e4abd2fc37025e4d17cac5648c/home/wpilib/2026/logs/wpilibtoollog.txt
+- `nt4-multi-workspace.spec.ts (T35.1 NT4 isolation test)` --semantically_similar_to--> `embedded-mode NT4 endpoint injection mechanism`  [INFERRED] [semantically similar]
+  e2e/specs/telemetry/nt4-multi-workspace.spec.ts → patches/advantagescope/README.md
+- `rebuildWorkspaces()` --conceptually_related_to--> `Grafana ops dashboard screenshot: host VM, workspaces, runs, control-plane panels`  [AMBIGUOUS]
+  scripts/rebuild-workspaces.ts → website/static/img/screenshots/grafana-ops-dashboard.png
+- `SimPaneSwitcher.tsx` --conceptually_related_to--> `WorkspacePage (page object)`  [INFERRED]
+  docs/superpowers/plans/2026-08-30-pathplanner-integration.md → e2e/page-objects/workspace.po.ts
+- `001-lite-nt4-endpoint-injection.patch` --references--> `applyAdvantageScopePatches()`  [INFERRED]
+  patches/advantagescope/README.md → scripts/apply-ascope-patches.ts
+- `Demo Mode Quick Start` --conceptually_related_to--> `demo mode test suite`  [INFERRED]
+  README.md → apps/control/src/__tests__/auth-demo.test.ts
 
 ## Hyperedges (group relationships)
-- **Headless Gradle Override Mechanism (Sim GUI Removal)** — authoring_modules_gradle_override, team_import_gradle_init_script, wpilibtoollog_halsim_extensions_empty [INFERRED 0.85]
-- **Discard-on-Switch Workspace Pattern** — overview_discard_on_switch, team_import_discard_workspace, faq_lesson_switch_discard [INFERRED 0.85]
-- **Gradle/WPILib Cache Priming Across Build and Runtime** — workspace_image_gradle_cache_layer, faq_gradle_cache, faq_first_run_slowness [INFERRED 0.80]
+- **Right-Pane Tool Selector (AdvantageScope, PathPlanner, Preview)** — using_coderunner_advantagescope_tab, using_coderunner_pathplanner_tab, using_coderunner_preview_tab [EXTRACTED 1.00]
+- **In-Process Fake Upstream Servers for Mocked E2E Tier** — testing_fake_vscode, testing_fake_halsim, testing_fake_nt4, testing_controlapp [EXTRACTED 1.00]
+- **VSCodium/Java Tooling Decision Chain** — decisions_readme_036_vscodium_web_migration, decisions_readme_037_gradle_wrapper_alias_and_extension_pins, decisions_readme_038_java_tooling_compatibility_and_smoke [EXTRACTED 1.00]
 
-## Communities (2580 total, 724 thin omitted)
+## Communities (371 total, 89 thin omitted)
 
-### Community 0 - "Community 0"
-Cohesion: 0.0
-Nodes (53): Robot, Robot, Robot, Robot, Robot, Robot, Robot, Robot (+45 more)
-
-### Community 1 - "Community 1"
-Cohesion: 0.01
-Nodes (3): main(), Robot(), shootTrigger()
-
-### Community 2 - "Community 2"
-Cohesion: 0.0
-Nodes (7): Command, DriveDistance, DriveTime, ExampleCommand, m_autoTime(), RapidReactCommandBot, SysIdRoutineBot
-
-### Community 3 - "Community 3"
-Cohesion: 0.05
-Nodes (458): AccessibilityInformation, AuthenticationForceNewSessionOptions, AuthenticationGetSessionOptions, AuthenticationProvider, AuthenticationProviderAuthenticationSessionsChangeEvent, AuthenticationProviderInformation, AuthenticationProviderOptions, AuthenticationSession (+450 more)
-
-### Community 4 - "Community 4"
-Cohesion: 0.0
-Nodes (458): AccessibilityInformation, AuthenticationForceNewSessionOptions, AuthenticationGetSessionOptions, AuthenticationProvider, AuthenticationProviderAuthenticationSessionsChangeEvent, AuthenticationProviderInformation, AuthenticationProviderOptions, AuthenticationSession (+450 more)
-
-### Community 5 - "Community 5"
-Cohesion: 0.01
-Nodes (7): ReplaceMeSubsystem, SubsystemBase, output(), DriveSubsystem, SubsystemBase(), log(), SubsystemBase()
-
-### Community 6 - "Community 6"
-Cohesion: 0.05
-Nodes (15): AutonomousExit(), AutonomousInit(), AutonomousPeriodic(), DisabledExit(), DisabledInit(), DisabledPeriodic(), RobotPeriodic(), SimulationInit() (+7 more)
-
-### Community 7 - "Community 7"
-Cohesion: 0.01
-Nodes (215): AppSocket, createWebSocketHandlers(), ADMIN_GET_ROUTES, adminCookie, cookie, req, studentCookie, ControlAppOptions (+207 more)
-
-### Community 9 - "Community 9"
-Cohesion: 0.01
-Nodes (166): 0.0.10 (February 08th, 2017), 0.0.11 (March 2nd, 2017), 0.0.12 (March 16th, 2017), 0.0.13 (March 17th, 2017), 0.0.1 (September 12, 2016), 0.0.2 (September 14th, 2016), 0.0.3 (September 16th, 2016), 0.0.4 (September 26th, 2016) (+158 more)
-
-### Community 10 - "Community 10"
-Cohesion: 0.02
-Nodes (13): Initialize(), IsFinished(), ReleaseHatch, SetBrakeModeCommand, InstantCommand, ReplaceMeInstantCommand, RobotContainer, ReplaceMeParallelDeadlineGroup (+5 more)
-
-### Community 11 - "Community 11"
-Cohesion: 0.01
-Nodes (167): 0.0.10 (February 08th, 2017), 0.0.11 (March 2nd, 2017), 0.0.12 (March 16th, 2017), 0.0.13 (March 17th, 2017), 0.0.1 (September 12, 2016), 0.0.2 (September 14th, 2016), 0.0.3 (September 16th, 2016), 0.0.4 (September 26th, 2016) (+159 more)
-
-### Community 12 - "Community 12"
-Cohesion: 0.01
-Nodes (167): 0.0.10 (February 08th, 2017), 0.0.11 (March 2nd, 2017), 0.0.12 (March 16th, 2017), 0.0.13 (March 17th, 2017), 0.0.1 (September 12, 2016), 0.0.2 (September 14th, 2016), 0.0.3 (September 16th, 2016), 0.0.4 (September 26th, 2016) (+159 more)
-
-### Community 13 - "Community 13"
-Cohesion: 0.11
-Nodes (40): main(), cleanJre(), dirname, downloadJre(), downloadManifest(), main(), platformMapping, downloadLombok() (+32 more)
-
-### Community 14 - "Community 14"
-Cohesion: 0.02
-Nodes (10): Main, Main, Main, Main, Main, Main, RobotBase, Main (+2 more)
-
-### Community 15 - "Community 15"
-Cohesion: 0.02
-Nodes (4): m_autoDistance(), RobotContainer(), ParallelRaceGroup, ReplaceMeParallelRaceGroup
-
-### Community 16 - "Community 16"
-Cohesion: 0.01
-Nodes (149): 0.0.10 (February 08th, 2017), 0.0.11 (March 2nd, 2017), 0.0.12 (March 16th, 2017), 0.0.13 (March 17th, 2017), 0.0.1 (September 12, 2016), 0.0.2 (September 14th, 2016), 0.0.3 (September 16th, 2016), 0.0.4 (September 26th, 2016) (+141 more)
-
-### Community 17 - "Community 17"
-Cohesion: 0.02
-Nodes (3): AutonomousDistance, AutonomousTime, SequentialCommandGroup
-
-### Community 18 - "Community 18"
-Cohesion: 0.04
-Nodes (4): ConfigureBindings(), ConfigureButtonBindings(), GetAutonomousCommand(), RobotContainer()
-
-### Community 19 - "Community 19"
-Cohesion: 0.02
-Nodes (118): handleUploadAsset(), userAssetsPath(), getDemoSessionResponseBody(), seedDemoUser(), requireSession(), input, stripped, apiError() (+110 more)
-
-### Community 20 - "Community 20"
+### Community 0 - "Admin API Contracts"
 Cohesion: 0.03
-Nodes (15): ArmSimulationTest, TEST_P(), ElevatorSimulationTest, TEST_F(), MecanumControllerCommandTest, TEST_F(), PotentiometerPIDTest, TEST_F() (+7 more)
+Nodes (74): AdminActionResponse, adminActionResponseSchema, AdminStatusResponse, adminStatusResponseSchema, AdminWorkspaceStatus, adminWorkspaceStatusSchema, AllianceStation, AuthProvider (+66 more)
 
-### Community 21 - "Community 21"
-Cohesion: 0.02
-Nodes (11): DoubleSupplier, DriveIOSpark, FlywheelIOSpark, HoodIOSpark, KickerIOSpark, RollerIOSpark, SpindexerIOSpark, Drive (+3 more)
+### Community 1 - "Admin Route Dispatch & Security Headers"
+Cohesion: 0.05
+Nodes (64): handleAdminRoute, Admin workspace backup action, Admin workspace restore action, applySecurityHeaders, authorizeMetrics, constantTimeEqual, dispatch, fetch (request handler) (+56 more)
 
-### Community 22 - "Community 22"
-Cohesion: 0.04
-Nodes (37): codeContainerName(), CodeContainerStatus, containerName(), ContainerOrchestrator, ContainerOrchestratorOptions, containerRuntimeState(), defaultDockerRunner(), dockerError() (+29 more)
-
-### Community 23 - "Community 23"
-Cohesion: 0.04
-Nodes (69): parseDockerStatsLine(), parsePercent(), runtimeFromLease(), statusFromLease(), upstreamEndpoints(), defaultDockerRunner(), dockerError(), dockerPortBindError() (+61 more)
-
-### Community 24 - "Community 24"
-Cohesion: 0.07
-Nodes (12): Drive(), Drivetrain(), GetCurrentDistances(), GetCurrentState(), GetCurrentWheelDistances(), ObjectToRobotPose(), Periodic(), PublishCameraToObject() (+4 more)
-
-### Community 25 - "Community 25"
-Cohesion: 0.02
-Nodes (17): RobotContainer, RobotContainer, RobotContainer, RobotContainer, RobotContainer, RobotContainer, RobotContainer, RobotContainer (+9 more)
-
-### Community 26 - "Community 26"
-Cohesion: 0.04
-Nodes (6): GrabHatch(), GrabHatchCommand(), HatchSubsystem, InitSendable(), ReleaseHatch(), ReleaseHatchCommand()
-
-### Community 27 - "Community 27"
-Cohesion: 0.07
-Nodes (10): AutoConstants(), kEncoderPorts(), kHatchSolenoidPorts(), kRearRightDriveEncoderPorts(), kRearRightEncoderPorts(), kRightEncoderPorts(), kSolenoidPorts(), ModuleConstants() (+2 more)
-
-### Community 28 - "Community 28"
+### Community 2 - "App Storage (SQLite)"
 Cohesion: 0.06
-Nodes (81): AdminRouteContext, handleAdminRoute(), log, createProjectArchive(), directorySizeBytes(), restoreProjectArchive(), runTar(), AssetManifest (+73 more)
+Nodes (37): AutoPanel(), AutoPanelProps, ControlsPanel(), DriverStation(), DriverStationProps, change, { container, rerender }, props (+29 more)
 
-### Community 29 - "Community 29"
-Cohesion: 0.04
-Nodes (44): addAllowlistEntry(), AllowlistData, getAllowlist(), isEmailAllowed(), loadAllowlist(), normalize(), normalizeEntry(), reloadAllowlist() (+36 more)
-
-### Community 30 - "Community 30"
-Cohesion: 0.04
-Nodes (60): sendUpstreamWebSocketMessage(), log, WebSocketHandlerContext, first, NUM_RUNS, second, bashCalls, cloneCall (+52 more)
-
-### Community 31 - "Community 31"
-Cohesion: 0.13
-Nodes (16): ArcadeDrive(), Drivetrain, GetAccelX(), GetAccelY(), GetAccelZ(), GetAverageDistance(), GetGyroAngleX(), GetGyroAngleY() (+8 more)
-
-### Community 32 - "Community 32"
-Cohesion: 0.04
-Nodes (45): DEFAULT_PORT, GamepadLease, GamepadLeaseResolver, GamepadMessageOutcome, GamepadSessions, GamepadStatus, halsimTarget(), log (+37 more)
-
-### Community 33 - "Community 33"
-Cohesion: 0.02
-Nodes (80): AdminActionResponse, adminActionResponseSchema, AdminStatusResponse, adminStatusResponseSchema, AdminWorkspaceStatus, adminWorkspaceStatusSchema, AllianceStation, AuthProvider (+72 more)
-
-### Community 34 - "Community 34"
-Cohesion: 0.03
-Nodes (64): aliceConnection, aliceCookie, aliceMessages, aliceRun, aliceRunId, aliceWorkspace, authHeaders, backedUpProject (+56 more)
-
-### Community 35 - "Community 35"
-Cohesion: 0.04
-Nodes (6): FlywheelIOSim, FlywheelIO, HoodIOSim, HoodIO, ShooterSubsystem, AimHoodAndSpinFlywheelCommand
-
-### Community 36 - "Community 36"
-Cohesion: 0.04
-Nodes (4): AssistedDriveCommand, round, ChassisTrapezoidalController, GeometryUtil
-
-### Community 37 - "Community 37"
-Cohesion: 0.04
-Nodes (4): LEDSubsystem, RunCommand(), Storage, XRPDrivetrain
-
-### Community 38 - "Community 38"
-Cohesion: 0.05
-Nodes (48): toHostPath(), BundledCatalogSource, CatalogManifest, CatalogSource, createCatalogSource(), findModuleOrThrow(), log, parseCatalogRepo() (+40 more)
-
-### Community 39 - "Community 39"
-Cohesion: 0.06
-Nodes (5): RunShooterCommand(), ShootCommand(), Shooter, SysIdDynamic(), SysIdQuasistatic()
-
-### Community 41 - "Community 41"
-Cohesion: 0.05
-Nodes (40): DemoBanner(), EditorPane(), EditorPaneProps, ScopePane, ScopePaneProps, patchCall, { result }, updatedResponse (+32 more)
-
-### Community 43 - "Community 43"
-Cohesion: 0.04
-Nodes (3): Drivetrain, Drivetrain, Drivetrain
-
-### Community 44 - "Community 44"
-Cohesion: 0.05
-Nodes (42): AutoPanel(), AutoPanelProps, ControlsPanel(), ALLIANCE_LABELS, DriverStation(), DriverStationProps, MODE_LABELS, MODE_PILL_CLASSES (+34 more)
-
-### Community 45 - "Community 45"
-Cohesion: 0.05
-Nodes (47): ListBlockDevicesOptions, listWorkspaceDiskLimitDevices(), log, IdleManager, IdleManagerOptions, log, ANSI, colorize() (+39 more)
-
-### Community 46 - "Community 46"
-Cohesion: 0.04
-Nodes (4): TrenchDuckCommand, TurretCommands, LaunchCalculator, AllianceFlipUtil
-
-### Community 47 - "Community 47"
+### Community 3 - "IDE Layout Resizable Panes"
 Cohesion: 0.07
-Nodes (6): Turret, getAngularExitVelocity(), getHoodAngle(), getLinearExitVelocity(), TurretCalculator, TurretVisualizer
+Nodes (41): AssetManifest, contentTypeFor(), handleUploadAsset(), HAS_PROC_SELF_FD, pathplannerResponse(), readScopeAssetManifest(), safeRelativeAssetPath(), scopeResponse() (+33 more)
 
-### Community 48 - "Community 48"
-Cohesion: 0.07
-Nodes (5): Arm, LoadPreferences(), ReachSetpoint(), SimulationPeriodic(), Stop()
-
-### Community 49 - "Community 49"
-Cohesion: 0.05
-Nodes (47): NT4 Routing under Multi-Tenancy (spike question), Shared vs. Per-user JDT LS topology (spike question), Decision 001: Sim Container Architecture, Decision 002: AdvantageScope Lite Hosting, Decision 003: Minimal Web Shell, Decision 004: Backend Wiring for Save and Run, Decision 005: Java LSP MVP Integration, Eclipse JDT LS Process (+39 more)
-
-### Community 50 - "Community 50"
-Cohesion: 0.22
-Nodes (11): ArcadeDrive(), DynamicProfiledDriveDistance(), GetAverageEncoderDistance(), GetLeftEncoderDistance(), GetRightEncoderDistance(), InitSendable(), Periodic(), ProfiledDriveDistance() (+3 more)
-
-### Community 51 - "Community 51"
-Cohesion: 0.05
-Nodes (3): ParallelCommandGroup, ReplaceMeParallelCommandGroup, ShootCommandGroup
-
-### Community 52 - "Community 52"
-Cohesion: 0.05
-Nodes (52): 1. Find your host IP, 1. Login And Isolation, 1. Login, Project Picker, And Isolation, 2. Editor And Project Persistence, 2. Start the control plane, 3. Connect from other machines, 3. File Operations, 4. Firewall (if needed) (+44 more)
-
-### Community 53 - "Community 53"
-Cohesion: 0.07
-Nodes (36): ConsolePane(), ConsolePaneProps, CodeStatus, CodeStatusPill(), TONES, codeStatusFromRun(), ConsoleLine(), ConsolePanel() (+28 more)
-
-### Community 54 - "Community 54"
+### Community 4 - "WebSocket Handler Factory"
 Cohesion: 0.08
-Nodes (5): GetPosition(), GetState(), ResetEncoders(), SetDesiredState(), SwerveModule
+Nodes (32): BINDING_GROUPS, Bumper(), ControlsPanelProps, DpadArm(), FaceButton(), GamepadVisualizer(), SmallButton(), StatusTone (+24 more)
 
-### Community 55 - "Community 55"
+### Community 5 - "Control Plane App & Metrics"
+Cohesion: 0.1
+Nodes (31): AdminApp(), AdminLayout(), Tab, tabs, useAdminPoll(), Allowlist(), AllowlistData, AuditEntry (+23 more)
+
+### Community 6 - "Gamepad/Keyboard WPILib Mapping"
 Cohesion: 0.04
-Nodes (39): 0.12.1 - 2018-8-31, 0.12.2 - 2018-9-6, 0.15.0 - 2018-11-01, 0.25.1 - 2020-03-06, 0.32.1 - 2021-03-23, 0.33.1 - 2021-04-30, 0.34.0 - 2021-05-26, 0.3.1 - 2017-11-17 (+31 more)
+Nodes (43): code:ts (describe("deployFilePathSchema", () => {), code:ts (pathplannerDistDir: string;), code:ts (export async function createPathPlannerDist(root: string): P), code:ts (const pathplannerDistDir = await createPathPlannerDist(root)), code:bash (bun run check:fix), code:ts (test("templates PathPlanner routes with bounded cardinality"), code:ts (if (path.startsWith("/pathplanner/")) return "/pathplanner/*), code:ts (if (suffix.startsWith("/api/deploy-files/"))) (+35 more)
 
-### Community 56 - "Community 56"
-Cohesion: 0.04
-Nodes (41): 0.12.2 - 2018-9-6, 0.14.0 - 2018-10-10, 0.15.0 - 2018-11-01, 0.1.0 - 2017-09-27, 0.25.1 - 2020-03-06, 0.32.1 - 2021-03-23, 0.33.1 - 2021-04-30, 0.34.0 - 2021-05-26 (+33 more)
+### Community 7 - "Admin Layout & Polling"
+Cohesion: 0.05
+Nodes (47): Web Contracts Re-export, dpadToPov (gamepad-mapping), gamepadFrameToWpilib, WPILib XboxController Axis/Button Layout, dpadToPov (keyboard-mapping), gamepadStateToVisualizerFrame, Keyboard-as-Virtual-Gamepad Emulation, KEYBOARD_BINDINGS (+39 more)
 
-### Community 57 - "Community 57"
-Cohesion: 0.04
-Nodes (49): 0.18.2 - 2019-07-23, 0.1.0 - 2017-12-01, 0.22.2, 0.24.1, 0.27.0, 0.31.0, 0.31.3, 0.33.1 (+41 more)
-
-### Community 58 - "Community 58"
-Cohesion: 0.04
-Nodes (39): 0.15.1 - 2019-03-19, 0.24.1, 0.27.0, 0.30.1, 0.31.1, 0.31.3, 0.33.1, 0.35.2 (+31 more)
-
-### Community 59 - "Community 59"
-Cohesion: 0.04
-Nodes (47): 0.15.1 - 2019-03-19, 0.18.2 - 2019-07-23, 0.22.2, 0.22.4, 0.24.1, 0.30.0, 0.30.1, 0.31.0 (+39 more)
-
-### Community 61 - "Community 61"
-Cohesion: 0.04
-Nodes (47): 0.15.1 - 2019-03-19, 0.1.0 - 2017-12-01, 0.22.4, 0.24.1, 0.27.0, 0.30.0, 0.30.1, 0.31.0 (+39 more)
-
-### Community 62 - "Community 62"
-Cohesion: 0.04
-Nodes (39): Build failed, do you want to continue?, Cannot find a class with the main method, Failed to complete hot code replace:, Failed to evaluate. Reason: Cannot evaluate because the thread is resumed., Failed to resolve classpath:, Java Language Support extension fails to start., No delegateCommandHandler for vscode.java.startDebugSession when starting Debugger, Please specify the host name and the port of the remote debuggee in the launch.json. (+31 more)
-
-### Community 63 - "Community 63"
+### Community 8 - "Shared UI Primitives"
 Cohesion: 0.07
 Nodes (24): chooserRoots(), decodeMsgPack(), displayKey(), encodeMsgPack(), isChooser(), normalizeTopicName(), Nt4AutoChooserBridge, Nt4AutoChooserBridgeOptions (+16 more)
 
-### Community 64 - "Community 64"
-Cohesion: 0.07
-Nodes (4): Fuel, FuelSim, Hub, SimIntake
+### Community 9 - "Docker Runtime Provider Core"
+Cohesion: 0.05
+Nodes (45): listWorkspaceDiskLimitDevices, parseDockerStatsLine, runtimeFromLease, statusFromLease, upstreamEndpoints, dockerPortBindError, inspectContainer, inspectContainers (+37 more)
 
-### Community 65 - "Community 65"
+### Community 10 - "Run Execution Metrics"
+Cohesion: 0.06
+Nodes (34): activeWorkspaces, DockerStatsPoller, DockerStatsPollerOptions, log, containerCpuPercent, containerMemoryPercent, containerStartBuckets, containerStartDuration (+26 more)
+
+### Community 11 - "Driver Station Enable/Disable UI"
 Cohesion: 0.1
-Nodes (27): AdminLayout(), Tab, tabs, useAdminPoll(), Allowlist(), AllowlistData, AuditEntry, AuditLog() (+19 more)
+Nodes (31): addAllowlistEntry(), AllowlistData, EMPTY, getAllowlist(), isEmailAllowed(), loadAllowlist(), normalize(), normalizeEntry() (+23 more)
 
-### Community 66 - "Community 66"
-Cohesion: 0.16
-Nodes (4): End(), Execute(), Initialize(), IsFinished()
-
-### Community 67 - "Community 67"
-Cohesion: 0.1
-Nodes (43): completionItems(), completionItemsToSuggestions(), documentationToMarkdown(), handleDiagnostics(), hoverContentsToMarkdown(), hoverToMonaco(), isCompletionItem(), isLspDiagnostic() (+35 more)
-
-### Community 68 - "Community 68"
-Cohesion: 0.05
-Nodes (22): Advantages, Basic Usage, code:bash (java -cp . com.example.Main), code:bash (debugjava -cp . com.example.Main), code:bash (debugjava -jar target/myapp.jar), code:bash (debugjava -jar build/libs/myapp.jar), code:bash (debugjava -cp . com.example.Main arg1 arg2 --flag=value), code:bash (debugjava -jar myapp.jar --spring.profiles.active=dev) (+14 more)
-
-### Community 69 - "Community 69"
-Cohesion: 0.06
-Nodes (4): DriveIO, GyroIO, RobotContainer, SuperstructureIO
-
-### Community 75 - "Community 75"
-Cohesion: 0.05
-Nodes (31): 1. No way to take input., 2. Code output is not in the DEBUG CONSOLE panel but Terminal., 3. The classpath changed when using terminal., 4. Failed to launch debuggee in terminal with TransportTimeoutException., Arguments, Attach to a debuggee, Attach to embedded maven tomcat server, Attach to mvn task (+23 more)
-
-### Community 76 - "Community 76"
-Cohesion: 0.05
-Nodes (31): Class References, code:json ("gradle.reuseTerminals": "task"), code:json ("gradle.reuseTerminals": "all"), code:json ("gradle.reuseTerminals": "off"), code:json ({), code:shell (env: sh: No such file or directory), code:json ({), code:shell (ERROR: JAVA_HOME is not set and no 'java' command could be f) (+23 more)
-
-### Community 77 - "Community 77"
-Cohesion: 0.06
-Nodes (32): BigButton(), BigButtonProps, EnableDisableRow(), EnableDisableRowProps, onSetEnabled, TONE_ACTIVE, MODE_CLASSES, MODE_LABELS (+24 more)
-
-### Community 78 - "Community 78"
-Cohesion: 0.12
-Nodes (10): BaseZone, PredictiveXBaseZone, PredictiveXZone, PredictiveXZoneCollection, PredictiveYBaseZone, PredictiveYZone, PredictiveYZoneCollection, Zone (+2 more)
-
-### Community 80 - "Community 80"
-Cohesion: 0.05
-Nodes (31): Class References, code:json ("gradle.reuseTerminals": "task"), code:json ("gradle.reuseTerminals": "all"), code:json ("gradle.reuseTerminals": "off"), code:json ({), code:shell (env: sh: No such file or directory), code:json ({), code:shell (ERROR: JAVA_HOME is not set and no 'java' command could be f) (+23 more)
-
-### Community 81 - "Community 81"
-Cohesion: 0.06
-Nodes (28): assert(), assertEditorProxy(), assertNt4AliveProbe(), assertSimProcessAlive(), buildingTimes, Login, logins, originals (+20 more)
-
-### Community 83 - "Community 83"
-Cohesion: 0.05
-Nodes (31): 1. No way to take input., 2. Code output is not in the DEBUG CONSOLE panel but Terminal., 3. The classpath changed when using terminal., 4. Failed to launch debuggee in terminal with TransportTimeoutException., Arguments, Attach to a debuggee, Attach to embedded maven tomcat server, Attach to mvn task (+23 more)
-
-### Community 84 - "Community 84"
-Cohesion: 0.05
-Nodes (9): ModuleIOTalonFX, IndexerIOSim, IndexerIOTalonFX, IndexerIO, ModuleIO, TurretIO, VisionIOPhotonVisionSim, VisionIO (+1 more)
-
-### Community 85 - "Community 85"
-Cohesion: 0.05
-Nodes (3): GyroIONavX, ModuleIOSpark, SparkOdometryThread
-
-### Community 86 - "Community 86"
+### Community 12 - "Docker Runtime Types & Ports"
 Cohesion: 0.11
-Nodes (14): consumeLines(), defaultRunCommandFactory(), dockerRunScript(), lineLooksReady(), log, randomRunId(), RunCommand, RunCommandContext (+6 more)
+Nodes (29): runtimeFromLease(), statusFromLease(), upstreamEndpoints(), CapacityExceededError, log, configMountType(), containerAttachedToNetwork(), containerHasPublishedPorts() (+21 more)
 
-### Community 87 - "Community 87"
-Cohesion: 0.09
-Nodes (4): ExtensionIO, IntakeSubsystem, RollerIOSim, RollerIO
-
-### Community 88 - "Community 88"
-Cohesion: 0.06
-Nodes (38): 10. Become the first admin, 10. Promote yourself to admin, 1. Create and configure the GCP project, 2. Create the Terraform state bucket, 3. Configure Terraform variables, 4. Apply Terraform, 5. Populate Secret Manager, 6. Add a DNS A record (+30 more)
-
-### Community 89 - "Community 89"
-Cohesion: 0.07
-Nodes (22): isWorkspaceSlug(), JavaLspController, App(), canOpen(), EditorStatus, fetchJson(), fileName(), languageFor() (+14 more)
-
-### Community 90 - "Community 90"
+### Community 13 - "Control Plane Route Test Suite"
 Cohesion: 0.05
-Nodes (15): AutoConstants, BackLeft, BackRight, ClimberConstants, Constants, ControllerConstants, Dimensions, FieldConstants (+7 more)
+Nodes (37): 10. Become the first admin, 1. Create and configure the GCP project, 2. Create the Terraform state bucket, 3. Configure Terraform variables, 4. Apply Terraform, 5. Populate Secret Manager, 6. Add a DNS A record, 7. Reset the VM to render config (+29 more)
 
-### Community 91 - "Community 91"
-Cohesion: 0.32
-Nodes (10): Drive(), getCurrentWheelDistances(), getCurrentWheelSpeeds(), GetHeading(), GetPose(), GetTurnRate(), ResetOdometry(), SetModuleStates() (+2 more)
+### Community 14 - "NT4 Auto Chooser Protocol"
+Cohesion: 0.11
+Nodes (3): LocalDockerRuntimeProvider, containerRuntimeState(), release
 
-### Community 92 - "Community 92"
+### Community 15 - "E2E Runtime & Resilience Specs"
+Cohesion: 0.07
+Nodes (21): ResolvedTheme, Theme, THEME_VALUES, ThemeProvider(), ThemeProviderContext, ThemeProviderProps, ThemeProviderState, useTheme() (+13 more)
+
+### Community 16 - "Container Runtime Status Helpers"
+Cohesion: 0.11
+Nodes (33): parseDeployFilePath(), halsimWebSocketResponse(), HOP_BY_HOP_HEADERS, log, nt4AliveResponse(), nt4WebSocketResponse(), probeVscodeReady(), requestedProtocols() (+25 more)
+
+### Community 17 - "Driver Station Auto/Console Panels"
+Cohesion: 0.07
+Nodes (35): AutoPanel, preferredChooser, CodeStatusPill, codeStatusFromRun, ConsolePanel, ConsoleViewport, ControlsPanel, GamepadVisualizer (+27 more)
+
+### Community 18 - "Auth & Allowlist Test Bodies"
+Cohesion: 0.08
+Nodes (22): PreviewProjectOptions, RED_PIXEL_PNG, reportClassHtml(), reportCss(), reportIndexHtml(), reportJs(), seedPreviewProject(), write() (+14 more)
+
+### Community 19 - "WebSocket Upstream Proxy"
 Cohesion: 0.13
-Nodes (5): ExampleCondition(), ExampleMethodCommand(), ExampleSubsystem, Periodic(), SimulationPeriodic()
+Nodes (19): body, body, body, body, absolute, refs, headers, received (+11 more)
 
-### Community 93 - "Community 93"
-Cohesion: 0.11
-Nodes (26): acceptWebSocket(), ActiveRun, activeRuns, collectProcess(), delay(), docker(), dockerExec(), handleRun() (+18 more)
+### Community 20 - "Scope Pane & Demo Banner"
+Cohesion: 0.08
+Nodes (21): PreviewFrame, PreviewPane(), PreviewPaneProps, PreviewPlaceholderProps, Doc, fetchMock, firstKey, GUIDE (+13 more)
 
-### Community 95 - "Community 95"
-Cohesion: 0.05
-Nodes (24): Bulk Generate Getters & Setters, Code Editing, code:json ({), code:json ({), code:json ("java.test.config": [), Debugging, Dependency Auto-Completion for `pom.xml` files, Easy Launching for Multi-Main-Class Projects (+16 more)
-
-### Community 96 - "Community 96"
-Cohesion: 0.07
-Nodes (3): DriveCommands, WheelRadiusCharacterizationState, TunableDouble
-
-### Community 97 - "Community 97"
-Cohesion: 0.05
-Nodes (37): admin/allowlist-management.spec.ts, admin/audit-log.spec.ts, admin/capacity-cap.spec.ts, admin/user-management.spec.ts, admin/workspace-backup-restore.spec.ts, auth/allowlist.spec.ts, auth/login.spec.ts, auth/roles.spec.ts (+29 more)
-
-### Community 98 - "Community 98"
-Cohesion: 0.07
-Nodes (20): BINDING_GROUPS, Bumper(), ControlsPanelProps, DpadArm(), FaceButton(), GamepadVisualizer(), SmallButton(), StatusTone (+12 more)
-
-### Community 100 - "Community 100"
-Cohesion: 0.06
-Nodes (3): StopDrivingCommand, DriveToPoseCommand, SysIDCommands
-
-### Community 101 - "Community 101"
-Cohesion: 0.06
-Nodes (24): 0.10.0, 0.11.0, 0.11.1, 0.11.2, 0.11.3, 0.12.0, 0.12.1, 0.13.0 (+16 more)
-
-### Community 102 - "Community 102"
-Cohesion: 0.06
-Nodes (23): Better Performance, Code Editing, code:xml (<build>), Convert to Static Imports, Debug Maven Goals, Debugging, Display Logical Structure of Collections, Folding Range (+15 more)
-
-### Community 103 - "Community 103"
-Cohesion: 0.06
-Nodes (15): Activation, Anti-patterns (Avoid these), Common Workflows, Fallback, Java LSP Tools, `lsp_java_findSymbol`, `lsp_java_getCallHierarchy`, `lsp_java_getFileImports` (+7 more)
-
-### Community 104 - "Community 104"
-Cohesion: 0.06
-Nodes (26): 0.10.0, 0.11.0, 0.11.1, 0.11.2, 0.11.3, 0.12.0, 0.12.1, 0.13.0 (+18 more)
-
-### Community 105 - "Community 105"
-Cohesion: 0.06
-Nodes (36): admin/allowlist-management.spec.ts, admin/audit-log.spec.ts, admin/capacity-cap.spec.ts, admin/user-management.spec.ts, auth/allowlist.spec.ts, auth/login.spec.ts, auth/roles.spec.ts, auth/session-isolation.spec.ts (+28 more)
-
-### Community 107 - "Community 107"
-Cohesion: 0.09
-Nodes (34): 1. Choose the new version, 1. Clone and configure, 1. Clone and set up the repo, 1. Clone the repo, 2. Create your `.env` file, 2. Pull the new images and restart the control plane, 2. Start and verify, 3. Build the workspace image and web assets (+26 more)
-
-### Community 108 - "Community 108"
-Cohesion: 0.06
-Nodes (22): Call Hierarchy, Check Build Status, Code Navigation in 10 Seconds, code:xml (<build>), code:groovy (sourceCompatibility = 14), code:json ("java.project.referencedLibraries": [), code:json ("java.project.referencedLibraries": {), Create New Class from File Explorer (+14 more)
-
-### Community 109 - "Community 109"
-Cohesion: 0.06
-Nodes (23): 0.10.0, 0.11.0, 0.12.0, 0.12.1, 0.1.0, 0.28.0, 0.29.0, 0.2.0 (+15 more)
-
-### Community 112 - "Community 112"
-Cohesion: 0.11
-Nodes (3): End(), HalveDriveSpeed, Initialize()
-
-### Community 113 - "Community 113"
-Cohesion: 0.11
-Nodes (3): GrabHatch, Initialize(), IsFinished()
-
-### Community 115 - "Community 115"
-Cohesion: 0.27
-Nodes (5): End(), Execute(), GetAverageTurningDistance(), Initialize(), IsFinished()
-
-### Community 116 - "Community 116"
-Cohesion: 0.11
-Nodes (3): DisableCompressorCommand(), GetPressure(), Pneumatics
-
-### Community 117 - "Community 117"
-Cohesion: 0.39
-Nodes (9): capturePort(), child, fs, getJavaCommand(), javaCmd, output, path, setupSignalHandlers() (+1 more)
-
-### Community 118 - "Community 118"
-Cohesion: 0.24
-Nodes (5): ReachGoal(), Reset(), SimulationPeriodic(), Stop(), UpdateTelemetry()
-
-### Community 119 - "Community 119"
-Cohesion: 0.16
-Nodes (5): ArcadeDriveCommand(), DriveDistanceCommand(), SysIdDynamic(), SysIdQuasistatic(), TurnToAngleCommand()
-
-### Community 120 - "Community 120"
-Cohesion: 0.06
-Nodes (31): Class References, code:json ("gradle.reuseTerminals": "task"), code:json ("gradle.reuseTerminals": "all"), code:json ("gradle.reuseTerminals": "off"), code:json ({), code:shell (env: sh: No such file or directory), code:json ({), code:shell (ERROR: JAVA_HOME is not set and no 'java' command could be f) (+23 more)
-
-### Community 121 - "Community 121"
-Cohesion: 0.09
-Nodes (17): CATALOG, fetchMock, { result }, useLessons(), UseLessonsReturn, INITIAL_STATE, ProjectSwapKind, ProjectSwapState (+9 more)
-
-### Community 122 - "Community 122"
-Cohesion: 0.23
-Nodes (4): End(), Execute(), Initialize(), IsFinished()
-
-### Community 123 - "Community 123"
-Cohesion: 0.23
-Nodes (4): End(), Execute(), Initialize(), IsFinished()
-
-### Community 124 - "Community 124"
-Cohesion: 0.23
-Nodes (4): GetPosition(), GetState(), SetDesiredState(), SwerveModule()
-
-### Community 125 - "Community 125"
+### Community 21 - "Import URL Security Tests"
 Cohesion: 0.1
-Nodes (31): code:bash (git clone https://github.com/mathewdunne/CodeRunner coderunn), code:bash (cd website && bun install && bun run start), code:bash (bun run docs:dev), code:bash (bun run dev:control   # Bun control plane on :4000 with --wa), code:bash (bun run verify        # typecheck + Bun tests + Vitest + Pla), CodeRunner, Commands, Development (+23 more)
+Nodes (6): AppStorage, createStorage(), ensureWorkspaceFiles(), nowIso(), projectPathFor(), randomId()
 
-### Community 126 - "Community 126"
-Cohesion: 0.06
-Nodes (31): Class References, code:json ("gradle.reuseTerminals": "task"), code:json ("gradle.reuseTerminals": "all"), code:json ("gradle.reuseTerminals": "off"), code:json ({), code:shell (env: sh: No such file or directory), code:json ({), code:shell (ERROR: JAVA_HOME is not set and no 'java' command could be f) (+23 more)
+### Community 22 - "Sim Pane Switcher & Topbar"
+Cohesion: 0.08
+Nodes (23): slugFromEmail(), emailArb, now, NUM_RUNS, slug, slugs, baBody, body (+15 more)
 
-### Community 127 - "Community 127"
-Cohesion: 0.11
-Nodes (3): SystemChecks, Intakes, IntakeVisualizer
+### Community 23 - "Code Status Pill Component"
+Cohesion: 0.14
+Nodes (24): AdminRouteContext, handleAdminRoute(), log, createProjectArchive(), directorySizeBytes(), restoreProjectArchive(), runTar(), apiErrorResponse() (+16 more)
 
-### Community 128 - "Community 128"
+### Community 24 - "Container Lifecycle Test Suite"
+Cohesion: 0.07
+Nodes (27): Adding an entry, Admin API break-glass, Audit log, Between sessions, Checking and adjusting the cap at runtime, code:bash (docker compose exec control coderunner <subcommand> <args>), code:bash (# Remove all entries before a date), code:bash (# Overall system status: workspaces, container states, activ) (+19 more)
+
+### Community 25 - "Admin Backup/Restore Test Suite"
 Cohesion: 0.09
-Nodes (20): RunControls(), RunControlsProps, pillVariant(), StatusStrip(), StatusStripProps, Topbar(), TopbarProps, Avatar() (+12 more)
+Nodes (9): AppFixtures, seedWorkspaceProject(), WorkspacePage, status, wsp, Deps, dialog, openWorkspace() (+1 more)
 
-### Community 129 - "Community 129"
-Cohesion: 0.08
-Nodes (24): assert(), assertNt4AliveProbe(), assertSimProcessAlive(), buildingTimes, initializeLspSession(), latest, Login, logins (+16 more)
-
-### Community 130 - "Community 130"
-Cohesion: 0.15
-Nodes (17): body, body, body, body, absolute, refs, headers, received (+9 more)
-
-### Community 131 - "Community 131"
-Cohesion: 0.06
-Nodes (19): code:json ({), code:json ({), code:json ({), code:json ({), code:json ({), code:json ({), Credits, Enabling Spotless (+11 more)
-
-### Community 132 - "Community 132"
-Cohesion: 0.06
-Nodes (20): Contributing and Feedback, Customize Test Configurations, FAQ, Features, JUnit 4, JUnit 5, JUnit 6, License (+12 more)
-
-### Community 133 - "Community 133"
-Cohesion: 0.06
-Nodes (23): 0.19.1, 0.23.7, 0.24.0, 0.24.1, 0.25.0, 0.25.2, 0.26.0, 0.26.1 (+15 more)
-
-### Community 135 - "Community 135"
-Cohesion: 0.15
-Nodes (31): 9. Common Failures and Recovery, AS Lite not showing telemetry, Build queue saturated, Code container OOM, code:bash (# All managed containers), code:block33 (14:23:01.482 INFO  [control.runs]       run started workspac), code:bash (# Manual probe with bearer token), code:alloy (prometheus.scrape "control_plane" {) (+23 more)
-
-### Community 136 - "Community 136"
-Cohesion: 0.06
-Nodes (3): GyroIOPigeon2, PhoenixOdometryThread, PhoenixUtil
-
-### Community 137 - "Community 137"
-Cohesion: 0.08
-Nodes (4): IntakeIOSim, IntakeIOTalonFX, IntakeIOTalonFXDual, IntakeIO
-
-### Community 138 - "Community 138"
-Cohesion: 0.08
-Nodes (17): AdminApp(), ResolvedTheme, Theme, THEME_VALUES, ThemeProvider(), ThemeProviderContext, ThemeProviderProps, ThemeProviderState (+9 more)
-
-### Community 139 - "Community 139"
-Cohesion: 0.12
-Nodes (29): advantageScopeUrl(), appendConsole(), consoleEl, currentSessionUser(), editor, editorEl, envValue(), flushSave() (+21 more)
-
-### Community 145 - "Community 145"
-Cohesion: 0.16
-Nodes (27): applyAdvantageScopePatches(), ascopeRoot, CommandResult, patchDir, patchFiles(), repoRoot, run(), ascopeLiteStatic (+19 more)
-
-### Community 146 - "Community 146"
-Cohesion: 0.07
-Nodes (29): Adding an entry, Admin API break-glass, Audit log, Between sessions, Checking and adjusting the cap at runtime, code:bash (docker compose exec control coderunner <subcommand> <args>), code:bash (# Remove all entries before a date), code:bash (# Overall system status: workspaces, container states, activ) (+21 more)
-
-### Community 147 - "Community 147"
-Cohesion: 0.07
-Nodes (11): 01 - Hello, World, Bonus, Intentional Template Contents, Kitbot Controls, Provenance, Robot Starter, Running it, Steps (+3 more)
-
-### Community 148 - "Community 148"
-Cohesion: 0.07
-Nodes (29): 0.23.4, 0.23.7, 0.24.0, 0.24.1, 0.25.0, 0.25.2, 0.26.0, 0.26.1 (+21 more)
-
-### Community 149 - "Community 149"
-Cohesion: 0.07
-Nodes (18): AI-Assisted Debugging, Attach, code:bash (ext install vscode-java-debug), code:bash (# Debug a main class), Contributing, Data/Telemetry, Debugger for Java, Feedback and Questions (+10 more)
-
-### Community 150 - "Community 150"
-Cohesion: 0.07
-Nodes (18): 3.16.0, 3.16.1, 3.16.3, 3.16.4, 3.17.0, 3.17.1, 3.17.2, 3.17.3 (+10 more)
-
-### Community 151 - "Community 151"
-Cohesion: 0.07
-Nodes (28): 0.19.1, 0.23.6, 0.23.7, 0.24.0, 0.24.1, 0.25.0, 0.25.2, 0.26.0 (+20 more)
-
-### Community 152 - "Community 152"
-Cohesion: 0.07
-Nodes (27): 0.10.1, 0.23.1, 0.23.7, 0.24.0, 0.24.1, 0.25.0, 0.25.2, 0.26.0 (+19 more)
-
-### Community 153 - "Community 153"
-Cohesion: 0.07
-Nodes (29): Bonus, Bonus, Bonus, Bonus, Bonus, Bonus, Bonus, Bonus (+21 more)
-
-### Community 157 - "Community 157"
-Cohesion: 0.07
-Nodes (17): Additional Configurations, Basic Usage, code:json ({), code:json ({), code:json ({), code:json ({), code:json ({), code:json ({) (+9 more)
-
-### Community 158 - "Community 158"
-Cohesion: 0.07
-Nodes (7): Agent Capabilities, Feedback, Java Debug Agent, Limitations, Overview, Requirements, See Also
-
-### Community 159 - "Community 159"
-Cohesion: 0.07
-Nodes (7): code:block1 (┌───────────────────────────────────────────────────────────), code:block36 (User: "Getting NPE when calling OrderService.processOrder()"), ⚠️ CRITICAL RULES, Example: Complete Hypothesis-Driven Debug Session, Java Debugging Agent, Remember, The Hypothesis-Driven Debugging Loop
-
-### Community 161 - "Community 161"
-Cohesion: 0.07
-Nodes (27): 0.23.6, 0.23.7, 0.24.0, 0.24.1, 0.25.0, 0.25.2, 0.26.0, 0.26.1 (+19 more)
-
-### Community 162 - "Community 162"
-Cohesion: 0.07
-Nodes (18): 3.16.0, 3.16.1, 3.16.3, 3.16.4, 3.17.0, 3.17.1, 3.17.2, 3.17.3 (+10 more)
-
-### Community 163 - "Community 163"
-Cohesion: 0.07
-Nodes (24): 0.23.7, 0.24.0, 0.24.1, 0.25.0, 0.25.2, 0.26.0, 0.26.1, 0.26.2 (+16 more)
-
-### Community 164 - "Community 164"
-Cohesion: 0.07
-Nodes (28): A.1 Install and configure betterauth, A.2 OAuth providers, A.3 Email allowlist, A.4 Cookie + session, A.5 Workspace creation on first login, A.6 Roles, A.7 Authorization architecture (default-deny), A.8.1 Contract/API migration (+20 more)
-
-### Community 169 - "Community 169"
-Cohesion: 0.3
-Nodes (5): find_equinox_launcher(), get_java_executable(), get_java_major_version(), get_shared_config_path(), main()
-
-### Community 170 - "Community 170"
-Cohesion: 0.07
-Nodes (15): Attach missing sources, Code Editing, Debugging, Dependency Management, Enhanced JUnit 5 support, Happy Coding!, IntelliCode, Lazy load (+7 more)
-
-### Community 171 - "Community 171"
-Cohesion: 0.52
-Nodes (14): GetModule(), IsVirtualThread(), _jbooleanArray(), _jbyteArray(), _jcharArray(), _jdoubleArray(), _jfloatArray(), _jintArray() (+6 more)
-
-### Community 172 - "Community 172"
-Cohesion: 0.07
-Nodes (18): AI-Assisted Debugging, Attach, code:bash (ext install vscode-java-debug), code:bash (# Debug a main class), Contributing, Data/Telemetry, Debugger for Java, Feedback and Questions (+10 more)
-
-### Community 175 - "Community 175"
-Cohesion: 0.13
-Nodes (22): aliceRun, assert(), assertNt4AliveProbe(), assertSimProcessAlive(), bobRun, brokenAlice, fileUri(), initializeLspSession() (+14 more)
-
-### Community 178 - "Community 178"
+### Community 26 - "Better Auth Providers & Storage"
 Cohesion: 0.07
 Nodes (26): code:bash (gcloud compute snapshots create coderunner-data-eoy2026 \), code:bash (gcloud compute snapshots delete coderunner-data-eoy2026), code:bash (gcloud compute snapshots describe coderunner-data-eoy2026 \), code:bash (gcloud compute instances delete coderunner --zone=northameri), code:bash (gcloud compute disks delete coderunner-data --zone=northamer), code:bash (# Only if you choose to release the IP), code:bash (terraform state rm google_compute_instance.coderunner google), code:hcl (resource "google_compute_disk" "data" {) (+18 more)
 
-### Community 179 - "Community 179"
+### Community 27 - "AdvantageScope Patch Application"
 Cohesion: 0.07
-Nodes (17): Additional Configurations, Basic Usage, code:json ({), code:json ({), code:json ({), code:json ({), code:json ({), code:json ({) (+9 more)
+Nodes (26): Build times out, code:bash (# Confirm Docker is running), code:bash (SIM_PORT_RANGE=25810-25999), code:bash (# 1. Prune run logs (safest, often largest single contributo), code:bash (bun run backup), code:bash (docker compose restart control), code:bash (curl -H "Authorization: Bearer $ADMIN_TOKEN" \), code:bash (stat -c '%g' /var/run/docker.sock     # e.g. 999) (+18 more)
 
-### Community 180 - "Community 180"
-Cohesion: 0.13
-Nodes (26): 10. Host Sizing, 12. Container Concurrency Cap, 13. Audit Log, 14. Cloudflare Pages (optional offline screen), 1. Prerequisites, 3. Starting the App, 4. Stopping the App, 5. Configuration (+18 more)
+### Community 28 - "Allowlist Management E2E"
+Cohesion: 0.16
+Nodes (13): e2e/fixtures/app.ts fixture (ControlApp harness), Commits 066141e / 1a4f5e6 (Vite base path revert), loginAs() / cookieHeader() auth fixture, Decision 015 — workspace routing / DS sync, Commit d111f70 (driver-station payload shape bug), e2e/fixtures/fake-halsim.ts, e2e/fixtures/fake-vscode.ts, Commit 158bab4 (hop-by-hop header stripping) (+5 more)
 
-### Community 181 - "Community 181"
-Cohesion: 0.08
-Nodes (26): 1. Bootstrap shadcn — DONE, 1. Bootstrap shadcn first, 2. Path aliases and config cleanup, 3. Install initial primitives, 4. Add React Router 7, 4. Decompose `main.tsx`, 5. Decompose `main.tsx`, 5. State extraction (+18 more)
-
-### Community 184 - "Community 184"
-Cohesion: 0.09
-Nodes (25): Alloy config location, Authentication, Capturing a session, Capturing a session on a local deployment, code:block1 (14:23:01.482 INFO  [control.runs]  run started workspaceId=a), code:json ({"timestamp":"2026-05-21T14:23:01.482Z","level":"info","cate), code:bash (docker compose logs -f control | tee coderunner-$(date +%Y%m), code:bash (# Manual probe) (+17 more)
-
-### Community 185 - "Community 185"
+### Community 29 - "Admin Backup Archive Routes"
 Cohesion: 0.11
-Nodes (25): Build times out, code:bash (# Confirm Docker is running), code:bash (SIM_PORT_RANGE=25810-25999), code:bash (# 1. Prune run logs (safest, often largest single contributo), code:bash (bun run backup), code:bash (docker compose restart control), code:bash (curl -H "Authorization: Bearer $ADMIN_TOKEN" \), code:bash (stat -c '%g' /var/run/docker.sock     # e.g. 999) (+17 more)
+Nodes (15): DemoBanner(), EditorPane(), EditorPaneProps, ScopePane, Topbar(), EditorReachability, EditorStatus, { result } (+7 more)
 
-### Community 186 - "Community 186"
+### Community 30 - "Lesson Catalog Authoring & Gradle Cache"
+Cohesion: 0.16
+Nodes (5): consumeLines(), lineLooksReady(), randomRunId(), runLogPath(), RunManager
+
+### Community 31 - "Sim API & Chooser Announcements"
 Cohesion: 0.08
-Nodes (25): 0.10.0, 0.11.0, 0.12.0, 0.12.1, 0.1.0, 0.28.0, 0.29.0, 0.2.0 (+17 more)
+Nodes (25): addBody, adminCookie, after, aliceWorkspace, backedUpProject, backupsDir, bob, bobWorkspace (+17 more)
 
-### Community 187 - "Community 187"
+### Community 32 - "Deploy Files & WS Origin Guards"
 Cohesion: 0.08
-Nodes (25): 10. Phased implementation plan, 11. Deferred / future optimizations, 1. Goal, 2. Locked decisions, 3. Current state (what we're changing), 3. Pre-implementation state (what changed), 4.1 Manifest (`modules.json`), 4.2 Per-module run config (+17 more)
+Nodes (24): aliceWorkspace, bobWorkspace, byName, calls, config, cookie, expectedName, fakeDocker (+16 more)
 
-### Community 188 - "Community 188"
+### Community 33 - "Grafana Alloy & Cloudflare Deploy Config"
+Cohesion: 0.15
+Nodes (22): isOpenFileInsideRoot(), ASSET_CONTENT_TYPES, discoverDocuments(), documentCsp(), documentKindFor(), errorDocument(), log, documentShell() (+14 more)
+
+### Community 34 - "Control Plane Config Loading"
+Cohesion: 0.14
+Nodes (23): applyAdvantageScopePatches(), ascopeRoot, CommandResult, patchDir, patchFiles(), repoRoot, run(), ascopeLiteStatic (+15 more)
+
+### Community 35 - "Public Health/OpenAPI E2E Specs"
+Cohesion: 0.13
+Nodes (15): LayoutMenu(), Avatar(), UserMenuProps, DropdownMenu(), DropdownMenuCheckboxItem(), DropdownMenuContent(), DropdownMenuItem(), DropdownMenuLabel() (+7 more)
+
+### Community 36 - "Structured Logging"
+Cohesion: 0.11
+Nodes (15): RunCommandFactory, announceChooser(), body, controlled, cookie, encodeMsgPack(), fakeDocker, FakeWebSocket (+7 more)
+
+### Community 37 - "Admin App Allowlist Page"
 Cohesion: 0.08
-Nodes (24): A.1 Config, A.2 Admission control, A.3 Admin override, A.4 Tests, A. Container concurrency cap, B.1 Schema, B.2 Recording helper, B.3 Admin UI (+16 more)
+Nodes (22): aliceConnection, aliceMessages, aliceRun, aliceRunId, aliceWorkspace, baseOptions, bobConnection, bobMessages (+14 more)
 
-### Community 191 - "Community 191"
+### Community 38 - "Allowlist Core Module"
 Cohesion: 0.08
-Nodes (6): Background, code:xml (<project>), code:xml (<project>), code:xml (<project>), Not Covered Maven Plugin Execution, Workaround
+Nodes (23): 1. Choose the new version, 1. Clone and configure, 2. Pull the new images and restart the control plane, 2. Start and verify, 3. Rebuild student workspaces, 3. Sign in and allow students, 4. Verify the update, code:bash (git clone https://github.com/mathewdunne/CodeRunner.git Code) (+15 more)
 
-### Community 192 - "Community 192"
-Cohesion: 0.09
-Nodes (3): ax(), clamp(), TurretIOSim
-
-### Community 207 - "Community 207"
-Cohesion: 0.23
-Nodes (3): Dependency Management, Folder Structure, Getting Started
-
-### Community 208 - "Community 208"
-Cohesion: 0.08
-Nodes (12): Containers and Microservices, Data/Telemetry, Eclipse MicroProfile, Extension Pack for Java, Extensions Included, License, Linting, Other Recommendations (+4 more)
-
-### Community 210 - "Community 210"
-Cohesion: 0.21
-Nodes (4): LoggableInputs, Pathfinder, ADStarIO, LocalADStarAK
-
-### Community 211 - "Community 211"
+### Community 39 - "Self-Inspection (Container Auto-Detect)"
 Cohesion: 0.1
-Nodes (12): Additional Freetype Attributions, code:block1 (FreeType comes with two licenses from which you can choose t), code:block2, code:block3 (GNU GENERAL PUBLIC LICENSE), code:block4, code:block5, FreeType License, FreeType Notice (+4 more)
+Nodes (24): ADMIN_TOKEN admin API break-glass, data/allowlist.json, data/app.db (SQLite), Audit log system, bun run audit:prune, Backups doc, Capacity and Sizing doc, CODE_DISK_READ_LIMIT env var (+16 more)
 
-### Community 216 - "Community 216"
-Cohesion: 0.09
-Nodes (11): 1. Background, 2. Common Problems, 3.1) Fix Suggestion : Change system locale to the target language., 3.Troubleshooting Suggestions, code:block1 (C:\Test>java -cp 中文目录 Hello), code:block2 (C:\Test>java -cp ./Exercises 练习), code:java (public class Hello {), code:block4 (C:\Test>java -cp ./Exercises Hello) (+3 more)
-
-### Community 217 - "Community 217"
-Cohesion: 0.09
-Nodes (4): Introduction, Invoke refactoring, Java Refactoring, Table of Content
-
-### Community 218 - "Community 218"
-Cohesion: 0.09
-Nodes (4): Change from `false` to `true`, Change from `true` to `false`, Change the setting value, Metadata Files Generation
-
-### Community 219 - "Community 219"
-Cohesion: 0.09
-Nodes (22): 0. Pre-flight + safety snapshot, 1. Stage the cutover script, 2. Run the cutover, 3. Verify, 4. Make reboots durable (gcloud-only), 5. Converging to the full model, 6. Rollback, code:bash (export VM=coderunner) (+14 more)
-
-### Community 220 - "Community 220"
-Cohesion: 0.09
-Nodes (20): Contributing and Feedback, Customize Test Configurations, FAQ, Features, JUnit 4, JUnit 5, JUnit 6, License (+12 more)
-
-### Community 221 - "Community 221"
-Cohesion: 0.09
-Nodes (21): code:ts (this.storage.updateRunJob(update);), code:ts (start(workspace: WorkspaceRow, connection?: RunConnection | ), code:ts (private isCurrentJob(job: RunJob): boolean {), code:ts (if (this.isCurrentJob(job)) {), code:ts (this.storage.updateRunJob(update);), Commands you will need, Current state, Done criteria (+13 more)
-
-### Community 222 - "Community 222"
-Cohesion: 0.09
-Nodes (21): code:ts (if (suffix === "/ws/run" && request.method === "GET") {), code:ts (export type BunUpgradeServer = {), code:ts (if (suffix === "/ws/run" && request.method === "GET") {), code:ts (if (suffix === "/ws/gamepad" && request.method === "GET") {), code:ts (if (suffix === "/ws/lesson-load" && request.method === "GET"), code:ts (if (suffix === "/ws/import" && request.method === "GET") {), Commands you will need, Current state (+13 more)
-
-### Community 223 - "Community 223"
-Cohesion: 0.09
-Nodes (22): code:block1 (# ─── Code Container (merged sim + editor) ─────────────────), code:block2 (# HALSIM_PORT_RANGE=34000-34099      # Loopback port range f), code:block3 (# MAX_ACTIVE_CONTAINERS=10           # Max simultaneously-ru), code:block4 (# METRICS_TOKEN=                     # Bearer token for scra), code:block5 (# CODERUNNER_DEMO_MODE=false         # Single-admin demo mod), Commands you will need, Current state, Done criteria (+14 more)
-
-### Community 224 - "Community 224"
-Cohesion: 0.09
-Nodes (22): 0. Prove the HALSim WS contract, 1. Container-side: ensure HALSim WS extension is bundled, 2. Control-plane: HALSim WS proxy route, 3. Web: simulation state hook, 3. Web: `useHalSim` hook, 4. Web: `DriverStation` component tree, 5. Replace `RunControls` and `ConsolePane` from Plan 03, 6. Safety logic (+14 more)
-
-### Community 226 - "Community 226"
+### Community 40 - "CI/Test Command Reference"
 Cohesion: 0.12
-Nodes (19): asWebSocket(), handleUpgrade(), httpServer, LanguageServerRunConfig, launchLanguageServer(), nt4HttpUrl(), nt4WsUrl(), parseSessions() (+11 more)
+Nodes (14): seedRuntimeRunning(), snapshot, cookie, frames, snap, status, cookie, snapshot (+6 more)
 
-### Community 227 - "Community 227"
+### Community 41 - "Audit Log & Runtime Config Schema"
 Cohesion: 0.13
-Nodes (14): AppFixtures, AppOptions, defaultRunCommandFactory, startFakeHalsim(), startFakeVscode(), AppFixture, FakeHalsimHandle, FakeVscodeHandle (+6 more)
+Nodes (22): ANSI, colorize(), configureLogging(), createJsonSink(), createSink(), formatAttrs(), formatAttrValue(), formatRecord() (+14 more)
 
-### Community 228 - "Community 228"
-Cohesion: 0.13
-Nodes (4): HopperSubsystem, KickerIO, SpindexerIOSim, SpindexerIO
+### Community 42 - "E2E Workspace Fixtures"
+Cohesion: 0.09
+Nodes (19): AuditLogEntry, adminCookie, body, fakeDocker, rows, student, studentCookie, workspace (+11 more)
 
-### Community 232 - "Community 232"
+### Community 43 - "Gamepad Input Mapping"
+Cohesion: 0.09
+Nodes (20): bobCookie, body, clearedCache, cloneCall, cookie, copyCall, ctx, docker (+12 more)
+
+### Community 44 - "PathPlanner Integration Deploy Pipeline"
+Cohesion: 0.11
+Nodes (23): AdminApp, AdminLayout, Tab (type), Allowlist (admin page), fetchAllowlist, App (default export), FallbackRedirect, RootIndex (+15 more)
+
+### Community 45 - "Gamepad Lease Management"
+Cohesion: 0.11
+Nodes (23): BACKEND_ORIGIN Pages secret, Cloudflare Offline Page, Pages Function catch-all [[path]].ts, deploy/cloudflare/wrangler.toml, coderunner-ops.json dashboard, Deployment Overview, CodeRunner Docs Overview, c4-standard-4 GCE VM (+15 more)
+
+### Community 46 - "E2E Workspace Fixtures"
 Cohesion: 0.1
+Nodes (19): ADMIN_GET_ROUTES, adminCookie, cookie, req, studentCookie, cookieFrom(), login(), randomToken() (+11 more)
+
+### Community 47 - "Run Lifecycle Test Fixtures"
+Cohesion: 0.11
+Nodes (10): BundledCatalogSource, findModuleOrThrow(), parseCatalogRepo(), RemoteCatalogSource, sortByOrder(), config, { fetch: fetchImpl }, { fetch: fetchImpl, calls } (+2 more)
+
+### Community 48 - "Container Lease Cleanup CLI"
+Cohesion: 0.09
 Nodes (21): `bun run e2e`: Playwright mocked tier, `bun run e2e:security`: security E2E tests, `bun run e2e:workspace-java`: real Java workspace smoke, `bun run test`: control-plane unit and integration tests, `bun run test:web`: frontend unit and component tests, `bun run verify`: full CI gate, code:bash (bunx playwright install chromium), code:bash (bun run test) (+13 more)
 
-### Community 233 - "Community 233"
-Cohesion: 0.09
-Nodes (14): Build, code:json ("java.project.referencedLibraries": [), code:json ("java.project.referencedLibraries": {), code:block3 (npm install), Contribution, Create Java Projects, Export Jar, Manage Dependencies (+6 more)
+### Community 49 - "Backup Database CLI"
+Cohesion: 0.11
+Nodes (22): container_leases table (V1 core schema), run_jobs table (V1 core schema), sessions table (V1 core schema), users table (V1 core schema), workspaces table (V1 core schema), idx_container_leases_lsp_port_unique, idx_container_leases_sim_port_unique, container_leases.lsp_state column (+14 more)
 
-### Community 234 - "Community 234"
-Cohesion: 0.09
-Nodes (20): 3.16.0, 3.16.1, 3.16.3, 3.16.4, 3.17.0, 3.17.1, 3.17.2, 3.17.3 (+12 more)
+### Community 50 - "PathPlanner Deploy File Schemas"
+Cohesion: 0.15
+Nodes (22): DEPLOY_FILES_WRITE_ROOT constant, deployFilePathSchema, driverStationPatchSchema, gamepadClientMessageSchema, gamepadServerMessageSchema, gamepadStateSchema, importRequestSchema, packages/contracts/src/index.ts (+14 more)
 
-### Community 235 - "Community 235"
-Cohesion: 0.09
-Nodes (20): Contributing and Feedback, Customize Test Configurations, FAQ, Features, JUnit 4, JUnit 5, JUnit 6, License (+12 more)
-
-### Community 236 - "Community 236"
-Cohesion: 0.09
-Nodes (20): code:ts (test("X-Content-Type-Options nosniff is present on text/* re), code:ts (function applySecurityHeaders(response: Response): Response ), code:ts (test("X-Content-Type-Options nosniff is set on responses", a), Commands you will need, Current state, Done criteria, Git workflow, Maintenance notes (+12 more)
-
-### Community 237 - "Community 237"
-Cohesion: 0.09
-Nodes (21): `apps/control/src/halsim.ts`, `apps/control/src/nt4-auto.ts`, code:ts (export type BridgeEntryBase<W> = {), Commands you will need, Current state, Done criteria, Git workflow, Maintenance notes (+13 more)
-
-### Community 238 - "Community 238"
-Cohesion: 0.12
-Nodes (22): 2.1 Clone and initialize, 2.2 Build container images, 2.2 Build the code container image, 2.3 Build web assets, 2.4 Configure environment, 2.5 Run migrations, 2.6 Verify the setup, 2.7 Measure host resources (+14 more)
-
-### Community 239 - "Community 239"
-Cohesion: 0.09
-Nodes (20): 002 — AdvantageScope Lite hosted standalone, 1. `spawnSync(npmCmd, [...], { shell: false })` returns exit `null` on Windows, 2. AS Lite ships a `lite/static/` directory inside the submodule with `index.html` and `popups.css`, 3. Git symlinks under `lite/static/` checked out as 9-byte text files on Windows, 4. AS Lite expects `GET /assets` and `GET /assets/<name>/<file>` server routes, 5. AS submodule's `postinstall` is heavy, 6. AS upstream prints `npm audit` warnings about transitive vulns, AdvantageScope as a git submodule pinned to a release tag (+12 more)
-
-### Community 240 - "Community 240"
-Cohesion: 0.09
-Nodes (21): 0.4.5, 0.4.6, 0.5.0, 0.5.3, 0.5.4, 0.5.5, 0.5.6, 0.5.7 (+13 more)
-
-### Community 241 - "Community 241"
-Cohesion: 0.14
-Nodes (14): seedRuntimeMissing(), seedRuntimeRunning(), seedWorkspaceProject(), snapshot, status, wsp, console, cookie (+6 more)
-
-### Community 244 - "Community 244"
-Cohesion: 0.47
-Nodes (7): AllianceTest, AutonomousTest, callback(), EnabledTest, I2CCommunicationTest, MatchTimeTest, TEST_P()
-
-### Community 247 - "Community 247"
-Cohesion: 0.47
-Nodes (7): AutoConstants, Constants, DriveConstants, IntakeConstants, OIConstants, ShooterConstants, StorageConstants
-
-### Community 250 - "Community 250"
-Cohesion: 0.1
-Nodes (20): 002 — AdvantageScope Lite hosted standalone, 1. `spawnSync(npmCmd, [...], { shell: false })` returns exit `null` on Windows, 2. AS Lite ships a `lite/static/` directory inside the submodule with `index.html` and `popups.css`, 3. Git symlinks under `lite/static/` checked out as 9-byte text files on Windows, 4. AS Lite expects `GET /assets` and `GET /assets/<name>/<file>` server routes, 5. AS submodule's `postinstall` is heavy, 6. AS upstream prints `npm audit` warnings about transitive vulns, AdvantageScope as a git submodule pinned to a release tag (+12 more)
-
-### Community 251 - "Community 251"
-Cohesion: 0.1
-Nodes (20): Contributing and Feedback, Customize Test Configurations, FAQ, Features, JUnit 4, JUnit 5, JUnit 6, License (+12 more)
-
-### Community 252 - "Community 252"
-Cohesion: 0.1
-Nodes (20): 3.16.0, 3.16.1, 3.16.3, 3.16.4, 3.17.0, 3.17.1, 3.17.2, 3.17.3 (+12 more)
-
-### Community 254 - "Community 254"
-Cohesion: 0.47
-Nodes (7): AutoConstants, Constants, DriveConstants, IntakeConstants, OIConstants, ShooterConstants, StorageConstants
-
-### Community 255 - "Community 255"
-Cohesion: 0.1
-Nodes (19): Apache License v2.0, code:block1 (Version 3, 29 June 2007), code:block2 (Version 3.1, 31 March 2009), code:block3 (GNU GENERAL PUBLIC LICENSE), code:block4 (GNU LESSER GENERAL PUBLIC LICENSE), code:block5 (GNU LESSER GENERAL PUBLIC LICENSE), code:block6 (GNU Free Documentation License), code:block7 (/*-) (+11 more)
-
-### Community 256 - "Community 256"
-Cohesion: 0.1
-Nodes (11): 1. Background, 2. Common Problems, 3.1) Fix Suggestion : Change system locale to the target language., 3.Troubleshooting Suggestions, code:block1 (C:\Test>java -cp 中文目录 Hello), code:block2 (C:\Test>java -cp ./Exercises 练习), code:java (public class Hello {), code:block4 (C:\Test>java -cp ./Exercises Hello) (+3 more)
-
-### Community 257 - "Community 257"
-Cohesion: 0.1
-Nodes (20): code:ts (export type AppSocket = {), code:ts (import { describe, expect, test } from "bun:test";), Commands you will need, Current state, Done criteria, Git workflow, Maintenance notes, Plan 008: Characterization tests for the WebSocket message router (+12 more)
-
-### Community 258 - "Community 258"
-Cohesion: 0.1
-Nodes (20): Architecture, Auth: Better Auth test-utils, gated by env, code:text (e2e/                                  NEW — root-level Playw), code:json ("e2e": "E2E_TEST=1 playwright test --project=mocked",), code:bash (bun install), code:bash (bun run e2e              # mocked tier; globalSetup rebuilds), code:ts (import { defineConfig, devices } from "@playwright/test";), Context (+12 more)
-
-### Community 259 - "Community 259"
-Cohesion: 0.17
-Nodes (21): 11. Lessons and Project Import, 11. Project Import, code:bash (docker stats --filter label=frc-sim.managed=true --no-stream), code:bash (CODE_MEMORY_LIMIT=2048m), code:bash (CODE_MEMORY_LIMIT=3072m), code:bash (MAX_ACTIVE_CONTAINERS=10   # default), code:bash (# Read current cap), code:bash (# Latest entries) (+13 more)
-
-### Community 260 - "Community 260"
-Cohesion: 0.1
-Nodes (20): code:text (vendor/AdvantageScope d2e915f580ca4ad9444a5211bf89fe71b128de), code:block10 (apps/web/              Vite browser shell with Monaco, AS Li), code:bash (git clone https://github.com/emscripten-core/emsdk.git), code:bash (export EMSDK=/path/to/emsdk    # bash), code:bash (git clone <this-repo>), code:bash (docker build -t frc-sim:mvp containers/sim), code:bash (docker build -t frc-sim:mvp containers/sim), code:bash (docker exec frc-sim-mvp cat /workspace/project/src/main/java) (+12 more)
-
-### Community 261 - "Community 261"
-Cohesion: 0.1
-Nodes (19): 001 — Sim container architecture, 1. Missing `WPILibNewCommands.json` vendor dep, 2. Dockerfile `|| true` swallowed gradle build failure, 3. Image size came in at 2.25 GB, not the 1.0–1.4 GB plan estimate, 4. Wrapper-zip warning is cosmetic, Context, Decisions, `eclipse-temurin:17-jdk-jammy` base image (+11 more)
-
-### Community 263 - "Community 263"
-Cohesion: 0.1
-Nodes (20): 1. Contracts — `packages/contracts/src/index.ts`, 2. HalSim bridge — `apps/control/src/halsim.ts`, 3. Gamepad session manager — `apps/control/src/gamepad.ts` (new file), 4. WebSocket route — `apps/control/src/app.ts`, 5. Web shell — `apps/web/src/`, 6. Safety, 7. Tests, 8. Docs (+12 more)
-
-### Community 264 - "Community 264"
+### Community 51 - "Gamepad/Driver Station Zod Schemas"
 Cohesion: 0.13
-Nodes (15): bp(), bv(), GamepadFrame, GamepadInfo, listConnectedGamepads(), makeLabel(), FakePad, { result } (+7 more)
+Nodes (12): AppOptions, defaultRunCommandFactory, startFakeHalsim(), startFakeVscode(), AppFixture, FakeHalsimHandle, FakeVscodeHandle, SeededUser (+4 more)
 
-### Community 265 - "Community 265"
+### Community 52 - "ControlApp Test Harness Socket Types"
+Cohesion: 0.14
+Nodes (14): GamepadFrame, GamepadInfo, listConnectedGamepads(), makeLabel(), FakePad, { result }, useGamepad(), UseGamepadResult (+6 more)
+
+### Community 53 - "Docker Client & Lifecycle"
+Cohesion: 0.11
+Nodes (15): SimPanePanels(), SimPanePanelsProps, SimPaneTab, SimPaneTabs(), SimPaneTabSelector(), SimPaneTabsProps, onPreviewActivated, pathplannerTab (+7 more)
+
+### Community 54 - "Architecture & Access Control Docs"
+Cohesion: 0.16
+Nodes (19): defaultContainerUser(), defaultDataDir, defaultHalsimPortRange, defaultSimPortRange, defaultVscodePortRange, DISABLED_DISK_LIMIT_VALUES, envContainerUser(), loadControlConfig() (+11 more)
+
+### Community 55 - "Auto Panel & Gamepad Channel"
 Cohesion: 0.1
-Nodes (20): code:text (vendor/AdvantageScope d2e915f580ca4ad9444a5211bf89fe71b128de), code:block10 (apps/web/              Vite browser shell with Monaco, AS Li), code:bash (git clone https://github.com/emscripten-core/emsdk.git), code:bash (export EMSDK=/path/to/emsdk    # bash), code:bash (git clone <this-repo>), code:bash (docker build -t frc-sim:mvp containers/sim), code:bash (docker build -t frc-sim:mvp containers/sim), code:bash (docker exec frc-sim-mvp cat /workspace/project/src/main/java) (+12 more)
+Nodes (18): aliceCookie, bobCookie, byPath, cookie, docker, encoded, listed, names (+10 more)
 
-### Community 267 - "Community 267"
-Cohesion: 0.46
-Nodes (6): Autonomous(), Disabled(), EndCompetition(), StartCompetition(), Teleop(), Test()
+### Community 56 - "HALSim Bridge State Application"
+Cohesion: 0.1
+Nodes (20): afterFirst, afterSecond, aliceCookie, allowlistPath, baseOptions, boss, coach, cookie (+12 more)
 
-### Community 273 - "Community 273"
+### Community 57 - "HALSim/NT4 WebSocket Responses"
+Cohesion: 0.11
+Nodes (20): audit_log table, runtime_config table, audit log test suite, recordAuditEvent (audit.ts, tested), container concurrency cap test suite, max-active-containers cap persisted via runtime_config, adoption/restart gating, CapacityExceededError, ensureCodeContainer (containers) (+12 more)
+
+### Community 58 - "Asset Upload & Manifest"
+Cohesion: 0.14
+Nodes (17): DEFAULT_NETWORKS, deriveComposeProject(), deriveContainerUser(), deriveHostDataDir(), deriveNetwork(), inspectFailureMessage(), notDerived(), readComposeProject() (+9 more)
+
+### Community 59 - "Deploy Files Security Test Suite"
+Cohesion: 0.1
+Nodes (20): 002 — AdvantageScope Lite hosted standalone, 1. `spawnSync(npmCmd, [...], { shell: false })` returns exit `null` on Windows, 2. AS Lite ships a `lite/static/` directory inside the submodule with `index.html` and `popups.css`, 3. Git symlinks under `lite/static/` checked out as 9-byte text files on Windows, 4. AS Lite expects `GET /assets` and `GET /assets/<name>/<file>` server routes, 5. AS submodule's `postinstall` is heavy, 6. AS upstream prints `npm audit` warnings about transitive vulns, AdvantageScope as a git submodule pinned to a release tag (+12 more)
+
+### Community 60 - "Run Manager Command Factory"
+Cohesion: 0.11
+Nodes (21): Admin role + break-glass token, Architecture doc, Audit log, Cloudflare Pages Function ([[path]].ts), CODERUNNER_ADMIN_EMAIL bootstrap, Control plane container privileges (non-root, socket access), Decision 031: Containerized Control Plane (referenced), Demo mode (+13 more)
+
+### Community 61 - "Import Pipeline Test Fixtures"
+Cohesion: 0.13
+Nodes (21): Authoring Lesson Modules doc, Bundled lesson catalog (catalog/), catalog/modules/robot-starter license files, github.com/mathewdunne/coderunner-lessons, Google API Services User Data Policy, non-destructive Gradle headless override (strips GUI, enables WS server), hello-world module, LESSONS_CATALOG_REPO env var (+13 more)
+
+### Community 62 - "Path Planner Pane.test"
+Cohesion: 0.11
+Nodes (16): DEFAULT_PORT, GamepadLease, GamepadLeaseResolver, GamepadMessageOutcome, GamepadStatus, log, SessionState, HalSimBridgeUnavailableError (+8 more)
+
+### Community 63 - "Container Capacity & V2 Acceptance Decisions"
+Cohesion: 0.15
+Nodes (16): parseDockerStatsLine(), parsePercent(), cleanupStoppedContainers(), countRunningContainers(), log, managedContainerStats(), removeCodeContainer(), removeCodeVolume() (+8 more)
+
+### Community 64 - "Contracts Property-Based Tests"
 Cohesion: 0.15
 Nodes (14): clearContainerLeases(), dbPathFromEnv(), DockerCommandResult, DockerRunner, main(), parseContainerNames(), rebuildWorkspaces(), RebuildWorkspacesOptions (+6 more)
 
-### Community 274 - "Community 274"
+### Community 65 - "Admin Allowlist Endpoints"
 Cohesion: 0.1
 Nodes (19): 1. Add the origin A record, 2. Verify the Caddyfile has the origin vhost, 3. Bootstrap the Cloudflare Pages project, 4. Set `BACKEND_ORIGIN` as a Pages secret, 5. Add the custom domain in Cloudflare, 6. Add GitHub Actions variables, Cloudflare Offline Page, code:block1 (student browser ──443──> Cloudflare Pages (coderunner)) (+11 more)
 
-### Community 275 - "Community 275"
+### Community 66 - "AdvantageScope Lite & Docusaurus"
 Cohesion: 0.1
 Nodes (19): 001 — Sim container architecture, 1. Missing `WPILibNewCommands.json` vendor dep, 2. Dockerfile `|| true` swallowed gradle build failure, 3. Image size came in at 2.25 GB, not the 1.0–1.4 GB plan estimate, 4. Wrapper-zip warning is cosmetic, Context, Decisions, `eclipse-temurin:17-jdk-jammy` base image (+11 more)
 
-### Community 276 - "Community 276"
-Cohesion: 0.1
-Nodes (8): Background knowledge, code:block1 (Command failed: mvn --version 'mvn' is not recognized as an ), code:block2 (Error: Command failed: mvn help:effective-pom -f "xxxxxxxxxx), code:block3 (The JAVA_HOME environment variable is not defined correctly), Possible error messages, Requirements, Troubleshooting, Where to find Error logs
+### Community 67 - "Workspace Container Bind-Mount & Memory Bounds"
+Cohesion: 0.13
+Nodes (20): coderunner-workspace bind-mount contract, coderunner-workspace conservative JVM/Gradle memory bounds, V2 code container (coderunner-workspace) README, Decision 015 (HALSim control protocol), Decision 016 (imported-project sim compat), Decision 016: Imported Project Simulation Compatibility, Decision 025 (two-phase sim runner), Decision 025: Detach Sim JVM from Gradle (+12 more)
 
-### Community 279 - "Community 279"
-Cohesion: 0.44
-Nodes (6): AlertTest, AllianceTest, AutonomousTest, DigitalCommunicationTest, EnabledTest, TEST_P()
+### Community 68 - "Slug/Login Property Tests"
+Cohesion: 0.12
+Nodes (20): containers/lsp/bridge/bridge.ts, Bun-native WebSocket-to-stdio Bridge, container_leases.lsp_state column split, Generic ContainerOrchestrator, apps/web/src/java-lsp.ts, Eclipse JDT LS, Decision 008: V1 LSP Container and Bun-native Bridge, apps/control/src/app.ts (+12 more)
 
-### Community 280 - "Community 280"
-Cohesion: 0.1
-Nodes (8): CC0 1.0 Universal, code:block1 (Copyright (c) 2016 Jean-Philippe Aumasson <jeanphilippe.auma), code:block2 (Copyright 2012-2024 JP Aumasson), code:block3 (Statement of Purpose), Licenses, MIT License, Notice, SipHash v1.0-68c8a7c
+### Community 69 - "Scripts"
+Cohesion: 0.13
+Nodes (20): AdminPage (page object), apps/control/src/app.ts, apps/control/src/app/assets.ts, CLI Reference Doc, coderunner dispatching CLI, containers/control/entrypoint.sh, apps/control/src/config.ts (ControlConfig), Configuration Reference (+12 more)
 
-### Community 281 - "Community 281"
-Cohesion: 0.1
-Nodes (16): code:ts (const inspectedByName = await inspectContainers(dockerRunner), Commands you will need, Current state, Done criteria, Git workflow, Maintenance notes, Plan 007: Batch `docker inspect` in `managedContainerStats`, Scope (+8 more)
-
-### Community 282 - "Community 282"
-Cohesion: 0.1
-Nodes (17): code:ts (private async checkCapacity(): Promise<void> {), code:ts (// Restarting a stopped container consumes a capacity slot, ), Commands you will need, Current state, Done criteria, Git workflow, Maintenance notes, Plan 006: Apply capacity admission to container adoption (restart path) (+9 more)
-
-### Community 289 - "Community 289"
-Cohesion: 0.41
-Nodes (5): End(), Execute(), Initialize(), IsFinished(), ReplaceMeCommand2()
-
-### Community 291 - "Community 291"
-Cohesion: 0.41
-Nodes (5): AutoConstants, Constants, DriveConstants, ModuleConstants, OIConstants
-
-### Community 293 - "Community 293"
-Cohesion: 0.41
-Nodes (5): AutoConstants, Constants, DriveConstants, HatchConstants, OIConstants
-
-### Community 294 - "Community 294"
-Cohesion: 0.41
-Nodes (5): AutoConstants, Constants, DriveConstants, HatchConstants, OIConstants
-
-### Community 298 - "Community 298"
-Cohesion: 0.11
-Nodes (18): Capacity and Sizing, Checking disk usage, Cleaning up, code:bash (# Tighter cap for a memory-constrained host (expect slower c), code:block2 (available_for_containers = total_RAM - 4 GB), code:bash (# Per-container CPU and memory (one-shot)), code:bash (# Overall free space), code:bash (bun run docker:cleanup) (+10 more)
-
-### Community 299 - "Community 299"
-Cohesion: 0.16
-Nodes (18): Bind mounts, Build, code:bash (bun run docker:build:workspace), code:block2 (frc-sim.managed=true), code:bash (docker run -d \), code:bash (docker run -d \), Environment variables, Example run (+10 more)
-
-### Community 300 - "Community 300"
-Cohesion: 0.11
-Nodes (7): Extension Settings, Features, Known Issues, Release Notes, Requirements, Third Party Licenses, WPILib VSCode README
-
-### Community 301 - "Community 301"
-Cohesion: 0.15
-Nodes (18): About demo mode, code:bash (git clone https://github.com/mathewdunne/CodeRunner coderunn), code:bash (CODERUNNER_DOCKER_GID=$(stat -c '%g' /var/run/docker.sock) C), code:bash (CODERUNNER_DEMO_MODE=1 docker compose up), code:powershell ($env:CODERUNNER_DEMO_MODE = "1"; docker compose up), code:bat (set "CODERUNNER_DEMO_MODE=1" && docker compose up), code:bash (docker compose down --remove-orphans), Deploy for a team (+10 more)
-
-### Community 302 - "Community 302"
-Cohesion: 0.11
-Nodes (14): Build, code:json ("java.project.referencedLibraries": [), code:json ("java.project.referencedLibraries": {), code:block3 (npm install), Contribution, Create Java Projects, Export Jar, Manage Dependencies (+6 more)
-
-### Community 303 - "Community 303"
-Cohesion: 0.11
-Nodes (18): 10. Docs, 1. UX — import dialog, 2. Backend endpoint, 3. Validation, 4. Clone strategy, 5. Streaming feedback, 6. Backup / restore wiring, 7. Limits and quotas (+10 more)
-
-### Community 304 - "Community 304"
-Cohesion: 0.11
-Nodes (17): 003 — Minimal web shell, 1. Headless preview screenshot hangs when AS Lite iframe is loading, 2. Orphaned Vite child after `TaskStop` on the npm wrapper, 3. `WARNING:StorageManager: settings timeout, using defaults` in the console, 4. AS Lite tab-controls panel was clipped (initial layout), AS Lite via iframe to `http://localhost:8080`, not bundled, code:block1 ("editor       scope"), Context (+9 more)
-
-### Community 305 - "Community 305"
-Cohesion: 0.11
-Nodes (17): 006 - Multi-tenancy spike findings, code:text (alice alive 200 ok), code:bash (npm run spike:multi -- up), code:text (alice: websocket open=true, initialized=true, diagnostics=0), code:text (open=true, initialized=true), code:text (GET /file?user=alice -> 200), code:text (status building at 1 ms), code:text (sim container created in 0.29s) (+9 more)
-
-### Community 306 - "Community 306"
-Cohesion: 0.16
-Nodes (10): Args, backupDatabase(), dirExists(), fileExists(), main(), parseArgs(), runTar(), timestamp() (+2 more)
-
-### Community 310 - "Community 310"
+### Community 70 - "Mock Workspace Runtime Provider"
 Cohesion: 0.16
 Nodes (16): digitalAxis(), dpadToPov(), gamepadStateToVisualizerFrame(), isMappedKeyboardCode(), KEYBOARD_BINDINGS, KeyboardBindingGroup, keyboardCodesToWpilib(), MAPPED_CODES (+8 more)
 
-### Community 311 - "Community 311"
+### Community 71 - "WebSocket Router Test Suite"
+Cohesion: 0.11
+Nodes (18): Authentication, Capturing a session, code:block1 (14:23:01.482 INFO  [control.runs]  run started workspaceId=a), code:json ({"timestamp":"2026-05-21T14:23:01.482Z","level":"info","cate), code:bash (docker compose logs -f control | tee coderunner-$(date +%Y%m), code:bash (# Manual probe), code:bash (curl http://localhost:4000/healthz), code:json ({"ok":true,"service":"control","version":"v2-3"}) (+10 more)
+
+### Community 72 - "Deploy Files Path Safety"
+Cohesion: 0.11
+Nodes (18): Capacity and Sizing, Checking disk usage, Cleaning up, code:bash (# Tighter cap for a memory-constrained host (expect slower c), code:block2 (available_for_containers = total_RAM - 4 GB), code:bash (# Per-container CPU and memory (one-shot)), code:bash (# Overall free space), code:bash (bun run docker:cleanup) (+10 more)
+
+### Community 73 - "Java Tooling & Test Tiers"
 Cohesion: 0.12
-Nodes (13): CreateServerOptions, decoder, encoder, findLauncherJar(), firstConnectionWarmupMs, jdtLsArgs(), jdtLsLauncher(), LspSocketData (+5 more)
+Nodes (19): Decision 036: VSCodium Web Migration, Decision 037: Gradle Wrapper Alias and Extension Pins, Decision 038: Java Tooling Compatibility and Smoke, bun run e2e (Playwright Mocked Tier), bun run e2e:security (Security E2E Tests), bun run e2e:workspace-java (Real Java Workspace Smoke), bun run test (Control-Plane Unit/Integration Tests), bun run test:web (Frontend Unit/Component Tests) (+11 more)
 
-### Community 312 - "Community 312"
-Cohesion: 0.37
-Nodes (4): Activate(), Deploy(), IsDeployed(), Retract()
+### Community 74 - "VSCodium Editor Container Defaults"
+Cohesion: 0.11
+Nodes (16): bobCookie, body, cookie, docker, evilDir, evilPath, example, newFile (+8 more)
 
-### Community 313 - "Community 313"
-Cohesion: 0.37
-Nodes (4): AutoConstants, Constants, DriveConstants, OIConstants
+### Community 75 - "Contracts Schema Unit Tests"
+Cohesion: 0.21
+Nodes (3): defaultSnapshot(), HalSimBridge, upstreamUrlFor()
 
-### Community 325 - "Community 325"
-Cohesion: 0.35
-Nodes (4): addEventListeners(), populateAvailableList(), populateInstalledList(), vscode
-
-### Community 326 - "Community 326"
-Cohesion: 0.42
-Nodes (5): projectRoot, scriptDirname, scriptFilename, webpack, webpackCliPath
-
-### Community 327 - "Community 327"
+### Community 76 - "Import Manager (Git Clone Staging)"
 Cohesion: 0.11
 Nodes (17): Authoring Lesson Modules, code:text (modules.json              ← the catalog manifest (required, ), code:json ({), code:json ({), Example curriculum, Module fields, `plain-java`, Publishing (+9 more)
 
-### Community 328 - "Community 328"
+### Community 77 - "Demo Mode Session Seeding"
 Cohesion: 0.11
 Nodes (17): Auto-import on Tab (additionalTextEdits), code:dockerfile (FROM gitpod/openvscode-server:1.105.1), code:bash (cd /tmp/frc-spike-openvscode), Container boots and serves (:3000), Ctrl-click into library source (jdt:// URI), Decision 011: V2 Editor Spike — openvscode-server with redhat.java and WPILib, Decisions, Docker Hub vs GitHub Releases (+9 more)
 
-### Community 329 - "Community 329"
+### Community 78 - "Backup/Restore & Catalog Import Flows"
 Cohesion: 0.11
 Nodes (17): 003 — Minimal web shell, 1. Headless preview screenshot hangs when AS Lite iframe is loading, 2. Orphaned Vite child after `TaskStop` on the npm wrapper, 3. `WARNING:StorageManager: settings timeout, using defaults` in the console, 4. AS Lite tab-controls panel was clipped (initial layout), AS Lite via iframe to `http://localhost:8080`, not bundled, code:block1 ("editor       scope"), Context (+9 more)
 
-### Community 330 - "Community 330"
+### Community 79 - "Auth Client & Docker Runner Helpers"
 Cohesion: 0.11
 Nodes (17): 006 - Multi-tenancy spike findings, code:text (alice alive 200 ok), code:bash (npm run spike:multi -- up), code:text (alice: websocket open=true, initialized=true, diagnostics=0), code:text (open=true, initialized=true), code:text (GET /file?user=alice -> 200), code:text (status building at 1 ms), code:text (sim container created in 0.29s) (+9 more)
 
-### Community 331 - "Community 331"
-Cohesion: 0.11
-Nodes (6): Adding a new class, Adding a whole new language, Adding commands, Adding strings to a class, code:js (const languages = [), VS Code WPILib Translation
+### Community 80 - "HALSim Test Suite"
+Cohesion: 0.14
+Nodes (18): createApp (app.ts), Physical disk vs virtual device filtering for --device-read-bps, listWorkspaceDiskLimitDevices (containers/block-devices), BundledCatalogSource (catalog.ts), CatalogSource interface, createCatalogSource (catalog.ts), parseCatalogRepo (catalog.ts), RemoteCatalogSource (catalog.ts) (+10 more)
 
-### Community 332 - "Community 332"
-Cohesion: 0.11
-Nodes (18): Alternative Thread Dump Methods, code:block24 (vscjava.vscode-java-debug/getDebugThreads()), code:block25 (═══════════════════════════════════════════), code:bash (# Step 1: Find the Java process ID), code:block27 (Found one Java-level deadlock:), code:block28 (// Inspect variables in thread #15 (worker-2)), code:block33 (=== STEP 1: Detect the hang ===), code:bash (# Launch JConsole) (+10 more)
-
-### Community 333 - "Community 333"
-Cohesion: 0.42
-Nodes (6): DocumentPasteEdit, DocumentPasteEditContext, DocumentPasteEditKind, DocumentPasteEditProvider, DocumentPasteProviderMetadata, DocumentPasteTriggerKind
-
-### Community 335 - "Community 335"
-Cohesion: 0.11
-Nodes (8): Background knowledge, code:block1 (Command failed: mvn --version 'mvn' is not recognized as an ), code:block2 (Error: Command failed: mvn help:effective-pom -f "xxxxxxxxxx), code:block3 (The JAVA_HOME environment variable is not defined correctly), Possible error messages, Requirements, Troubleshooting, Where to find Error logs
-
-### Community 336 - "Community 336"
-Cohesion: 0.11
-Nodes (16): code:ts (export type ImportManagerOptions = Record<string, never>;), Commands you will need, Current state, Done criteria, Git workflow, Maintenance notes, Plan 002: Remove the dead `ImportManagerOptions` parameter, Scope (+8 more)
-
-### Community 337 - "Community 337"
-Cohesion: 0.2
-Nodes (17): 0. Decisions at a Glance, 13. Java LSP, 15. Failure Modes, 16. Security Posture for V1, 17. Verification Strategy, 19. V1 Definition of Done, 1. Context, 20. Open Questions (+9 more)
-
-### Community 338 - "Community 338"
-Cohesion: 0.22
-Nodes (18): 7. Cache Cleanup, Admin status API, code:bash (# on the laptop, after stopping local dev), code:bash (bun run docker:cleanup), code:bash (bun run docker:cleanup -- --dry-run), code:bash (rm -rf data/users/<workspaceId>/home/), code:bash (rm -rf data/users/<workspaceId>/logs/runs/*), code:bash (for dir in data/users/*/; do) (+10 more)
-
-### Community 341 - "Community 341"
-Cohesion: 0.11
-Nodes (17): authProvidersResponseSchema, autoChooserPatchSchema, autoChoosersResponseSchema, createFileRequestSchema, gamepadClientMessageSchema, gamepadServerMessageSchema, getProjectPathAccess(), importResponseSchema (+9 more)
-
-### Community 342 - "Community 342"
+### Community 81 - "Bundled Lesson Catalog Modules"
 Cohesion: 0.18
 Nodes (15): docker(), DockerResult, migratedSettings, openJavaFile(), repoRoot, startWorkspace(), stopWorkspace(), terminal (+7 more)
 
-### Community 343 - "Community 343"
-Cohesion: 0.32
-Nodes (3): ConfigureBindings(), GetAutonomousCommand(), SysIdRoutineBot()
+### Community 82 - "Fake NT4 Test Server"
+Cohesion: 0.12
+Nodes (16): first, NUM_RUNS, parsed, round, slugArb, allianceStationSchema, bridgeConnectionSchema, containerStateSchema (+8 more)
 
-### Community 344 - "Community 344"
-Cohesion: 0.31
-Nodes (3): Constants, DriveConstants, OIConstants
+### Community 83 - "HALSim Bridge Message Handling"
+Cohesion: 0.12
+Nodes (15): bashCalls, cloneCall, ctx, importer, mock, row, workspace, CatalogLoadContext (+7 more)
 
-### Community 347 - "Community 347"
+### Community 84 - "Database Migrations Runner"
 Cohesion: 0.12
 Nodes (16): Alloy config location, code:block1 (https://prometheus-prod-XX-prod-us-central-0.grafana.net/api), code:block2 (https://logs-prod-XXX.grafana.net/loki/api/v1/push), code:bash (echo -n 'https://prometheus-prod-XX-prod-us-central-0.grafan), code:bash (gcloud compute ssh coderunner --zone=us-central1-a --tunnel-), code:bash (cd /opt/coderunner), code:logql (# All logs from one student), code:promql (up{instance="coderunner"}) (+8 more)
 
-### Community 348 - "Community 348"
-Cohesion: 0.12
-Nodes (16): Admin and Metrics, Auth and OAuth, code:bash (bun run start -- --demo), Configuration Reference, Demo mode and the `--demo` flag, Docker and Containers, Docker Compose deployment, .env.example vs config.ts — notes (+8 more)
-
-### Community 349 - "Community 349"
+### Community 85 - "Asset Upload Test Suite"
 Cohesion: 0.12
 Nodes (16): Browser API behavior, code:text (Browser -> stateless HTTP API -> control-plane HALSim bridge), code:json ({ "type": "<MessageType>", "device": "<DeviceId>", "data": {), Context, Decision, Decision 015 — HALSim WebSocket Control Protocol, DriverStation message (`type: "DriverStation"`, `device: ""`), Future hooks (+8 more)
 
-### Community 350 - "Community 350"
+### Community 86 - "Capacity Cap Test Suite"
 Cohesion: 0.12
 Nodes (16): Code style and CI gates, code:bash (bun install), code:bash (bun run dev:control), code:bash (bun run dev:control -- --demo), code:bash (bun run dev:web), code:bash (bun run migrate          # apply all pending migrations), code:bash (bun run check:fix), code:bash (bun run verify) (+8 more)
 
-### Community 352 - "Community 352"
-Cohesion: 0.49
-Nodes (11): Depot, FieldConstants, Hub, LeftBump, LeftTrench, LinesHorizontal, LinesVertical, Outpost (+3 more)
-
-### Community 353 - "Community 353"
+### Community 87 - "Disk Read Limit Config"
 Cohesion: 0.12
-Nodes (15): Build, code:json ("java.project.referencedLibraries": [), code:json ("java.project.referencedLibraries": {), code:block3 (npm install), Contribution, Create Java Projects, Export Jar, Manage Dependencies (+7 more)
+Nodes (16): Bind mounts, Build, code:bash (bun run docker:build:workspace), code:block2 (frc-sim.managed=true), code:bash (docker run -d \), Environment variables, Example run, First-Run Behavior (+8 more)
 
-### Community 354 - "Community 354"
+### Community 88 - "Community 88"
+Cohesion: 0.15
+Nodes (17): Container isolation (memory/disk/port caps), Container ports (3000/3300/5810), Decision 015: HALSim WebSocket Control Protocol, Decision 018: Gamepad Input via HALSim WebSocket, Decision 019: Keyboard Input Mode, Decision 020: Workspace Runtime Provider Boundary, control service (docker-compose.yml), coderunner Docker network (+9 more)
+
+### Community 89 - "AdvantageScope Lite Hosting (Archived)"
 Cohesion: 0.12
-Nodes (5): Apache 2.0 License, Apache Santuario Notice, Apache Santuario v3.0.5, code:block1, code:block2
+Nodes (16): AdvantageKit, patches/advantagescope/ source-level patches, AdvantageScope (upstream), 001-lite-nt4-endpoint-injection.patch, AS Lite in-iframe timeout banner, Docusaurus, GitHub CLI, Licenses doc (+8 more)
 
-### Community 355 - "Community 355"
+### Community 90 - "Driver Station Page Object & Runtime Seeding"
+Cohesion: 0.15
+Nodes (17): bun run e2e:workspace-java (real Java workspace smoke), Code container VS Code defaults test suite, containers/code/Dockerfile, ghcr.io/mathewdunne/coderunner-workspace image, codium-server (VSCodium reh-web), Decision 033: workspace disk read limit, scripts/image.ts, containers/code/root/.../init-frc-setup/run (+9 more)
+
+### Community 91 - "Rebuild Workspaces"
+Cohesion: 0.15
+Nodes (13): test (Playwright base.extend AppFixtures), e2e/fixtures/app.ts (ControlApp test fixture), E2E_TEST=1 gates Better Auth testUtils plugin, e2e/fixtures/fake-halsim.ts, e2e/fixtures/fake-vscode.ts, e2e/global-setup.ts, MockWorkspaceRuntimeProvider, e2e/fixtures/runtime.ts (+5 more)
+
+### Community 92 - "Canonical Image Naming Decisions"
+Cohesion: 0.13
+Nodes (16): Biome (lint/format/import org), bun run e2e (Playwright mocked tier), bun run e2e:security, bun run test (control-plane unit/integration), bun run test:web (Vitest), bun run verify (CI gate), apps/control/src/config.ts migrations resolution, --demo / CODERUNNER_DEMO_MODE flag (+8 more)
+
+### Community 93 - "Audit Log & Break-Glass Admin"
+Cohesion: 0.13
+Nodes (12): CATALOG, fetchMock, { result }, useLessons(), UseLessonsReturn, INITIAL_STATE, ProjectSwapKind, ProjectSwapState (+4 more)
+
+### Community 94 - "Container Runtime Status Helpers"
+Cohesion: 0.23
+Nodes (15): isInsideDirectory(), collectFiles(), deployFileDeleteResponse(), deployFilesSnapshotResponse(), deployFileWriteResponse(), DeployWorkspace, findDeepestExistingAncestor(), HAS_PROC_SELF_FD (+7 more)
+
+### Community 95 - "Network Mode Config Test"
+Cohesion: 0.14
+Nodes (13): BridgeEntry, DEFAULT_DRIVER_STATION, DriverStationState, HalSimBridgeOptions, HalSimBridgeSnapshot, HalSimMessage, HalSimWebSocketFactory, JoystickWireState (+5 more)
+
+### Community 97 - "Rebuild Workspaces CLI Args"
 Cohesion: 0.12
-Nodes (5): code:block1 (You are receiving a copy of the Mozilla Public Suffix List i), code:block2 (Mozilla Public License Version 2.0), Mozilla Public Suffix List, MPL v2.0, Public Suffix Notice
-
-### Community 356 - "Community 356"
-Cohesion: 0.12
-Nodes (5): AUTHORS File Information, code:block1 (PNG REFERENCE LIBRARY AUTHORS), libpng License, libpng v1.6.51, libpng v1.6.57
-
-### Community 357 - "Community 357"
-Cohesion: 0.12
-Nodes (5): code:block1 (Copyright © 2021 Collabora Ltd.), code:block2 (Copyright © 2021 Red Hat, Inc.), code:block3 (Copyright © 2023 PipeWire authors), PipeWire 1.3.81, PipeWire license:
-
-### Community 358 - "Community 358"
-Cohesion: 0.12
-Nodes (5): AUTHORS File Information, code:block1, Harfbuzz 11.2.0, Harfbuzz 12.3.2, Harfbuzz License
-
-### Community 359 - "Community 359"
-Cohesion: 0.12
-Nodes (5): code:block1 (MUSCLE SmartCard Development ( https://pcsclite.apdu.fr/ )), code:block2, PC/SC Lite License, PC/SC Lite Notice, PC/SC Lite v1.9.9
-
-### Community 360 - "Community 360"
-Cohesion: 0.12
-Nodes (14): Build, code:json ("java.project.referencedLibraries": [), code:json ("java.project.referencedLibraries": {), code:block3 (npm install), Contribution, Create Java Projects, Export Jar, Manage Dependencies (+6 more)
-
-### Community 361 - "Community 361"
-Cohesion: 0.12
-Nodes (17): 15. Staged Implementation Plan, code:block20 (docker build -t frc-spike-openvscode .), code:block21 (bun run docker:build:workspace), code:block22 (# Build and start a Stage 1 container manually.), code:block23 (bun run typecheck), code:block24 (bun run build:web), code:block25 (bun run typecheck), code:block26 (# Idle teardown:) (+9 more)
-
-### Community 362 - "Community 362"
-Cohesion: 0.12
-Nodes (17): 1. GCP project, 2. Terraform state bucket, 3. Configure Terraform vars, 4. Apply, 5. Populate Secret Manager, 6. DNS, 7. Re-render config on the VM, 8. Configure GitHub repo for the deploy workflow (+9 more)
-
-### Community 363 - "Community 363"
-Cohesion: 0.12
-Nodes (16): caches/8.11/transforms (~2.1 GB/workspace), code:block1 (5.3G  total workspace), Combined impact, Constraints from the original plan (still apply), Files to touch, Findings, Goal, Handoff: Shared Gradle Cache for `coderunner-workspace` (+8 more)
-
-### Community 364 - "Community 364"
-Cohesion: 0.12
-Nodes (16): 0. Decisions at a Glance, 13. Java LSP, 15. Failure Modes, 16. Security Posture for V1, 17. Verification Strategy, 19. V1 Definition of Done, 1. Context, 20. Open Questions (+8 more)
-
-### Community 365 - "Community 365"
-Cohesion: 0.12
-Nodes (17): 15. Staged Implementation Plan, code:block20 (docker build -t frc-spike-openvscode .), code:block21 (bun run docker:build:workspace), code:block22 (# Build and start a Stage 1 container manually.), code:block23 (bun run typecheck), code:block24 (bun run build:web), code:block25 (bun run typecheck), code:block26 (# Idle teardown:) (+9 more)
-
-### Community 366 - "Community 366"
-Cohesion: 0.12
-Nodes (16): first, NUM_RUNS, parsed, slugArb, allianceStationSchema, bridgeConnectionSchema, containerStateSchema, driverStationPatchSchema (+8 more)
-
-### Community 444 - "Community 444"
-Cohesion: 0.17
 Nodes (15): Backup options, Backups, code:bash (docker compose exec control coderunner backup), code:bash (bun run backup), code:block3 (data/backups/2026-05-16-151038/), code:bash (# Write the backup to a custom location), code:bash (bun run restore -- <backup-dir>), code:bash (# Preview what would be restored without writing anything) (+7 more)
 
-### Community 445 - "Community 445"
-Cohesion: 0.4
-Nodes (4): Policy, Preferred Languages, Reporting Security Issues, Security
-
-### Community 446 - "Community 446"
+### Community 98 - "Users CLI Script"
 Cohesion: 0.12
-Nodes (3): code:block1 (java -version), code:block2 (java version "1.8.0_311"), Install JDK
+Nodes (15): Admin and Metrics, Auth and OAuth, code:bash (bun run start -- --demo), Configuration Reference, Demo mode and the `--demo` flag, Docker and Containers, Docker Compose deployment, How environment is loaded (+7 more)
 
-### Community 447 - "Community 447"
+### Community 99 - "Extension Reconciliation Test"
 Cohesion: 0.12
-Nodes (15): Build, code:json ("java.project.referencedLibraries": [), code:json ("java.project.referencedLibraries": {), code:block3 (npm install), Contribution, Create Java Projects, Export Jar, Manage Dependencies (+7 more)
+Nodes (15): Can CodeRunner run offline or without internet?, Can I build or start simulation from the WPILib extension?, Can I write my own lessons?, Can students accidentally break each other's work?, Can students push code to GitHub?, Do students need accounts? What if I just want to try it?, FAQ, How do students read their README or a test report? (+7 more)
 
-### Community 448 - "Community 448"
-Cohesion: 0.4
-Nodes (4): Policy, Preferred Languages, Reporting Security Issues, Security
-
-### Community 449 - "Community 449"
-Cohesion: 0.31
-Nodes (3): activate(), deactivate(), extension
-
-### Community 450 - "Community 450"
-Cohesion: 0.4
-Nodes (4): Policy, Preferred Languages, Reporting Security Issues, Security
-
-### Community 455 - "Community 455"
+### Community 100 - "Sim Api.test"
 Cohesion: 0.12
-Nodes (4): code:block1, GIFLIB License, GIFLIB v5.2.2, GIFLIB v6.1.2
+Nodes (16): demo mode test suite, GATED_PATHS list, PUBLIC_PATHS list, Default-deny auth coverage via explicit route manifest (no route table introspection), default-deny route coverage test suite (Plan §A.7.6), DEMO_SLUG (auth/demo), PathPlanner subtree writable, choreo subtree read-only design, safeRelativeAssetPath (asset path validation) (+8 more)
 
-### Community 456 - "Community 456"
-Cohesion: 0.12
-Nodes (4): AUTHORS File Information, code:block1, LCMS License, Little Color Management System (LCMS) v2.17
-
-### Community 457 - "Community 457"
-Cohesion: 0.12
-Nodes (4): code:block1 (Copyright 1996-2015 by Scott Hudson, Frank Flannery, C. Scot), code:block2 (This is an open source license. It is also GPL-Compatible (s), CUP Parser Generator for Java v 0.11b, CUP Parser Generator License
-
-### Community 458 - "Community 458"
-Cohesion: 0.12
-Nodes (14): Build, code:json ("java.project.referencedLibraries": [), code:json ("java.project.referencedLibraries": {), code:block3 (npm install), Contribution, Create Java Projects, Export Jar, Manage Dependencies (+6 more)
-
-### Community 459 - "Community 459"
+### Community 101 - "AdvantageScope Verify Script"
 Cohesion: 0.13
-Nodes (4): Apache 2.0 License, Apache Commons BCEL Notice, Apache Commons Byte Code Engineering Library (BCEL) Version 6.10.0, Apache Commons Byte Code Engineering Library (BCEL) Version 6.7.0
+Nodes (16): makeScriptedRunCommandFactory, consumeLines, defaultRunCommandFactory, dockerRunScript, lineLooksReady, RunManager (app.runs), Startup marks persisted active runs as stopped, run lifecycle and log streaming test suite (+8 more)
 
-### Community 460 - "Community 460"
-Cohesion: 0.12
-Nodes (16): 9.1 Router, 9.2 Session manager, 9.3 Project store, 9.4 Container orchestrator, 9.5 Run service, 9.6 NT4 proxy, 9.7 LSP proxy, 9.8 Operator endpoints (+8 more)
+### Community 102 - "README"
+Cohesion: 0.13
+Nodes (16): isEmailAllowed (auth/allowlist), createAuth, slugFromEmail, login, buildSocialProviders, getEnabledAuthProviders, routing and shell APIs test suite, RunJob (type) (+8 more)
 
-### Community 461 - "Community 461"
-Cohesion: 0.12
-Nodes (15): Architecture (MVP), code:block1 (+----------------------------------+), Explicitly deferred to post-MVP, FRC Web Simulator: Project Summary and MVP Spec, MVP scope, Note to the implementing agent, Overall MVP definition of done, Project summary (+7 more)
+### Community 103 - "Container Isolation & HALSim Decisions"
+Cohesion: 0.13
+Nodes (14): authProvidersResponseSchema, autoChooserPatchSchema, autoChoosersResponseSchema, deployFilePathSchema, deployFilesSnapshotResponseSchema, gamepadClientMessageSchema, gamepadServerMessageSchema, importResponseSchema (+6 more)
 
-### Community 468 - "Community 468"
-Cohesion: 0.33
-Nodes (14): containerState(), dockerStats(), down(), ensureContainer(), lifecycle(), main(), parseMiB(), printEnv() (+6 more)
+### Community 104 - "Cloudflare Pages Proxy Function"
+Cohesion: 0.16
+Nodes (6): FakeSocket, Listener, { rerender }, { result }, { unmount }, useRunChannel()
 
-### Community 469 - "Community 469"
-Cohesion: 0.12
-Nodes (16): 9.1 Router, 9.2 Session manager, 9.3 Project store, 9.4 Container orchestrator, 9.5 Run service, 9.6 NT4 proxy, 9.7 LSP proxy, 9.8 Operator endpoints (+8 more)
+### Community 106 - "Proxy Header Test Suite"
+Cohesion: 0.13
+Nodes (14): Admin role, Audit log, Authentication, code:json ({), Container isolation, Control plane container privileges, Demo mode, Email allowlist (+6 more)
 
-### Community 470 - "Community 470"
-Cohesion: 0.12
-Nodes (15): Architecture (MVP), code:block1 (+----------------------------------+), Explicitly deferred to post-MVP, FRC Web Simulator: Project Summary and MVP Spec, MVP scope, Note to the implementing agent, Overall MVP definition of done, Project summary (+7 more)
-
-### Community 471 - "Community 471"
-Cohesion: 0.12
-Nodes (14): Build, code:bash (docker build -t frc-sim:mvp containers/sim), code:bash (docker run --rm -p 5810:5810 --memory=2g --name frc-sim frc-), code:block3 (NT: server: listening on NT4 port 5810), code:bash (docker stop frc-sim), Hacking, Run, Runtime Contract (+6 more)
-
-### Community 483 - "Community 483"
+### Community 107 - "Container Lease Schema (V1/V2)"
 Cohesion: 0.13
 Nodes (14): 10. Third-party software, 11. Changes to these terms, 12. Governing law, 13. Contact, 1. What CodeRunner is, 2. Who may use it, 3. Acceptable use, 4. Your code (+6 more)
 
-### Community 484 - "Community 484"
+### Community 108 - "Core Schema Tables & Better Auth Migration"
 Cohesion: 0.13
 Nodes (14): 031 — Containerized Control Plane, Addendum — non-root control container, Admin bootstrap: `CODERUNNER_ADMIN_EMAIL`, Bind-mount path translation, code:yaml (user: "${CODERUNNER_UID:-1000}:${CODERUNNER_GID:-1000}"), `coderunner` — a dispatching CLI, not raw scripts, Consequences, Context (+6 more)
 
-### Community 485 - "Community 485"
-Cohesion: 0.15
-Nodes (14): Building the image locally, code:bash (bun run docker:build:workspace), code:block2 (docker build -f containers/code/Dockerfile -t ghcr.io/mathew), code:bash (bun run docker:pull:workspace), code:bash (bun run docker:build:workspace), code:bash (bun run docker:rebuild-workspaces), code:bash (bun run docker:rebuild-workspaces -- --dry-run), Editor acceptance smoke (+6 more)
+### Community 109 - "WebSocket Upstream Message Send"
+Cohesion: 0.19
+Nodes (15): /admin/workspaces/:id/backup route (manual per-workspace backup), S9-S11 command-injection defense tests, MockWorkspaceRuntimeProvider, admin backup/restore workspace project, Bundled/remote catalog lesson load flow (gitless), GitHub team import flow (all-branches, depth-1, keeps .git), ImportManager, ImportRateLimiter (+7 more)
 
-### Community 486 - "Community 486"
+### Community 110 - "Deployment Hardware & FAQ Docs"
 Cohesion: 0.13
-Nodes (3): How to file issues and get help, Microsoft Support Policy, Support
+Nodes (15): authClient (better-auth), defaultDockerRunner, inspectContainerOrThrow, configureLogging, getLogger, loadProviders, LoginPage Component, OAuthButton Component (+7 more)
 
-### Community 487 - "Community 487"
-Cohesion: 0.42
-Nodes (4): Policy, Preferred Languages, Reporting Security Issues, Security
+### Community 111 - "E2E ControlApp Test Fixture Setup"
+Cohesion: 0.2
+Nodes (15): MAX_ACTIVE_CONTAINERS capacity limit, Container labels + reconciliation, Decision 011: V2 Editor Spike, Decision 012: V2 Code Image, Decision 013: V2 Acceptance Pass, Decision 017: linuxserver Base Migration, First-run init behavior, gitpod/openvscode-server base image (+7 more)
 
-### Community 488 - "Community 488"
-Cohesion: 0.13
-Nodes (7): code:block1 (lsp_java_findSymbol|lsp_java_getFileStructure|lsp_java_getFi), code:block2 (lsp_java_getCallHierarchy|lsp_java_getTypeHierarchy|lsp_java), Fallback, Java LSP Tools — Mandatory Initialization, Step 1: Load Tools (REQUIRED — do this FIRST), Step 2: Always Prefer LSP Tools for Java, Typical Workflow
-
-### Community 489 - "Community 489"
-Cohesion: 0.13
-Nodes (3): How to file issues and get help, Microsoft Support Policy, Support
-
-### Community 494 - "Community 494"
-Cohesion: 0.13
-Nodes (3): code:block1 (Copyright OpenJS Foundation and other contributors, https://), jQuery UI License, jQuery UI v1.14.1
-
-### Community 495 - "Community 495"
-Cohesion: 0.13
-Nodes (3): code:block1 (jQuery v 3.7.1), jQuery License, jQuery v3.7.1
-
-### Community 496 - "Community 496"
-Cohesion: 0.13
-Nodes (3): code:block1, The Unicode Standard, Unicode Character Database, Version 15.0.0, Unicode Character Database
-
-### Community 497 - "Community 497"
-Cohesion: 0.13
-Nodes (3): code:block1, ICU4J License, International Components for Unicode (ICU4J) v72.1
-
-### Community 498 - "Community 498"
-Cohesion: 0.13
-Nodes (3): CLDR License, code:block1, Unicode Common Local Data Repository (CLDR) v43
-
-### Community 499 - "Community 499"
-Cohesion: 0.13
-Nodes (3): c-libutl 20160225, c-libutl License, code:block1
-
-### Community 500 - "Community 500"
-Cohesion: 0.13
-Nodes (3): code:block1 (************************************************************), Independent JPEG Group: JPEG release 6b, JPEG License
-
-### Community 501 - "Community 501"
-Cohesion: 0.13
-Nodes (3): code:block1 (Copyright (C) 1999-2007  Brian Paul   All Rights Reserved.), Mesa 3-D Graphics Library v21.0.3, Mesa License
-
-### Community 502 - "Community 502"
-Cohesion: 0.13
-Nodes (3): Apache 2.0 License, Apache Xerces Notice, Apache Xerces v2.12.2
-
-### Community 503 - "Community 503"
-Cohesion: 0.13
-Nodes (3): Apache 2.0 License, Apache Xalan Notice, Apache Xalan v2.7.2
-
-### Community 504 - "Community 504"
-Cohesion: 0.13
-Nodes (3): DOM Level 3 Core Specification v1.0, W3C License, W3C Software Notice
-
-### Community 505 - "Community 505"
-Cohesion: 0.13
-Nodes (3): CLDR License, code:block1, Unicode Common Local Data Repository (CLDR) v43
-
-### Community 506 - "Community 506"
-Cohesion: 0.13
-Nodes (3): zlib License, zlib v1.3.1, zlib v1.3.2
-
-### Community 507 - "Community 507"
-Cohesion: 0.24
-Nodes (14): 0. Decisions at a Glance, 11. Resource Budget, 12. Failure Modes, 13. Security Posture, 14. Verification, 17. Open Questions, 18. Rules for Agents, 1. Context (+6 more)
-
-### Community 508 - "Community 508"
-Cohesion: 0.13
-Nodes (14): 1. Remove `cleanupV1Containers()`, 2. Drop V1 columns from `container_leases`, 3. Rename cookie and default secret, 4. Archive MVP docs and delete `mvp/` source, 5. Archive obsolete V1 decisions, 6. Scrub references to `mvp/` and V1, 7. Remove status-tracker entry for V1 cruft, Context (+6 more)
-
-### Community 509 - "Community 509"
-Cohesion: 0.13
-Nodes (14): 1. Remove the build queue, 2. Remove `RUN_CONCURRENCY`, 3. Split `app.test.ts`, 4. Drop redundant / V1 tests, 5. Delete one-shot verification scripts, 6. Audit env vars, 7. Update `docs/runbook.md`, Context (+6 more)
-
-### Community 511 - "Community 511"
-Cohesion: 0.31
-Nodes (11): setupMonaco(), colorForMonacoTokenRule(), directSemanticRules(), findTextMateSettings(), registerDefaultDarkModernTheme(), semanticFallbackRules(), SemanticTokenColor, textMateScopeMatches() (+3 more)
-
-### Community 514 - "Community 514"
+### Community 112 - "AS Lite NT4 Endpoint Injection Patch"
 Cohesion: 0.14
-Nodes (13): Admin role, Audit log, Authentication, code:json ({), Container isolation, Control plane container privileges, Demo mode, Email allowlist (+5 more)
+Nodes (13): compact, console_, disable, editor, editorBody, editorControl, freshConsole, hideEditor (+5 more)
 
-### Community 515 - "Community 515"
+### Community 113 - "Editor Pane Reachability"
+Cohesion: 0.2
+Nodes (7): IDELayout(), IDELayoutProps, FakeResizeObserver, useSplit(), ResizableHandle(), ResizablePanel(), ResizablePanelGroup()
+
+### Community 114 - "Driver Station Switch Project Flow"
 Cohesion: 0.14
-Nodes (13): Can CodeRunner run offline or without internet?, Can I write my own lessons?, Can students accidentally break each other's work?, Can students push code to GitHub?, Do students need accounts? What if I just want to try it?, FAQ, How much does cloud hosting cost?, Is a Chromebook sufficient for students? (+5 more)
+Nodes (12): waitFor(), CloseCall, fakeDocker, FakeSocket, fakeUpstream, forwarded, hello, importWs (+4 more)
 
-### Community 516 - "Community 516"
-Cohesion: 0.44
-Nodes (6): DocumentPasteEdit, DocumentPasteEditContext, DocumentPasteEditKind, DocumentPasteEditProvider, DocumentPasteProviderMetadata, DocumentPasteTriggerKind
-
-### Community 528 - "Community 528"
-Cohesion: 0.44
-Nodes (4): Policy, Preferred Languages, Reporting Security Issues, Security
-
-### Community 529 - "Community 529"
-Cohesion: 0.14
-Nodes (4): Data collection, How to opt in or out, What's included in the general telemetry data, What's included in the vscode-java telemetry data
-
-### Community 530 - "Community 530"
-Cohesion: 0.44
-Nodes (4): Policy, Preferred Languages, Reporting Security Issues, Security
-
-### Community 531 - "Community 531"
-Cohesion: 0.14
-Nodes (14): code:text (e2e/                                  NEW — root-level Playw), code:json ("e2e": "E2E_TEST=1 playwright test --project=mocked",), code:bash (bun install), code:bash (bun run e2e              # mocked tier; globalSetup rebuilds), code:ts (import { defineConfig, devices } from "@playwright/test";), Context, Critical files / surfaces to touch, Directory layout (+6 more)
-
-### Community 532 - "Community 532"
-Cohesion: 0.14
-Nodes (13): Context, Definition of done, Experiments, Goals, Key questions, Multi-Tenancy Spike, Non-goals, Q1: NT4 routing under multi-tenancy (+5 more)
-
-### Community 533 - "Community 533"
-Cohesion: 0.14
-Nodes (13): 026 — Gradle Cache Deduplication via Image Seed, Change 1: Host-side hard-link seed (attempted, rolled back), Change 2: Eliminate `permwrapper` duplication (shipped), Change 3: Expand seed to cover common vendor lib transforms (shipped), code:block1 (3.6 GB  data/users/<id>/home/.gradle/), Consequences, Context, Decision (+5 more)
-
-### Community 534 - "Community 534"
-Cohesion: 0.14
-Nodes (13): 0. Decisions at a Glance, 11. Resource Budget, 12. Failure Modes, 13. Security Posture, 14. Verification, 17. Open Questions, 18. Rules for Agents, 1. Context (+5 more)
-
-### Community 535 - "Community 535"
-Cohesion: 0.14
-Nodes (13): Context, Definition of done, Experiments, Goals, Key questions, Multi-Tenancy Spike, Non-goals, Q1: NT4 routing under multi-tenancy (+5 more)
-
-### Community 536 - "Community 536"
+### Community 115 - "Driver Station Switch Project Flow"
 Cohesion: 0.16
-Nodes (14): Bundled Lesson Catalog (/opt/frc-catalog), Authoring Custom Lessons / LESSONS_CATALOG_REPO, Student GitHub Push (Team Import), Lesson Switch Discards Workspace, Switch Project Surface, Team Import Git Push Capability, Per-Student Workspace Isolation, docker:build:workspace / scripts/image.ts (+6 more)
+Nodes (9): sendUpstreamWebSocketMessage(), AppSocket, log, WebSocketHandlerContext, CatalogManifest, CatalogSource, log, ImportError (+1 more)
 
-### Community 537 - "Community 537"
+### Community 116 - "Admin Workspace Backup/Restore Actions"
+Cohesion: 0.25
+Nodes (10): DistDownload, downloadAndExtract(), run(), withScratch(), artifacts, main(), repoRoot, tagArgIndex (+2 more)
+
+### Community 117 - "Auto Choosers & Container Status Hooks"
+Cohesion: 0.14
+Nodes (13): 1. Prove the report delivery model, 2. Add contracts and read-only delivery, 3. Add Preview UI, 4. Validate the complete workflow, 5. Document and finish, Acceptance criteria, Existing integration points, Goal and agreed UX (+5 more)
+
+### Community 118 - "Java Tooling Compatibility Decisions"
+Cohesion: 0.14
+Nodes (13): Building the image locally, code:bash (bun run docker:build:workspace), code:block2 (docker build -f containers/code/Dockerfile -t ghcr.io/mathew), code:bash (bun run docker:pull:workspace), code:bash (bun run docker:build:workspace), code:bash (bun run docker:rebuild-workspaces), code:bash (bun run docker:rebuild-workspaces -- --dry-run), Editor acceptance smoke (+5 more)
+
+### Community 119 - "Lessons & Testing Decision Docs"
+Cohesion: 0.2
+Nodes (13): hello-world bundled module, robot-starter bundled module, catalog/modules.json, docker() helper (Bun.spawn wrapper), openJavaFile(), java-tooling.spec.ts (docker smoke test), startWorkspace(), waitFor() polling helper (+5 more)
+
+### Community 120 - "Editor Migration Decisions"
 Cohesion: 0.17
 Nodes (11): FakeNt4Handle, FakeNt4Options, startFakeNt4(), aliceMessages, aliceReady, aliceSocket, allAlice, allBob (+3 more)
 
-### Community 538 - "Community 538"
-Cohesion: 0.24
-Nodes (12): ascopeRoot, assert(), createCatalogDir(), createTemplate(), distDir, exists(), patchDir, repoRoot (+4 more)
+### Community 121 - "CLI Reference & Control Container"
+Cohesion: 0.21
+Nodes (9): CodeStatus, CodeStatusPill(), TONES, codeStatusFromRun(), ConsoleLine(), ConsolePanel(), ConsolePanelProps, parseConsoleLine() (+1 more)
 
-### Community 539 - "Community 539"
+### Community 122 - "Gamepad Shim E2E Test"
+Cohesion: 0.28
+Nodes (11): config, db, log, AppliedMigrationRow, applyMigrations(), ensureMigrationTable(), listAppliedMigrations(), loadMigrations() (+3 more)
+
+### Community 123 - "Catalog Integrity Test"
+Cohesion: 0.15
+Nodes (11): assetDir, assetsDir, config, cookie, formData, manifest, proc, userAssetDir (+3 more)
+
+### Community 124 - "Driver Station Page Object"
+Cohesion: 0.17
+Nodes (12): adminCookie, alice, aliceCookie, bob, bobCookie, body, carol, fakeContainerFor() (+4 more)
+
+### Community 125 - "Fake Socket Test Double"
 Cohesion: 0.15
 Nodes (12): 100 MB size cap, 6 imports per hour rate limit, Backup before import, Clone inside the container, not the host, Consequences, Context, Decision, Decision 016 — Project Import Strategy (+4 more)
 
-### Community 540 - "Community 540"
+### Community 126 - "Session Hook & Heartbeat"
 Cohesion: 0.15
 Nodes (12): 036 — Editor migration: openvscode-server → VSCodium reh-web, 1. VSCodium `reh-web`, not `code-server`, 2. Stay on the LinuxServer base image, 3. The editor keeps container port 3000, 4. Settings and extension paths do not move, 5. Workspace trust: diagnosed, not fixed, Consequences, Context (+4 more)
 
-### Community 541 - "Community 541"
+### Community 127 - "Auto Choosers Hook Test"
 Cohesion: 0.15
 Nodes (12): 009 - LSP reconnect, bridge serialization, and startup throttling, Context, Decision 1: Browser LSP client auto-reconnects with bounded backoff, Decision 2: Bridge serializes JDT LS spawns, Decision 3: Orchestrator-level LSP startup throttle, Decision 4: Cap proxy pending-message buffers, Decision 5: NT4 subprotocol mismatch is fail-fast, not silent, Decision 6: AS Lite in-iframe timeout banner (+4 more)
 
-### Community 543 - "Community 543"
-Cohesion: 0.15
-Nodes (12): Containers and Microservices, Data/Telemetry, Eclipse MicroProfile, Extension Pack for Java, Extensions Included, License, Linting, Other Recommendations (+4 more)
+### Community 128 - "Command Injection Test Suite"
+Cohesion: 0.18
+Nodes (13): workspaces.current_module column, Admin allowlist endpoints, addAllowlistEntry (auth/allowlist), loadAllowlist (auth/allowlist), reloadAllowlist, removeAllowlistEntry, saveAllowlist, CODERUNNER_ADMIN_EMAIL bootstrap admin design (+5 more)
 
-### Community 545 - "Community 545"
-Cohesion: 0.15
-Nodes (13): 2.1 Set Breakpoint Based on Hypothesis, 2.3 Decision Matrix (STRICT!), 2.4 Automatic Cleanup on Restart, 2.5 Fallback: When debugJavaApplication Fails or Times Out, code:block10 (vscjava.vscode-java-debug/getDebugSessionInfo()  // Returns ), code:block11 (vscjava.vscode-java-debug/getDebugSessionInfo()  // Check ag), code:block12 (execute/getTerminalOutput(id="Java Debug")), code:markdown ("Debug session failed to start automatically.) (+5 more)
+### Community 129 - "Default-Deny Route Coverage"
+Cohesion: 0.19
+Nodes (13): Archive 005: Java LSP MVP integration, Archive 006: Multi-tenancy spike findings, Archive 007: V1 sim container orchestration, Decision 032: Canonical Image Naming, Decision Logs README index, Docker labels as runtime source of truth, SQLite as cache, Dual-mode runtime provider (port mode / network mode), Local WPILib-aware JDT LS image (frc-lsp:mvp) (+5 more)
 
-### Community 548 - "Community 548"
-Cohesion: 0.15
-Nodes (3): How to file issues and get help, Microsoft Support Policy, Support
-
-### Community 549 - "Community 549"
-Cohesion: 0.27
-Nodes (3): code:json ("java.configuration.runtimes": [), Java Tooling JDK, Project JDKs
-
-### Community 550 - "Community 550"
-Cohesion: 0.22
-Nodes (3): BrowserLspClient, initializeParams(), startJavaLsp()
-
-### Community 551 - "Community 551"
-Cohesion: 0.15
-Nodes (12): 009 - LSP reconnect, bridge serialization, and startup throttling, Context, Decision 1: Browser LSP client auto-reconnects with bounded backoff, Decision 2: Bridge serializes JDT LS spawns, Decision 3: Orchestrator-level LSP startup throttle, Decision 4: Cap proxy pending-message buffers, Decision 5: NT4 subprotocol mismatch is fail-fast, not silent, Decision 6: AS Lite in-iframe timeout banner (+4 more)
-
-### Community 552 - "Community 552"
+### Community 130 - "Driver Station Page Object & Runtime Seeding"
 Cohesion: 0.17
-Nodes (13): CODERUNNER_ADMIN_EMAIL Admin Bootstrap, coderunner allowlist add, coderunner allowlist (Local), BETTER_AUTH_SECRET, BETTER_AUTH_URL, CODERUNNER_ADMIN_EMAIL (Local), CODERUNNER_DOCKER_GID (Local), Data Directory Ownership (+5 more)
+Nodes (13): deploy-cloudflare job in deploy.yml, Decision 039: PathPlanner integration, Deploy-files API (/u/:slug/api/deploy-files/...), deploy.yml GitHub Actions workflow, GCE docker compose stack (control/caddy/alloy), PATHPLANNER_DIST_TAG pin, coderunner rebuild-workspaces CLI, release.yml GitHub Actions workflow (+5 more)
 
-### Community 553 - "Community 553"
+### Community 131 - "Demo Mode Disk/Memory Limits"
+Cohesion: 0.19
+Nodes (13): Decision 038: PathPlanner integration, deployFileDeleteResponse(), deployFileWriteResponse(), Deploy-files contracts (zod schemas), deployFilePathSchema path traversal safety design, deployFilesSnapshotResponse(), apps/control/src/app/deploy-files.ts, apps/control/src/metrics.ts (templateRoute) (+5 more)
+
+### Community 132 - "Img Screenshots"
+Cohesion: 0.19
+Nodes (13): ascope-iframe.spec.ts (T34.1 /scope route test), 001-lite-nt4-endpoint-injection.patch, embedded-mode NT4 endpoint injection mechanism, patches/advantagescope/README.md, Decision 013: per-workspace NT4 isolation, nt4-multi-workspace.spec.ts (T35.1 NT4 isolation test), pane-layout.spec.ts (pane sizing persistence test), openWorkspace() test helper (+5 more)
+
+### Community 133 - "Build Failure.spec"
+Cohesion: 0.18
+Nodes (8): SimRunAction, patchCall, postCall, { result }, updatedStatus, VALID_STATUS, useSimulationState(), UseSimulationStateReturn
+
+### Community 134 - "Admin.po"
+Cohesion: 0.26
+Nodes (11): ascopeRoot, assert(), createCatalogDir(), distDir, exists(), patchDir, repoRoot, runGit() (+3 more)
+
+### Community 135 - "Java Tooling Smoke Test"
 Cohesion: 0.17
-Nodes (13): Example Curriculum Progression, Non-Destructive Headless Gradle Override, plain-java Lesson Kind, robot Lesson Kind, launch.json Run Configuration, modules.json Manifest, Module Fields (id/title/subdir/kind/order), README.md as Lesson Text (+5 more)
+Nodes (11): config, cookie, dataDir, fakeDocker, lease, name, now, passthrough (+3 more)
 
-### Community 554 - "Community 554"
-Cohesion: 0.17
-Nodes (13): Cloud Hosting Cost Estimate, Caddy (Auto-TLS), Cost and Sizing, Data Disk (prevent_destroy), docker compose Stack (control/caddy/alloy), c4-standard-4 GCE VM, Grafana Alloy, Hyperdisk-Balanced Disks (+5 more)
-
-### Community 555 - "Community 555"
+### Community 136 - "Ws Bridge"
 Cohesion: 0.17
 Nodes (9): args, argsPath, home, projectRoot, robotJar, sleeper, start, stop (+1 more)
 
-### Community 556 - "Community 556"
-Cohesion: 0.18
-Nodes (9): ExtensionRecord, fixture(), old, reconcileScript, record(), repoRoot, staleDirectory, temporaryRoots (+1 more)
-
-### Community 557 - "Community 557"
-Cohesion: 0.17
-Nodes (12): code:bash (curl -sS https://raw.githubusercontent.com/VSCodium/vscodium), code:markdown (| [openvscode-server](https://github.com/gitpod-io/openvscod), code:markdown (| [VSCodium](https://github.com/VSCodium/vscodium) / Code – ), code:markdown (- **`linuxserver/vscodium-web` container image** — GNU Gener), code:markdown (Merged per-student container for V2. Combines VSCodium reh-w), code:markdown (| Base image | linuxserver/vscodium-web:1.126.04524-ls35 | G), code:markdown (| 3000 | codium-server (HTTP + WebSocket) — overrides the ba), code:markdown (The container uses s6-overlay for process supervision. The u) (+4 more)
-
-### Community 558 - "Community 558"
-Cohesion: 0.17
-Nodes (12): code:typescript (test("s6 service script launches codium-server as primary pr), code:typescript (* In-process HTTP+WS server that impersonates the workspace ), code:bash (git add containers/code apps/control/src/__tests__ apps/cont), code:bash (cd /home/matt/dev/CodeRunner), code:bash (rm -rf containers/code/root/etc/s6-overlay/s6-rc.d/svc-openv), code:bash (find containers/code/root -type f | sort), code:block5 (containers/code/root/etc/s6-overlay/s6-rc.d/init-frc-setup/d), code:dockerfile (# V2 merged code container) (+4 more)
-
-### Community 559 - "Community 559"
-Cohesion: 0.17
-Nodes (11): Changes to this policy, Children's privacy, Contact, How long it is kept, How the information is used, Privacy Policy, What information is collected, What is not done with it (+3 more)
-
-### Community 560 - "Community 560"
-Cohesion: 0.17
-Nodes (11): Base image: `gitpod/openvscode-server:1.105.1`, Consequences, Context, Decision, Decision 012: V2 Code Image — Base Image and Extension Strategy, Direct launch base path handling, Extension cache seeding pattern, Extensions: download at build time (+3 more)
-
-### Community 561 - "Community 561"
-Cohesion: 0.17
-Nodes (11): Automated Verification, code:block1 (bun run measure), code:bash (bun run typecheck), Comparison with V1, Decision, Decision 013: V2 Acceptance Pass, Host Capacity (10 students), Manual Verification (+3 more)
-
-### Community 562 - "Community 562"
+### Community 137 - "Main"
 Cohesion: 0.32
 Nodes (11): Args, dirExists(), discoverWorkspaces(), fileExists(), main(), parseArgs(), restoreArchive(), restoreDb() (+3 more)
 
-### Community 563 - "Community 563"
-Cohesion: 0.39
-Nodes (3): activate(), deactivate(), extension
-
-### Community 564 - "Community 564"
-Cohesion: 0.48
-Nodes (4): Policy, Preferred Languages, Reporting Security Issues, Security
-
-### Community 568 - "Community 568"
-Cohesion: 0.17
-Nodes (12): 18. Implementation Phases, V1-0: Archive MVP and scaffold V1 root, V1-10: V1 acceptance pass, V1-1: Contracts, storage, and session skeleton, V1-2: Control-plane routing and static shell, V1-3: Project store and multi-file editor, V1-4: V1 sim image and container orchestrator, V1-5: Run queue and log streaming (+4 more)
-
-### Community 569 - "Community 569"
-Cohesion: 0.17
-Nodes (12): 8.1 Browser routes, 8.2 API routes, 8.3 WebSocket routes, 8.4 Run WebSocket messages, 8. Public Routing Contract, code:block13 (GET  /                         login or redirect to current ), code:block14 (/u/:workspaceSlug/api/...), code:block15 (GET    /session) (+4 more)
-
-### Community 570 - "Community 570"
-Cohesion: 0.17
-Nodes (12): 7.1 Browser routes, 7.2 Editor proxy routes, 7.3 API routes, 7.4 Admin routes, 7.5 WebSocket routes, 7. Public Routing Contract, code:block10 (GET   /admin/status), code:block11 (WS /u/:workspaceSlug/ws/run           run control/logs, unch) (+4 more)
-
-### Community 571 - "Community 571"
-Cohesion: 0.21
-Nodes (12): code:bash (bun run dev:control), code:bash (curl -H "Authorization: Bearer $ADMIN_TOKEN" http://localhos), code:bash (bun run docker:cleanup), code:bash (# Stop all workspaces), code:bash (docker stop $(docker ps -q --filter label=frc-sim.managed=tr), code:bash (CODE_MEMORY_LIMIT=2048m), code:bash (CODE_MEMORY_LIMIT=2560m), Dev (one-command) (+4 more)
-
-### Community 572 - "Community 572"
-Cohesion: 0.23
-Nodes (6): IDELayout(), IDELayoutProps, FakeResizeObserver, ResizableHandle(), ResizablePanel(), ResizablePanelGroup()
-
-### Community 573 - "Community 573"
-Cohesion: 0.29
-Nodes (10): children, ensureContainer(), ensureLspContainer(), ensureSimContainer(), repoRoot, runCommand(), shutdown(), startProcess() (+2 more)
-
-### Community 574 - "Community 574"
-Cohesion: 0.17
-Nodes (12): 18. Implementation Phases, V1-0: Archive MVP and scaffold V1 root, V1-10: V1 acceptance pass, V1-1: Contracts, storage, and session skeleton, V1-2: Control-plane routing and static shell, V1-3: Project store and multi-file editor, V1-4: V1 sim image and container orchestrator, V1-5: Run queue and log streaming (+4 more)
-
-### Community 575 - "Community 575"
-Cohesion: 0.17
-Nodes (12): 8.1 Browser routes, 8.2 API routes, 8.3 WebSocket routes, 8.4 Run WebSocket messages, 8. Public Routing Contract, code:block13 (GET  /                         login or redirect to current ), code:block14 (/u/:workspaceSlug/api/...), code:block15 (GET    /session) (+4 more)
-
-### Community 576 - "Community 576"
-Cohesion: 0.17
-Nodes (12): 7.1 Browser routes, 7.2 Editor proxy routes, 7.3 API routes, 7.4 Admin routes, 7.5 WebSocket routes, 7. Public Routing Contract, code:block10 (GET   /admin/status), code:block11 (WS /u/:workspaceSlug/ws/run           run queue, unchanged) (+4 more)
-
-### Community 577 - "Community 577"
+### Community 138 - "Logging.test"
 Cohesion: 0.18
-Nodes (12): CodeRunner, Isolated Per-Student Docker Workspace, Lessons and Team Projects, Live Telemetry via AdvantageScope, One-Click Simulation & Driver Station, Self-Hosted, Modest to Run, Browser VS Code Editor (VSCodium), AdvantageScope Telemetry View (+4 more)
+Nodes (9): ExtensionRecord, fixture(), old, reconcileScript, record(), repoRoot, staleDirectory, temporaryRoots (+1 more)
 
-### Community 578 - "Community 578"
+### Community 139 - "Metadata"
+Cohesion: 0.17
+Nodes (12): code:bash (curl -sS https://raw.githubusercontent.com/VSCodium/vscodium), code:markdown (| [openvscode-server](https://github.com/gitpod-io/openvscod), code:markdown (| [VSCodium](https://github.com/VSCodium/vscodium) / Code – ), code:markdown (- **`linuxserver/vscodium-web` container image** — GNU Gener), code:markdown (Merged per-student container for V2. Combines VSCodium reh-w), code:markdown (| Base image | linuxserver/vscodium-web:1.126.04524-ls35 | G), code:markdown (| 3000 | codium-server (HTTP + WebSocket) — overrides the ba), code:markdown (The container uses s6-overlay for process supervision. The u) (+4 more)
+
+### Community 140 - "Middleware"
+Cohesion: 0.17
+Nodes (12): code:typescript (test("s6 service script launches codium-server as primary pr), code:typescript (* In-process HTTP+WS server that impersonates the workspace ), code:bash (git add containers/code apps/control/src/__tests__ apps/cont), code:bash (cd /home/matt/dev/CodeRunner), code:bash (rm -rf containers/code/root/etc/s6-overlay/s6-rc.d/svc-openv), code:bash (find containers/code/root -type f | sort), code:block5 (containers/code/root/etc/s6-overlay/s6-rc.d/init-frc-setup/d), code:dockerfile (# V2 merged code container) (+4 more)
+
+### Community 141 - "Image"
+Cohesion: 0.17
+Nodes (11): Architecture, code:text (Browser (one student)), code:text (data/), How a Run works, How PathPlanner files flow, How Preview reads documents, How telemetry flows, Persistence and data layout (+3 more)
+
+### Community 142 - "023 Metrics And Observability"
+Cohesion: 0.17
+Nodes (11): Changes to this policy, Children's privacy, Contact, How long it is kept, How the information is used, Privacy Policy, What information is collected, What is not done with it (+3 more)
+
+### Community 143 - "User Data"
+Cohesion: 0.17
+Nodes (11): Automated Verification, code:block1 (bun run measure), code:bash (bun run typecheck), Comparison with V1, Decision, Decision 013: V2 Acceptance Pass, Host Capacity (10 students), Manual Verification (+3 more)
+
+### Community 144 - "Ws Proxy.spec"
+Cohesion: 0.21
+Nodes (12): GamepadSessions (gamepad.ts), Gamepad release/close safety-disables joystick and driver station, GamepadSessions test suite, HalSimBridge (halsim.ts), HalSimBridgeUnavailableError (halsim.ts), HalSimBridge test suite, createFakeDocker, dockerInspect (fixture builder) (+4 more)
+
+### Community 145 - "024 Container Memory Budget"
+Cohesion: 0.18
+Nodes (12): Backup/restore flow removal, Bundled vs remote lesson catalog, Decision 016: Project Import Strategy, Decision 021: Testing Suite Implementation, Decision 022: Skip Docker Smoke and Import Tests, Decision 029: Lessons and Modules (referenced), Decision 038: Workspace Java Smoke (referenced), Docker smoke tier (skipped, broad) (+4 more)
+
+### Community 146 - "Halsim.test"
+Cohesion: 0.17
+Nodes (12): AdvantageScope git submodule pinned to release tag, Archive 001: Sim container architecture, Archive 002: AdvantageScope Lite hosted standalone, Archive 003: Minimal web shell, AS Lite GET /assets and /assets/<name>/<file> routes, AS Lite window.location.hostname NT4 auto-detection, AS Lite embedded via iframe, not bundled/proxied, eclipse-temurin:17-jdk-jammy base image choice (+4 more)
+
+### Community 147 - "Gamepad.test"
 Cohesion: 0.24
 Nodes (8): Env, isProxiedPath(), onRequest(), PagesFunctionContext, serviceUnavailable(), TOP_LEVEL_PROXIED, assetRequests, proxiedRequests
 
-### Community 584 - "Community 584"
-Cohesion: 0.18
-Nodes (10): AdvantageScope, Components under copyleft licenses, Extension artifact sourcing, Known sourcing issue, Modifications, openvscode-server and Code – OSS, Summary, Third-Party Notices (+2 more)
+### Community 148 - "Audit Prune"
+Cohesion: 0.25
+Nodes (3): FakeSocket, Listener, { result }
 
-### Community 585 - "Community 585"
+### Community 149 - "Users"
+Cohesion: 0.22
+Nodes (9): PaneVisibility, readVisibility(), restored, { result }, { result, rerender }, { result, unmount }, UpperPanes, usePaneVisibility() (+1 more)
+
+### Community 150 - "Helpers"
+Cohesion: 0.2
+Nodes (8): missing(), aliceCookie, dockerRunner(), fakeDocker, receivedHeaders, result, source, startedAt
+
+### Community 151 - "Card"
+Cohesion: 0.2
+Nodes (7): ListBlockDevicesOptions, listWorkspaceDiskLimitDevices(), log, IdleManagerOptions, log, getLogger(), devices
+
+### Community 152 - "Catalog.test"
+Cohesion: 0.18
+Nodes (10): code:bash (git clone https://github.com/mathewdunne/CodeRunner coderunn), code:bash (cd website && bun install && bun run start), code:bash (bun run docs:dev), code:bash (bun run dev:control   # Bun control plane on :4000 with --wa), code:bash (bun run verify        # typecheck + Bun tests + Vitest + Pla), CodeRunner, Development, Documentation (+2 more)
+
+### Community 153 - "Block Devices"
 Cohesion: 0.18
 Nodes (10): Build, code:bash (yarn), code:bash (yarn start), code:bash (yarn build), code:bash (USE_SSH=true yarn deploy), code:bash (GIT_USER=<Your GitHub username> yarn deploy), Deployment, Installation (+2 more)
 
-### Community 586 - "Community 586"
+### Community 154 - "Ws Bridge"
+Cohesion: 0.18
+Nodes (10): code:bash (git clone https://github.com/mathewdunne/CodeRunner coderunn), code:bash (CODERUNNER_DOCKER_GID=$(stat -c '%g' /var/run/docker.sock) C), code:bash (CODERUNNER_DEMO_MODE=1 docker compose up), code:powershell ($env:CODERUNNER_DEMO_MODE = "1"; docker compose up), code:bat (set "CODERUNNER_DEMO_MODE=1" && docker compose up), code:bash (docker compose down --remove-orphans), Deploy for a team, Prerequisites (+2 more)
+
+### Community 155 - "Dropdown Menu"
+Cohesion: 0.18
+Nodes (11): code:bash (# Seed Gradle cache on first run.), code:bash (# Fix ownership for /config and /workspace (linuxserver conv), code:bash (# Fix ownership of what this script created as root. The bas), code:bash (git add containers/code/root/etc/s6-overlay/s6-rc.d/init-frc), code:bash (git add <the test file>), code:bash (bun run docs:build && grep -rl "vscodium-web-migration" webs), code:bash (git add docs/decisions/036-vscodium-web-migration.md docs/de), File Structure (+3 more)
+
+### Community 156 - "020 Workspace Runtime Provider"
 Cohesion: 0.18
 Nodes (10): Capacity limit, Classroom-density memory defaults, code:block1 (frc-sim.managed=true), Container labels, Container ports, First-run behavior, How student data persists, Idle auto-stop (+2 more)
 
-### Community 587 - "Community 587"
+### Community 157 - "030 Control Plane Hardening Pass"
 Cohesion: 0.18
 Nodes (10): Backup and Restore, Build, CLI Reference, Containerized ops: the `coderunner` CLI, Database, Docker Images and Containers, Docs Site, Quality and Tests (+2 more)
 
-### Community 588 - "Community 588"
+### Community 158 - "Auth"
 Cohesion: 0.18
 Nodes (10): code:block1 (https://github.com/<owner>/<repo>), Constraints and limits, How to do an import, Importing a Team Project, Pushing and pulling after import, Running an imported project, Switching away discards the workspace, What a team import is for (+2 more)
 
-### Community 589 - "Community 589"
-Cohesion: 0.18
-Nodes (10): A classroom / LAN machine, A Google Cloud VM (Terraform-automated), Choose a deployment route, Cloudflare Offline Page (advanced, optional), Deployment Overview, Google Cloud Deployment (advanced), Local Deployment (recommended), Optional: Cloudflare offline page (+2 more)
-
-### Community 590 - "Community 590"
+### Community 159 - "2026 08 30 Pathplanner Integration"
 Cohesion: 0.18
 Nodes (10): 017 — Migrate code container to linuxserver/openvscode-server, Bind mount target changes from /home/frc to /config, Context, Decisions, Layered s6-overlay: additive, not replacement, Migration Notes, Runtime PUID/PGID instead of build-time --user, Sim scripts remain independent of s6 (+2 more)
 
-### Community 591 - "Community 591"
+### Community 160 - "Xss.spec"
+Cohesion: 0.22
+Nodes (11): sendUpstreamWebSocketMessage, PROXY_PENDING_LIMIT, SocketData union type, createWebSocketHandlers, openProxyUpstream, resolveGamepadLease, Characterization-test-before-refactor pattern, websocket message router characterization tests (+3 more)
+
+### Community 161 - "Build Ascope Lite"
+Cohesion: 0.2
+Nodes (11): CODE_DISK_READ_LIMIT (--device-read-bps cap), CODE_MEMORY_LIMIT raised to 4096m, /config as named volume in demo mode, Decision 028: Demo mode for zero-config local tryout, Decision 033: Workspace Disk Read Limit, Decision 034: Demo mode portability on Docker Desktop, 2026-07-07 disk-thrash production incident, group_add default CODERUNNER_DOCKER_GID=0 (+3 more)
+
+### Community 162 - "Index"
 Cohesion: 0.18
-Nodes (10): Auto chooser, Controller and keyboard input, Live telemetry, Loading a project, Robot modes, Signing in, Starting and stopping a run, The Driver Station (+2 more)
+Nodes (11): disk.tf (Terraform disk config), Hardware sizing guidance for team, FAQ, Why first build/run is slow, Offline capability of CodeRunner, Boot disk disposable, data disk precious, Seasonal Teardown, Manual data-disk snapshot (+3 more)
 
-### Community 594 - "Community 594"
+### Community 163 - "Allowlist Management E2E"
 Cohesion: 0.18
-Nodes (11): 7.1 IDs, 7.2 SQLite tables, 7.3 Filesystem layout, 7.4 Template provenance, 7. Domain Model, code:block10 (data/users/<workspaceId>/project  ->  /workspace/project), code:block11 (data/users/<workspaceId>/jdtls-data  ->  /workspace/jdtls-da), code:block12 (data/users/<workspaceId>/home  ->  /home/frc) (+3 more)
+Nodes (8): ControlApp in-process fixture / createApp(), Decision 018 — gamepad unplug safety, Decision 019 — keyboard focus, Decision 022 — skip Docker smoke / import tests, e2e/fixtures/fake-nt4.ts, Commit 95f450d (auto chooser stale fix), Commit cb9fea6 (gamepad selection persistence + no-lease), e2e/fixtures/gamepad-shim.ts
 
-### Community 595 - "Community 595"
-Cohesion: 0.2
-Nodes (11): 8.1 Merged code image, 8.2 Memory and concurrency, 8.2 Memory and lifecycle, 8.3 UID/GID and bind mounts, 8.4 Port allocation, 8. Container Design, code:block12 (FROM eclipse-temurin:17-jdk-jammy), code:block13 (openvscode-server --install-extension /opt/extensions/redhat) (+3 more)
-
-### Community 596 - "Community 596"
-Cohesion: 0.24
-Nodes (11): 6. Backup and Restore, code:bash (bun run backup), code:block19 (data/backups/2026-05-16-151038/), code:bash (bun run backup -- --output /path/to/backup     # custom outp), code:bash (bun run restore -- <backup-dir>), code:bash (bun run restore -- <backup-dir> --dry-run                   ), Create a backup, Local-dev → VM migration (+3 more)
-
-### Community 597 - "Community 597"
-Cohesion: 0.18
-Nodes (9): 004 - Backend wiring for save and run, Context, Custom WebSocket sender, no new dependency, Decisions, Host backend plus Docker CLI, Minimal endpoints and run protocol, One-command dev stack without Docker Compose, Replaceable sim process inside long-lived container (+1 more)
-
-### Community 598 - "Community 598"
-Cohesion: 0.18
-Nodes (11): 1. Add an A record at your registrar, 2. Update Caddyfile on the existing VM, 3. Bootstrap deploy (creates the CF Pages project), 4. Set BACKEND_ORIGIN as a Pages secret, 5. Add the custom domain, 6. Configure GitHub Actions, code:bash (gcloud compute ssh coderunner --zone=us-central1-a --tunnel-), code:bash (bun run build:web) (+3 more)
-
-### Community 599 - "Community 599"
-Cohesion: 0.27
-Nodes (10): ContainerStats, dockerRun(), getContainerStats(), getDiskInfo(), getHostInfo(), HostInfo, jsonOutput, main() (+2 more)
-
-### Community 601 - "Community 601"
-Cohesion: 0.18
-Nodes (9): app, AssetManifest, buildAssetManifest(), bundledAssetsDir, distDir, port, rel, repoRoot (+1 more)
-
-### Community 602 - "Community 602"
-Cohesion: 0.18
-Nodes (11): 7.1 IDs, 7.2 SQLite tables, 7.3 Filesystem layout, 7.4 Template provenance, 7. Domain Model, code:block10 (data/users/<workspaceId>/project  ->  /workspace/project), code:block11 (data/users/<workspaceId>/jdtls-data  ->  /workspace/jdtls-da), code:block12 (data/users/<workspaceId>/home  ->  /home/frc) (+3 more)
-
-### Community 603 - "Community 603"
-Cohesion: 0.2
-Nodes (11): Demo Mode (CODERUNNER_DEMO_MODE), First Build/Run Slowness, First Build/Run Warm-up Explanation, Primed Gradle/WPILib Dependency Cache, GitHub/Google OAuth Sign-in, Offline Operation Capability, Offline / No-Internet Operation, Student OAuth Accounts & Allowlist (+3 more)
-
-### Community 604 - "Community 604"
-Cohesion: 0.31
-Nodes (3): announceChooser(), encodeMsgPack(), FakeWebSocket
-
-### Community 611 - "Community 611"
-Cohesion: 0.2
-Nodes (9): Architecture, code:text (Browser (one student)), code:text (data/), How a Run works, How telemetry flows, Persistence and data layout, The single front door, What the control plane does (+1 more)
-
-### Community 612 - "Community 612"
-Cohesion: 0.2
-Nodes (9): 037 — Workspace cache aliases, extension pins, and trust, 1. Share the primed Gradle distribution with WPILib projects, 2. Prevent gallery resolution from replacing pinned VSIXs, 3. Disable workspace trust in the hosted workbench, 4. Keep Gradle daemon limits out of editor build arguments, 5. Close the workspace-image build follow-ups, Browser-owned settings finding, code:text (permwrapper -> wrapper) (+1 more)
-
-### Community 613 - "Community 613"
-Cohesion: 0.2
-Nodes (9): 1. Why not Better Auth `testUtils`, 2. Auth-callback path tests are deferred, 3. Browser-heavy specs use `test.fixme`, not deletion, 4. HTTP-driven specs preferred over DOM-driven specs where possible, 5. Decisions on smaller details, Decision 021: Testing suite implementation — deviations from TESTING-PLAN.md, Files Touched, Future Work (Deferred) (+1 more)
-
-### Community 614 - "Community 614"
-Cohesion: 0.2
-Nodes (9): Decision 018: Gamepad Input via HALSim WebSocket, Files Touched, Future Work (Deferred), Safety: disable on disconnect, Summary, Why a dedicated WebSocket from browser to control plane, Why a single controller on port 0 for v1, Why HALSim WS, not the FRC DS UDP protocol (+1 more)
-
-### Community 615 - "Community 615"
-Cohesion: 0.2
-Nodes (9): Alternatives considered, App-side stays vendor-neutral, code:json ({"timestamp":"2026-05-21T14:23:01.482Z","level":"info","cate), Consequences, Context, Decision, Decision 027: Ship control-plane logs to Grafana Cloud Loki, Label cardinality (+1 more)
-
-### Community 616 - "Community 616"
-Cohesion: 0.2
-Nodes (9): Broad Docker smoke tier — not implemented, Consequences, Context, Decision, Decision 022: Skip Docker smoke tier and import/backup-restore E2E tests, Docker smoke tier — not implemented, Import and backup/restore tests — deferred, Import and backup/restore tests — updated after lessons rework (+1 more)
-
-### Community 617 - "Community 617"
-Cohesion: 0.2
-Nodes (9): 030 — Control-Plane Hardening Pass, Consequences, Context, Correctness fixes, Decision, Performance, Security, Status (+1 more)
-
-### Community 618 - "Community 618"
-Cohesion: 0.2
-Nodes (9): 004 - Backend wiring for save and run, Context, Custom WebSocket sender, no new dependency, Decisions, Host backend plus Docker CLI, Minimal endpoints and run protocol, One-command dev stack without Docker Compose, Replaceable sim process inside long-lived container (+1 more)
-
-### Community 619 - "Community 619"
-Cohesion: 0.2
-Nodes (9): 007 - V1 sim container orchestration, code:text (frc-sim.managed=true), Context, Decisions, Docker labels are adopted back into SQLite, Lazy ensure, visible status, Loopback-only published ports, Runtime cache seed (+1 more)
-
-### Community 620 - "Community 620"
-Cohesion: 0.2
-Nodes (9): 008 - V1 LSP container and Bun-native bridge, Browser LSP client extended for multi-file projects, Bun-native bridge instead of `vscode-ws-jsonrpc`, code:block1 (data/users/<workspaceId>/project    -> /workspace/project), `container_leases` lease state split, Context, Decisions, Generic `ContainerOrchestrator` (+1 more)
-
-### Community 621 - "Community 621"
-Cohesion: 0.2
-Nodes (10): 3.1 TARGETED Inspection (Don't Dump Everything!), 3.2 Verify Your Hypothesis, 3.3 Step Strategically (Not Aimlessly!), code:block16 (vscjava.vscode-java-debug/getDebugVariables(scopeType="all")), code:block17 (// Hypothesis: "user is null"), code:markdown (## Hypothesis Verified ✓), code:markdown (## Hypothesis Rejected ✗), code:block20 (// I need to see what happens AFTER this line executes) (+2 more)
-
-### Community 622 - "Community 622"
-Cohesion: 0.2
-Nodes (4): Data collection, How to opt in or out, What's included in the general telemetry data, What's included in the vscode-java telemetry data
-
-### Community 630 - "Community 630"
-Cohesion: 0.2
-Nodes (9): code:ts (export class WorkspacePage {), `e2e/fixtures/app.ts` — control plane fixture, `e2e/fixtures/auth.ts` — Better Auth test-utils helpers, `e2e/fixtures/fake-halsim.ts`, `e2e/fixtures/fake-vscode.ts`, `e2e/fixtures/runtime.ts`, Page objects, Test data conventions (+1 more)
-
-### Community 631 - "Community 631"
-Cohesion: 0.2
-Nodes (9): code:ts (export class WorkspacePage {), `e2e/fixtures/app.ts` — control plane fixture, `e2e/fixtures/auth.ts` — Better Auth test-utils helpers, `e2e/fixtures/fake-halsim.ts`, `e2e/fixtures/fake-vscode.ts`, `e2e/fixtures/runtime.ts`, Page objects, Test data conventions (+1 more)
-
-### Community 632 - "Community 632"
-Cohesion: 0.2
-Nodes (9): Architecture at runtime, code:block1 (internet ──443──> Caddy (VM) ──:4000──> bun control plane (s), CodeRunner GCE Deployment, Cost notes, deploy/, Sizing reference, Subdirectories, Verification (+1 more)
-
-### Community 635 - "Community 635"
+### Community 165 - "Frc Robot"
 Cohesion: 0.22
 Nodes (8): SimButton(), SimButtonProps, SimControlsBlock(), SimControlsBlockProps, onRestart, onStart, onStop, TONE_CLASSES
 
-### Community 636 - "Community 636"
-Cohesion: 0.2
-Nodes (10): 8.1 Merged code image, 8.2 Memory and concurrency, 8.3 UID/GID and bind mounts, 8.4 Port allocation, 8. Container Design, code:block12 (FROM eclipse-temurin:17-jdk-jammy), code:block13 (openvscode-server --install-extension /opt/extensions/redhat), code:block14 (#!/usr/bin/env bash) (+2 more)
+### Community 166 - "Code Container Defaults.test"
+Cohesion: 0.24
+Nodes (8): AllianceToggle(), AllianceToggleProps, Side, SIDE_ACTIVE, SIDE_EDGE, SIDE_STATION, sideOf(), onSelect
 
-### Community 637 - "Community 637"
+### Community 167 - "Java LSP Bridge (Archived)"
+Cohesion: 0.31
+Nodes (3): GamepadSessions, halsimTarget(), resolveLease()
+
+### Community 168 - "2026 08 30 Pathplanner Integration"
+Cohesion: 0.2
+Nodes (9): Choosing a document, If a report looks wrong, Plain-Java lessons, Reading Documents (Preview), Refresh, Refreshing a document, Supported files, Things it deliberately does not do (+1 more)
+
+### Community 169 - "Restore"
+Cohesion: 0.2
+Nodes (9): 037 — Workspace cache aliases, extension pins, and trust, 1. Share the primed Gradle distribution with WPILib projects, 2. Prevent gallery resolution from replacing pinned VSIXs, 3. Disable workspace trust in the hosted workbench, 4. Keep Gradle daemon limits out of editor build arguments, 5. Close the workspace-image build follow-ups, Browser-owned settings finding, code:text (permwrapper -> wrapper) (+1 more)
+
+### Community 170 - "Login.po"
+Cohesion: 0.2
+Nodes (9): 1. Why not Better Auth `testUtils`, 2. Auth-callback path tests are deferred, 3. Browser-heavy specs use `test.fixme`, not deletion, 4. HTTP-driven specs preferred over DOM-driven specs where possible, 5. Decisions on smaller details, Decision 021: Testing suite implementation — deviations from TESTING-PLAN.md, Files Touched, Future Work (Deferred) (+1 more)
+
+### Community 171 - "Default Deny.test"
+Cohesion: 0.2
+Nodes (9): Decision 018: Gamepad Input via HALSim WebSocket, Files Touched, Future Work (Deferred), Safety: disable on disconnect, Summary, Why a dedicated WebSocket from browser to control plane, Why a single controller on port 0 for v1, Why HALSim WS, not the FRC DS UDP protocol (+1 more)
+
+### Community 172 - "Auth Demo.test"
+Cohesion: 0.2
+Nodes (9): Alternatives considered, App-side stays vendor-neutral, code:json ({"timestamp":"2026-05-21T14:23:01.482Z","level":"info","cate), Consequences, Context, Decision, Decision 027: Ship control-plane logs to Grafana Cloud Loki, Label cardinality (+1 more)
+
+### Community 173 - "Robot"
+Cohesion: 0.2
+Nodes (9): Base image: `gitpod/openvscode-server:1.105.1`, Consequences, Context, Decision, Decision 012: V2 Code Image — Base Image and Extension Strategy, Direct launch base path handling, Extension cache seeding pattern, Extensions: download at build time (+1 more)
+
+### Community 174 - "Cleanup Containers"
+Cohesion: 0.2
+Nodes (9): 030 — Control-Plane Hardening Pass, Consequences, Context, Correctness fixes, Decision, Performance, Security, Status (+1 more)
+
+### Community 175 - "Config"
+Cohesion: 0.2
+Nodes (9): 004 - Backend wiring for save and run, Context, Custom WebSocket sender, no new dependency, Decisions, Host backend plus Docker CLI, Minimal endpoints and run protocol, One-command dev stack without Docker Compose, Replaceable sim process inside long-lived container (+1 more)
+
+### Community 176 - "Use Gamepad"
 Cohesion: 0.2
 Nodes (9): 007 - V1 sim container orchestration, code:text (frc-sim.managed=true), Context, Decisions, Docker labels are adopted back into SQLite, Lazy ensure, visible status, Loopback-only published ports, Runtime cache seed (+1 more)
 
-### Community 638 - "Community 638"
+### Community 177 - "016 Project Import Strategy"
 Cohesion: 0.2
 Nodes (9): 008 - V1 LSP container and Bun-native bridge, Browser LSP client extended for multi-file projects, Bun-native bridge instead of `vscode-ws-jsonrpc`, code:block1 (data/users/<workspaceId>/project    -> /workspace/project), `container_leases` lease state split, Context, Decisions, Generic `ContainerOrchestrator` (+1 more)
 
-### Community 639 - "Community 639"
+### Community 178 - "[[path]]"
 Cohesion: 0.2
-Nodes (10): deploy-cloudflare Job, CF_ACCOUNT_ID / CF_API_TOKEN, Deploy Workflow (deploy.yml), Multi-Arch Images (amd64+arm64), coderunner rebuild-workspaces, Release Workflow (release.yml), Rollback via Redeploy Tag, Workload Identity Federation (+2 more)
+Nodes (10): readError, useAutoChoosers test suite, useAutoChoosers, useContainerStatus test suite, useContainerStatus, probeEditor, useEditorReachability test suite, useEditorReachability (+2 more)
 
-### Community 640 - "Community 640"
+### Community 179 - "Clean"
+Cohesion: 0.22
+Nodes (10): Decision 037: Workspace cache aliases, extension pins, and trust, Decision 038: Java tooling compatibility, extension reconciliation, and real-image smoke, --disable-workspace-trust server flag, --do-not-include-pack-dependencies flag, Separate tooling (JDT, Java 21) and project (Java 17) JDKs, bun run e2e:workspace-java real-container smoke, Managed extension reconciliation on every container start, Gradle daemon JVM args rejected by Tooling API (+2 more)
+
+### Community 180 - "Robot Container"
 Cohesion: 0.2
-Nodes (10): Switching Modules Discards Workspace, Lessons Are Gitless, build.gradle Verification, git clone --no-single-branch --depth 1 Process, Import Constraints & Limits Table, Switching Away Discards Import Workspace, Team Import Flow, Push Authentication (PAT/SSH) (+2 more)
+Nodes (10): code-server --abs-proxy-base-path (rejected), Decision 011: V2 editor spike, Decision 017: LinuxServer base migration, Decision 026: Editor Default Theme, Decision 036: Editor migration openvscode-server to VSCodium reh-web, Machine settings.json theme seeding, --user-data-dir ignored by codium-server (post-review correction), VSCodium reh-web chosen over code-server (+2 more)
 
-### Community 642 - "Community 642"
+### Community 181 - "Dist Download Utility"
+Cohesion: 0.31
+Nodes (10): Grafana Alloy config template (config.alloy.tmpl), Alloy log pipeline bounded active-series design, bootstrap.sh first-boot provisioning script, Caddyfile (GCE deployment), Decision 031 (containerized control plane), GCE cloud-init user-data.yaml, deploy/ directory README, docker-compose.prod.yml (Caddy/Alloy overlay) (+2 more)
+
+### Community 182 - "Cloudflare Pages Function.test"
+Cohesion: 0.2
+Nodes (9): DriverStationPage (page object), e2e/fixtures/gamepad-shim.ts, installGamepadShim(), e2e/fixtures/runtime.ts, seedWorkspaceProject(), Switch Project picker (auto-opens on empty workspace), Using CodeRunner, Using CodeRunner: PathPlanner section (+1 more)
+
+### Community 183 - "PathPlanner Integration"
+Cohesion: 0.22
+Nodes (10): Decision 039: PathPlanner Integration, Decision 042: Collapsible Workspace Panes, createAdvantageScopeDist / createPathPlannerDist Throwaway Dists, apps/control/src/__tests__/helpers.ts, AdvantageScope Tab, Choreo Files Read-Only Visibility, User Menu Layout Control, PathPlanner Deploy Path (src/main/deploy/pathplanner) (+2 more)
+
+### Community 184 - "Logging"
 Cohesion: 0.31
 Nodes (5): connectGamepad(), installGamepadShim(), setGamepadAxes(), consoleErrors, leaseErrors
 
-### Community 643 - "Community 643"
-Cohesion: 0.22
-Nodes (6): cookie, snapshot, makeScriptedRunCommandFactory(), body, cookie, teeCalls
-
-### Community 647 - "Community 647"
-Cohesion: 0.31
-Nodes (8): Artifact, artifacts, downloadUrl(), fetchAndExtract(), main(), repoRoot, run(), tagArgIndex
-
-### Community 648 - "Community 648"
-Cohesion: 0.22
-Nodes (8): 038 — Java tooling compatibility, extension reconciliation, and real-image smoke, Add a targeted real-container smoke, Consequences, Context, Decision, Keep separate tooling and project JDKs, Pin a compatible Java extension matrix, Reconcile managed extensions on every container start
-
-### Community 649 - "Community 649"
-Cohesion: 0.22
-Nodes (8): Alternatives considered, Auth, Cardinality discipline, Consequences, Context, Decision, Decision 023: Metrics and observability via Prometheus + Grafana Cloud, Status
-
-### Community 650 - "Community 650"
-Cohesion: 0.22
-Nodes (9): code:block2 (I'm getting NPE when calling userService.getUser()), code:block3 (The calculateTotal() method returns wrong value), code:block4 (Debug processOrder with orderId=456), code:block5 (I suspect a race condition in the worker threads), Debug a NullPointerException, Debug Multi-threaded Issues, Debug with Specific Input, Debug Wrong Calculation Result (+1 more)
-
-### Community 651 - "Community 651"
-Cohesion: 0.36
-Nodes (3): code:json ("java.configuration.runtimes": [), Java Tooling JDK, Project JDKs
-
-### Community 653 - "Community 653"
-Cohesion: 0.5
-Nodes (3): LEDConstants, LEDState(), Patterns
-
-### Community 655 - "Community 655"
-Cohesion: 0.56
-Nodes (4): Policy, Preferred Languages, Reporting Security Issues, Security
-
-### Community 656 - "Community 656"
-Cohesion: 0.22
-Nodes (9): code:bash (bun test apps/control/src/__tests__/security      # unit-lev), code:bash (bun test apps/control/src/__tests__/property       # ~5 sec,), code:text (apps/web/src/hooks/useRunChannel.test.ts), code:bash (bun run --cwd apps/web test            # watch mode), Companion test layers (beyond E2E), Frontend unit and component tests, Property and fuzz tests, Security tests (+1 more)
-
-### Community 657 - "Community 657"
-Cohesion: 0.22
-Nodes (9): code:bash (bun test apps/control/src/__tests__/security      # unit-lev), code:bash (bun test apps/control/src/__tests__/property       # ~5 sec,), code:text (apps/web/src/hooks/useRunChannel.test.ts), code:bash (bun run --cwd apps/web test            # watch mode), Companion test layers (beyond E2E), Frontend unit and component tests, Property and fuzz tests, Security tests (+1 more)
-
-### Community 658 - "Community 658"
-Cohesion: 0.22
-Nodes (7): 005 - Java LSP MVP integration, Context, Decisions, Local WPILib-aware JDT LS image, Package and Vite choices, Plain Monaco client with direct LSP requests, Verification
-
-### Community 661 - "Community 661"
+### Community 185 - "Metrics.test"
 Cohesion: 0.22
 Nodes (7): catalog, catalogRoot, ids, manifestPath, repoRoot, subdirPath, lessonCatalogSchema
 
-### Community 662 - "Community 662"
-Cohesion: 0.28
-Nodes (9): Cloudflare Offline Page, Capacity Planning Doc Reference, CODE_MEMORY_LIMIT Env Var, Hardware Sizing Guidance, Google Cloud Deployment, Local Deployment, Network Safety (Plain HTTP), Deployment Overview (+1 more)
+### Community 186 - "004 Backend Wiring"
+Cohesion: 0.25
+Nodes (6): patchCall, { result }, updatedResponse, VALID_RESPONSE, useAutoChoosers(), UseAutoChoosersReturn
 
-### Community 663 - "Community 663"
-Cohesion: 0.33
-Nodes (9): Console Output Panel, Enable/Disable Toggle, HALWebSim Websocket Connected Log, Mode Selector (Teleop/Auto/Test), NT4 Connection Log Entries (AdvantageScopeLite client), Using CodeRunner - Ready State Screenshot, Sim Controls Panel (Start/Stop/Restart), Status Indicators (Comms/Robot Code/Joysticks) (+1 more)
+### Community 187 - "Store"
+Cohesion: 0.25
+Nodes (6): LoadState, heartbeatCalls, { result }, { unmount }, VALID_SESSION, useSession()
 
-### Community 665 - "Community 665"
+### Community 188 - "Dist Download"
+Cohesion: 0.39
+Nodes (8): Args, backupDatabase(), dirExists(), fileExists(), main(), parseArgs(), runTar(), timestamp()
+
+### Community 189 - "Img Screenshots"
+Cohesion: 0.22
+Nodes (8): bridge, enabledDisable, flush, joystick, messages, msg, sockets, zeroButtons
+
+### Community 190 - "Audit/Reconciliation Test Suite"
+Cohesion: 0.25
+Nodes (7): first, NUM_RUNS, second, cases, expectRejected(), result, parseGitHubUrl()
+
+### Community 191 - "Dialog"
+Cohesion: 0.36
+Nodes (8): defaultDockerRunner(), dockerError(), dockerPortBindError(), inspectContainer(), inspectContainerOrThrow(), inspectContainers(), runDocker(), runDockerCli()
+
+### Community 192 - "Main"
+Cohesion: 0.22
+Nodes (8): Arrange your workspace, Console lessons, Explore more, Get started, PathPlanner, Preview, Robot lessons and imported projects, Using CodeRunner
+
+### Community 193 - "Main"
+Cohesion: 0.22
+Nodes (8): 038 — Java tooling compatibility, extension reconciliation, and real-image smoke, Add a targeted real-container smoke, Consequences, Context, Decision, Keep separate tooling and project JDKs, Pin a compatible Java extension matrix, Reconcile managed extensions on every container start
+
+### Community 194 - "Typecheck"
+Cohesion: 0.22
+Nodes (8): Alternatives considered, Auth, Cardinality discipline, Consequences, Context, Decision, Decision 023: Metrics and observability via Prometheus + Grafana Cloud, Status
+
+### Community 195 - "Project Preview & Right Pane"
+Cohesion: 0.22
+Nodes (9): Decision 041: Project Preview, Driver Station Auto Tab, Console Lessons, Console Tab, Driver Station Controls Tab, Driver Station, build/reports/** Generated Documents, README.md Auto-Open in Preview (+1 more)
+
+### Community 196 - "Global Setup"
 Cohesion: 0.25
 Nodes (6): cookie, firstBody, rows, runtime2, secondBody, states
 
-### Community 668 - "Community 668"
+### Community 198 - "Sidebars"
+Cohesion: 0.29
+Nodes (6): PathPlannerPane, PathPlannerPaneProps, first, frame, { rerender }, second
+
+### Community 199 - "Web App Shell & Theming"
+Cohesion: 0.29
+Nodes (6): BigButton(), BigButtonProps, EnableDisableRow(), EnableDisableRowProps, onSetEnabled, TONE_ACTIVE
+
+### Community 200 - "Constants"
+Cohesion: 0.25
+Nodes (7): banner, configInput, demoFlag, log, port, server, enableDefaultMetrics()
+
+### Community 201 - "Vite.config"
+Cohesion: 0.29
+Nodes (6): defaultLogFormat(), parseLogFormatEnv(), cyclic, err, line, parsed
+
+### Community 202 - "Audit/Reconciliation Test Suite"
+Cohesion: 0.25
+Nodes (6): cloneCall, copyCall, importer, mock, samples, workspace
+
+### Community 203 - "Icon Rail"
 Cohesion: 0.25
 Nodes (7): CodeRunner, How to use CodeRunner, Lessons and team projects, Next steps, Self-hosted and modest to run, Video walkthrough, What students get
 
-### Community 669 - "Community 669"
+### Community 204 - "Dropdown Menu"
+Cohesion: 0.25
+Nodes (7): 041 — Project Preview (Markdown + generated HTML reports), Alternatives rejected, Consequences, Context, Decision, Tested compatibility boundary, The blocking constraint we found first
+
+### Community 205 - "Scroll Area"
+Cohesion: 0.25
+Nodes (7): Broad Docker smoke tier — not implemented, Consequences, Context, Decision, Decision 022: Skip Docker smoke tier and import/backup-restore E2E tests, Import and backup/restore tests — updated after lessons rework, Status
+
+### Community 206 - "Use Gamepad Channel"
 Cohesion: 0.25
 Nodes (7): 005 - Java LSP MVP integration, Context, Decisions, Local WPILib-aware JDT LS image, Package and Vite choices, Plain Monaco client with direct LSP requests, Verification
 
-### Community 670 - "Community 670"
+### Community 207 - "Cleanup Containers"
 Cohesion: 0.25
-Nodes (8): Be Specific, code:block7 (✅ Good: "Why does getUserById return null when id=123?"), code:block8 (✅ Good: "Getting ArrayIndexOutOfBoundsException in processIt), code:block9 (✅ Good: "The order total is $0 instead of $150 for order 456), Mention the Error, Provide Context, Stay in Agent Mode, Tips for Best Results
+Nodes (6): Canonical registry-qualified image names, [command, kind], dockerfiles, image, Kind, subprocess
 
-### Community 672 - "Community 672"
-Cohesion: 0.43
-Nodes (6): DocumentPasteEdit, DocumentPasteEditContext, DocumentPasteEditKind, DocumentPasteEditProvider, DocumentPasteProviderMetadata, DocumentPasteTriggerKind
+### Community 208 - "Dist Download Utility"
+Cohesion: 0.32
+Nodes (8): Decision 023: Metrics and Observability, Decision 023: Metrics and Observability, Decision 027: Ship control-plane logs to Grafana Cloud Loki, alloy service (prod override), Grafana Alloy, Grafana Cloud, Loki log shipping pipeline, Prometheus exposition (/metrics)
 
-### Community 673 - "Community 673"
-Cohesion: 0.54
-Nodes (3): activate(), deactivate(), extension
-
-### Community 674 - "Community 674"
-Cohesion: 0.46
-Nodes (3): activate(), deactivate(), extension
-
-### Community 675 - "Community 675"
+### Community 209 - "Gamepad Session Safety Disables"
 Cohesion: 0.25
-Nodes (8): 12.1 Product shape, 12.2 Editor model, 12.3 AS Lite iframe, 12.4 Status model, 12. Web Shell, code:block33 (file:///workspace/project/<project-relative-path>), code:block34 (/scope/?frcEndpoint=postMessage), code:block35 (aliveUrl:     /u/<workspaceSlug>/sim/alive)
+Nodes (8): Decision 017: LinuxServer base migration, Decision 026: editor default theme, Decision 034: recursive chown retained, Decision 036: VSCodium reh-web migration, Decision 037: --disable-workspace-trust flag, openvscode-server (deprecated editor), VSCodium-web Editor Migration Plan, Workspace trust blocks redhat.java Standard Mode
 
-### Community 676 - "Community 676"
-Cohesion: 0.25
-Nodes (8): 11.1 Patch strategy, 11.2 Build pipeline, 11.3 Sub-path hosting contract, 11. AdvantageScope Lite, code:block29 (patches/advantagescope/001-lite-nt4-endpoint-injection.patch), code:ts (type ScopeConfigMessage = {), code:ts (type ScopeReadyMessage = {), code:block32 (bun run build:ascope)
+### Community 210 - "E2E Fixture Architecture"
+Cohesion: 0.32
+Nodes (8): ControlApp, fake-halsim.ts, fake-vscode.ts, Fixture Architecture (In-Process ControlApp), loginAs (Seeded Auth Fixture), MockWorkspaceRuntimeProvider, runtime.ts Fixture Helpers, Start Headless Simulation via CodeRunner (not WPILib extension)
 
-### Community 677 - "Community 677"
-Cohesion: 0.25
-Nodes (8): 6.1 IDs, 6.2 SQLite changes, 6.3 Filesystem layout, 6. Domain Model Changes, code:block2 (coderunner-workspace-<workspaceId>), code:block3 (frc-sim.managed=true), code:block4 (-- 004_v2_code_container.sql), code:block5 (data/)
+### Community 211 - "Allowlist Management E2E"
+Cohesion: 0.32
+Nodes (4): createApp(), RunManager (run job lifecycle), makeScriptedRunCommandFactory(), MockWorkspaceRuntimeProvider
 
-### Community 678 - "Community 678"
-Cohesion: 0.25
-Nodes (8): 10.1 Layout, 10.2 Run/Stop, 10.3 AS Lite iframe, 10.4 Heartbeat, 10.5 Removal, 10. Web Shell (V2), code:block17 (docker exec <containerName> bash -lc "/usr/local/bin/stop-si), code:ts ({)
-
-### Community 679 - "Community 679"
-Cohesion: 0.25
-Nodes (7): code:block1 (01 ──┐), Conventions for each plan doc, Decisions baked in from the planning conversation, Dependency graph, Out of scope for this whole batch, Post-V2 Plan, The plans
-
-### Community 680 - "Community 680"
-Cohesion: 0.25
-Nodes (7): CodeRabbit: AI code reviews in your editor, ❓ Frequently Asked Questions, 🏁 Getting Started, 🔄 Integrations, 🚀 Key Features, 🤖Supported coding agents, ✨ Why CodeRabbit
-
-### Community 684 - "Community 684"
-Cohesion: 0.29
-Nodes (6): children, repoRoot, shutdown(), startProcess(), tsxCli, viteCli
-
-### Community 685 - "Community 685"
-Cohesion: 0.25
-Nodes (8): 12.1 Product shape, 12.2 Editor model, 12.3 AS Lite iframe, 12.4 Status model, 12. Web Shell, code:block33 (file:///workspace/project/<project-relative-path>), code:block34 (/scope/?frcEndpoint=postMessage), code:block35 (aliveUrl:     /u/<workspaceSlug>/sim/alive)
-
-### Community 686 - "Community 686"
-Cohesion: 0.25
-Nodes (8): 11.1 Patch strategy, 11.2 Build pipeline, 11.3 Sub-path hosting contract, 11. AdvantageScope Lite, code:block29 (patches/advantagescope/001-lite-nt4-endpoint-injection.patch), code:ts (type ScopeConfigMessage = {), code:ts (type ScopeReadyMessage = {), code:block32 (bun run build:ascope)
-
-### Community 687 - "Community 687"
-Cohesion: 0.25
-Nodes (8): 6.1 IDs, 6.2 SQLite changes, 6.3 Filesystem layout, 6. Domain Model Changes, code:block2 (coderunner-workspace-<workspaceId>), code:block3 (frc-sim.managed=true), code:block4 (-- 004_v2_code_container.sql), code:block5 (data/)
-
-### Community 688 - "Community 688"
-Cohesion: 0.25
-Nodes (8): 10.1 Layout, 10.2 Run/Stop, 10.3 AS Lite iframe, 10.4 Heartbeat, 10.5 Removal, 10. Web Shell (V2), code:block17 (docker exec <containerName> bash -lc "/usr/local/bin/stop-si), code:ts ({)
-
-### Community 689 - "Community 689"
+### Community 212 - "Extension Reconciliation.test"
 Cohesion: 0.29
 Nodes (6): consoleErrors, echoPromise, helloPromise, ws, ws1, ws2
 
-### Community 697 - "Community 697"
+### Community 213 - "Users"
 Cohesion: 0.29
-Nodes (6): DocumentPasteEdit, DocumentPasteEditContext, DocumentPasteEditKind, DocumentPasteEditProvider, DocumentPasteProviderMetadata, DocumentPasteTriggerKind
+Nodes (3): long, tagged, workspace
 
-### Community 698 - "Community 698"
+### Community 216 - "Sim Headless.init"
 Cohesion: 0.29
 Nodes (6): args, beforeIndex, beforeMs, countResult, db, dryRun
 
-### Community 699 - "Community 699"
+### Community 217 - "Build"
 Cohesion: 0.29
 Nodes (4): [command, email], db, UserRow, users
 
-### Community 700 - "Community 700"
-Cohesion: 0.29
-Nodes (5): [command, kind], dockerfiles, image, Kind, subprocess
-
-### Community 701 - "Community 701"
+### Community 218 - "Settings"
 Cohesion: 0.29
 Nodes (7): code:bash (IMAGE=ghcr.io/mathewdunne/coderunner-workspace:latest), code:bash (curl -s http://127.0.0.1:33999/u/smoke/vscode/ | grep -oE '/), code:bash (curl -s -i --max-time 5 \), code:bash (docker exec cr-smoke ls /config/extensions), code:bash (docker exec cr-smoke stat -c '%U:%G %n' /config/.gradle /con), code:bash (docker exec cr-smoke java -version), Task 3: Build the image and verify the editor serves under the base path
 
-### Community 702 - "Community 702"
+### Community 219 - "Helpers"
 Cohesion: 0.29
 Nodes (6): Bundled third-party software, CodeRunner, Lesson content, Licenses, Modifications, What this means for you
 
-### Community 703 - "Community 703"
+### Community 220 - "Helpers"
 Cohesion: 0.29
 Nodes (6): Bundled catalog (default, zero-config), How Lessons Work, Remote catalog (your own lessons repo), The two bundled demo modules, Two catalog sources, one menu, What happens when a student loads a lesson
 
-### Community 704 - "Community 704"
+### Community 221 - "Admin Routes"
+Cohesion: 0.29
+Nodes (6): Choose a deployment route, Cloudflare Offline Page (advanced, optional), Deployment Overview, Google Cloud Deployment (advanced), Local Deployment (recommended), What both need
+
+### Community 222 - "Websocket"
 Cohesion: 0.29
 Nodes (6): 028 — Demo mode for zero-config local tryout, Affected code, Constraints, Context, Decision, Why synthetic over real sessions
 
-### Community 705 - "Community 705"
+### Community 223 - "Converters"
 Cohesion: 0.29
 Nodes (6): 016 — Imported project simulation compatibility, Context, Decisions, Gradle init script for headless simulation override, Upgrade libstdc++6 via Ubuntu toolchain PPA, Verification
 
-### Community 706 - "Community 706"
+### Community 224 - "Docker Client"
 Cohesion: 0.29
 Nodes (6): code:json ({), Consequences, Context, Decision, Decision 026: Editor Default Theme, Status
 
-### Community 707 - "Community 707"
+### Community 225 - "Storage"
 Cohesion: 0.29
 Nodes (6): 032 — Canonical Image Naming, code:block1 (${CODERUNNER_IMAGE_NS:-ghcr.io/mathewdunne}/coderunner-contr), Consequences, Context, Decision, Status
 
-### Community 708 - "Community 708"
+### Community 226 - "Demo Banner"
 Cohesion: 0.29
 Nodes (6): 033 — Workspace Disk Read Limit, Alternatives considered, Consequences, Context, Decision, Status
 
-### Community 709 - "Community 709"
+### Community 227 - "HALSim/NT4 WebSocket Responses"
 Cohesion: 0.29
-Nodes (7): code:java ((someString) -> someString.trim().toLowerCase();), code:java (someString -> someString.trim().toLowerCase();), code:java (someString -> {return someString.trim().toLowerCase();};), code:java (someString -> someString.trim().toLowerCase();), code:java (() -> new ArrayList<>();), code:java (ArrayList::new;), `lambdaExpression`
+Nodes (7): Reload allowlist before each sign-in check, refreshAllowlistBeforeCheck, defaultContainerUser, envContainerUser, loadControlConfig, parseHostDataDir, Reject root workspace-container user in network mode
 
-### Community 710 - "Community 710"
+### Community 228 - "Button"
 Cohesion: 0.29
-Nodes (7): After, Before, Change Method Signature, code:java (public void setAddress(String address) {), code:java (public void setAddress1(Object newParam, String address) {), Example, Refactor configuration
+Nodes (7): createAdvantageScopeDist, createCatalogDir, createPathPlannerDist, createWebDist, withApp, idle lifecycle and admin controls test suite, AdvantageScope Lite and NT4 routing test suite
 
-### Community 721 - "Community 721"
+### Community 229 - "Card"
+Cohesion: 0.29
+Nodes (7): BridgeEntryBase (type), ReconnectingWsBridge.ensureEntry, HalSimBridge, Nt4AutoChooserBridge, ReconnectingWsBridge.open, ReconnectingWsBridge, entry.socket !== socket stale-guard pattern
+
+### Community 230 - "Card"
+Cohesion: 0.29
+Nodes (7): Baseline response security headers, Batched docker inspect, Capacity admission on container adoption, Decision 030: Control-Plane Hardening Pass, Nt4AutoChooserBridge, ReconnectingWsBridge base class, Stale run-job status write fix
+
+### Community 231 - "Dialog"
 Cohesion: 0.48
-Nodes (3): activate(), deactivate(), extension
+Nodes (6): UI written and tested but deliberately unwired, PathPlannerPane.tsx, ScopePane.tsx, SimPaneSwitcher.tsx, apps/web/src/routes/WorkspacePage.tsx, WorkspacePage (page object)
 
-### Community 722 - "Community 722"
-Cohesion: 0.57
-Nodes (4): Policy, Preferred Languages, Reporting Security Issues, Security
-
-### Community 723 - "Community 723"
-Cohesion: 0.57
-Nodes (4): Policy, Preferred Languages, Reporting Security Issues, Security
-
-### Community 724 - "Community 724"
+### Community 232 - "Dialog"
 Cohesion: 0.29
-Nodes (7): 6.1 Bun, 6.2 Backend framework, 6.3 Frontend framework, 6.4 Validation and shared contracts, 6. Tooling Decisions, code:block5 (.bun-version), code:json ({)
+Nodes (5): e2e/fixtures/auth.ts (loginAs helper), Better Auth cookie URL-encoding consistency, loginAs(), LoginPage (page object), signToken() (HMAC session signing)
 
-### Community 725 - "Community 725"
+### Community 233 - "Dialog"
 Cohesion: 0.29
-Nodes (7): 16. Manual End-to-End Test Plan, code:block28 (git clone <repo-url> CodeRunner), code:block29 (bun run docker:build:workspace), code:block30 (bun run migrate), code:block31 (# In another shell:), code:block32 (curl -fsS -X POST http://localhost:4000/admin/workspaces/<al), code:block33 (curl -fsS -X POST http://localhost:4000/admin/workspaces/<al)
+Nodes (6): applyAdvantageScopePatches(), ensureEmscripten(), main() build orchestration, skip owlet/docs postinstall rationale, runPostinstallForLite(), EMSDK (Emscripten SDK) 4.0.12
 
-### Community 726 - "Community 726"
+### Community 234 - "Dialog"
 Cohesion: 0.29
-Nodes (7): Cloudflare Pages mode, code:block13 (student browser ──443──> Cloudflare Pages (coderunner)), code:bash (gh workflow run "Deploy to GCE" --ref main -f tag=v2.5.0), How it works, Ongoing releases, Rollback, Rollback
+Nodes (7): sessionResponseSchema, open-workspace.spec.ts (first-login empty project test), "security" Playwright project, response-headers.spec.ts (S19/S20 header tests), xss.spec.ts (S16/S17 XSS tests), S16 malicious display name test, S17 run console text rendering test
 
-### Community 727 - "Community 727"
+### Community 235 - "Allowlist Management E2E"
+Cohesion: 0.33
+Nodes (3): addAllowlistEntry(), allowlist.spec.ts (auth), oauth-callback.spec.ts (OAuth callback flow)
+
+### Community 236 - "Dialog"
 Cohesion: 0.29
-Nodes (7): 6.1 Bun, 6.2 Backend framework, 6.3 Frontend framework, 6.4 Validation and shared contracts, 6. Tooling Decisions, code:block5 (.bun-version), code:json ({)
+Nodes (7): audit_log SQLite table, apps/control/src/auth/allowlist, backupDatabase() (SQLite serialize snapshot), data/users/<workspaceId>/{project,assets} backup layout, scripts/allowlist.ts (allowlist CLI), scripts/audit-prune.ts, scripts/backup.ts
 
-### Community 728 - "Community 728"
-Cohesion: 0.29
-Nodes (7): 16. Manual End-to-End Test Plan, code:block28 (git clone <repo-url> FRC-Programming-Training-Sim), code:block29 (bun run docker:build:workspace), code:block30 (bun run migrate), code:block31 (# In another shell:), code:block32 (curl -fsS -X POST http://localhost:4000/admin/workspaces/<al), code:block33 (curl -fsS -X POST http://localhost:4000/admin/workspaces/<al)
-
-### Community 729 - "Community 729"
-Cohesion: 0.29
-Nodes (7): coderunner-lessons Example Repo, Publishing via LESSONS_CATALOG_REPO, LESSONS_CATALOG_REPO (FAQ mention), Bundled Catalog Source, 60-Second Catalog Cache, Remote Catalog Source, Switch Project Menu (Lessons + Team Import)
-
-### Community 730 - "Community 730"
-Cohesion: 0.29
-Nodes (7): Red Hat Java / Java Test Duplicate ASM Bundles, Editor Acceptance Smoke (e2e:workspace-java), WPILib Vendor Dependencies Activity Smoke Case, ./gradlew build Invocations (log), HALSIM_EXTENSIONS Empty on Later Run (log), WPILib Java Simulate Launch Config (log), simulateExternalJavaRelease Gradle Task (log)
-
-### Community 731 - "Community 731"
+### Community 237 - "Dialog"
 Cohesion: 0.38
-Nodes (7): Connection Indicators (Comms/Robot Code/Joysticks), Console Output Panel (Run Channel Connected), Enable/Disabled Toggle, Mode Selector (Teleop/Auto/Test), Using CodeRunner: Start Screenshot, Sim Controls Panel (Start/Stop/Restart), VSCodium Editor Status Bar
+Nodes (5): container_leases table, clearContainerLeases(), rebuildWorkspaces(), rebuildWorkspaces test suite, Grafana ops dashboard screenshot: host VM, workspaces, runs, control-plane panels
 
-### Community 737 - "Community 737"
+### Community 238 - "Dialog"
+Cohesion: 0.33
+Nodes (7): PathPlanner Pane Overview Screenshot, Sign-In Page Screenshot, Switch Project Dialog Screenshot, Team Import Progress Screenshot, Using CodeRunner - Ready State Screenshot, Using CodeRunner - Start State Screenshot, Workspace Shell Three-Pane Layout Screenshot
+
+### Community 239 - "Dropdown Menu"
+Cohesion: 0.4
+Nodes (4): { result }, { unmount }, VALID_STATUS, useContainerStatus()
+
+### Community 240 - "Dropdown Menu"
 Cohesion: 0.33
 Nodes (5): dockerfile, initScript, repoRoot, robotSettings, settings
 
-### Community 738 - "Community 738"
-Cohesion: 0.33
-Nodes (6): code:bash (git add <the test file>), code:bash (bun run docs:build && grep -rl "vscodium-web-migration" webs), code:bash (git add docs/decisions/036-vscodium-web-migration.md docs/de), File Structure, Task 5: Full regression gate, Task 7: Record decision log 036
-
-### Community 739 - "Community 739"
-Cohesion: 0.33
-Nodes (6): code:bash (docker exec cr-smoke sh -c 'cat /config/data/User/settings.j), code:bash (| (if $mode == "project" then . else ."security.workspace.tr), code:bash (bun run docker:build:workspace), code:bash (git add containers/code/root/etc/s6-overlay/s6-rc.d/init-frc), code:bash (docker rm -f cr-smoke), Task 4: Verify Java reaches Standard Mode; fix workspace trust only if it does not
-
-### Community 740 - "Community 740"
+### Community 241 - "Dropdown Menu"
 Cohesion: 0.33
 Nodes (5): Background — verified findings, Follow-up disposition (closed 2026-08-26), Global Constraints, Out of scope, VSCodium-web Editor Migration Implementation Plan
 
-### Community 741 - "Community 741"
+### Community 242 - "Dropdown Menu"
+Cohesion: 0.33
+Nodes (6): code:bash (docker exec cr-smoke sh -c 'cat /config/data/User/settings.j), code:bash (| (if $mode == "project" then . else ."security.workspace.tr), code:bash (bun run docker:build:workspace), code:bash (git add containers/code/root/etc/s6-overlay/s6-rc.d/init-frc), code:bash (docker rm -f cr-smoke), Task 4: Verify Java reaches Standard Mode; fix workspace trust only if it does not
+
+### Community 243 - "Dropdown Menu"
 Cohesion: 0.33
 Nodes (5): 020 - Workspace runtime provider boundary, Consequences, Context, Decision, Status
 
-### Community 742 - "Community 742"
+### Community 244 - "Dropdown Menu"
 Cohesion: 0.33
 Nodes (5): 024 — Bound Per-Workspace Container Memory, Consequences, Context, Decision, Status
 
-### Community 743 - "Community 743"
+### Community 245 - "Dropdown Menu"
 Cohesion: 0.33
 Nodes (5): 035 — Multi-Arch Images and CI/Release/Deploy Workflow Split, Consequences, Context, Decision, Status
 
-### Community 744 - "Community 744"
+### Community 246 - "Dropdown Menu"
 Cohesion: 0.33
 Nodes (5): 034 — Demo mode portability on Docker Desktop, Consequences, Context, Decision, What was deliberately not done
 
-### Community 745 - "Community 745"
+### Community 247 - "Dropdown Menu"
 Cohesion: 0.33
 Nodes (5): 025 — Detach the Simulation JVM from Gradle, Consequences, Context, Decision, Status
 
-### Community 746 - "Community 746"
-Cohesion: 0.33
-Nodes (6): 1. Open Copilot Chat, 2. Switch to JavaDebug Agent Mode, 3. Enter Your Debugging Request, 4. Let the Agent Work, code:block1 (Why am I getting a NullPointerException in OrderService?), Getting Started
-
-### Community 747 - "Community 747"
-Cohesion: 0.33
-Nodes (6): 1.1 Read and Understand the Code, 1.2 Form a Specific Hypothesis, 1.3 Hypothesis Types for Common Bugs, code:block2 (search/codebase("method name or error keyword")), code:markdown (## My Hypothesis), Phase 1: Static Analysis (ALWAYS DO THIS FIRST)
-
-### Community 748 - "Community 748"
-Cohesion: 0.33
-Nodes (6): After, Before, code:java (public void method() {), code:java (public void method() {), Examples, Inline local variable
-
-### Community 749 - "Community 749"
-Cohesion: 0.33
-Nodes (6): After, Before, code:java (public double getArea(double r) {), code:java (private static final double PI = 3.14;), Examples, Extract to constant
-
-### Community 750 - "Community 750"
-Cohesion: 0.33
-Nodes (6): After, Before, code:java (public class Clazz {), code:java (public class Clazz {), Convert anonymous to nested class, Example
-
-### Community 751 - "Community 751"
-Cohesion: 0.33
-Nodes (6): After, Before, code:java (public void method() {), code:java (public void method() {), Examples, Extract to local variable
-
-### Community 752 - "Community 752"
-Cohesion: 0.33
-Nodes (6): After, Before, code:java (public void method(int value) {), code:java (public void method(int value) {), Example, Invert conditions
-
-### Community 753 - "Community 753"
-Cohesion: 0.33
-Nodes (6): After, Before, code:java (public void buildRegistry() {), code:java (public void buildRegistry() {), Example, Introduce Parameter
-
-### Community 754 - "Community 754"
-Cohesion: 0.33
-Nodes (6): After, Before, code:java (public void order(String[] books) {), code:java (public void order(String[] books) {), Convert to enhanced for loop, Example
-
-### Community 755 - "Community 755"
-Cohesion: 0.33
-Nodes (6): After, Before, code:java (public void method() {), code:java (public void method() {), Convert to lambda expression, Example
-
-### Community 756 - "Community 756"
-Cohesion: 0.33
-Nodes (6): After, Assign to variable, Before, code:java (Arrays.asList("apple", "lemon", "banana");), code:java (List<String> fruits = Arrays.asList("apple", "lemon", "banan), Example
-
-### Community 757 - "Community 757"
-Cohesion: 0.33
-Nodes (6): After, Before, Change var type to resolved type, code:java (var s = "";), code:java (String s = "";), Examples
-
-### Community 758 - "Community 758"
-Cohesion: 0.33
-Nodes (6): After, Before, code:java (public class Foo {), code:java (public class Bar {), Examples, Rename
-
-### Community 759 - "Community 759"
-Cohesion: 0.33
-Nodes (6): After, Before, Change resolved type to var type, code:java (String s = "";), code:java (var s = "";), Examples
-
-### Community 760 - "Community 760"
-Cohesion: 0.33
-Nodes (6): After, Before, code:java (import org.junit.Assert;), code:java (import static org.junit.Assert.assertEquals;), Convert to static import, Example
-
-### Community 761 - "Community 761"
-Cohesion: 0.33
-Nodes (6): After, Before, code:java (public void method() {), code:java (public void method() {), Example, Inline method
-
-### Community 762 - "Community 762"
-Cohesion: 0.33
-Nodes (6): After, Before, code:java (public class Office {), code:java (public class Office {), Examples, Move
-
-### Community 763 - "Community 763"
-Cohesion: 0.33
-Nodes (6): After, Before, code:java (public void method() {), code:java (public void method() {), Convert to anonymous class creation, Example
-
-### Community 764 - "Community 764"
-Cohesion: 0.33
-Nodes (6): After, Before, code:java (private static final double PI = 3.14;), code:java (private static final double PI = 3.14;), Examples, Inline constant
-
-### Community 765 - "Community 765"
-Cohesion: 0.33
-Nodes (6): After, Before, code:java (public void method() {), code:java (public void method() {), Examples, Extract to method
-
-### Community 766 - "Community 766"
-Cohesion: 0.33
-Nodes (6): After, Before, code:java (class Square {), code:java (class Square {), Examples, Extract to field
-
-### Community 767 - "Community 767"
-Cohesion: 0.33
-Nodes (6): After, Before, Change modifiers to final, code:java (public class Clazz {), code:java (public class Clazz {), Example
-
-### Community 768 - "Community 768"
-Cohesion: 0.33
-Nodes (6): After, Before, code:java (public void method(int value) {), code:java (public void method(int value) {), Example, Invert local variable
-
-### Community 770 - "Community 770"
+### Community 248 - "Dropdown Menu"
 Cohesion: 0.53
-Nodes (4): Policy, Preferred Languages, Reporting Security Issues, Security
+Nodes (6): AdvantageKit Logger, robot-starter catalog lesson module, robot-starter Constants.java template class, robot-starter Main.java template class, robot-starter Robot.java template class, robot-starter RobotContainer.java template class
 
-### Community 771 - "Community 771"
-Cohesion: 0.33
-Nodes (4): Data collection, How to opt in or out, What's included in the general telemetry data, What's included in the vscode-java telemetry data
-
-### Community 772 - "Community 772"
-Cohesion: 0.53
-Nodes (4): Policy, Preferred Languages, Reporting Security Issues, Security
-
-### Community 773 - "Community 773"
-Cohesion: 0.6
-Nodes (3): activate(), deactivate(), extension
-
-### Community 774 - "Community 774"
-Cohesion: 0.33
-Nodes (4): args, gid, subprocess, uid
-
-### Community 775 - "Community 775"
-Cohesion: 0.53
-Nodes (4): Policy, Preferred Languages, Reporting Security Issues, Security
-
-### Community 776 - "Community 776"
-Cohesion: 0.33
-Nodes (6): Architecture, Auth: Better Auth test-utils, gated by env, Port allocation and `baseURL` coupling, Single server in tests (matches production topology, in-process), Two-tier strategy, WebSocket coverage philosophy
-
-### Community 777 - "Community 777"
-Cohesion: 0.33
-Nodes (6): 5.1 Archive the MVP first, 5.2 V1 target layout, 5. Repository Migration and Layout, code:block2 (mvp/), code:block3 (V1-Design.md), code:block4 (apps/)
-
-### Community 778 - "Community 778"
-Cohesion: 0.33
-Nodes (5): Adding components, code:bash (npx shadcn@latest add button), code:tsx (import { Button } from "@/components/ui/button"), React + TypeScript + Vite + shadcn/ui, Using components
-
-### Community 781 - "Community 781"
-Cohesion: 0.33
-Nodes (6): 5.1 Archive the MVP first, 5.2 V1 target layout, 5. Repository Migration and Layout, code:block2 (mvp/), code:block3 (V1-Design.md), code:block4 (apps/)
-
-### Community 782 - "Community 782"
-Cohesion: 0.33
-Nodes (4): args, gid, subprocess, uid
-
-### Community 783 - "Community 783"
-Cohesion: 0.33
-Nodes (4): args, gid, subprocess, uid
-
-### Community 784 - "Community 784"
-Cohesion: 0.4
-Nodes (6): GradleRIO 2026.2.1 / Temurin 17.0.15, wpilibsuite.vscode-wpilib 2026.1.1, vscode-wpilib Extension Activation (log), Local GradleRIO Version 2026.2.1 (log), Bad Java Version Fallback to JDK 17 (log), JDT LS Java Home Version 21 (log)
-
-### Community 786 - "Community 786"
-Cohesion: 0.4
-Nodes (4): cookie, frames, snap, status
-
-### Community 787 - "Community 787"
+### Community 252 - "Sonner"
 Cohesion: 0.5
 Nodes (4): dryRun, main(), _repoRoot, run()
 
-### Community 788 - "Community 788"
-Cohesion: 0.4
-Nodes (5): code:bash (# Seed Gradle cache on first run.), code:bash (# Fix ownership for /config and /workspace (linuxserver conv), code:bash (# Fix ownership of what this script created as root. The bas), code:bash (git add containers/code/root/etc/s6-overlay/s6-rc.d/init-frc), Task 2: Scope `init-frc-setup`'s ownership pass to what it actually creates
-
-### Community 789 - "Community 789"
-Cohesion: 0.4
-Nodes (4): Active (V2 and post-V2), Archive, Decision Logs, V1 Decision Logs
-
-### Community 790 - "Community 790"
+### Community 254 - "Tabs"
 Cohesion: 0.4
 Nodes (4): Consequences, Context, Decision, Decision 014 — Better Auth Integration
 
-### Community 791 - "Community 791"
+### Community 255 - "Tabs"
 Cohesion: 0.4
 Nodes (4): 029 — Lessons & Modules, Consequences, Context, Implementation decisions
 
-### Community 792 - "Community 792"
+### Community 256 - "Tabs"
+Cohesion: 0.4
+Nodes (4): 040 — SELinux container mounts, Consequences, Context, Decision
+
+### Community 257 - "Tabs"
 Cohesion: 0.4
 Nodes (4): Consequences, Context, Decision, Decision 019: Keyboard Input Mode
 
-### Community 793 - "Community 793"
+### Community 258 - "Tooltip"
+Cohesion: 0.4
+Nodes (4): 039 — PathPlanner integration, Consequences, Context, Decision
+
+### Community 259 - "Tooltip"
 Cohesion: 0.4
 Nodes (4): 010 - Gradle project cache isolation for sim and LSP, Context, Decisions, Implications
 
-### Community 794 - "Community 794"
+### Community 260 - "Tooltip"
 Cohesion: 0.4
-Nodes (5): 0.25.0, Added, Changed, Fixed, Removed
+Nodes (5): Decision 018 (gamepad unplug safety), listConnectedGamepads, makeLabel, useGamepad test suite, useGamepad
 
-### Community 795 - "Community 795"
+### Community 261 - "Tooltip"
 Cohesion: 0.4
-Nodes (4): Policy, Preferred Languages, Reporting Security Issues, Security
+Nodes (5): Better Auth (OAuth sign-in), isProxiedPath function, onRequest handler, serviceUnavailable function, Decision 014: Better Auth Integration
 
-### Community 796 - "Community 796"
+### Community 262 - "Use Run Channel"
 Cohesion: 0.4
-Nodes (4): Policy, Preferred Languages, Reporting Security Issues, Security
+Nodes (5): ascope-dist filesystem-only stage reused across arch, containers/control/Dockerfile multi-stage build, Decision 035: Multi-Arch Images and CI/Release/Deploy Workflow Split, Multi-arch build via native runners + digest merge, ci.yml / release.yml / deploy.yml split
 
-### Community 797 - "Community 797"
+### Community 263 - "Image"
 Cohesion: 0.4
-Nodes (4): Policy, Preferred Languages, Reporting Security Issues, Security
+Nodes (5): docs/ content directory, docs/decisions/ decision logs, Docusaurus site config, website/README.md, Docusaurus sidebars config
 
-### Community 798 - "Community 798"
-Cohesion: 0.4
-Nodes (5): code:block29 (vscjava.vscode-java-debug/getDebugThreads()), code:markdown (## Hypothesis), code:block31 (// Check main thread's view), code:block32 (vscjava.vscode-java-debug/debugStepOperation(operation="step), Multi-Thread Debugging Workflow
-
-### Community 799 - "Community 799"
-Cohesion: 0.4
-Nodes (5): code:block37 (// BAD - aimless debugging), code:block38 (// BAD - context overflow), code:block39 (// BAD - stepping without purpose), code:block40 (// GOOD), What NOT To Do
-
-### Community 800 - "Community 800"
-Cohesion: 0.4
-Nodes (5): 2.2 Check Session State (Call ONCE, Then Act!), code:block5 (vscjava.vscode-java-debug/getDebugSessionInfo()), code:block6 (═══════════════════════════════════════════), code:block7 (═══════════════════════════════════════════), code:block8 (❌ No active debug session found.)
-
-### Community 801 - "Community 801"
-Cohesion: 0.4
-Nodes (4): Data collection, How to opt in or out, What's included in the general telemetry data, What's included in the vscode-java telemetry data
-
-### Community 802 - "Community 802"
-Cohesion: 0.4
-Nodes (5): 0.25.0, Added, Changed, Fixed, Removed
-
-### Community 803 - "Community 803"
-Cohesion: 0.6
-Nodes (3): activate(), deactivate(), extension
-
-### Community 804 - "Community 804"
-Cohesion: 0.6
-Nodes (3): activate(), deactivate(), extension
-
-### Community 805 - "Community 805"
-Cohesion: 0.5
-Nodes (3): code:json ("java.configuration.runtimes": [), Java Tooling JDK, Project JDKs
-
-### Community 806 - "Community 806"
-Cohesion: 0.4
-Nodes (5): 0.25.0, Added, Changed, Fixed, Removed
-
-### Community 807 - "Community 807"
-Cohesion: 0.4
-Nodes (5): 0.25.0, Added, Changed, Fixed, Removed
-
-### Community 808 - "Community 808"
-Cohesion: 0.4
-Nodes (4): Dependency notes, Execution order & status, Findings considered and rejected (so they are not re-audited), Implementation Plans
-
-### Community 809 - "Community 809"
-Cohesion: 0.4
-Nodes (3): Bonus, Hello, World, Steps
-
-### Community 812 - "Community 812"
-Cohesion: 0.4
-Nodes (5): 10.1 Sim image, 10.2 LSP image, 10. Container Design, code:block27 (docker run -d), code:block28 (docker run -d)
-
-### Community 813 - "Community 813"
-Cohesion: 0.4
-Nodes (5): 9.1 HTTP proxy, 9.2 WebSocket proxy, 9.3 Tokenless mode, 9.4 Health probe, 9. Editor Proxy
-
-### Community 814 - "Community 814"
-Cohesion: 0.4
-Nodes (5): 4.1 Channels, 4.2 What lives inside the merged container, 4.3 What no longer exists, 4. Target Architecture, code:block1 (Browser)
-
-### Community 815 - "Community 815"
-Cohesion: 0.4
-Nodes (4): Bonus, code:java (FrcTeam team1 = new FrcTeam(5885, new int[] {70, 75, 80});), Score Predictor, Steps
-
-### Community 816 - "Community 816"
-Cohesion: 0.4
-Nodes (5): code:bash (gh workflow run "Deploy to GCE" --ref main -f tag=v2.4.0), code:block19 (deploy/), Files, First-deploy gotcha, How releases deploy
-
-### Community 817 - "Community 817"
-Cohesion: 0.4
-Nodes (5): Changing control-plane env vars, code:bash (sudo /opt/coderunner/render-env.sh && sudo systemctl restart), code:bash (gh workflow run "Deploy to GCE" --ref main -f tag=v2.3.0), code:bash (printf '<new value>' | gcloud secrets versions add coderunne), Rollback
-
-### Community 818 - "Community 818"
-Cohesion: 0.4
-Nodes (4): hubBundle, replacements, repoRoot, source
-
-### Community 819 - "Community 819"
-Cohesion: 0.4
-Nodes (5): 10.1 Sim image, 10.2 LSP image, 10. Container Design, code:block27 (docker run -d), code:block28 (docker run -d)
-
-### Community 820 - "Community 820"
-Cohesion: 0.4
-Nodes (5): 9.1 HTTP proxy, 9.2 WebSocket proxy, 9.3 Tokenless mode, 9.4 Health probe, 9. Editor Proxy
-
-### Community 821 - "Community 821"
-Cohesion: 0.4
-Nodes (5): 4.1 Channels, 4.2 What lives inside the merged container, 4.3 What no longer exists, 4. Target Architecture, code:block1 (Browser)
-
-### Community 822 - "Community 822"
-Cohesion: 0.4
-Nodes (4): 010 - Gradle project cache isolation for sim and LSP, Context, Decisions, Implications
-
-### Community 831 - "Community 831"
+### Community 265 - "Community 265"
 Cohesion: 0.5
 Nodes (3): path, repoRoot, targets
 
-### Community 832 - "Community 832"
+### Community 266 - "Community 266"
 Cohesion: 0.5
-Nodes (3): Console lessons, Robot lessons and imported projects, Using CodeRunner
+Nodes (3): 042 — Collapsible workspace panes, Decision, Validation
 
-### Community 833 - "Community 833"
+### Community 267 - "Community 267"
+Cohesion: 0.5
+Nodes (3): Active (V2 and post-V2), Archive, Decision Logs
+
+### Community 268 - "Community 268"
 Cohesion: 0.5
 Nodes (3): Robot Starter, Running it, Where the code lives
 
-### Community 834 - "Community 834"
+### Community 269 - "Community 269"
 Cohesion: 0.5
 Nodes (3): Hello, World, Running it, Try stuff
 
-### Community 835 - "Community 835"
-Cohesion: 0.5
-Nodes (4): 0.2.0 - 2018-01-05, Added, Changed, Fixed
-
-### Community 836 - "Community 836"
-Cohesion: 0.5
-Nodes (4): 0.7.0 - 2018-06-26, Added, Changed, Fixed
-
-### Community 837 - "Community 837"
-Cohesion: 0.5
-Nodes (4): 0.23.0, Added, Changed, Fixed
-
-### Community 838 - "Community 838"
-Cohesion: 0.5
-Nodes (4): 0.26.0, Added, Changed, Fixed
-
-### Community 839 - "Community 839"
-Cohesion: 0.5
-Nodes (4): 0.21.0, Added, Fixed, Removed
-
-### Community 840 - "Community 840"
-Cohesion: 0.5
-Nodes (4): 0.34.0, Added, Changed, Fixed
-
-### Community 841 - "Community 841"
-Cohesion: 0.5
-Nodes (4): 0.24.0, Added, Changed, Fixed
-
-### Community 842 - "Community 842"
-Cohesion: 0.5
-Nodes (4): 0.28.0, Added, Changed, Fixed
-
-### Community 843 - "Community 843"
-Cohesion: 0.5
-Nodes (4): 0.13.0 - 2018-12-27, Added, Changed, Fixed
-
-### Community 844 - "Community 844"
-Cohesion: 0.5
-Nodes (4): 0.28.1, Added, Changed, Fixed
-
-### Community 845 - "Community 845"
-Cohesion: 0.5
-Nodes (4): 0.35.0, Added, Changed, Fixed
-
-### Community 846 - "Community 846"
-Cohesion: 0.5
-Nodes (4): 0.17.0 - 2019-05-22, Added, Changed, Fixed
-
-### Community 847 - "Community 847"
-Cohesion: 0.5
-Nodes (4): 0.14.0 - 2019-01-21, Added, Changed, Fixed
-
-### Community 848 - "Community 848"
-Cohesion: 0.5
-Nodes (4): 0.19.0 - 2019-08-12, Added, Changed, Fixed
-
-### Community 849 - "Community 849"
-Cohesion: 0.5
-Nodes (4): 0.22.0, Added, Changed, Fixed
-
-### Community 850 - "Community 850"
-Cohesion: 0.5
-Nodes (4): 0.37.0, Added, Changed, Fixed
-
-### Community 851 - "Community 851"
-Cohesion: 0.5
-Nodes (4): 0.22.3, Added, Changed, Fixed
-
-### Community 852 - "Community 852"
-Cohesion: 0.5
-Nodes (4): 0.16.0 - 2019-04-10, Added, Fixed, Removed
-
-### Community 853 - "Community 853"
-Cohesion: 0.5
-Nodes (4): 0.20.0, Added, Changed, Fixed
-
-### Community 854 - "Community 854"
-Cohesion: 0.5
-Nodes (4): 0.12.0 - 2018-12-10, Added, Changed, Fixed
-
-### Community 855 - "Community 855"
-Cohesion: 0.5
-Nodes (4): 0.45.0, Added, Changed, Fixed
-
-### Community 856 - "Community 856"
-Cohesion: 0.5
-Nodes (4): 0.22.0, Added, Changed, Fixed
-
-### Community 857 - "Community 857"
-Cohesion: 0.5
-Nodes (4): 0.42.0, Added, Changed, Fixed
-
-### Community 858 - "Community 858"
-Cohesion: 0.5
-Nodes (4): 0.32.0, Added, Changed, Fixed
-
-### Community 859 - "Community 859"
-Cohesion: 0.5
-Nodes (4): 0.21.0, Added, Changed, Fixed
-
-### Community 860 - "Community 860"
-Cohesion: 0.5
-Nodes (4): 0.39.0, Added, Changed, Fixed
-
-### Community 861 - "Community 861"
-Cohesion: 0.5
-Nodes (4): 0.29.0, Added, Changed, Fixed
-
-### Community 862 - "Community 862"
-Cohesion: 0.5
-Nodes (4): 0.20.0, Added, Changed, Fixed
-
-### Community 863 - "Community 863"
-Cohesion: 0.5
-Nodes (4): 0.27.0, Added, Changed, Fixed
-
-### Community 864 - "Community 864"
-Cohesion: 0.5
-Nodes (4): 0.14.0, Added, Changed, Fixed
-
-### Community 865 - "Community 865"
-Cohesion: 0.5
-Nodes (4): 0.19.0, Added, Changed, Fixed
-
-### Community 866 - "Community 866"
-Cohesion: 0.5
-Nodes (4): 0.13.0, Added, Changed, Fixed
-
-### Community 867 - "Community 867"
-Cohesion: 0.5
-Nodes (3): How to file issues and get help, Microsoft Support Policy, Support
-
-### Community 868 - "Community 868"
-Cohesion: 0.5
-Nodes (4): [3.12.4](https://github.com/microsoft/vscode-gradle/compare/3.12.3...3.12.4) (2022-08-31), Added, Changed, Fixed
-
-### Community 869 - "Community 869"
-Cohesion: 0.5
-Nodes (4): [3.10.0](https://github.com/microsoft/vscode-gradle/compare/3.9.0...3.10.0) (2022-01-26), Added, Changed, Fixed
-
-### Community 870 - "Community 870"
-Cohesion: 0.5
-Nodes (4): 3.13.5, Added, Changed, Fixed
-
-### Community 871 - "Community 871"
-Cohesion: 0.5
-Nodes (4): [3.8.1](https://github.com/microsoft/vscode-gradle/compare/3.8.0...3.8.1) (2021-10-28), Added, Changed, Fixed
-
-### Community 872 - "Community 872"
-Cohesion: 0.5
-Nodes (4): [3.11.0](https://github.com/microsoft/vscode-gradle/compare/3.10.0...3.11.0) (2022-03-02), Added, Changed, Fixed
-
-### Community 873 - "Community 873"
-Cohesion: 0.5
-Nodes (4): [3.8.0](https://github.com/microsoft/vscode-gradle/compare/3.7.1...3.8.0) (2021-09-29), Added, Changed, Fixed
-
-### Community 874 - "Community 874"
-Cohesion: 0.5
-Nodes (4): [3.7.0](https://github.com/microsoft/vscode-gradle/compare/3.6.2...3.7.0) (2021-09-22), Added, Changed, Fixed
-
-### Community 875 - "Community 875"
-Cohesion: 0.5
-Nodes (4): [3.9.0](https://github.com/microsoft/vscode-gradle/compare/3.8.4...3.9.0) (2021-12-22), Added, Changed, Fixed
-
-### Community 876 - "Community 876"
-Cohesion: 0.5
-Nodes (4): [3.12.7](https://github.com/microsoft/vscode-gradle/compare/3.12.6...3.12.7) (2023-03-29), Added, Changed, Fixed
-
-### Community 877 - "Community 877"
-Cohesion: 0.5
-Nodes (4): 0.15.0, Added, Changed, Fixed
-
-### Community 878 - "Community 878"
-Cohesion: 0.5
-Nodes (4): 0.22.0, Added, Changed, Fixed
-
-### Community 879 - "Community 879"
-Cohesion: 0.5
-Nodes (4): 0.20.0, Added, Changed, Fixed
-
-### Community 880 - "Community 880"
-Cohesion: 0.5
-Nodes (4): 0.16.0, Added, Changed, Fixed
-
-### Community 881 - "Community 881"
-Cohesion: 0.5
-Nodes (4): 0.12.0, Added, Changed, Fixed
-
-### Community 882 - "Community 882"
-Cohesion: 0.5
-Nodes (4): 0.13.0, Added, Changed, Fixed
-
-### Community 883 - "Community 883"
-Cohesion: 0.5
-Nodes (4): 0.21.0, Added, Changed, Fixed
-
-### Community 884 - "Community 884"
-Cohesion: 0.5
-Nodes (4): 0.18.1, Added, Changed, Fixed
-
-### Community 885 - "Community 885"
-Cohesion: 0.5
-Nodes (4): 0.17.0, Added, Changed, Fixed
-
-### Community 886 - "Community 886"
-Cohesion: 0.5
-Nodes (4): 0.59.0 - 2026-04-09, Added, Changed, Fixed
-
-### Community 887 - "Community 887"
-Cohesion: 0.5
-Nodes (4): 0.23.0 - 2019-10-29, Added, Changed, Fixed
-
-### Community 888 - "Community 888"
-Cohesion: 0.5
-Nodes (4): 0.26.0 - 2020-05-13, Added, Changed, Fixed
-
-### Community 889 - "Community 889"
-Cohesion: 0.5
-Nodes (4): 0.3.0 - 2017-11-10, Added, Changed, Fixed
-
-### Community 890 - "Community 890"
-Cohesion: 0.5
-Nodes (4): 0.28.0 - 2020-08-27, Added, Changed, Fixed
-
-### Community 891 - "Community 891"
-Cohesion: 0.5
-Nodes (4): 0.29.0 - 2020-10-16, Added, Changed, Fixed
-
-### Community 892 - "Community 892"
-Cohesion: 0.5
-Nodes (4): 0.30.0 - 2020-12-16, Added, Changed, Fixed
-
-### Community 893 - "Community 893"
-Cohesion: 0.5
-Nodes (4): 0.21.0 - 2019-08-26, Added, Changed, Fixed
-
-### Community 894 - "Community 894"
-Cohesion: 0.5
-Nodes (4): 0.12.0 - 2018-8-29, Added, Changed, Fixed
-
-### Community 895 - "Community 895"
-Cohesion: 0.5
-Nodes (4): 0.33.0 - 2021-04-28, Added, Changed, Fixed
-
-### Community 896 - "Community 896"
-Cohesion: 0.5
-Nodes (4): 0.42.0 - 2022-06-29, Added, Changed, Fixed
-
-### Community 897 - "Community 897"
-Cohesion: 0.5
-Nodes (4): 0.39.0 - 2022-03-28, Added, Changed, Fixed
-
-### Community 898 - "Community 898"
-Cohesion: 0.5
-Nodes (4): 0.27.0 - 2020-07-17, Added, Changed, Fixed
-
-### Community 899 - "Community 899"
-Cohesion: 0.5
-Nodes (4): 0.38.0 - 2022-01-26, Added, Changed, Fixed
-
-### Community 900 - "Community 900"
-Cohesion: 0.5
-Nodes (4): 0.24.0 - 2019-12-25, Added, Changed, Fixed
-
-### Community 901 - "Community 901"
-Cohesion: 0.5
-Nodes (4): 0.46.0 - 2022-11-02, Added, Changed, Fixed
-
-### Community 902 - "Community 902"
-Cohesion: 0.5
-Nodes (4): 0.2.0 - 2017-10-20, Added, Changed, Fixed
-
-### Community 903 - "Community 903"
-Cohesion: 0.5
-Nodes (4): 0.18.0 - 2019-04-23, Added, Changed, Fixed
-
-### Community 904 - "Community 904"
-Cohesion: 0.5
-Nodes (4): 0.16.0 - 2018-12-12, Added, Changed, Fixed
-
-### Community 905 - "Community 905"
-Cohesion: 0.5
-Nodes (4): 0.45.0 - 2022-10-12, Added, Changed, Fixed
-
-### Community 906 - "Community 906"
-Cohesion: 0.5
-Nodes (4): 0.11.0 - 2018-8-2, Added, Changed, Fixed
-
-### Community 907 - "Community 907"
-Cohesion: 0.5
-Nodes (4): 0.17.0 - 2019-03-06, Added, Changed, Fixed
-
-### Community 908 - "Community 908"
-Cohesion: 0.5
-Nodes (4): Agent Can't Find the File, Breakpoint Not Hit, Debug Session Won't Start, Troubleshooting
-
-### Community 909 - "Community 909"
-Cohesion: 0.5
-Nodes (4): code:block23 (// Test null hypothesis), Context Management Best Practices, Don't Overflow LLM Context, Evaluate Expressions to Test Hypotheses
-
-### Community 910 - "Community 910"
-Cohesion: 0.5
-Nodes (4): code:block22 (vscjava.vscode-java-debug/removeJavaBreakpoints()), If Launch Method shows: `✅ Can be safely stopped`, If Launch Method shows: `⚠️ Stopping will disconnect from process`, Phase 4: Cleanup (Based on Launch Method)
-
-### Community 911 - "Community 911"
-Cohesion: 0.5
-Nodes (3): code:json ("java.configuration.runtimes": [), Java Tooling JDK, Project JDKs
-
-### Community 913 - "Community 913"
-Cohesion: 0.5
-Nodes (4): 0.26.0, Added, Changed, Fixed
-
-### Community 914 - "Community 914"
-Cohesion: 0.5
-Nodes (4): 0.35.0, Added, Changed, Fixed
-
-### Community 915 - "Community 915"
-Cohesion: 0.5
-Nodes (4): 0.16.0 - 2019-04-10, Added, Fixed, Removed
-
-### Community 916 - "Community 916"
-Cohesion: 0.5
-Nodes (4): 0.24.0, Added, Changed, Fixed
-
-### Community 917 - "Community 917"
-Cohesion: 0.5
-Nodes (4): 0.28.1, Added, Changed, Fixed
-
-### Community 918 - "Community 918"
-Cohesion: 0.5
-Nodes (4): 0.23.0, Added, Changed, Fixed
-
-### Community 919 - "Community 919"
-Cohesion: 0.5
-Nodes (4): 0.17.0 - 2019-05-22, Added, Changed, Fixed
-
-### Community 920 - "Community 920"
-Cohesion: 0.5
-Nodes (4): 0.20.0, Added, Changed, Fixed
-
-### Community 921 - "Community 921"
-Cohesion: 0.5
-Nodes (4): 0.37.0, Added, Changed, Fixed
-
-### Community 922 - "Community 922"
-Cohesion: 0.5
-Nodes (4): 0.14.0 - 2019-01-21, Added, Changed, Fixed
-
-### Community 923 - "Community 923"
-Cohesion: 0.5
-Nodes (4): 0.22.3, Added, Changed, Fixed
-
-### Community 924 - "Community 924"
-Cohesion: 0.5
-Nodes (4): 0.13.0 - 2018-12-27, Added, Changed, Fixed
-
-### Community 925 - "Community 925"
-Cohesion: 0.5
-Nodes (4): 0.19.0 - 2019-08-12, Added, Changed, Fixed
-
-### Community 926 - "Community 926"
-Cohesion: 0.5
-Nodes (4): 0.21.0, Added, Fixed, Removed
-
-### Community 927 - "Community 927"
-Cohesion: 0.5
-Nodes (4): 0.34.0, Added, Changed, Fixed
-
-### Community 928 - "Community 928"
-Cohesion: 0.5
-Nodes (4): 0.28.0, Added, Changed, Fixed
-
-### Community 929 - "Community 929"
-Cohesion: 0.5
-Nodes (4): 0.2.0 - 2018-01-05, Added, Changed, Fixed
-
-### Community 930 - "Community 930"
-Cohesion: 0.5
-Nodes (4): 0.7.0 - 2018-06-26, Added, Changed, Fixed
-
-### Community 931 - "Community 931"
-Cohesion: 0.5
-Nodes (4): 0.12.0 - 2018-12-10, Added, Changed, Fixed
-
-### Community 932 - "Community 932"
-Cohesion: 0.5
-Nodes (4): 0.22.0, Added, Changed, Fixed
-
-### Community 933 - "Community 933"
-Cohesion: 0.5
-Nodes (4): 0.12.0, Added, Changed, Fixed
-
-### Community 934 - "Community 934"
-Cohesion: 0.5
-Nodes (4): 0.15.0, Added, Changed, Fixed
-
-### Community 935 - "Community 935"
-Cohesion: 0.5
-Nodes (4): 0.20.0, Added, Changed, Fixed
-
-### Community 936 - "Community 936"
-Cohesion: 0.5
-Nodes (4): 0.22.0, Added, Changed, Fixed
-
-### Community 937 - "Community 937"
-Cohesion: 0.5
-Nodes (4): 0.18.1, Added, Changed, Fixed
-
-### Community 938 - "Community 938"
-Cohesion: 0.5
-Nodes (4): 0.21.0, Added, Changed, Fixed
-
-### Community 939 - "Community 939"
-Cohesion: 0.5
-Nodes (4): 0.13.0, Added, Changed, Fixed
-
-### Community 940 - "Community 940"
-Cohesion: 0.5
-Nodes (4): 0.17.0, Added, Changed, Fixed
-
-### Community 941 - "Community 941"
-Cohesion: 0.5
-Nodes (4): 0.16.0, Added, Changed, Fixed
-
-### Community 942 - "Community 942"
-Cohesion: 0.5
-Nodes (4): 0.13.0, Added, Changed, Fixed
-
-### Community 943 - "Community 943"
-Cohesion: 0.5
-Nodes (4): 0.19.0, Added, Changed, Fixed
-
-### Community 944 - "Community 944"
-Cohesion: 0.5
-Nodes (4): 0.27.0, Added, Changed, Fixed
-
-### Community 945 - "Community 945"
-Cohesion: 0.5
-Nodes (4): 0.14.0, Added, Changed, Fixed
-
-### Community 946 - "Community 946"
-Cohesion: 0.5
-Nodes (4): [3.8.0](https://github.com/microsoft/vscode-gradle/compare/3.7.1...3.8.0) (2021-09-29), Added, Changed, Fixed
-
-### Community 947 - "Community 947"
-Cohesion: 0.5
-Nodes (4): [3.11.0](https://github.com/microsoft/vscode-gradle/compare/3.10.0...3.11.0) (2022-03-02), Added, Changed, Fixed
-
-### Community 948 - "Community 948"
-Cohesion: 0.5
-Nodes (4): [3.9.0](https://github.com/microsoft/vscode-gradle/compare/3.8.4...3.9.0) (2021-12-22), Added, Changed, Fixed
-
-### Community 949 - "Community 949"
-Cohesion: 0.5
-Nodes (4): [3.12.7](https://github.com/microsoft/vscode-gradle/compare/3.12.6...3.12.7) (2023-03-29), Added, Changed, Fixed
-
-### Community 950 - "Community 950"
-Cohesion: 0.5
-Nodes (4): [3.12.4](https://github.com/microsoft/vscode-gradle/compare/3.12.3...3.12.4) (2022-08-31), Added, Changed, Fixed
-
-### Community 951 - "Community 951"
-Cohesion: 0.5
-Nodes (4): [3.7.0](https://github.com/microsoft/vscode-gradle/compare/3.6.2...3.7.0) (2021-09-22), Added, Changed, Fixed
-
-### Community 952 - "Community 952"
-Cohesion: 0.5
-Nodes (4): [3.10.0](https://github.com/microsoft/vscode-gradle/compare/3.9.0...3.10.0) (2022-01-26), Added, Changed, Fixed
-
-### Community 953 - "Community 953"
-Cohesion: 0.5
-Nodes (4): 3.13.5, Added, Changed, Fixed
-
-### Community 954 - "Community 954"
-Cohesion: 0.5
-Nodes (4): [3.8.1](https://github.com/microsoft/vscode-gradle/compare/3.8.0...3.8.1) (2021-10-28), Added, Changed, Fixed
-
-### Community 956 - "Community 956"
-Cohesion: 0.5
-Nodes (4): [3.8.0](https://github.com/microsoft/vscode-gradle/compare/3.7.1...3.8.0) (2021-09-29), Added, Changed, Fixed
-
-### Community 957 - "Community 957"
-Cohesion: 0.5
-Nodes (4): [3.7.0](https://github.com/microsoft/vscode-gradle/compare/3.6.2...3.7.0) (2021-09-22), Added, Changed, Fixed
-
-### Community 958 - "Community 958"
-Cohesion: 0.5
-Nodes (4): 3.13.5, Added, Changed, Fixed
-
-### Community 959 - "Community 959"
-Cohesion: 0.5
-Nodes (4): [3.12.4](https://github.com/microsoft/vscode-gradle/compare/3.12.3...3.12.4) (2022-08-31), Added, Changed, Fixed
-
-### Community 960 - "Community 960"
-Cohesion: 0.5
-Nodes (4): [3.10.0](https://github.com/microsoft/vscode-gradle/compare/3.9.0...3.10.0) (2022-01-26), Added, Changed, Fixed
-
-### Community 961 - "Community 961"
-Cohesion: 0.5
-Nodes (4): [3.8.1](https://github.com/microsoft/vscode-gradle/compare/3.8.0...3.8.1) (2021-10-28), Added, Changed, Fixed
-
-### Community 962 - "Community 962"
-Cohesion: 0.5
-Nodes (4): [3.9.0](https://github.com/microsoft/vscode-gradle/compare/3.8.4...3.9.0) (2021-12-22), Added, Changed, Fixed
-
-### Community 963 - "Community 963"
-Cohesion: 0.5
-Nodes (4): [3.12.7](https://github.com/microsoft/vscode-gradle/compare/3.12.6...3.12.7) (2023-03-29), Added, Changed, Fixed
-
-### Community 964 - "Community 964"
-Cohesion: 0.5
-Nodes (4): [3.11.0](https://github.com/microsoft/vscode-gradle/compare/3.10.0...3.11.0) (2022-03-02), Added, Changed, Fixed
-
-### Community 965 - "Community 965"
-Cohesion: 0.5
-Nodes (4): 0.15.0, Added, Changed, Fixed
-
-### Community 966 - "Community 966"
-Cohesion: 0.5
-Nodes (4): 0.17.0, Added, Changed, Fixed
-
-### Community 967 - "Community 967"
-Cohesion: 0.5
-Nodes (4): 0.12.0, Added, Changed, Fixed
-
-### Community 968 - "Community 968"
-Cohesion: 0.5
-Nodes (4): 0.20.0, Added, Changed, Fixed
-
-### Community 969 - "Community 969"
-Cohesion: 0.5
-Nodes (4): 0.22.0, Added, Changed, Fixed
-
-### Community 970 - "Community 970"
-Cohesion: 0.5
-Nodes (4): 0.18.1, Added, Changed, Fixed
-
-### Community 971 - "Community 971"
-Cohesion: 0.5
-Nodes (4): 0.13.0, Added, Changed, Fixed
-
-### Community 972 - "Community 972"
-Cohesion: 0.5
-Nodes (4): 0.21.0, Added, Changed, Fixed
-
-### Community 973 - "Community 973"
-Cohesion: 0.5
-Nodes (4): 0.16.0, Added, Changed, Fixed
-
-### Community 974 - "Community 974"
-Cohesion: 0.5
-Nodes (4): 0.22.3, Added, Changed, Fixed
-
-### Community 975 - "Community 975"
-Cohesion: 0.5
-Nodes (4): 0.21.0, Added, Fixed, Removed
-
-### Community 976 - "Community 976"
-Cohesion: 0.5
-Nodes (4): 0.26.0, Added, Changed, Fixed
-
-### Community 977 - "Community 977"
-Cohesion: 0.5
-Nodes (4): 0.13.0 - 2018-12-27, Added, Changed, Fixed
-
-### Community 978 - "Community 978"
-Cohesion: 0.5
-Nodes (4): 0.14.0 - 2019-01-21, Added, Changed, Fixed
-
-### Community 979 - "Community 979"
-Cohesion: 0.5
-Nodes (4): 0.17.0 - 2019-05-22, Added, Changed, Fixed
-
-### Community 980 - "Community 980"
-Cohesion: 0.5
-Nodes (4): 0.22.0, Added, Changed, Fixed
-
-### Community 981 - "Community 981"
-Cohesion: 0.5
-Nodes (4): 0.37.0, Added, Changed, Fixed
-
-### Community 982 - "Community 982"
-Cohesion: 0.5
-Nodes (4): 0.7.0 - 2018-06-26, Added, Changed, Fixed
-
-### Community 983 - "Community 983"
-Cohesion: 0.5
-Nodes (4): 0.34.0, Added, Changed, Fixed
-
-### Community 984 - "Community 984"
-Cohesion: 0.5
-Nodes (4): 0.2.0 - 2018-01-05, Added, Changed, Fixed
-
-### Community 985 - "Community 985"
-Cohesion: 0.5
-Nodes (4): 0.24.0, Added, Changed, Fixed
-
-### Community 986 - "Community 986"
-Cohesion: 0.5
-Nodes (4): 0.12.0 - 2018-12-10, Added, Changed, Fixed
-
-### Community 987 - "Community 987"
-Cohesion: 0.5
-Nodes (4): 0.35.0, Added, Changed, Fixed
-
-### Community 988 - "Community 988"
-Cohesion: 0.5
-Nodes (4): 0.16.0 - 2019-04-10, Added, Fixed, Removed
-
-### Community 989 - "Community 989"
-Cohesion: 0.5
-Nodes (4): 0.28.0, Added, Changed, Fixed
-
-### Community 990 - "Community 990"
-Cohesion: 0.5
-Nodes (4): 0.23.0, Added, Changed, Fixed
-
-### Community 991 - "Community 991"
-Cohesion: 0.5
-Nodes (4): 0.20.0, Added, Changed, Fixed
-
-### Community 992 - "Community 992"
-Cohesion: 0.5
-Nodes (4): 0.28.1, Added, Changed, Fixed
-
-### Community 993 - "Community 993"
-Cohesion: 0.5
-Nodes (4): 0.19.0 - 2019-08-12, Added, Changed, Fixed
-
-### Community 994 - "Community 994"
-Cohesion: 0.5
-Nodes (4): [3.9.0](https://github.com/microsoft/vscode-gradle/compare/3.8.4...3.9.0) (2021-12-22), Added, Changed, Fixed
-
-### Community 995 - "Community 995"
-Cohesion: 0.5
-Nodes (4): 3.13.5, Added, Changed, Fixed
-
-### Community 996 - "Community 996"
-Cohesion: 0.5
-Nodes (4): [3.11.0](https://github.com/microsoft/vscode-gradle/compare/3.10.0...3.11.0) (2022-03-02), Added, Changed, Fixed
-
-### Community 997 - "Community 997"
-Cohesion: 0.5
-Nodes (4): [3.8.0](https://github.com/microsoft/vscode-gradle/compare/3.7.1...3.8.0) (2021-09-29), Added, Changed, Fixed
-
-### Community 998 - "Community 998"
-Cohesion: 0.5
-Nodes (4): [3.12.7](https://github.com/microsoft/vscode-gradle/compare/3.12.6...3.12.7) (2023-03-29), Added, Changed, Fixed
-
-### Community 999 - "Community 999"
-Cohesion: 0.5
-Nodes (4): [3.7.0](https://github.com/microsoft/vscode-gradle/compare/3.6.2...3.7.0) (2021-09-22), Added, Changed, Fixed
-
-### Community 1000 - "Community 1000"
-Cohesion: 0.5
-Nodes (4): [3.8.1](https://github.com/microsoft/vscode-gradle/compare/3.8.0...3.8.1) (2021-10-28), Added, Changed, Fixed
-
-### Community 1001 - "Community 1001"
-Cohesion: 0.5
-Nodes (4): [3.10.0](https://github.com/microsoft/vscode-gradle/compare/3.9.0...3.10.0) (2022-01-26), Added, Changed, Fixed
-
-### Community 1002 - "Community 1002"
-Cohesion: 0.5
-Nodes (4): [3.12.4](https://github.com/microsoft/vscode-gradle/compare/3.12.3...3.12.4) (2022-08-31), Added, Changed, Fixed
-
-### Community 1003 - "Community 1003"
-Cohesion: 0.5
-Nodes (4): 0.28.0, Added, Changed, Fixed
-
-### Community 1004 - "Community 1004"
-Cohesion: 0.5
-Nodes (4): 0.17.0 - 2019-05-22, Added, Changed, Fixed
-
-### Community 1005 - "Community 1005"
-Cohesion: 0.5
-Nodes (4): 0.26.0, Added, Changed, Fixed
-
-### Community 1006 - "Community 1006"
-Cohesion: 0.5
-Nodes (4): 0.13.0 - 2018-12-27, Added, Changed, Fixed
-
-### Community 1007 - "Community 1007"
-Cohesion: 0.5
-Nodes (4): 0.22.0, Added, Changed, Fixed
-
-### Community 1008 - "Community 1008"
-Cohesion: 0.5
-Nodes (4): 0.2.0 - 2018-01-05, Added, Changed, Fixed
-
-### Community 1009 - "Community 1009"
-Cohesion: 0.5
-Nodes (4): 0.12.0 - 2018-12-10, Added, Changed, Fixed
-
-### Community 1010 - "Community 1010"
-Cohesion: 0.5
-Nodes (4): 0.28.1, Added, Changed, Fixed
-
-### Community 1011 - "Community 1011"
-Cohesion: 0.5
-Nodes (4): 0.22.3, Added, Changed, Fixed
-
-### Community 1012 - "Community 1012"
-Cohesion: 0.5
-Nodes (4): 0.16.0 - 2019-04-10, Added, Fixed, Removed
-
-### Community 1013 - "Community 1013"
-Cohesion: 0.5
-Nodes (4): 0.37.0, Added, Changed, Fixed
-
-### Community 1014 - "Community 1014"
-Cohesion: 0.5
-Nodes (4): 0.35.0, Added, Changed, Fixed
-
-### Community 1015 - "Community 1015"
-Cohesion: 0.5
-Nodes (4): 0.14.0 - 2019-01-21, Added, Changed, Fixed
-
-### Community 1016 - "Community 1016"
-Cohesion: 0.5
-Nodes (4): 0.20.0, Added, Changed, Fixed
-
-### Community 1017 - "Community 1017"
-Cohesion: 0.5
-Nodes (4): 0.19.0 - 2019-08-12, Added, Changed, Fixed
-
-### Community 1018 - "Community 1018"
-Cohesion: 0.5
-Nodes (4): 0.23.0, Added, Changed, Fixed
-
-### Community 1019 - "Community 1019"
-Cohesion: 0.5
-Nodes (4): 0.34.0, Added, Changed, Fixed
-
-### Community 1020 - "Community 1020"
-Cohesion: 0.5
-Nodes (4): 0.21.0, Added, Fixed, Removed
-
-### Community 1021 - "Community 1021"
-Cohesion: 0.5
-Nodes (4): 0.7.0 - 2018-06-26, Added, Changed, Fixed
-
-### Community 1022 - "Community 1022"
-Cohesion: 0.5
-Nodes (4): 0.24.0, Added, Changed, Fixed
-
-### Community 1023 - "Community 1023"
-Cohesion: 0.5
-Nodes (4): 0.20.0, Added, Changed, Fixed
-
-### Community 1024 - "Community 1024"
-Cohesion: 0.5
-Nodes (4): 0.16.0, Added, Changed, Fixed
-
-### Community 1025 - "Community 1025"
-Cohesion: 0.5
-Nodes (4): 0.17.0, Added, Changed, Fixed
-
-### Community 1026 - "Community 1026"
-Cohesion: 0.5
-Nodes (4): 0.18.1, Added, Changed, Fixed
-
-### Community 1027 - "Community 1027"
-Cohesion: 0.5
-Nodes (4): 0.13.0, Added, Changed, Fixed
-
-### Community 1028 - "Community 1028"
-Cohesion: 0.5
-Nodes (4): 0.22.0, Added, Changed, Fixed
-
-### Community 1029 - "Community 1029"
-Cohesion: 0.5
-Nodes (4): 0.15.0, Added, Changed, Fixed
-
-### Community 1030 - "Community 1030"
-Cohesion: 0.5
-Nodes (4): 0.12.0, Added, Changed, Fixed
-
-### Community 1031 - "Community 1031"
-Cohesion: 0.5
-Nodes (4): 0.21.0, Added, Changed, Fixed
-
-### Community 1032 - "Community 1032"
-Cohesion: 0.5
-Nodes (4): 0.24.0 - 2019-12-25, Added, Changed, Fixed
-
-### Community 1033 - "Community 1033"
-Cohesion: 0.5
-Nodes (4): 0.30.0 - 2020-12-16, Added, Changed, Fixed
-
-### Community 1034 - "Community 1034"
-Cohesion: 0.5
-Nodes (4): 0.38.0 - 2022-01-26, Added, Changed, Fixed
-
-### Community 1035 - "Community 1035"
-Cohesion: 0.5
-Nodes (4): 0.45.0 - 2022-10-12, Added, Changed, Fixed
-
-### Community 1036 - "Community 1036"
-Cohesion: 0.5
-Nodes (4): 0.28.0 - 2020-08-27, Added, Changed, Fixed
-
-### Community 1037 - "Community 1037"
-Cohesion: 0.5
-Nodes (4): 0.12.0 - 2018-8-29, Added, Changed, Fixed
-
-### Community 1038 - "Community 1038"
-Cohesion: 0.5
-Nodes (4): 0.3.0 - 2017-11-10, Added, Changed, Fixed
-
-### Community 1039 - "Community 1039"
-Cohesion: 0.5
-Nodes (4): 0.27.0 - 2020-07-17, Added, Changed, Fixed
-
-### Community 1040 - "Community 1040"
-Cohesion: 0.5
-Nodes (4): 0.23.0 - 2019-10-29, Added, Changed, Fixed
-
-### Community 1041 - "Community 1041"
-Cohesion: 0.5
-Nodes (4): 0.11.0 - 2018-8-2, Added, Changed, Fixed
-
-### Community 1042 - "Community 1042"
-Cohesion: 0.5
-Nodes (4): 0.21.0 - 2019-08-26, Added, Changed, Fixed
-
-### Community 1043 - "Community 1043"
-Cohesion: 0.5
-Nodes (4): 0.29.0 - 2020-10-16, Added, Changed, Fixed
-
-### Community 1044 - "Community 1044"
-Cohesion: 0.5
-Nodes (4): 0.59.0 - 2026-04-09, Added, Changed, Fixed
-
-### Community 1045 - "Community 1045"
-Cohesion: 0.5
-Nodes (4): 0.17.0 - 2019-03-06, Added, Changed, Fixed
-
-### Community 1046 - "Community 1046"
-Cohesion: 0.5
-Nodes (4): 0.46.0 - 2022-11-02, Added, Changed, Fixed
-
-### Community 1047 - "Community 1047"
-Cohesion: 0.5
-Nodes (4): 0.39.0 - 2022-03-28, Added, Changed, Fixed
-
-### Community 1048 - "Community 1048"
-Cohesion: 0.5
-Nodes (4): 0.42.0 - 2022-06-29, Added, Changed, Fixed
-
-### Community 1049 - "Community 1049"
-Cohesion: 0.5
-Nodes (4): 0.33.0 - 2021-04-28, Added, Changed, Fixed
-
-### Community 1050 - "Community 1050"
-Cohesion: 0.5
-Nodes (4): 0.26.0 - 2020-05-13, Added, Changed, Fixed
-
-### Community 1051 - "Community 1051"
-Cohesion: 0.5
-Nodes (4): 0.18.0 - 2019-04-23, Added, Changed, Fixed
-
-### Community 1052 - "Community 1052"
-Cohesion: 0.5
-Nodes (4): 0.16.0 - 2018-12-12, Added, Changed, Fixed
-
-### Community 1053 - "Community 1053"
-Cohesion: 0.5
-Nodes (4): 0.2.0 - 2017-10-20, Added, Changed, Fixed
-
-### Community 1054 - "Community 1054"
-Cohesion: 0.5
-Nodes (4): 0.45.0, Added, Changed, Fixed
-
-### Community 1055 - "Community 1055"
-Cohesion: 0.5
-Nodes (4): 0.42.0, Added, Changed, Fixed
-
-### Community 1056 - "Community 1056"
-Cohesion: 0.5
-Nodes (4): 0.20.0, Added, Changed, Fixed
-
-### Community 1057 - "Community 1057"
-Cohesion: 0.5
-Nodes (4): 0.39.0, Added, Changed, Fixed
-
-### Community 1058 - "Community 1058"
-Cohesion: 0.5
-Nodes (4): 0.29.0, Added, Changed, Fixed
-
-### Community 1059 - "Community 1059"
-Cohesion: 0.5
-Nodes (4): 0.22.0, Added, Changed, Fixed
-
-### Community 1060 - "Community 1060"
-Cohesion: 0.5
-Nodes (4): 0.32.0, Added, Changed, Fixed
-
-### Community 1061 - "Community 1061"
-Cohesion: 0.5
-Nodes (4): 0.21.0, Added, Changed, Fixed
-
-### Community 1062 - "Community 1062"
-Cohesion: 0.5
-Nodes (4): 0.13.0, Added, Changed, Fixed
-
-### Community 1063 - "Community 1063"
-Cohesion: 0.5
-Nodes (4): 0.16.0, Added, Changed, Fixed
-
-### Community 1064 - "Community 1064"
-Cohesion: 0.5
-Nodes (4): 0.15.0, Added, Changed, Fixed
-
-### Community 1065 - "Community 1065"
-Cohesion: 0.5
-Nodes (4): 0.18.1, Added, Changed, Fixed
-
-### Community 1066 - "Community 1066"
-Cohesion: 0.5
-Nodes (4): 0.17.0, Added, Changed, Fixed
-
-### Community 1067 - "Community 1067"
-Cohesion: 0.5
-Nodes (4): 0.22.0, Added, Changed, Fixed
-
-### Community 1068 - "Community 1068"
-Cohesion: 0.5
-Nodes (4): 0.20.0, Added, Changed, Fixed
-
-### Community 1069 - "Community 1069"
-Cohesion: 0.5
-Nodes (4): 0.21.0, Added, Changed, Fixed
-
-### Community 1070 - "Community 1070"
-Cohesion: 0.5
-Nodes (4): 0.12.0, Added, Changed, Fixed
-
-### Community 1071 - "Community 1071"
-Cohesion: 0.5
-Nodes (4): 0.22.0, Added, Changed, Fixed
-
-### Community 1072 - "Community 1072"
-Cohesion: 0.5
-Nodes (4): 0.15.0, Added, Changed, Fixed
-
-### Community 1073 - "Community 1073"
-Cohesion: 0.5
-Nodes (4): 0.17.0, Added, Changed, Fixed
-
-### Community 1074 - "Community 1074"
-Cohesion: 0.5
-Nodes (4): 0.18.1, Added, Changed, Fixed
-
-### Community 1075 - "Community 1075"
-Cohesion: 0.5
-Nodes (4): 0.16.0, Added, Changed, Fixed
-
-### Community 1076 - "Community 1076"
-Cohesion: 0.5
-Nodes (4): 0.12.0, Added, Changed, Fixed
-
-### Community 1077 - "Community 1077"
-Cohesion: 0.5
-Nodes (4): 0.20.0, Added, Changed, Fixed
-
-### Community 1078 - "Community 1078"
-Cohesion: 0.5
-Nodes (4): 0.13.0, Added, Changed, Fixed
-
-### Community 1079 - "Community 1079"
-Cohesion: 0.5
-Nodes (4): 0.21.0, Added, Changed, Fixed
-
-### Community 1081 - "Community 1081"
-Cohesion: 0.5
-Nodes (4): 14.1 Initial sizing, 14.2 Lifecycle timeline, 14. Resource Budget and Lifecycle, code:block36 (SIM_MEMORY_LIMIT=1536m)
-
-### Community 1082 - "Community 1082"
-Cohesion: 0.5
-Nodes (3): Bonus, Kitbot Controls, Steps
-
-### Community 1083 - "Community 1083"
-Cohesion: 0.5
-Nodes (3): Bonus, Number Guessing Game, Steps
-
-### Community 1084 - "Community 1084"
-Cohesion: 0.5
-Nodes (3): Bonus, Perimeter and Area, Steps
-
-### Community 1085 - "Community 1085"
-Cohesion: 0.5
-Nodes (3): Bonus, PID Controllers, Steps
-
-### Community 1086 - "Community 1086"
-Cohesion: 0.5
-Nodes (3): Bonus, Closest Distance, Steps
-
-### Community 1087 - "Community 1087"
-Cohesion: 0.5
-Nodes (3): Bonus, Command-Based Robot, Steps
-
-### Community 1088 - "Community 1088"
-Cohesion: 0.5
-Nodes (3): Bonus, Steps, Timed Robot
-
-### Community 1089 - "Community 1089"
-Cohesion: 0.5
-Nodes (3): Bonus, Perimeter and Area Part 2, Steps
-
-### Community 1091 - "Community 1091"
-Cohesion: 0.5
-Nodes (3): Intentional Template Contents, Provenance, WPILib Java Command Starter Template
-
-### Community 1101 - "Community 1101"
-Cohesion: 0.5
-Nodes (4): 14.1 Initial sizing, 14.2 Lifecycle timeline, 14. Resource Budget and Lifecycle, code:block36 (SIM_MEMORY_LIMIT=1536m)
-
-### Community 1102 - "Community 1102"
-Cohesion: 0.5
-Nodes (4): ASSETS Binding, BACKEND_ORIGIN Secret, origin.YOUR_DOMAIN Caddy Vhost, Pages Function Catch-all
-
-### Community 1107 - "Community 1107"
-Cohesion: 0.67
-Nodes (3): 0.14.1 - 2019-02-19, Added, Fixed
-
-### Community 1108 - "Community 1108"
-Cohesion: 0.67
-Nodes (3): 0.10.0 - 2018-10-10, Changed, Fixed
-
-### Community 1109 - "Community 1109"
-Cohesion: 0.67
-Nodes (3): 0.8.0 - 2018-08-08, Changed, Fixed
-
-### Community 1110 - "Community 1110"
-Cohesion: 0.67
-Nodes (3): 0.33.0, Added, Changed
-
-### Community 1111 - "Community 1111"
-Cohesion: 0.67
-Nodes (3): 0.11.0 - 2018-11-09, Added, Changed
-
-### Community 1112 - "Community 1112"
-Cohesion: 0.67
-Nodes (3): 0.11.1 - 2018-11-26, Added, Fixed
-
-### Community 1113 - "Community 1113"
-Cohesion: 0.67
-Nodes (3): 0.4.0 - 2018-03-07, Added, Fixed
-
-### Community 1114 - "Community 1114"
-Cohesion: 0.67
-Nodes (3): 0.15.0 - 2019-03-11, Added, Fixed
-
-### Community 1115 - "Community 1115"
-Cohesion: 0.67
-Nodes (3): 0.3.0 - 2018-02-11, Added, Fixed
-
-### Community 1116 - "Community 1116"
-Cohesion: 0.67
-Nodes (3): 0.29.0, Added, Fixed
-
-### Community 1117 - "Community 1117"
-Cohesion: 0.67
-Nodes (3): 0.26.1, Changed, Fixed
-
-### Community 1118 - "Community 1118"
-Cohesion: 0.67
-Nodes (3): 0.6.0 - 2018-04-27, Added, Changed
-
-### Community 1119 - "Community 1119"
-Cohesion: 0.67
-Nodes (3): 0.31.2, Changed, Fixed
-
-### Community 1120 - "Community 1120"
-Cohesion: 0.67
-Nodes (3): 0.38.1, Added, Fixed
-
-### Community 1121 - "Community 1121"
-Cohesion: 0.67
-Nodes (3): 0.22.1, Added, Fixed
-
-### Community 1122 - "Community 1122"
-Cohesion: 0.67
-Nodes (3): 0.34.1, Changed, Fixed
-
-### Community 1123 - "Community 1123"
-Cohesion: 0.67
-Nodes (3): 0.18.1 - 2019-06-28, Added, Fixed
-
-### Community 1124 - "Community 1124"
-Cohesion: 0.67
-Nodes (3): 0.9.0 - 2018-09-20, Changed, Fixed
-
-### Community 1125 - "Community 1125"
-Cohesion: 0.67
-Nodes (3): 0.34.2, Changed, Fixed
-
-### Community 1126 - "Community 1126"
-Cohesion: 0.67
-Nodes (3): 0.39.0, Added, Fixed
-
-### Community 1127 - "Community 1127"
-Cohesion: 0.67
-Nodes (3): 0.18.0 - 2019-06-11, Added, Fixed
-
-### Community 1128 - "Community 1128"
-Cohesion: 0.67
-Nodes (3): 0.36.0, Added, Fixed
-
-### Community 1129 - "Community 1129"
-Cohesion: 0.67
-Nodes (3): 0.32.0, Changed, Fixed
-
-### Community 1130 - "Community 1130"
-Cohesion: 0.67
-Nodes (3): 0.40.0, Added, Fixed
-
-### Community 1131 - "Community 1131"
-Cohesion: 0.67
-Nodes (3): 0.24.2, Changed, Fixed
-
-### Community 1132 - "Community 1132"
-Cohesion: 0.67
-Nodes (3): 0.41.0, Added, Fixed
-
-### Community 1133 - "Community 1133"
-Cohesion: 0.67
-Nodes (3): 0.41.0, Added, Changed
-
-### Community 1134 - "Community 1134"
-Cohesion: 0.67
-Nodes (3): 0.38.0, Added, Fixed
-
-### Community 1135 - "Community 1135"
-Cohesion: 0.67
-Nodes (3): 0.16.0, Added, Fixed
-
-### Community 1136 - "Community 1136"
-Cohesion: 0.67
-Nodes (3): 0.21.1, Changed, Fixed
-
-### Community 1137 - "Community 1137"
-Cohesion: 0.67
-Nodes (3): 0.35.0, Added, Fixed
-
-### Community 1138 - "Community 1138"
-Cohesion: 0.67
-Nodes (3): 0.35.1, Added, Fixed
-
-### Community 1139 - "Community 1139"
-Cohesion: 0.67
-Nodes (3): 0.25.0, Changed, Fixed
-
-### Community 1140 - "Community 1140"
-Cohesion: 0.67
-Nodes (3): 0.18.0, Added, Changed
-
-### Community 1141 - "Community 1141"
-Cohesion: 0.67
-Nodes (3): 0.30.0, Changed, Fixed
-
-### Community 1142 - "Community 1142"
-Cohesion: 0.67
-Nodes (3): 0.14.0, Added, Fixed
-
-### Community 1143 - "Community 1143"
-Cohesion: 0.67
-Nodes (3): 0.31.0, Added, Fixed
-
-### Community 1144 - "Community 1144"
-Cohesion: 0.67
-Nodes (3): 0.37.0, Added, Fixed
-
-### Community 1145 - "Community 1145"
-Cohesion: 0.67
-Nodes (3): 0.34.0, Added, Changed
-
-### Community 1146 - "Community 1146"
-Cohesion: 0.67
-Nodes (3): 0.43.0, Changed, Fixed
-
-### Community 1147 - "Community 1147"
-Cohesion: 0.67
-Nodes (3): 0.17.0, Added, Fixed
-
-### Community 1148 - "Community 1148"
-Cohesion: 0.67
-Nodes (3): 0.19.0, Added, Fixed
-
-### Community 1149 - "Community 1149"
-Cohesion: 0.67
-Nodes (3): 0.19.1, Added, Fixed
-
-### Community 1150 - "Community 1150"
-Cohesion: 0.67
-Nodes (3): 0.23.0, Changed, Fixed
-
-### Community 1151 - "Community 1151"
-Cohesion: 0.67
-Nodes (3): 0.24.0, Added, Fixed
-
-### Community 1152 - "Community 1152"
-Cohesion: 0.67
-Nodes (3): 0.26.0, Changed, Fixed
-
-### Community 1153 - "Community 1153"
-Cohesion: 0.67
-Nodes (3): 0.33.0, Added, Fixed
-
-### Community 1154 - "Community 1154"
-Cohesion: 0.67
-Nodes (3): 0.40.0, Added, Changed
-
-### Community 1155 - "Community 1155"
-Cohesion: 0.67
-Nodes (3): 0.24.0, Added, Changed
-
-### Community 1156 - "Community 1156"
-Cohesion: 0.67
-Nodes (3): 0.22.0, Added, Fixed
-
-### Community 1157 - "Community 1157"
-Cohesion: 0.67
-Nodes (3): 0.15.0, Added, Changed
-
-### Community 1158 - "Community 1158"
-Cohesion: 0.67
-Nodes (3): 0.18.0, Added, Changed
-
-### Community 1159 - "Community 1159"
-Cohesion: 0.67
-Nodes (3): 0.21.0, Added, Fixed
-
-### Community 1160 - "Community 1160"
-Cohesion: 0.67
-Nodes (3): 0.18.4, Changed, Fixed
-
-### Community 1161 - "Community 1161"
-Cohesion: 0.67
-Nodes (3): [3.12.0](https://github.com/microsoft/vscode-gradle/compare/3.11.0...3.12.0) (2022-04-27), Changed, Fixed
-
-### Community 1162 - "Community 1162"
-Cohesion: 0.67
-Nodes (3): 3.13.0, Added, Fixed
-
-### Community 1163 - "Community 1163"
-Cohesion: 0.67
-Nodes (3): [3.8.3](https://github.com/microsoft/vscode-gradle/compare/3.8.2...3.8.3) (2020-11-24), Added, Fixed
-
-### Community 1164 - "Community 1164"
-Cohesion: 0.67
-Nodes (3): [3.12.3](https://github.com/microsoft/vscode-gradle/compare/3.12.2...3.12.3) (2022-07-27), Added, Changed
-
-### Community 1165 - "Community 1165"
-Cohesion: 0.67
-Nodes (3): 3.14.1, What's Changed, What's Changed
-
-### Community 1166 - "Community 1166"
-Cohesion: 0.67
-Nodes (3): 0.18.6, Changed, Fixed
-
-### Community 1167 - "Community 1167"
-Cohesion: 0.67
-Nodes (3): 0.23.0, Added, Fixed
-
-### Community 1168 - "Community 1168"
-Cohesion: 0.67
-Nodes (3): 0.23.5, Added, Changed
-
-### Community 1169 - "Community 1169"
-Cohesion: 0.67
-Nodes (3): 0.10.0 - 2020-05-10, Changed, Fixed
-
-### Community 1170 - "Community 1170"
-Cohesion: 0.67
-Nodes (3): 0.18.3, Added, Changed
-
-### Community 1171 - "Community 1171"
-Cohesion: 0.67
-Nodes (3): 0.18.2, Changed, Fixed
-
-### Community 1172 - "Community 1172"
-Cohesion: 0.67
-Nodes (3): 0.5.0 - 2019-6-11, Added, Updated:
-
-### Community 1173 - "Community 1173"
-Cohesion: 0.67
-Nodes (3): 0.19.0, Added, Changed
-
-### Community 1174 - "Community 1174"
-Cohesion: 0.67
-Nodes (3): 0.18.0, Added, Fixed
-
-### Community 1175 - "Community 1175"
-Cohesion: 0.67
-Nodes (3): 0.14.0, Added, Fixed
-
-### Community 1176 - "Community 1176"
-Cohesion: 0.67
-Nodes (3): 0.18.4, Added, Fixed
-
-### Community 1177 - "Community 1177"
-Cohesion: 0.67
-Nodes (3): 0.18.8, Changed, Fixed
-
-### Community 1178 - "Community 1178"
-Cohesion: 0.67
-Nodes (3): 0.11.0, Added, Changed
-
-### Community 1179 - "Community 1179"
-Cohesion: 0.67
-Nodes (3): 0.21.1, Changed, Fixed
-
-### Community 1180 - "Community 1180"
-Cohesion: 0.67
-Nodes (3): 0.9.0 - 2020-02-19, Added, Changed
-
-### Community 1181 - "Community 1181"
-Cohesion: 0.67
-Nodes (3): 0.7.0 - 2020-01-10, Added, Updated
-
-### Community 1182 - "Community 1182"
-Cohesion: 0.67
-Nodes (3): 0.23.3, Added, Changed
-
-### Community 1183 - "Community 1183"
-Cohesion: 0.67
-Nodes (3): 0.8.0 - 2018-4-3, Added, Changed
-
-### Community 1184 - "Community 1184"
-Cohesion: 0.67
-Nodes (3): 0.48.0 - 2023-02-01, Changed, Fixed
-
-### Community 1185 - "Community 1185"
-Cohesion: 0.67
-Nodes (3): 0.55.0 - 2023-11-01, Changed, Fixed
-
-### Community 1186 - "Community 1186"
-Cohesion: 0.67
-Nodes (3): 0.9.0 - 2018-4-26, Added, Fixed
-
-### Community 1187 - "Community 1187"
-Cohesion: 0.67
-Nodes (3): 0.47.0 - 2022-11-29, Changed, Fixed
-
-### Community 1188 - "Community 1188"
-Cohesion: 0.67
-Nodes (3): 0.35.0 - 2021-07-28, Changed, Fixed
-
-### Community 1189 - "Community 1189"
-Cohesion: 0.67
-Nodes (3): 0.49.0 - 2023-02-28, Added, Changed
-
-### Community 1190 - "Community 1190"
-Cohesion: 0.67
-Nodes (3): 0.19.0 - 2019-05-31, Added, Fixed
-
-### Community 1191 - "Community 1191"
-Cohesion: 0.67
-Nodes (3): 0.43.0 - 2022-07-27, Added, Changed
-
-### Community 1192 - "Community 1192"
-Cohesion: 0.67
-Nodes (3): 0.54.0 - 2023-08-29, Added, Changed
-
-### Community 1193 - "Community 1193"
-Cohesion: 0.67
-Nodes (3): 0.58.2 - 2025-04-28, Changed, Fixed
-
-### Community 1194 - "Community 1194"
-Cohesion: 0.67
-Nodes (3): 0.10.0 - 2018-6-27, Added, Fixed
-
-### Community 1195 - "Community 1195"
-Cohesion: 0.67
-Nodes (3): 0.31.0 - 2021-02-02, Added, Fixed
-
-### Community 1196 - "Community 1196"
-Cohesion: 0.67
-Nodes (3): 0.7.0 - 2018-3-15, Added, Changed
-
-### Community 1197 - "Community 1197"
-Cohesion: 0.67
-Nodes (3): 0.25.0 - 2020-02-20, Added, Fixed
-
-### Community 1198 - "Community 1198"
-Cohesion: 0.67
-Nodes (3): 0.32.0 - 2021-03-12, Added, Changed
-
-### Community 1199 - "Community 1199"
-Cohesion: 0.67
-Nodes (3): 0.37.0 - 2021-11-24, Added, Fixed
-
-### Community 1200 - "Community 1200"
-Cohesion: 0.67
-Nodes (3): 0.13.0 - 2018-9-19, Added, Fixed
-
-### Community 1201 - "Community 1201"
-Cohesion: 0.67
-Nodes (3): 0.4.0 - 2017-11-30, Added, Fixed
-
-### Community 1202 - "Community 1202"
-Cohesion: 0.67
-Nodes (3): 0.58.4 - 2025-12-09, Added, Fixed
-
-### Community 1203 - "Community 1203"
-Cohesion: 0.67
-Nodes (3): 0.49.1 - 2023-03-28, Added, Fixed
-
-### Community 1204 - "Community 1204"
-Cohesion: 0.67
-Nodes (3): 0.41.0- 2022-06-01, Added, Changed
-
-### Community 1205 - "Community 1205"
-Cohesion: 0.67
-Nodes (3): 0.53.0 - 2023-08-01, Added, Changed
-
-### Community 1206 - "Community 1206"
-Cohesion: 0.67
-Nodes (3): 0.36.0 - 2021-09-23, Changed, Fixed
-
-### Community 1207 - "Community 1207"
-Cohesion: 0.67
-Nodes (3): 0.22.0 - 2019-09-24, Added, Fixed
-
-### Community 1208 - "Community 1208"
-Cohesion: 0.67
-Nodes (3): 0.58.1 - 2024-10-31, Added, Fixed
-
-### Community 1209 - "Community 1209"
-Cohesion: 0.67
-Nodes (3): 0.5.0 - 2017-12-20, Added, Changed
-
-### Community 1210 - "Community 1210"
-Cohesion: 0.67
-Nodes (3): Program throws ClassNotFoundException, Reason:, Try:
-
-### Community 1211 - "Community 1211"
-Cohesion: 0.67
-Nodes (3): Please specify the host name and the port of the remote debuggee in the launch.json., Reason:, Try:
-
-### Community 1212 - "Community 1212"
-Cohesion: 0.67
-Nodes (3): Failed to resolve classpath:, Reason:, Try:
-
-### Community 1213 - "Community 1213"
-Cohesion: 0.67
-Nodes (3): No delegateCommandHandler for vscode.java.startDebugSession when starting Debugger, Reason:, Try:
-
-### Community 1214 - "Community 1214"
-Cohesion: 0.67
-Nodes (3): Program throws UnsupportedClassVersionError, Reason:, Try:
-
-### Community 1215 - "Community 1215"
-Cohesion: 0.67
-Nodes (3): Program Error: Could not find or load main class x, Reason:, Try:
-
-### Community 1216 - "Community 1216"
-Cohesion: 0.67
-Nodes (3): Reason:, Request type "xyz" is not supported. Only "launch" and "attach" are supported., Try:
-
-### Community 1217 - "Community 1217"
-Cohesion: 0.67
-Nodes (3): Failed to complete hot code replace:, Reason:, Try:
-
-### Community 1218 - "Community 1218"
-Cohesion: 0.67
-Nodes (3): Cannot find a class with the main method, Reason:, Try:
-
-### Community 1219 - "Community 1219"
-Cohesion: 0.67
-Nodes (3): Failed to evaluate. Reason: Cannot evaluate because the thread is resumed., Reason:, Try:
-
-### Community 1220 - "Community 1220"
-Cohesion: 0.67
-Nodes (3): Build failed, do you want to continue?, Reason:, Try:
-
-### Community 1221 - "Community 1221"
-Cohesion: 0.67
-Nodes (3): Reason:, Try:, x.java isn't on the classpath. Only syntax errors will be reported
-
-### Community 1222 - "Community 1222"
-Cohesion: 0.67
-Nodes (3): code:java (public abstract interface IFoo {), code:java (public interface IFoo {), `redundantModifiers`
-
-### Community 1223 - "Community 1223"
-Cohesion: 0.67
-Nodes (3): code:java (String x = """), code:java (String x = "" +), `stringConcatToTextBlock`
-
-### Community 1224 - "Community 1224"
-Cohesion: 0.67
-Nodes (3): code:java (String message = getMessage();), code:java (String message = getMessage();), `invertEquals`
-
-### Community 1225 - "Community 1225"
-Cohesion: 0.67
-Nodes (3): code:java (MyClass() {), code:java (MyClass() {), `redundantSuperCall`
-
-### Community 1226 - "Community 1226"
-Cohesion: 0.67
-Nodes (3): code:java (if (isValid) {), code:java (if (isValid) {), `redundantIfCondition`
-
-### Community 1227 - "Community 1227"
-Cohesion: 0.67
-Nodes (3): code:java (final FileInputStream inputStream = new FileInputStream("out), code:java (final FileInputStream inputStream = new FileInputStream("out), `tryWithResource`
-
-### Community 1228 - "Community 1228"
-Cohesion: 0.67
-Nodes (3): code:java (private int value;), code:java (private int value;), `qualifyMembers`
-
-### Community 1229 - "Community 1229"
-Cohesion: 0.67
-Nodes (3): code:java (if (0 < i) {), code:java (if (0 < i) {), `redundantFallingThroughBlockEnd`
-
-### Community 1230 - "Community 1230"
-Cohesion: 0.67
-Nodes (3): code:java (IntConsumer c = new IntConsumer() {), code:java (IntConsumer c = i -> {), `lambdaExpressionFromAnonymousClass`
-
-### Community 1231 - "Community 1231"
-Cohesion: 0.67
-Nodes (3): code:java (int i, j;), code:java (int i, j;), `useSwitchForInstanceofPattern`
-
-### Community 1232 - "Community 1232"
-Cohesion: 0.67
-Nodes (3): code:java (package test1;), code:java (package test1;), `organizeImports`
-
-### Community 1233 - "Community 1233"
-Cohesion: 0.67
-Nodes (3): code:java (if (object instanceof Integer) {), code:java (if (object instanceof Integer i) {), `instanceofPatternMatch`
-
-### Community 1234 - "Community 1234"
-Cohesion: 0.67
-Nodes (3): `addDeprecated`, code:java (/**), code:java (/**)
-
-### Community 1235 - "Community 1235"
-Cohesion: 0.67
-Nodes (3): code:java (if (i != 123) {), code:java (return i;), `redundantComparisonStatement`
-
-### Community 1236 - "Community 1236"
-Cohesion: 0.67
-Nodes (3): `addFinalModifier`, code:java (private int i= 0;), code:java (private final int i= 0;)
-
-### Community 1237 - "Community 1237"
-Cohesion: 0.67
-Nodes (3): code:java (import static java.lang.System.out;), code:java (import static java.lang.System.out;), `qualifyStaticMembers`
-
-### Community 1238 - "Community 1238"
-Cohesion: 0.67
-Nodes (3): code:java (J j = (a, b) -> System.out.println(a);), code:java (J j = (a, _) -> System.out.println(a);), `renameUnusedLocalVariables`
-
-### Community 1239 - "Community 1239"
-Cohesion: 0.67
-Nodes (3): code:java (int i;), code:java (int i = switch(j) {), `switchExpression`
-
-### Community 1240 - "Community 1240"
-Cohesion: 0.67
-Nodes (3): `addOverride`, code:java (public class MyRunner implements Runnable {), code:java (public class MyRunner implements Runnable {)
-
-### Community 1241 - "Community 1241"
-Cohesion: 0.67
-Nodes (3): 0.24.2, Changed, Fixed
-
-### Community 1242 - "Community 1242"
-Cohesion: 0.67
-Nodes (3): 0.15.0 - 2019-03-11, Added, Fixed
-
-### Community 1243 - "Community 1243"
-Cohesion: 0.67
-Nodes (3): 0.31.2, Changed, Fixed
-
-### Community 1244 - "Community 1244"
-Cohesion: 0.67
-Nodes (3): 0.3.0 - 2018-02-11, Added, Fixed
-
-### Community 1245 - "Community 1245"
-Cohesion: 0.67
-Nodes (3): 0.22.1, Added, Fixed
-
-### Community 1246 - "Community 1246"
-Cohesion: 0.67
-Nodes (3): 0.34.1, Changed, Fixed
-
-### Community 1247 - "Community 1247"
-Cohesion: 0.67
-Nodes (3): 0.32.0, Changed, Fixed
-
-### Community 1248 - "Community 1248"
-Cohesion: 0.67
-Nodes (3): 0.6.0 - 2018-04-27, Added, Changed
-
-### Community 1249 - "Community 1249"
-Cohesion: 0.67
-Nodes (3): 0.8.0 - 2018-08-08, Changed, Fixed
-
-### Community 1250 - "Community 1250"
-Cohesion: 0.67
-Nodes (3): 0.18.0 - 2019-06-11, Added, Fixed
-
-### Community 1251 - "Community 1251"
-Cohesion: 0.67
-Nodes (3): 0.4.0 - 2018-03-07, Added, Fixed
-
-### Community 1252 - "Community 1252"
-Cohesion: 0.67
-Nodes (3): 0.11.1 - 2018-11-26, Added, Fixed
-
-### Community 1253 - "Community 1253"
-Cohesion: 0.67
-Nodes (3): 0.41.0, Added, Fixed
-
-### Community 1254 - "Community 1254"
-Cohesion: 0.67
-Nodes (3): 0.38.1, Added, Fixed
-
-### Community 1255 - "Community 1255"
-Cohesion: 0.67
-Nodes (3): 0.14.1 - 2019-02-19, Added, Fixed
-
-### Community 1256 - "Community 1256"
-Cohesion: 0.67
-Nodes (3): 0.29.0, Added, Fixed
-
-### Community 1257 - "Community 1257"
-Cohesion: 0.67
-Nodes (3): 0.36.0, Added, Fixed
-
-### Community 1258 - "Community 1258"
-Cohesion: 0.67
-Nodes (3): 0.10.0 - 2018-10-10, Changed, Fixed
-
-### Community 1259 - "Community 1259"
-Cohesion: 0.67
-Nodes (3): 0.33.0, Added, Changed
-
-### Community 1260 - "Community 1260"
-Cohesion: 0.67
-Nodes (3): 0.40.0, Added, Fixed
-
-### Community 1261 - "Community 1261"
-Cohesion: 0.67
-Nodes (3): 0.34.2, Changed, Fixed
-
-### Community 1262 - "Community 1262"
-Cohesion: 0.67
-Nodes (3): 0.9.0 - 2018-09-20, Changed, Fixed
-
-### Community 1263 - "Community 1263"
-Cohesion: 0.67
-Nodes (3): 0.11.0 - 2018-11-09, Added, Changed
-
-### Community 1264 - "Community 1264"
-Cohesion: 0.67
-Nodes (3): 0.18.1 - 2019-06-28, Added, Fixed
-
-### Community 1265 - "Community 1265"
-Cohesion: 0.67
-Nodes (3): 0.39.0, Added, Fixed
-
-### Community 1266 - "Community 1266"
-Cohesion: 0.67
-Nodes (3): 0.26.1, Changed, Fixed
-
-### Community 1267 - "Community 1267"
-Cohesion: 0.67
-Nodes (3): 0.18.8, Changed, Fixed
-
-### Community 1268 - "Community 1268"
-Cohesion: 0.67
-Nodes (3): 0.23.0, Added, Fixed
-
-### Community 1269 - "Community 1269"
-Cohesion: 0.67
-Nodes (3): 0.7.0 - 2020-01-10, Added, Updated
-
-### Community 1270 - "Community 1270"
-Cohesion: 0.67
-Nodes (3): 0.18.6, Changed, Fixed
-
-### Community 1271 - "Community 1271"
-Cohesion: 0.67
-Nodes (3): 0.23.3, Added, Changed
-
-### Community 1272 - "Community 1272"
-Cohesion: 0.67
-Nodes (3): 0.21.1, Changed, Fixed
-
-### Community 1273 - "Community 1273"
-Cohesion: 0.67
-Nodes (3): 0.14.0, Added, Fixed
-
-### Community 1274 - "Community 1274"
-Cohesion: 0.67
-Nodes (3): 0.10.0 - 2020-05-10, Changed, Fixed
-
-### Community 1275 - "Community 1275"
-Cohesion: 0.67
-Nodes (3): 0.18.4, Added, Fixed
-
-### Community 1276 - "Community 1276"
-Cohesion: 0.67
-Nodes (3): 0.23.5, Added, Changed
-
-### Community 1277 - "Community 1277"
-Cohesion: 0.67
-Nodes (3): 0.11.0, Added, Changed
-
-### Community 1278 - "Community 1278"
-Cohesion: 0.67
-Nodes (3): 0.18.0, Added, Fixed
-
-### Community 1279 - "Community 1279"
-Cohesion: 0.67
-Nodes (3): 0.19.0, Added, Changed
-
-### Community 1280 - "Community 1280"
-Cohesion: 0.67
-Nodes (3): 0.18.2, Changed, Fixed
-
-### Community 1281 - "Community 1281"
-Cohesion: 0.67
-Nodes (3): 0.5.0 - 2019-6-11, Added, Updated:
-
-### Community 1282 - "Community 1282"
-Cohesion: 0.67
-Nodes (3): 0.9.0 - 2020-02-19, Added, Changed
-
-### Community 1283 - "Community 1283"
-Cohesion: 0.67
-Nodes (3): 0.18.3, Added, Changed
-
-### Community 1284 - "Community 1284"
-Cohesion: 0.67
-Nodes (3): 0.24.0, Added, Changed
-
-### Community 1285 - "Community 1285"
-Cohesion: 0.67
-Nodes (3): 0.18.4, Changed, Fixed
-
-### Community 1286 - "Community 1286"
-Cohesion: 0.67
-Nodes (3): 0.21.0, Added, Fixed
-
-### Community 1287 - "Community 1287"
-Cohesion: 0.67
-Nodes (3): 0.15.0, Added, Changed
-
-### Community 1288 - "Community 1288"
-Cohesion: 0.67
-Nodes (3): 0.18.0, Added, Changed
-
-### Community 1289 - "Community 1289"
-Cohesion: 0.67
-Nodes (3): 0.22.0, Added, Fixed
-
-### Community 1290 - "Community 1290"
-Cohesion: 0.67
-Nodes (3): [3.12.3](https://github.com/microsoft/vscode-gradle/compare/3.12.2...3.12.3) (2022-07-27), Added, Changed
-
-### Community 1291 - "Community 1291"
-Cohesion: 0.67
-Nodes (3): [3.12.0](https://github.com/microsoft/vscode-gradle/compare/3.11.0...3.12.0) (2022-04-27), Changed, Fixed
-
-### Community 1292 - "Community 1292"
-Cohesion: 0.67
-Nodes (3): [3.8.3](https://github.com/microsoft/vscode-gradle/compare/3.8.2...3.8.3) (2020-11-24), Added, Fixed
-
-### Community 1293 - "Community 1293"
-Cohesion: 0.67
-Nodes (3): 3.14.1, What's Changed, What's Changed
-
-### Community 1294 - "Community 1294"
-Cohesion: 0.67
-Nodes (3): 3.13.0, Added, Fixed
-
-### Community 1295 - "Community 1295"
-Cohesion: 0.67
-Nodes (3): 3.13.0, Added, Fixed
-
-### Community 1296 - "Community 1296"
-Cohesion: 0.67
-Nodes (3): [3.12.0](https://github.com/microsoft/vscode-gradle/compare/3.11.0...3.12.0) (2022-04-27), Changed, Fixed
-
-### Community 1297 - "Community 1297"
-Cohesion: 0.67
-Nodes (3): [3.8.3](https://github.com/microsoft/vscode-gradle/compare/3.8.2...3.8.3) (2020-11-24), Added, Fixed
-
-### Community 1298 - "Community 1298"
-Cohesion: 0.67
-Nodes (3): 3.14.1, What's Changed, What's Changed
-
-### Community 1299 - "Community 1299"
-Cohesion: 0.67
-Nodes (3): [3.12.3](https://github.com/microsoft/vscode-gradle/compare/3.12.2...3.12.3) (2022-07-27), Added, Changed
-
-### Community 1300 - "Community 1300"
-Cohesion: 0.67
-Nodes (3): 0.23.5, Added, Changed
-
-### Community 1301 - "Community 1301"
-Cohesion: 0.67
-Nodes (3): 0.9.0 - 2020-02-19, Added, Changed
-
-### Community 1302 - "Community 1302"
-Cohesion: 0.67
-Nodes (3): 0.18.4, Added, Fixed
-
-### Community 1303 - "Community 1303"
-Cohesion: 0.67
-Nodes (3): 0.18.6, Changed, Fixed
-
-### Community 1304 - "Community 1304"
-Cohesion: 0.67
-Nodes (3): 0.18.3, Added, Changed
-
-### Community 1305 - "Community 1305"
-Cohesion: 0.67
-Nodes (3): 0.19.0, Added, Changed
-
-### Community 1306 - "Community 1306"
-Cohesion: 0.67
-Nodes (3): 0.21.1, Changed, Fixed
-
-### Community 1307 - "Community 1307"
-Cohesion: 0.67
-Nodes (3): 0.18.8, Changed, Fixed
-
-### Community 1308 - "Community 1308"
-Cohesion: 0.67
-Nodes (3): 0.18.2, Changed, Fixed
-
-### Community 1309 - "Community 1309"
-Cohesion: 0.67
-Nodes (3): 0.10.0 - 2020-05-10, Changed, Fixed
-
-### Community 1310 - "Community 1310"
-Cohesion: 0.67
-Nodes (3): 0.18.0, Added, Fixed
-
-### Community 1311 - "Community 1311"
-Cohesion: 0.67
-Nodes (3): 0.14.0, Added, Fixed
-
-### Community 1312 - "Community 1312"
-Cohesion: 0.67
-Nodes (3): 0.11.0, Added, Changed
-
-### Community 1313 - "Community 1313"
-Cohesion: 0.67
-Nodes (3): 0.23.0, Added, Fixed
-
-### Community 1314 - "Community 1314"
-Cohesion: 0.67
-Nodes (3): 0.7.0 - 2020-01-10, Added, Updated
-
-### Community 1315 - "Community 1315"
-Cohesion: 0.67
-Nodes (3): 0.23.3, Added, Changed
-
-### Community 1316 - "Community 1316"
-Cohesion: 0.67
-Nodes (3): 0.5.0 - 2019-6-11, Added, Updated:
-
-### Community 1317 - "Community 1317"
-Cohesion: 0.67
-Nodes (3): 0.9.0 - 2018-09-20, Changed, Fixed
-
-### Community 1318 - "Community 1318"
-Cohesion: 0.67
-Nodes (3): 0.6.0 - 2018-04-27, Added, Changed
-
-### Community 1319 - "Community 1319"
-Cohesion: 0.67
-Nodes (3): 0.11.1 - 2018-11-26, Added, Fixed
-
-### Community 1320 - "Community 1320"
-Cohesion: 0.67
-Nodes (3): 0.8.0 - 2018-08-08, Changed, Fixed
-
-### Community 1321 - "Community 1321"
-Cohesion: 0.67
-Nodes (3): 0.32.0, Changed, Fixed
-
-### Community 1322 - "Community 1322"
-Cohesion: 0.67
-Nodes (3): 0.26.1, Changed, Fixed
-
-### Community 1323 - "Community 1323"
-Cohesion: 0.67
-Nodes (3): 0.39.0, Added, Fixed
-
-### Community 1324 - "Community 1324"
-Cohesion: 0.67
-Nodes (3): 0.14.1 - 2019-02-19, Added, Fixed
-
-### Community 1325 - "Community 1325"
-Cohesion: 0.67
-Nodes (3): 0.4.0 - 2018-03-07, Added, Fixed
-
-### Community 1326 - "Community 1326"
-Cohesion: 0.67
-Nodes (3): 0.22.1, Added, Fixed
-
-### Community 1327 - "Community 1327"
-Cohesion: 0.67
-Nodes (3): 0.18.1 - 2019-06-28, Added, Fixed
-
-### Community 1328 - "Community 1328"
-Cohesion: 0.67
-Nodes (3): 0.31.2, Changed, Fixed
-
-### Community 1329 - "Community 1329"
-Cohesion: 0.67
-Nodes (3): 0.11.0 - 2018-11-09, Added, Changed
-
-### Community 1330 - "Community 1330"
-Cohesion: 0.67
-Nodes (3): 0.15.0 - 2019-03-11, Added, Fixed
-
-### Community 1331 - "Community 1331"
-Cohesion: 0.67
-Nodes (3): 0.33.0, Added, Changed
-
-### Community 1332 - "Community 1332"
-Cohesion: 0.67
-Nodes (3): 0.18.0 - 2019-06-11, Added, Fixed
-
-### Community 1333 - "Community 1333"
-Cohesion: 0.67
-Nodes (3): 0.38.1, Added, Fixed
-
-### Community 1334 - "Community 1334"
-Cohesion: 0.67
-Nodes (3): 0.29.0, Added, Fixed
-
-### Community 1335 - "Community 1335"
-Cohesion: 0.67
-Nodes (3): 0.34.1, Changed, Fixed
-
-### Community 1336 - "Community 1336"
-Cohesion: 0.67
-Nodes (3): 0.40.0, Added, Fixed
-
-### Community 1337 - "Community 1337"
-Cohesion: 0.67
-Nodes (3): 0.3.0 - 2018-02-11, Added, Fixed
-
-### Community 1338 - "Community 1338"
-Cohesion: 0.67
-Nodes (3): 0.41.0, Added, Fixed
-
-### Community 1339 - "Community 1339"
-Cohesion: 0.67
-Nodes (3): 0.34.2, Changed, Fixed
-
-### Community 1340 - "Community 1340"
-Cohesion: 0.67
-Nodes (3): 0.24.2, Changed, Fixed
-
-### Community 1341 - "Community 1341"
-Cohesion: 0.67
-Nodes (3): 0.36.0, Added, Fixed
-
-### Community 1342 - "Community 1342"
-Cohesion: 0.67
-Nodes (3): 0.10.0 - 2018-10-10, Changed, Fixed
-
-### Community 1343 - "Community 1343"
-Cohesion: 0.67
-Nodes (3): [3.12.3](https://github.com/microsoft/vscode-gradle/compare/3.12.2...3.12.3) (2022-07-27), Added, Changed
-
-### Community 1344 - "Community 1344"
-Cohesion: 0.67
-Nodes (3): 3.14.1, What's Changed, What's Changed
-
-### Community 1345 - "Community 1345"
-Cohesion: 0.67
-Nodes (3): [3.8.3](https://github.com/microsoft/vscode-gradle/compare/3.8.2...3.8.3) (2020-11-24), Added, Fixed
-
-### Community 1346 - "Community 1346"
-Cohesion: 0.67
-Nodes (3): 3.13.0, Added, Fixed
-
-### Community 1347 - "Community 1347"
-Cohesion: 0.67
-Nodes (3): [3.12.0](https://github.com/microsoft/vscode-gradle/compare/3.11.0...3.12.0) (2022-04-27), Changed, Fixed
-
-### Community 1353 - "Community 1353"
-Cohesion: 0.67
-Nodes (3): 0.33.0, Added, Changed
-
-### Community 1354 - "Community 1354"
-Cohesion: 0.67
-Nodes (3): 0.15.0 - 2019-03-11, Added, Fixed
-
-### Community 1355 - "Community 1355"
-Cohesion: 0.67
-Nodes (3): 0.10.0 - 2018-10-10, Changed, Fixed
-
-### Community 1356 - "Community 1356"
-Cohesion: 0.67
-Nodes (3): 0.3.0 - 2018-02-11, Added, Fixed
-
-### Community 1357 - "Community 1357"
-Cohesion: 0.67
-Nodes (3): 0.11.1 - 2018-11-26, Added, Fixed
-
-### Community 1358 - "Community 1358"
-Cohesion: 0.67
-Nodes (3): 0.6.0 - 2018-04-27, Added, Changed
-
-### Community 1359 - "Community 1359"
-Cohesion: 0.67
-Nodes (3): 0.8.0 - 2018-08-08, Changed, Fixed
-
-### Community 1360 - "Community 1360"
-Cohesion: 0.67
-Nodes (3): 0.9.0 - 2018-09-20, Changed, Fixed
-
-### Community 1361 - "Community 1361"
-Cohesion: 0.67
-Nodes (3): 0.31.2, Changed, Fixed
-
-### Community 1362 - "Community 1362"
-Cohesion: 0.67
-Nodes (3): 0.40.0, Added, Fixed
-
-### Community 1363 - "Community 1363"
-Cohesion: 0.67
-Nodes (3): 0.26.1, Changed, Fixed
-
-### Community 1364 - "Community 1364"
-Cohesion: 0.67
-Nodes (3): 0.41.0, Added, Fixed
-
-### Community 1365 - "Community 1365"
-Cohesion: 0.67
-Nodes (3): 0.36.0, Added, Fixed
-
-### Community 1366 - "Community 1366"
-Cohesion: 0.67
-Nodes (3): 0.22.1, Added, Fixed
-
-### Community 1367 - "Community 1367"
-Cohesion: 0.67
-Nodes (3): 0.24.2, Changed, Fixed
-
-### Community 1368 - "Community 1368"
-Cohesion: 0.67
-Nodes (3): 0.32.0, Changed, Fixed
-
-### Community 1369 - "Community 1369"
-Cohesion: 0.67
-Nodes (3): 0.38.1, Added, Fixed
-
-### Community 1370 - "Community 1370"
-Cohesion: 0.67
-Nodes (3): 0.14.1 - 2019-02-19, Added, Fixed
-
-### Community 1371 - "Community 1371"
-Cohesion: 0.67
-Nodes (3): 0.29.0, Added, Fixed
-
-### Community 1372 - "Community 1372"
-Cohesion: 0.67
-Nodes (3): 0.4.0 - 2018-03-07, Added, Fixed
-
-### Community 1373 - "Community 1373"
-Cohesion: 0.67
-Nodes (3): 0.34.2, Changed, Fixed
-
-### Community 1374 - "Community 1374"
-Cohesion: 0.67
-Nodes (3): 0.18.1 - 2019-06-28, Added, Fixed
-
-### Community 1375 - "Community 1375"
-Cohesion: 0.67
-Nodes (3): 0.18.0 - 2019-06-11, Added, Fixed
-
-### Community 1376 - "Community 1376"
-Cohesion: 0.67
-Nodes (3): 0.34.1, Changed, Fixed
-
-### Community 1377 - "Community 1377"
-Cohesion: 0.67
-Nodes (3): 0.11.0 - 2018-11-09, Added, Changed
-
-### Community 1378 - "Community 1378"
-Cohesion: 0.67
-Nodes (3): 0.39.0, Added, Fixed
-
-### Community 1379 - "Community 1379"
-Cohesion: 0.67
-Nodes (3): 0.19.0, Added, Changed
-
-### Community 1380 - "Community 1380"
-Cohesion: 0.67
-Nodes (3): 0.23.0, Added, Fixed
-
-### Community 1381 - "Community 1381"
-Cohesion: 0.67
-Nodes (3): 0.23.3, Added, Changed
-
-### Community 1382 - "Community 1382"
-Cohesion: 0.67
-Nodes (3): 0.21.1, Changed, Fixed
-
-### Community 1383 - "Community 1383"
-Cohesion: 0.67
-Nodes (3): 0.18.8, Changed, Fixed
-
-### Community 1384 - "Community 1384"
-Cohesion: 0.67
-Nodes (3): 0.18.6, Changed, Fixed
-
-### Community 1385 - "Community 1385"
-Cohesion: 0.67
-Nodes (3): 0.18.3, Added, Changed
-
-### Community 1386 - "Community 1386"
-Cohesion: 0.67
-Nodes (3): 0.23.5, Added, Changed
-
-### Community 1387 - "Community 1387"
-Cohesion: 0.67
-Nodes (3): 0.10.0 - 2020-05-10, Changed, Fixed
-
-### Community 1388 - "Community 1388"
-Cohesion: 0.67
-Nodes (3): 0.14.0, Added, Fixed
-
-### Community 1389 - "Community 1389"
-Cohesion: 0.67
-Nodes (3): 0.11.0, Added, Changed
-
-### Community 1390 - "Community 1390"
-Cohesion: 0.67
-Nodes (3): 0.18.2, Changed, Fixed
-
-### Community 1391 - "Community 1391"
-Cohesion: 0.67
-Nodes (3): 0.18.4, Added, Fixed
-
-### Community 1392 - "Community 1392"
-Cohesion: 0.67
-Nodes (3): 0.9.0 - 2020-02-19, Added, Changed
-
-### Community 1393 - "Community 1393"
-Cohesion: 0.67
-Nodes (3): 0.7.0 - 2020-01-10, Added, Updated
-
-### Community 1394 - "Community 1394"
-Cohesion: 0.67
-Nodes (3): 0.18.0, Added, Fixed
-
-### Community 1395 - "Community 1395"
-Cohesion: 0.67
-Nodes (3): 0.5.0 - 2019-6-11, Added, Updated:
-
-### Community 1396 - "Community 1396"
-Cohesion: 0.67
-Nodes (3): 0.55.0 - 2023-11-01, Changed, Fixed
-
-### Community 1397 - "Community 1397"
-Cohesion: 0.67
-Nodes (3): 0.49.0 - 2023-02-28, Added, Changed
-
-### Community 1398 - "Community 1398"
-Cohesion: 0.67
-Nodes (3): 0.49.1 - 2023-03-28, Added, Fixed
-
-### Community 1399 - "Community 1399"
-Cohesion: 0.67
-Nodes (3): 0.48.0 - 2023-02-01, Changed, Fixed
-
-### Community 1400 - "Community 1400"
-Cohesion: 0.67
-Nodes (3): 0.7.0 - 2018-3-15, Added, Changed
-
-### Community 1401 - "Community 1401"
-Cohesion: 0.67
-Nodes (3): 0.37.0 - 2021-11-24, Added, Fixed
-
-### Community 1402 - "Community 1402"
-Cohesion: 0.67
-Nodes (3): 0.54.0 - 2023-08-29, Added, Changed
-
-### Community 1403 - "Community 1403"
-Cohesion: 0.67
-Nodes (3): 0.47.0 - 2022-11-29, Changed, Fixed
-
-### Community 1404 - "Community 1404"
-Cohesion: 0.67
-Nodes (3): 0.43.0 - 2022-07-27, Added, Changed
-
-### Community 1405 - "Community 1405"
-Cohesion: 0.67
-Nodes (3): 0.35.0 - 2021-07-28, Changed, Fixed
-
-### Community 1406 - "Community 1406"
-Cohesion: 0.67
-Nodes (3): 0.32.0 - 2021-03-12, Added, Changed
-
-### Community 1407 - "Community 1407"
-Cohesion: 0.67
-Nodes (3): 0.8.0 - 2018-4-3, Added, Changed
-
-### Community 1408 - "Community 1408"
-Cohesion: 0.67
-Nodes (3): 0.19.0 - 2019-05-31, Added, Fixed
-
-### Community 1409 - "Community 1409"
-Cohesion: 0.67
-Nodes (3): 0.9.0 - 2018-4-26, Added, Fixed
-
-### Community 1410 - "Community 1410"
-Cohesion: 0.67
-Nodes (3): 0.53.0 - 2023-08-01, Added, Changed
-
-### Community 1411 - "Community 1411"
-Cohesion: 0.67
-Nodes (3): 0.5.0 - 2017-12-20, Added, Changed
-
-### Community 1412 - "Community 1412"
-Cohesion: 0.67
-Nodes (3): 0.58.2 - 2025-04-28, Changed, Fixed
-
-### Community 1413 - "Community 1413"
-Cohesion: 0.67
-Nodes (3): 0.10.0 - 2018-6-27, Added, Fixed
-
-### Community 1414 - "Community 1414"
-Cohesion: 0.67
-Nodes (3): 0.31.0 - 2021-02-02, Added, Fixed
-
-### Community 1415 - "Community 1415"
-Cohesion: 0.67
-Nodes (3): 0.36.0 - 2021-09-23, Changed, Fixed
-
-### Community 1416 - "Community 1416"
-Cohesion: 0.67
-Nodes (3): 0.13.0 - 2018-9-19, Added, Fixed
-
-### Community 1417 - "Community 1417"
-Cohesion: 0.67
-Nodes (3): 0.25.0 - 2020-02-20, Added, Fixed
-
-### Community 1418 - "Community 1418"
-Cohesion: 0.67
-Nodes (3): 0.41.0- 2022-06-01, Added, Changed
-
-### Community 1419 - "Community 1419"
-Cohesion: 0.67
-Nodes (3): 0.58.1 - 2024-10-31, Added, Fixed
-
-### Community 1420 - "Community 1420"
-Cohesion: 0.67
-Nodes (3): 0.4.0 - 2017-11-30, Added, Fixed
-
-### Community 1421 - "Community 1421"
-Cohesion: 0.67
-Nodes (3): 0.58.4 - 2025-12-09, Added, Fixed
-
-### Community 1422 - "Community 1422"
-Cohesion: 0.67
-Nodes (3): 0.22.0 - 2019-09-24, Added, Fixed
-
-### Community 1423 - "Community 1423"
-Cohesion: 0.67
-Nodes (3): 0.35.0, Added, Fixed
-
-### Community 1424 - "Community 1424"
-Cohesion: 0.67
-Nodes (3): 0.33.0, Added, Fixed
-
-### Community 1425 - "Community 1425"
-Cohesion: 0.67
-Nodes (3): 0.24.0, Added, Fixed
-
-### Community 1426 - "Community 1426"
-Cohesion: 0.67
-Nodes (3): 0.43.0, Changed, Fixed
-
-### Community 1427 - "Community 1427"
-Cohesion: 0.67
-Nodes (3): 0.40.0, Added, Changed
-
-### Community 1428 - "Community 1428"
-Cohesion: 0.67
-Nodes (3): 0.38.0, Added, Fixed
-
-### Community 1429 - "Community 1429"
-Cohesion: 0.67
-Nodes (3): 0.37.0, Added, Fixed
-
-### Community 1430 - "Community 1430"
-Cohesion: 0.67
-Nodes (3): 0.41.0, Added, Changed
-
-### Community 1431 - "Community 1431"
-Cohesion: 0.67
-Nodes (3): 0.26.0, Changed, Fixed
-
-### Community 1432 - "Community 1432"
-Cohesion: 0.67
-Nodes (3): 0.18.0, Added, Changed
-
-### Community 1433 - "Community 1433"
-Cohesion: 0.67
-Nodes (3): 0.14.0, Added, Fixed
-
-### Community 1434 - "Community 1434"
-Cohesion: 0.67
-Nodes (3): 0.25.0, Changed, Fixed
-
-### Community 1435 - "Community 1435"
-Cohesion: 0.67
-Nodes (3): 0.23.0, Changed, Fixed
-
-### Community 1436 - "Community 1436"
-Cohesion: 0.67
-Nodes (3): 0.31.0, Added, Fixed
-
-### Community 1437 - "Community 1437"
-Cohesion: 0.67
-Nodes (3): 0.35.1, Added, Fixed
-
-### Community 1438 - "Community 1438"
-Cohesion: 0.67
-Nodes (3): 0.16.0, Added, Fixed
-
-### Community 1439 - "Community 1439"
-Cohesion: 0.67
-Nodes (3): 0.21.1, Changed, Fixed
-
-### Community 1440 - "Community 1440"
-Cohesion: 0.67
-Nodes (3): 0.30.0, Changed, Fixed
-
-### Community 1441 - "Community 1441"
-Cohesion: 0.67
-Nodes (3): 0.19.1, Added, Fixed
-
-### Community 1442 - "Community 1442"
-Cohesion: 0.67
-Nodes (3): 0.17.0, Added, Fixed
-
-### Community 1443 - "Community 1443"
-Cohesion: 0.67
-Nodes (3): 0.19.0, Added, Fixed
-
-### Community 1444 - "Community 1444"
-Cohesion: 0.67
-Nodes (3): 0.34.0, Added, Changed
-
-### Community 1445 - "Community 1445"
-Cohesion: 0.67
-Nodes (3): 0.19.0, Added, Changed
-
-### Community 1446 - "Community 1446"
-Cohesion: 0.67
-Nodes (3): 0.18.2, Changed, Fixed
-
-### Community 1447 - "Community 1447"
-Cohesion: 0.67
-Nodes (3): 0.18.0, Added, Fixed
-
-### Community 1448 - "Community 1448"
-Cohesion: 0.67
-Nodes (3): 0.23.3, Added, Changed
-
-### Community 1449 - "Community 1449"
-Cohesion: 0.67
-Nodes (3): 0.18.6, Changed, Fixed
-
-### Community 1450 - "Community 1450"
-Cohesion: 0.67
-Nodes (3): 0.10.0 - 2020-05-10, Changed, Fixed
-
-### Community 1451 - "Community 1451"
-Cohesion: 0.67
-Nodes (3): 0.18.8, Changed, Fixed
-
-### Community 1452 - "Community 1452"
-Cohesion: 0.67
-Nodes (3): 0.18.3, Added, Changed
-
-### Community 1453 - "Community 1453"
-Cohesion: 0.67
-Nodes (3): 0.11.0, Added, Changed
-
-### Community 1454 - "Community 1454"
-Cohesion: 0.67
-Nodes (3): 0.5.0 - 2019-6-11, Added, Updated:
-
-### Community 1455 - "Community 1455"
-Cohesion: 0.67
-Nodes (3): 0.14.0, Added, Fixed
-
-### Community 1456 - "Community 1456"
-Cohesion: 0.67
-Nodes (3): 0.7.0 - 2020-01-10, Added, Updated
-
-### Community 1457 - "Community 1457"
-Cohesion: 0.67
-Nodes (3): 0.9.0 - 2020-02-19, Added, Changed
-
-### Community 1458 - "Community 1458"
-Cohesion: 0.67
-Nodes (3): 0.21.1, Changed, Fixed
-
-### Community 1459 - "Community 1459"
-Cohesion: 0.67
-Nodes (3): 0.18.4, Added, Fixed
-
-### Community 1460 - "Community 1460"
-Cohesion: 0.67
-Nodes (3): 0.23.0, Added, Fixed
-
-### Community 1461 - "Community 1461"
-Cohesion: 0.67
-Nodes (3): 0.23.5, Added, Changed
-
-### Community 1462 - "Community 1462"
-Cohesion: 0.67
-Nodes (3): 0.9.0 - 2020-02-19, Added, Changed
-
-### Community 1463 - "Community 1463"
-Cohesion: 0.67
-Nodes (3): 0.18.3, Added, Changed
-
-### Community 1464 - "Community 1464"
-Cohesion: 0.67
-Nodes (3): 0.18.2, Changed, Fixed
-
-### Community 1465 - "Community 1465"
-Cohesion: 0.67
-Nodes (3): 0.19.0, Added, Changed
-
-### Community 1466 - "Community 1466"
-Cohesion: 0.67
-Nodes (3): 0.18.4, Added, Fixed
-
-### Community 1467 - "Community 1467"
-Cohesion: 0.67
-Nodes (3): 0.21.1, Changed, Fixed
-
-### Community 1468 - "Community 1468"
-Cohesion: 0.67
-Nodes (3): 0.23.5, Added, Changed
-
-### Community 1469 - "Community 1469"
-Cohesion: 0.67
-Nodes (3): 0.18.8, Changed, Fixed
-
-### Community 1470 - "Community 1470"
-Cohesion: 0.67
-Nodes (3): 0.14.0, Added, Fixed
-
-### Community 1471 - "Community 1471"
-Cohesion: 0.67
-Nodes (3): 0.10.0 - 2020-05-10, Changed, Fixed
-
-### Community 1472 - "Community 1472"
-Cohesion: 0.67
-Nodes (3): 0.23.3, Added, Changed
-
-### Community 1473 - "Community 1473"
-Cohesion: 0.67
-Nodes (3): 0.11.0, Added, Changed
-
-### Community 1474 - "Community 1474"
+### Community 270 - "Community 270"
 Cohesion: 0.67
-Nodes (3): 0.5.0 - 2019-6-11, Added, Updated:
+Nodes (4): defaultLogFormat, formatRecordJson, parseLogFormatEnv, logging.ts test suite (formatRecordJson, parseLogFormatEnv, defaultLogFormat)
 
-### Community 1475 - "Community 1475"
-Cohesion: 0.67
-Nodes (3): 0.7.0 - 2020-01-10, Added, Updated
+### Community 271 - "Community 271"
+Cohesion: 0.5
+Nodes (4): Route templating for bounded metric cardinality, statusClass, templateRoute, metrics.ts test suite (templateRoute, statusClass)
 
-### Community 1476 - "Community 1476"
+### Community 272 - "Community 272"
 Cohesion: 0.67
-Nodes (3): 0.23.0, Added, Fixed
+Nodes (4): persist middleware with partialize (inputMode only), UI store test suite, UIState interface, useUIStore Zustand store
 
-### Community 1477 - "Community 1477"
-Cohesion: 0.67
-Nodes (3): 0.18.6, Changed, Fixed
+### Community 273 - "Community 273"
+Cohesion: 0.5
+Nodes (4): Archive 004: Backend wiring for save and run, Custom WebSocket sender (no @fastify/websocket), Host backend plus Docker CLI (fixed argument arrays), Replaceable sim process under tini
 
-### Community 1478 - "Community 1478"
-Cohesion: 0.67
-Nodes (3): 0.18.0, Added, Fixed
+### Community 274 - "Rebuild Workspaces"
+Cohesion: 0.5
+Nodes (4): AdvantageScope Lite NT4 client, e2e/fixtures/fake-nt4.ts, NT4 wire protocol: MessagePack binary + JSON text, startFakeNt4()
 
-### Community 1488 - "Community 1488"
-Cohesion: 0.67
-Nodes (3): 0.7.8, Fixes, Improvements
+### Community 275 - "Community 275"
+Cohesion: 0.83
+Nodes (4): downloadAndExtract(), withScratch(), fetch-dist main(), fetchPathPlannerDist()
 
-### Community 1489 - "Community 1489"
-Cohesion: 0.67
-Nodes (3): 0.14.3, Fixes, Improvements
+### Community 276 - "Community 276"
+Cohesion: 0.5
+Nodes (4): Demo mode landing screenshot: CodeRunner IDE with demo-mode banner, Driver Station workbench screenshot: sim controls, mode, console output, Lesson catalog / Switch project modal screenshot, Lesson README opened screenshot: editor + AdvantageScope + README preview
 
-### Community 1490 - "Community 1490"
+### Community 281 - "Community 281"
 Cohesion: 0.67
-Nodes (3): 0.11.1, Fixes, Improvements
+Nodes (3): Auto-chooser NT4 bridge msgpack decoding, auto-chooser NT4 bridge test, encodeMsgPack test helper
 
-### Community 1491 - "Community 1491"
+### Community 282 - "Community 282"
 Cohesion: 0.67
-Nodes (3): 0.16.0, Additions, Fixes(Breaking)
+Nodes (3): Badge, KindTag, SwitchProjectDialog
 
-### Community 1492 - "Community 1492"
+### Community 283 - "Community 283"
 Cohesion: 0.67
-Nodes (3): 0.8.1, Fixes, Improvements
+Nodes (3): Button, DialogContent, DialogFooter
 
-### Community 1493 - "Community 1493"
+### Community 284 - "Workspace Container Bind-Mount & Memory Bounds"
 Cohesion: 0.67
-Nodes (3): 0.7.9, Fixes, Improvements
+Nodes (3): Classroom-density memory defaults, Decision 024: Container Memory Budget, VS Code Gradle Build Server path
 
-### Community 1494 - "Community 1494"
+### Community 285 - "Community 285"
 Cohesion: 0.67
-Nodes (3): 0.8.2, Fixes, Improvements
+Nodes (3): scripts/apply-ascope-patches.ts, scripts/build-ascope-lite.ts, scripts/clean.ts
 
-### Community 1495 - "Community 1495"
-Cohesion: 0.67
-Nodes (3): Custom Domain Setup, Cloudflare Pages Project, Wrangler CLI
+## Ambiguous Edges - Review These
+- `loadAllowlist (auth/allowlist)` → `reloadAllowlist`  [AMBIGUOUS]
+  apps/control/src/auth/allowlist.ts · relation: calls
+- `/admin/workspaces/:id/backup route (manual per-workspace backup)` → `GitHub team import flow (all-branches, depth-1, keeps .git)`  [AMBIGUOUS]
+  apps/control/src/__tests__/idle-and-admin.test.ts · relation: conceptually_related_to
+- `jsonResponse` → `requireAdmin`  [AMBIGUOUS]
+  apps/control/src/auth/middleware.ts · relation: shares_data_with
+- `codeStatusFromRun` → `DriverStation.handleKeyDownCapture`  [AMBIGUOUS]
+  apps/web/src/components/DriverStation/DriverStation.tsx · relation: semantically_similar_to
+- `logLine` → `startRun`  [AMBIGUOUS]
+  apps/web/src/hooks/useRunChannel.ts · relation: calls
+- `rebuildWorkspaces()` → `Grafana ops dashboard screenshot: host VM, workspaces, runs, control-plane panels`  [AMBIGUOUS]
+  website/static/img/screenshots/grafana-ops-dashboard.png · relation: conceptually_related_to
+- `restore.ts main()` → `typecheck.ts`  [AMBIGUOUS]
+  scripts/typecheck.ts · relation: conceptually_related_to
+- `Decision 032: Canonical Image Naming` → `Archived V1 and MVP Decision Logs (001-010)`  [AMBIGUOUS]
+  docs/decisions/README.md · relation: conceptually_related_to
 
 ## Knowledge Gaps
-- **6819 isolated node(s):** `console`, `cookie`, `consoleErrors`, `leaseErrors`, `dangerous` (+6814 more)
+- **2027 isolated node(s):** `workspace`, `frame`, `victimWorkspace`, `attackerWorkspace`, `console` (+2022 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **724 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **89 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Robot` connect `Community 60` to `Community 0`, `Community 79`, `Community 242`, `Community 154`, `Community 189`?**
-  _High betweenness centrality (0.041) - this node is a cross-community bridge._
-- **Why does `RunManager` connect `Community 86` to `Community 19`, `Community 28`, `Community 30`?**
-  _High betweenness centrality (0.032) - this node is a cross-community bridge._
-- **Why does `Constants` connect `Community 90` to `Community 242`?**
-  _High betweenness centrality (0.022) - this node is a cross-community bridge._
-- **What connects `console`, `cookie`, `consoleErrors` to the rest of the system?**
-  _6819 weakly-connected nodes found - possible documentation gaps or missing edges._
-- **Should `Community 0` be split into smaller, more focused modules?**
-  _Cohesion score 0.0 - nodes in this community are weakly interconnected._
-- **Should `Community 1` be split into smaller, more focused modules?**
-  _Cohesion score 0.01 - nodes in this community are weakly interconnected._
-- **Should `Community 2` be split into smaller, more focused modules?**
-  _Cohesion score 0.0 - nodes in this community are weakly interconnected._
+- **What is the exact relationship between `loadAllowlist (auth/allowlist)` and `reloadAllowlist`?**
+  _Edge tagged AMBIGUOUS (relation: calls) - confidence is low._
+- **What is the exact relationship between `/admin/workspaces/:id/backup route (manual per-workspace backup)` and `GitHub team import flow (all-branches, depth-1, keeps .git)`?**
+  _Edge tagged AMBIGUOUS (relation: conceptually_related_to) - confidence is low._
+- **What is the exact relationship between `jsonResponse` and `requireAdmin`?**
+  _Edge tagged AMBIGUOUS (relation: shares_data_with) - confidence is low._
+- **What is the exact relationship between `codeStatusFromRun` and `DriverStation.handleKeyDownCapture`?**
+  _Edge tagged AMBIGUOUS (relation: semantically_similar_to) - confidence is low._
+- **What is the exact relationship between `logLine` and `startRun`?**
+  _Edge tagged AMBIGUOUS (relation: calls) - confidence is low._
+- **What is the exact relationship between `rebuildWorkspaces()` and `Grafana ops dashboard screenshot: host VM, workspaces, runs, control-plane panels`?**
+  _Edge tagged AMBIGUOUS (relation: conceptually_related_to) - confidence is low._
+- **What is the exact relationship between `restore.ts main()` and `typecheck.ts`?**
+  _Edge tagged AMBIGUOUS (relation: conceptually_related_to) - confidence is low._

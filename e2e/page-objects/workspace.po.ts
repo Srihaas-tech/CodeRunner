@@ -18,6 +18,15 @@ export class WorkspacePage {
 		return this.page.frameLocator("iframe[data-pane='scope']");
 	}
 
+	pathplannerIframe() {
+		return this.page.frameLocator("iframe[data-pane='pathplanner']");
+	}
+
+	/** The <iframe> element itself, for mounted/visible assertions. */
+	pathplannerFrameElement() {
+		return this.page.locator("iframe[data-pane='pathplanner']");
+	}
+
 	runButton() {
 		return this.page.getByTestId("run-button");
 	}

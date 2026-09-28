@@ -6,14 +6,14 @@ title: Architecture
 # Architecture
 
 CodeRunner is a self-hosted web application that gives each student a full
-Java IDE and an FRC robot simulator in the browser. There is no software for
-students to install: they open a URL, sign in, write code, and click **Start**
-in the built-in Driver Station.
+Java IDE, an FRC robot simulator, and PathPlanner in the browser. There is no
+software for students to install: they open a URL, sign in, write code, design
+paths, and click **Start** in the built-in Driver Station.
 
 At a high level there are three moving parts:
 
 1. **The browser**: a React single-page app (the "web shell") that wraps the
-   editor with Driver Station controls and live telemetry.
+   editor with Driver Station controls, live telemetry, and path editing.
 2. **The control plane**: a single Bun/TypeScript server that handles sign-in,
    sessions, workspace orchestration, and all proxying. It is the only thing
    exposed to the network.
@@ -26,7 +26,9 @@ At a high level there are three moving parts:
    │  Web shell (React)                              │
    │  ├─ VS Code editor (iframe)                     │
    │  ├─ Driver Station controls                     │
-   │  └─ AdvantageScope Lite telemetry (iframe)      │
+   │  └─ Tool tabs                                   │
+   │     ├─ AdvantageScope Lite telemetry (iframe)   │
+   │     └─ PathPlanner path editor (iframe)         │
    └───────────────────────────────────────────────┘
                         │  HTTPS / WSS  (one port, default 4000)
                         ▼
@@ -35,6 +37,7 @@ At a high level there are three moving parts:
    │  ├─ Auth + sessions (OAuth, allowlist)          │
    │  ├─ Workspace orchestration (start/stop)        │
    │  ├─ Authenticated proxy → editor / sim / NT4    │
+   │  ├─ Authenticated PathPlanner file API          │
    │  ├─ Run pipeline (build + simulate)             │
    │  └─ SQLite (users, sessions, leases, audit)     │
    └───────────────────────────────────────────────┘
@@ -59,9 +62,10 @@ packaging and the two ways it reaches student containers, below.
 
 Everything a browser talks to goes through **one HTTP/WebSocket port** on the
 control plane (default `4000`, set by the `PORT` environment variable). The web
-shell, the editor traffic, the Run commands, and the telemetry feeds all share
-that port. Students never connect to a container directly. This is what makes
-CodeRunner safe to put behind a single reverse proxy and TLS certificate.
+shell, embedded tool assets, editor traffic, Run commands, telemetry feeds,
+and PathPlanner file requests all share that port. Students never connect to a
+container directly. This is what makes CodeRunner safe to put behind a single
+reverse proxy and TLS certificate.
 
 ## What the control plane does
 
@@ -82,6 +86,8 @@ The control plane is a single Bun process. Its responsibilities:
   channel, and the NetworkTables telemetry stream are reverse-proxied through
   authenticated routes scoped to the signing-in user's own workspace. A student
   cannot reach another student's container.
+- **Workspace file access.** PathPlanner uses an authenticated API to load and
+  save supported deploy files in the signed-in student's project.
 - **The Run pipeline.** When a student clicks Run, the control plane drives a
   Gradle build inside that student's container and then launches the simulated
   robot program, streaming build and program output back to the browser.
@@ -111,6 +117,27 @@ program's NT4 server (loopback) → control plane proxy → AdvantageScope in th
 browser. The student sees field positions, signals, and plots update in real
 time as their robot runs.
 
+## How PathPlanner files flow
+
+The control plane serves the PathPlanner web app as static files at
+`/pathplanner/`. The embedded app then uses the signed-in student's
+`/u/<slug>/api/deploy-files/` routes to load and save project files. It can
+read and write `src/main/deploy/pathplanner/**`; it can also read
+`src/main/deploy/choreo/**`, but cannot change it.
+
+These requests operate on the host-mounted project directory, so PathPlanner
+needs no service or port in the workspace container. The iframe reloads after
+a project switch to read the replacement project's files.
+
+## How Preview reads documents
+
+Preview reads Markdown and HTML reports directly from the host-mounted project
+directory. Markdown is rendered by the control plane; HTML and its local assets
+are served in a sandboxed frame. A short-lived path token authorizes framed
+requests because the sandbox does not receive the session cookie. See
+[Preview isolation](./security-model.md#preview-isolation) and
+[decision 041](https://github.com/mathewdunne/CodeRunner/blob/main/docs/decisions/041-project-preview.md).
+
 ## Persistence and data layout
 
 The control plane uses a single **SQLite** database (`data/app.db` by default)
@@ -133,8 +160,10 @@ data/
 
 Each container bind-mounts that student's `project/` and `home/` directories,
 so a student's work survives the container being stopped, restarted, or
-recreated. See [The Workspace Container](./workspace-container.md) for the
-container side of this contract.
+recreated. PathPlanner paths and autos live inside `project/` with the rest of
+the student's code and can be committed to Git. See
+[The Workspace Container](./workspace-container.md) for the container side of
+this contract.
 
 ## Where to go next
 

@@ -1,5 +1,5 @@
 import { ChevronDown, LogOut, ShieldUser } from "lucide-react";
-import { useMemo, useState } from "react";
+import { type ReactNode, useMemo, useState } from "react";
 import { Button } from "@/components/ui/button";
 import {
 	DropdownMenu,
@@ -16,6 +16,7 @@ interface UserMenuProps {
 	email: string;
 	avatarUrl: string | null;
 	isAdmin: boolean;
+	layoutMenu?: ReactNode;
 }
 
 function initialsOf(name: string) {
@@ -82,6 +83,7 @@ export function UserMenu({
 	email,
 	avatarUrl,
 	isAdmin,
+	layoutMenu,
 }: UserMenuProps) {
 	return (
 		<DropdownMenu>
@@ -126,6 +128,7 @@ export function UserMenu({
 							<DropdownMenuSeparator />
 						</>
 					) : null}
+					{layoutMenu}
 					<DropdownMenuItem
 						onClick={() => void signOut()}
 						className="gap-2.5 px-2.5 py-2 text-[12.5px]"
